@@ -1,0 +1,355 @@
+WEBVTT
+
+00:00.760 --> 00:06.010
+Let's continue working on the Mac here this is just the basis of the body.
+
+00:06.010 --> 00:10.280
+We've got a subdivision surface modifier on it.
+
+00:11.090 --> 00:19.490
+And we've also got a mirror modifier on it as well to begin adding the other pieces of the body.
+
+00:19.490 --> 00:23.010
+I think we need to make this now all one piece.
+
+00:23.020 --> 00:27.720
+All one objects so we need to apply the mirror modifier.
+
+00:28.220 --> 00:34.550
+And in addition the subdivisions surface modifier is giving us some nice geometry here if we turn it
+
+00:34.550 --> 00:34.790
+off.
+
+00:34.790 --> 00:36.680
+We see that is pretty blocky.
+
+00:36.800 --> 00:41.820
+I'd kind of like to have some more geometry to work with here.
+
+00:42.110 --> 00:45.960
+So I think I'll apply the subdivision modifier as well.
+
+00:46.490 --> 00:52.000
+So first off I'll just come down here to the mirror modifier and click apply.
+
+00:53.480 --> 00:54.530
+And that applies.
+
+00:54.530 --> 01:03.770
+So it's now all one object if I hit the tab key and go into vertex mode here I can select a vertex here
+
+01:04.220 --> 01:12.110
+and hit the G key to move it around and you can see that that has sealed the center vertices up together
+
+01:12.110 --> 01:12.610
+now.
+
+01:12.620 --> 01:13.940
+So it's all one piece.
+
+01:13.940 --> 01:21.400
+So now if I go back to object mode I can apply the subdivision surface modifier as well.
+
+01:21.530 --> 01:26.320
+And now when I hit tab you can see I've got this extra geometry to it.
+
+01:27.450 --> 01:34.420
+So now I think I'd like to work on this piece here this this window cockpit type thing.
+
+01:34.550 --> 01:40.740
+I get the sense that there's a person in here that they're sitting down kind of in controlling all of
+
+01:40.740 --> 01:42.060
+this.
+
+01:42.060 --> 01:43.400
+So let's work on that.
+
+01:44.970 --> 01:46.860
+There's a couple of ways to do this.
+
+01:47.010 --> 01:53.970
+We could just put an object an oval object into there and then call it a day.
+
+01:54.030 --> 02:00.720
+But I'd kind of like to have something inside there I'd kind of like to have maybe a chair and controls
+
+02:00.720 --> 02:02.610
+and things like that in there.
+
+02:02.610 --> 02:09.690
+So what I want to do is actually cut out that oval shape from this piece and to do that I'm going to
+
+02:09.690 --> 02:11.390
+use a boolean.
+
+02:11.550 --> 02:17.260
+Now a boolean will allow you to take one shape and cut that pattern out of another.
+
+02:17.310 --> 02:24.720
+So I'm going to come over here to the Create tab and this time this time I think I'll create a U-V sphere
+
+02:26.010 --> 02:33.780
+and I need to pull it out here because it always pops into the scene where ever this 3D cursor is.
+
+02:33.870 --> 02:42.860
+And I think I'll just use my scale tool to get it scaled into the right size.
+
+02:42.850 --> 02:54.050
+I mean hit the s key and scale it down a bit and maybe move it into place and also use the scale tool
+
+02:54.060 --> 02:56.860
+to scale in the Zied just a bit as well.
+
+02:56.860 --> 03:03.430
+Now this may not be the actual object that I'm going to use for this but I am going to use it to cut
+
+03:03.430 --> 03:11.400
+out a shape from the main object so I'm thinking something about like that.
+
+03:11.780 --> 03:17.360
+I'm going to turn off the manipulator here just by clicking this button so it doesn't get in the way
+
+03:17.630 --> 03:25.320
+for a moment and take a look at this and that's about what I want I think something like that.
+
+03:25.670 --> 03:27.140
+Yeah.
+
+03:27.170 --> 03:33.680
+Now the interesting thing about this is I kind of wanted to do two booleans I want to cut this shape
+
+03:34.780 --> 03:41.550
+into the main shape here and I'm going to hit command Z to undo.
+
+03:41.630 --> 03:53.810
+And I also want to cut this into the smaller shape as well so it's just part of the sphere.
+
+03:53.980 --> 03:56.440
+So I'm going to have to think ahead here.
+
+03:56.440 --> 04:03.630
+So what I want to do is I'm going to go ahead and select these two and I'm going to press shift d to
+
+04:03.630 --> 04:07.810
+duplicate them and then I click.
+
+04:07.870 --> 04:11.540
+And now I want to move these over like that.
+
+04:11.820 --> 04:16.610
+So I've moved them over this much negative 2.8 or whatever here.
+
+04:16.620 --> 04:28.370
+So I could type in just negative 3 so I know that it's negative 3 for both of these.
+
+04:28.460 --> 04:36.740
+This is one of the reasons why I tend to try and model in the center of the grid at least up front because
+
+04:37.100 --> 04:40.180
+I know I can always get things back to where I want them to be.
+
+04:40.180 --> 04:45.710
+By zeroing them out and they'll come back into the center of the grid.
+
+04:45.740 --> 04:50.110
+All right so I've got these two collections of objects here.
+
+04:50.230 --> 04:53.650
+I'm going to pass the key to get rid of that panel.
+
+04:53.720 --> 05:01.070
+So what I want to do is cut this shape into this object so I'm going to select the main body here and
+
+05:01.070 --> 05:03.180
+that's called temporarily.
+
+05:03.200 --> 05:13.260
+At least that's called cube and I'm going to select the ADD modifier dropdown select boolean and for
+
+05:13.260 --> 05:17.910
+this in this modifier I must select the object that's going to do the cutting here and I'm going to
+
+05:18.360 --> 05:22.110
+select the first sphere.
+
+05:22.120 --> 05:25.050
+Now there are several different operations that we can use here.
+
+05:25.180 --> 05:26.740
+One is intersect.
+
+05:26.740 --> 05:28.410
+That's what's happening now.
+
+05:28.690 --> 05:33.630
+The intersection between those two objects another is union.
+
+05:34.180 --> 05:41.920
+And if we press the Z key to go to wireframe mode we can kind of see what's going on here so it's highlighting
+
+05:41.920 --> 05:50.960
+what's going to happen but if we choose difference we can see that we're going to get that piece cut
+
+05:51.050 --> 05:53.190
+into the main object.
+
+05:53.450 --> 05:59.030
+So I hit the Z key to go back to wireframe and hit apply.
+
+05:59.110 --> 06:08.410
+And now if we take that and move it out we can see that we've cut that shape into that object.
+
+06:08.410 --> 06:10.150
+OK so that's good.
+
+06:10.150 --> 06:17.200
+Now what I want to do is I want to cut this the shape of that so I can go ahead and delete this with
+
+06:17.200 --> 06:17.890
+the x key.
+
+06:17.890 --> 06:23.380
+I don't need that anymore and I'm going to come over here and hit the period key on the numpad to zoom
+
+06:23.380 --> 06:34.030
+in and for this one now I want to select this object and I want to add a boolean modifier to it.
+
+06:34.250 --> 06:42.170
+And for the object that's doing the cutting I'm going to choose the cube 001 and Mammon to go wireframe
+
+06:42.170 --> 06:42.540
+mode.
+
+06:42.650 --> 06:45.220
+So we can kind of see what's happening here.
+
+06:45.230 --> 06:56.500
+So this is the Intersect operation this is the union operation and this is the difference.
+
+06:56.510 --> 06:58.590
+And that's what we want that.
+
+06:58.610 --> 07:03.450
+I just want to cut that piece off so it fits on to here.
+
+07:03.560 --> 07:08.520
+So I'll go back to shaded view with the Z key and I'll hit apply.
+
+07:09.390 --> 07:14.540
+And now you can see that this one is cut out as well.
+
+07:15.020 --> 07:18.110
+All right so I can get rid of this now.
+
+07:19.300 --> 07:27.330
+And I can move this one back to the zero point in the x axis.
+
+07:27.380 --> 07:33.260
+So now I've got the whole window here cut out and the hole here cut out.
+
+07:33.260 --> 07:43.190
+Now the problem is is it's kind of a mess in that we've got this kind of ragged edge with guns here.
+
+07:43.190 --> 07:47.570
+In other words polygons that are more than four sides.
+
+07:47.570 --> 07:51.630
+We really want quads or tri's.
+
+07:51.710 --> 07:54.320
+So there we have that piece cut out for us.
+
+07:54.320 --> 07:57.500
+I'm going to go ahead and delete this.
+
+07:57.500 --> 08:01.650
+I'm going to press a control tab and click face.
+
+08:01.670 --> 08:05.360
+And now I'm going to hit the x key and delete faces.
+
+08:05.390 --> 08:12.260
+I'm going to do the same thing over here am to select this one and try and get rid of the faces on this
+
+08:12.320 --> 08:13.610
+side.
+
+08:13.630 --> 08:19.970
+Now they're kind of a mess but I can press the C key for circle select.
+
+08:19.970 --> 08:27.620
+So now I can just click and come through and select faces on this side of the object just kind of click
+
+08:27.620 --> 08:31.530
+and drag and start getting rid of these.
+
+08:31.790 --> 08:38.620
+I need to right click to get out of the circle tool and then hit X and choose faces.
+
+08:39.490 --> 08:44.400
+And that'll begin to get rid of that see how ugly this is and that's fine.
+
+08:46.830 --> 08:50.230
+I'm going to need to go through and clean this up a bit.
+
+08:50.280 --> 08:58.860
+In addition if you go into vertex mode here you can see that there are these extra vertices hanging
+
+08:58.860 --> 09:01.410
+out and those aren't good either.
+
+09:02.370 --> 09:06.970
+Usually when you do a Boolean operation there is some cleanup that has to be done.
+
+09:06.990 --> 09:14.670
+So if I select these vertices hit the x key and then choose dissolve vertices it should clean those
+
+09:14.670 --> 09:19.520
+up so that ends up being a face with four sides.
+
+09:19.590 --> 09:24.230
+So if you look at this face down here it's got one.
+
+09:24.390 --> 09:30.210
+Well here let me go to edge mode it's got one two three four five sides and that's something you really
+
+09:30.210 --> 09:32.210
+want to try and avoid.
+
+09:32.250 --> 09:39.870
+So I'm just going to select that see that vertex and click dissolve and I'll just need to go through
+
+09:40.230 --> 09:42.130
+and clean this up a bit.
+
+09:42.300 --> 09:49.380
+So I've just gone around selecting these stray vertices and once I've done that I'll hit the x key and
+
+09:49.380 --> 09:54.720
+click dissolve vertices and that should help clean that up.
+
+09:54.720 --> 10:01.620
+In addition I've got a couple here I could maybe merge together so maybe I'll select these two and choose
+
+10:01.710 --> 10:10.610
+Allt them and maybe merge these at the center of the two like that.
+
+10:10.740 --> 10:15.250
+And one more thing to watch out for our faces like these.
+
+10:15.290 --> 10:24.110
+You can see that this one has one two three four five sides to it might not be a problem in the future
+
+10:24.140 --> 10:30.360
+but I'm going to go ahead and take these two points and merge them together with him.
+
+10:32.210 --> 10:39.250
+And that will collapse that so that we have one face that's a try with three sides and one face that's
+
+10:39.640 --> 10:41.050
+four sided.
+
+10:41.050 --> 10:45.050
+So you might want to just go through and just make sure that all of those are cleaned up.

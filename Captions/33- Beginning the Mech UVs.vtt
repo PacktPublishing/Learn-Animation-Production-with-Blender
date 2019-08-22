@@ -1,0 +1,334 @@
+WEBVTT
+
+00:01.010 --> 00:06.760
+Now that the environment is U-V mapped Let's go ahead and work on the movies for the Mac.
+
+00:06.910 --> 00:10.460
+I'll go ahead and just go to the layer that he's on.
+
+00:10.460 --> 00:15.010
+Actually I should mention there are some things I don't think I'm going to use the map on this.
+
+00:15.010 --> 00:24.590
+I think for things like the joints here at the shoulder or the elbow the hands and the joints at the
+
+00:24.590 --> 00:34.910
+legs I probably won't do too much U-V mapping with fingers or even with the joints down here at the
+
+00:34.910 --> 00:35.790
+feet.
+
+00:36.200 --> 00:39.770
+The same may be true for the light fixture.
+
+00:39.770 --> 00:42.150
+I'm not sure about that but.
+
+00:42.470 --> 00:47.470
+And even this little gril thing I don't think we need to U-V map.
+
+00:47.630 --> 00:54.630
+But the other parts of the body the upper arm lower arm the leg pieces things like that.
+
+00:54.710 --> 01:00.650
+I'll probably go ahead and U-V map those just in case we need to add any scratches or dirt or anything
+
+01:00.650 --> 01:01.760
+like that.
+
+01:01.760 --> 01:02.060
+All right.
+
+01:02.060 --> 01:04.600
+Let's go ahead and work on the body here.
+
+01:04.820 --> 01:14.600
+So I'm going to go to my U-V editing view and I will isolate it and frame it up and let's take a look
+
+01:14.600 --> 01:15.900
+at this.
+
+01:16.070 --> 01:22.220
+I think first of all before I do this I'm going to turn off the subdivision surface modifier let me
+
+01:22.220 --> 01:25.760
+go back to the default view and turn that off.
+
+01:25.790 --> 01:30.990
+I don't think we need that on while we U-V map.
+
+01:31.130 --> 01:35.920
+So how should we U-V map this how should we break this apart.
+
+01:35.930 --> 01:39.180
+I think I'll select this edge here.
+
+01:39.970 --> 01:44.140
+And the corresponding edge over here and press control.
+
+01:44.190 --> 01:49.130
+And Mark seam I think we'll want to break those pieces out.
+
+01:49.920 --> 02:01.280
+As well as the leg joints down here of like this edge and all shifted this and control E and Mark seem.
+
+02:01.340 --> 02:03.190
+All right so we have those marks.
+
+02:03.210 --> 02:05.920
+But what about the rest.
+
+02:05.940 --> 02:14.490
+Let me hit the division key again on the numpad and it looks to me like what we could do is select edges
+
+02:14.550 --> 02:23.730
+that are covered up by the backpack here and then connect to those edges to the shoulders and the legs.
+
+02:23.730 --> 02:26.340
+So let's try that.
+
+02:26.430 --> 02:38.610
+I'm going to work with these edges here and then I think I will come this way toward that edge to that
+
+02:38.610 --> 02:39.920
+seam there.
+
+02:39.990 --> 02:49.650
+And I also want to come this way to this scene here and I'll mark this and let's take these seams here
+
+02:49.680 --> 03:00.390
+and go on a cross like we did and connect up to that scene and I'll mark that seam and then I'll take
+
+03:00.390 --> 03:02.780
+this seam down on this side here as well.
+
+03:02.940 --> 03:08.430
+And I'll also mark this seam right down here.
+
+03:08.790 --> 03:13.230
+So control and Mark seems so these are the seams I've got marked right here.
+
+03:13.230 --> 03:14.280
+Let's see if this works.
+
+03:14.280 --> 03:21.510
+My thought is is that it will split it out it'll break the back off right and it'll break the shoulders
+
+03:21.540 --> 03:24.000
+and the leg joints off.
+
+03:24.020 --> 03:30.230
+And then this middle piece will unfold out around that circular part.
+
+03:30.420 --> 03:35.500
+I'm going to select everything press the key and unwrap.
+
+03:35.500 --> 03:42.780
+I kind of like the way it's unfolding here and with the back as a separate piece but there's some problems
+
+03:42.780 --> 03:49.970
+here and I think I know what the problem is I think the problem is is we have some doubled up vertices
+
+03:50.460 --> 03:53.970
+and I'm not sure where they are.
+
+03:54.180 --> 03:58.820
+Maybe let's take one here and move it around.
+
+03:58.830 --> 04:00.750
+It's hard to know where they are.
+
+04:00.750 --> 04:02.330
+There it is.
+
+04:02.340 --> 04:04.650
+So let me.
+
+04:05.040 --> 04:05.940
+Here it is.
+
+04:05.950 --> 04:12.710
+So notice I've got two vertices right on top of each other here.
+
+04:15.050 --> 04:15.580
+All right.
+
+04:15.610 --> 04:16.670
+That's not good.
+
+04:17.660 --> 04:20.910
+And that's going to cause a problem with the use.
+
+04:21.230 --> 04:29.640
+What I need to do is remove those double vertices and luckily enough if I select everything and press
+
+04:29.640 --> 04:39.320
+the W key for the specials menu we have a tool called remove doubles so it'll just take any two vertices
+
+04:39.320 --> 04:45.070
+that are on top of each other in the exact same location and merge them into one.
+
+04:45.230 --> 04:54.100
+So let's run that and now let's select everything press the key and unwrap.
+
+04:54.270 --> 04:55.510
+There we go.
+
+04:55.510 --> 04:57.330
+That's a little better.
+
+04:57.330 --> 05:02.370
+That probably happened when we did the Boolean operation at the very beginning.
+
+05:02.520 --> 05:06.790
+So let's add a checker material to it.
+
+05:06.810 --> 05:12.800
+Pull this down and select the checker material and there we go.
+
+05:12.810 --> 05:13.070
+All right.
+
+05:13.080 --> 05:15.530
+Let's take a look at this piece here.
+
+05:15.600 --> 05:17.030
+I'm going to isolate it.
+
+05:17.040 --> 05:24.340
+So I think we should be able just to select everything press you and unwrap and then there you go.
+
+05:24.390 --> 05:25.450
+That's easy.
+
+05:25.980 --> 05:27.280
+How about the rim here.
+
+05:27.330 --> 05:30.000
+Is this something that we could unwrap fairly easily.
+
+05:30.000 --> 05:30.800
+Let's take a look.
+
+05:30.800 --> 05:32.200
+Let's isolate it.
+
+05:32.220 --> 05:36.540
+It is single sided So I think we could unwrap it pretty easily.
+
+05:36.570 --> 05:38.220
+Let's try this.
+
+05:38.220 --> 05:42.420
+Select everything press you and unwrap.
+
+05:42.960 --> 05:45.450
+Let's give it a checker material just to make sure
+
+05:48.270 --> 05:50.190
+it's actually not too bad.
+
+05:50.310 --> 05:51.650
+I think that'll be OK.
+
+05:52.740 --> 05:53.880
+All right.
+
+05:53.880 --> 06:02.400
+We should probably also give a check for material to this one as well to the cockpit glass just to make
+
+06:02.400 --> 06:03.490
+sure it's OK.
+
+06:03.740 --> 06:04.130
+Yeah.
+
+06:04.200 --> 06:05.550
+That looks good.
+
+06:05.580 --> 06:06.480
+The next piece.
+
+06:06.480 --> 06:09.460
+Let's take a look at the jet pack here.
+
+06:09.480 --> 06:14.320
+I'll isolate it and let's take a look at this.
+
+06:14.370 --> 06:21.420
+I think once again I will go and turn off the subdivision surface modifier for this particular one just
+
+06:21.420 --> 06:25.300
+for now turn off at least the visualization of it.
+
+06:26.110 --> 06:29.450
+And I'll go back to the editing.
+
+06:29.690 --> 06:32.960
+I think we could probably split this out here.
+
+06:35.630 --> 06:44.060
+Since we're probably not going to see that seam and we could probably split up these here we could probably
+
+06:44.060 --> 06:47.370
+put seams on this as well.
+
+06:47.420 --> 06:50.960
+Let's give that a try and see how that unfolds.
+
+06:50.960 --> 06:58.880
+I will mark seams and select everything and you and unwrap.
+
+06:58.910 --> 07:00.650
+There isn't a whole lot of stretching.
+
+07:00.650 --> 07:03.780
+Let's take a look at the checkered pattern.
+
+07:04.280 --> 07:07.360
+Well it's kind of pulling here though.
+
+07:07.700 --> 07:09.210
+I don't think that'll work.
+
+07:09.940 --> 07:12.260
+So let's see what else we can do.
+
+07:12.300 --> 07:15.660
+This has nonuniform scale.
+
+07:15.660 --> 07:16.430
+Let's try that.
+
+07:16.430 --> 07:25.850
+Let's press control a and apply the scale and then let's come back and try your U.V. mapping again.
+
+07:27.270 --> 07:33.270
+A little bit better but still these are kind of small here and this is kind of big here.
+
+07:33.270 --> 07:34.710
+It's kind of puzzling.
+
+07:34.830 --> 07:38.690
+I think we may have to put seams right out here.
+
+07:40.290 --> 07:41.850
+On the edges here let's see
+
+07:44.510 --> 07:45.030
+Mark.
+
+07:45.060 --> 07:52.470
+These seams and see how we're doing with this you unwrap.
+
+07:52.800 --> 07:55.280
+And are we doing here.
+
+07:55.280 --> 07:56.740
+That is quite a bit better.
+
+07:56.750 --> 08:06.190
+There's not as much stretching We do have more visible seams but that may be the price we have to pay.
+
+08:06.220 --> 08:08.540
+So we'll see how this works.

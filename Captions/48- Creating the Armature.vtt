@@ -1,0 +1,370 @@
+WEBVTT
+
+00:00.840 --> 00:05.450
+Well let's begin actually creating the armature for the mech to do that.
+
+00:05.460 --> 00:15.140
+I'm going to go into the front view and hit 5:04 orthographic view and I'm going to create the beginnings
+
+00:15.140 --> 00:16.840
+of an armature here.
+
+00:17.000 --> 00:22.820
+First of all I'm going to bring the cursor into the center of the grid and then we could come over here
+
+00:22.820 --> 00:32.660
+to the Create tab and scroll down and click on armature or we could in the 3D view press shift A and
+
+00:32.660 --> 00:36.150
+select armature here so I'll select armature.
+
+00:36.170 --> 00:39.740
+Single bone and create that bone.
+
+00:39.740 --> 00:42.250
+Now we can move this in Object mode here.
+
+00:42.260 --> 00:49.220
+But what that will do is that will move the origin of the armature off of the center and we want to
+
+00:49.220 --> 00:51.070
+keep it in the center of the grid here.
+
+00:51.380 --> 00:59.480
+So to move this bone I'm going to go to Edit mode by tapping the tab key and then click in the center
+
+00:59.480 --> 01:01.700
+of the bone to select all of it.
+
+01:01.730 --> 01:05.060
+The main part the base and the tip.
+
+01:05.060 --> 01:11.700
+And then I'll go to my move manipulator and drag it up into the character.
+
+01:11.720 --> 01:13.340
+Now we can't really see it.
+
+01:13.520 --> 01:19.890
+So we need to come over here to our armature panel and click on x ray.
+
+01:20.210 --> 01:25.390
+And now we should be able to see it through our character.
+
+01:25.410 --> 01:28.640
+So what I'm going to do is place this right about here.
+
+01:28.710 --> 01:36.620
+Select that tip and just drag up and that will make the bone about as big as the character there.
+
+01:37.080 --> 01:45.540
+So what I want to do now is create a new bone for this shoulder joint on a tab out of edit mode and
+
+01:45.540 --> 01:53.820
+go back to object mode I'm going to select that upper arm and remember we've snapped all of the origins
+
+01:53.820 --> 01:56.480
+to where the joints should be.
+
+01:56.490 --> 02:04.520
+So now I can just press shift s and cursor to select it and it will pop the cursor right into that joint.
+
+02:05.070 --> 02:11.680
+So now I'll select the main armature bone here go back into edit mode.
+
+02:11.760 --> 02:14.100
+De-select everything with the key.
+
+02:14.370 --> 02:24.560
+And now I will press shift a and when I'm in edit mode a new bone will automatically be created.
+
+02:24.560 --> 02:29.060
+So there we've got the bone for the upper arm.
+
+02:29.110 --> 02:36.880
+What I'm going to do is tab out of edit mode select the lower arm and move the cursor to the selected
+
+02:36.880 --> 02:39.840
+to this elbow joint.
+
+02:39.840 --> 02:49.890
+Now I can select that bone tab into edit mode and with this tip selected press shift s and move the
+
+02:49.890 --> 02:57.030
+selection to the cursor and that will then align that bone with the upper arm.
+
+02:57.570 --> 03:03.300
+So this is really the process we're going to use to create each of the bones for each of the parts of
+
+03:03.300 --> 03:04.220
+the neck.
+
+03:04.230 --> 03:15.240
+So what we can do now is tab out of edit mode select this sphere for the hand snap the cursor to that
+
+03:15.240 --> 03:25.020
+selected object and then if I selected that armature again in Object mode and tab out into edit mode.
+
+03:25.050 --> 03:33.960
+Now with this joint selected what I can do is hit E for extrude and when I extrude a bone out of a selected
+
+03:34.020 --> 03:40.490
+joint like this it will automatically make it a child of the bone it's coming out of.
+
+03:40.500 --> 03:43.860
+So this will be the parent and this will be the child.
+
+03:43.920 --> 03:52.480
+So here I'll hit E and extrude and just I'm just pulling the mouse out and then click and now I want
+
+03:52.480 --> 03:59.660
+to press shift s and snap that selected tip to the cursor.
+
+03:59.690 --> 04:06.720
+So now I've got the lower arm bone in place and printed to the upper arm bone.
+
+04:06.950 --> 04:14.330
+Now for the hand here I'm going to just going to come to the side here and just hit E and pull straight
+
+04:14.330 --> 04:19.040
+out with the mouse and then click and we go.
+
+04:19.040 --> 04:22.070
+So now I've got the bone for the hand.
+
+04:22.310 --> 04:27.290
+The lower arm and the upper arm.
+
+04:27.310 --> 04:32.830
+So before we get too far into this let's go ahead and name these I'm going to select this main bone
+
+04:32.830 --> 04:44.390
+here press the end key scroll down and I'll call this bone root because that's the root of our character
+
+04:45.290 --> 04:47.130
+and I'll call this one here.
+
+04:47.140 --> 05:00.800
+I call this arm up L and I'll call this one arm low not l and I'll call this one and that L.
+
+05:00.830 --> 05:01.250
+All right.
+
+05:01.250 --> 05:03.110
+So let's work on the leg.
+
+05:03.110 --> 05:12.770
+Now I'll tab out of edit mode select that upper leg move the cursor to the selected object now I'll
+
+05:12.770 --> 05:17.610
+select the armature go into edit mode.
+
+05:18.460 --> 05:26.480
+Hit the H key to d select all of the bones and then press shift a and that pops a bone right into there.
+
+05:26.560 --> 05:33.510
+So next call select the lower leg in Object mode and move the cursor to it.
+
+05:34.400 --> 05:43.520
+Select that armature tab into edit mode and now shift s selection to cursor and that moves that to the
+
+05:43.550 --> 05:45.910
+knee joint.
+
+05:45.940 --> 05:48.190
+Now from the side view.
+
+05:48.400 --> 05:57.080
+Let me hit the three key here I can with this tip selected I can hit the e key and drag it down.
+
+05:58.740 --> 06:06.820
+And then I want to select this he'll shift asked to move the cursor to the selected slike the armature
+
+06:07.030 --> 06:11.970
+go into edit mode and snap that tip to the cursor.
+
+06:12.000 --> 06:12.920
+All right.
+
+06:13.270 --> 06:19.840
+So let's move into a little more here and I'll select this object.
+
+06:19.840 --> 06:22.820
+Move the cursor to it.
+
+06:22.910 --> 06:24.680
+Select the armature.
+
+06:25.590 --> 06:26.630
+Edit mode.
+
+06:27.030 --> 06:30.260
+Hit me and drag out like that.
+
+06:31.740 --> 06:37.840
+And then I will press shift s and selection to cursor.
+
+06:37.840 --> 06:44.050
+Now I just want to extrude straight out here so what I can do is just hit me and then hit the Y key
+
+06:44.050 --> 06:52.740
+for the y axis and then just drag the mouse straight out and click and that will create the bones for
+
+06:52.740 --> 06:54.260
+the legs.
+
+06:54.260 --> 07:02.380
+Now we're going to mirror these over ultimately So we're only working on one side at a time.
+
+07:02.380 --> 07:07.860
+I'll go ahead and select this leg bone called this leg up Al
+
+07:11.010 --> 07:16.840
+leg low L.
+
+07:17.030 --> 07:25.570
+I'll call this foot heel and I'll and I'll call this foot toe right now.
+
+07:26.410 --> 07:34.030
+We can also create a bone for this spotlight up here Alt-Tab into object mode and hit the period key
+
+07:34.030 --> 07:35.630
+to zoom in.
+
+07:36.220 --> 07:46.970
+And if I select this piece the whole mech body and go into edit mode I'm going to select this ball right
+
+07:47.000 --> 07:49.830
+here and move the cursor to it.
+
+07:51.800 --> 07:59.360
+Now if I select the armature go into edit mode I'm going to hit the A key to make sure that nothing
+
+07:59.360 --> 08:08.070
+is selected and then I'm going to press shift a and a bone will be created right there so many to go
+
+08:08.070 --> 08:13.010
+into the side view with the three key five key for orthographic.
+
+08:13.020 --> 08:21.720
+And I'm just going to move this straight out like this and the spotlight will be printed to this bone
+
+08:21.750 --> 08:25.240
+and that's how we will rotate it and control it.
+
+08:25.350 --> 08:28.340
+Next let's take a look at the fingers.
+
+08:28.720 --> 08:31.980
+I'm going to select one of the fingers and zoom in.
+
+08:32.010 --> 08:42.190
+What I think we want is one joint for this part of the finger one joint for this and one joint for the
+
+08:42.190 --> 08:42.730
+tip.
+
+08:44.030 --> 08:46.950
+So we need three bones for each of the fingers.
+
+08:47.330 --> 08:52.240
+So I think what I want to do is select this object.
+
+08:52.310 --> 08:59.540
+I'm going to press shift h to hide everything and then I'm going to tab into edit mode select that face
+
+08:59.570 --> 09:03.960
+and move the cursor to that selected face.
+
+09:04.040 --> 09:09.060
+Now hit alt h to bring everything back and hit a de-select.
+
+09:09.080 --> 09:17.030
+Now if I select the armature all slide it over here and the outliner and tab into edit mode and hit
+
+09:17.090 --> 09:20.350
+a to make sure there isn't anything selected.
+
+09:20.570 --> 09:25.700
+And now I want to press shift a and a bone pops in right there.
+
+09:25.700 --> 09:27.440
+Now I'm going to select this object.
+
+09:27.470 --> 09:37.190
+And with that origin at that joint press shift s and cursor to selected I'll then go to the armature
+
+09:37.220 --> 09:46.250
+and tab into edit mode and then shift s selection to cursor and there's my first bone now because I
+
+09:46.250 --> 09:53.260
+want this one to be a child of that I'm going to go ahead and hit E and drag the mouse out like this.
+
+09:54.190 --> 10:05.360
+And then I'll select this cursor to selected go back to the armature and snap that point snap that tip
+
+10:06.350 --> 10:08.310
+to the cursor.
+
+10:08.550 --> 10:11.340
+One last one like this.
+
+10:13.350 --> 10:15.590
+Move the cursor to here.
+
+10:18.870 --> 10:22.510
+Select the armature tab into edit mode.
+
+10:22.650 --> 10:28.000
+Hit e to extrude and now snap that to the cursor.
+
+10:29.230 --> 10:35.630
+So it's a bit convoluted the way we're doing this but we don't have a whole lot to do here.
+
+10:35.650 --> 10:40.350
+We only have four fingers and simple arms and legs.
+
+10:40.480 --> 10:43.150
+So I'll go ahead and work on the rest of the fingers.
+
+10:43.450 --> 10:46.210
+I'll select this object.
+
+10:47.310 --> 10:54.880
+Shift h to hide all the unselected objects shift s and move the cursor there.
+
+10:55.200 --> 10:59.580
+Allt h to bring everything back.
+
+10:59.600 --> 11:07.020
+Now I want to select the armature go into it edit mode make sure there isn't anything selected and shift
+
+11:07.080 --> 11:13.250
+a to create a new bone like this and snap the cursor to it.
+
+11:15.000 --> 11:22.170
+And now back in edit mode with the armature snap that tip to the cursor.
+
+11:23.340 --> 11:29.540
+And now let's take that joint and extrude it out.
+
+11:31.760 --> 11:32.900
+Move the cursor
+
+11:38.290 --> 11:40.820
+and snap that tip to that point
+
+11:44.880 --> 11:46.570
+I'll snap the cursor here.
+
+11:51.870 --> 12:01.070
+Extrude out and snap that tip to the cursor and there we have the bones for the neck.
+
+12:01.070 --> 12:05.540
+Now what we need to do is go through and name all of these.
+
+12:05.900 --> 12:12.700
+And in the next video I'll talk about setting the role or the rotation of each of the bones.
+
+12:12.950 --> 12:15.190
+So they bend in the proper directions.

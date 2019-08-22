@@ -1,0 +1,265 @@
+WEBVTT
+
+00:01.040 --> 00:04.670
+Well there really aren't going to be that many lights in the scene.
+
+00:04.670 --> 00:08.990
+There's going to be the main sunlight coming down through the hole in the ceiling.
+
+00:08.990 --> 00:14.870
+And then my thought is that there's just one other light in this scene and it's this guy right here
+
+00:14.870 --> 00:24.020
+at the top of the mech what we need to do is insert a light into this spotlight and then parent it to
+
+00:24.020 --> 00:29.450
+the light so as we move it around it also moves the actual spotlight.
+
+00:29.450 --> 00:31.810
+So I want to select that light.
+
+00:31.820 --> 00:36.080
+I can't right now because I've turned off or I've restricted it.
+
+00:36.080 --> 00:44.550
+I should say but if I go come over here to the outliner and if I scroll down in the armature here if
+
+00:44.630 --> 00:51.590
+I go all the way down here's the light here and I'm going to turn on the Select ability.
+
+00:51.590 --> 00:53.470
+So now I can select it.
+
+00:54.110 --> 01:01.310
+So I'm going to zoom into it here and we want to place a light in here somewhere.
+
+01:01.460 --> 01:14.030
+Actually what I can do is use I can I bet I can go to face mode here and select this loop of faces right
+
+01:14.030 --> 01:20.180
+here and maybe I can snap the cursor to that and that's where we can put our light.
+
+01:20.510 --> 01:28.580
+So I'll press shift as cursor to selected and then I'll come out of there back into object mode.
+
+01:28.580 --> 01:39.100
+And now if I were to create a light a spotlight it would theoretically pop in right there.
+
+01:39.220 --> 01:43.030
+Here it is hit Z for wireframe.
+
+01:43.330 --> 01:51.250
+And what I should do is while I'm moving this around I should turn off the autokey because if I rotate
+
+01:51.250 --> 01:53.320
+this now it's going to generate a key.
+
+01:53.320 --> 01:55.660
+Here let me show you what I mean if I hit r.
+
+01:55.750 --> 01:59.930
+You can see right here it says auto keying on.
+
+01:59.950 --> 02:08.020
+So I'm going to go ahead and turn off auto autokey for now and I'm going to press R X and negative 90
+
+02:08.530 --> 02:12.020
+and that will rotate it up like that.
+
+02:12.040 --> 02:14.730
+So there is our spotlight.
+
+02:15.370 --> 02:25.810
+I kind of want the cone angle to be a little bit smaller so under size I'm going to click and drag and
+
+02:26.680 --> 02:29.890
+make the spotlight kind of like that.
+
+02:30.050 --> 02:33.020
+I think that'll work we'll see.
+
+02:33.050 --> 02:42.280
+Zoom in again and I think now what we can do is actually parent the light to the light object.
+
+02:42.350 --> 02:51.970
+Let me rename this to MC Lyte and this spotlight here is the sunlight isn't it.
+
+02:52.580 --> 02:55.310
+So I'll name that.
+
+02:55.420 --> 03:04.450
+So if I take this light and shift select the spot light object and press control P And We can choose
+
+03:04.450 --> 03:13.120
+either object or keep transform I'll just choose object here and now if we play it let me zoom out here
+
+03:13.120 --> 03:19.250
+if we play our animation you can see that the light comes along with it.
+
+03:20.480 --> 03:28.750
+All right so now we can begin thinking about lighting the scene one of the things I'm going to do is
+
+03:28.750 --> 03:30.110
+go back through.
+
+03:30.160 --> 03:36.410
+Let me go back to my camera view and go out of wireframe here.
+
+03:36.430 --> 03:42.140
+Well now that that's parroted we've got the two lights in our scene.
+
+03:42.370 --> 03:44.990
+I can bring back that other light I believe it's here.
+
+03:45.010 --> 03:45.690
+Yeah.
+
+03:45.730 --> 03:47.290
+So here it is.
+
+03:47.290 --> 03:50.200
+We've got our two lights in the scene.
+
+03:50.200 --> 03:53.410
+We begin we can begin working with this.
+
+03:53.680 --> 04:01.810
+But the problem is going to be that this light won't be able to shine through this object here.
+
+04:01.840 --> 04:06.820
+In fact I think this lens here is going to have to be its own object.
+
+04:06.820 --> 04:08.290
+Let's see if we can do that.
+
+04:08.290 --> 04:11.620
+I'm going to go back to the beginning of the scene here.
+
+04:13.120 --> 04:22.810
+And I think because here let me show you why I think that if we go to the magic panel over here and
+
+04:22.810 --> 04:33.570
+we scroll down and under re visibility I need to be able to turn off shadow for the light to shine through
+
+04:33.570 --> 04:34.530
+this.
+
+04:34.920 --> 04:39.990
+And if I turn off shadow for the whole object then it'll shine through the whole object.
+
+04:39.990 --> 04:44.530
+I need it to just shine through the lens.
+
+04:44.670 --> 04:51.520
+So what I'm thinking here is I need to actually make this lends its own separate object.
+
+04:52.140 --> 04:59.530
+So I'm going to select this piece and I want to separate it out from the main part of the light.
+
+04:59.820 --> 05:06.690
+I'll separate that and then I'll come back here de-select everything and Slyke that one thing and I'll
+
+05:06.690 --> 05:17.610
+call this light lens and this light lens is going to need to be printed to this light piece here so
+
+05:17.610 --> 05:27.450
+I'll select the lens shift select that light housing and control P and object keep transform.
+
+05:27.450 --> 05:35.760
+So now we should have an individual object here that we can turn off the shadows and it should follow
+
+05:35.760 --> 05:39.450
+along with the rest of the objects since it's been parenting.
+
+05:39.450 --> 05:41.150
+Now to that object.
+
+05:41.640 --> 05:47.370
+Let's go ahead and take a look at the whole thing and just make sure it works like we want it to.
+
+05:47.610 --> 05:50.470
+I'll go to the camera view here.
+
+05:50.790 --> 05:56.080
+And let's just play it through make sure everything works like we want it to
+
+06:04.020 --> 06:04.980
+yeah.
+
+06:05.340 --> 06:11.790
+That looks pretty good it looks like the spotlight is following.
+
+06:11.840 --> 06:15.160
+So it's looking around.
+
+06:15.190 --> 06:18.520
+And also the lens is coming along with it.
+
+06:18.550 --> 06:19.130
+Good.
+
+06:20.930 --> 06:30.480
+So now I'm going to come over here and just at this point at this I'm going to do at this point here
+
+06:32.640 --> 06:36.890
+somewhere around in here I want to take a look at my scene.
+
+06:36.900 --> 06:40.030
+I want to look at it through the render view here.
+
+06:40.980 --> 06:48.420
+So I'm going to save and I'll change this from solid to rendered viewport shading.
+
+06:48.420 --> 06:55.770
+So now as it begins to render you can kind of see the volumetric lights beginning to happen here.
+
+06:55.830 --> 07:03.070
+So I'm beginning to see the light from the ceiling there that cone of light from the ceiling.
+
+07:03.360 --> 07:07.390
+And here we've got the cone of light from the spotlight.
+
+07:08.280 --> 07:14.820
+So a couple of things I think what I'd like to do is make the size of the light a little bigger inside
+
+07:14.820 --> 07:17.440
+the spot so it isn't coming from a single point.
+
+07:17.520 --> 07:23.130
+So I'm just going to click and drag this up a bit see how I'll take it up to like point five and let's
+
+07:23.130 --> 07:24.600
+see how this works.
+
+07:24.960 --> 07:31.410
+And once again sorry about the sound of the fan in my computer but it has to work a bit to render these
+
+07:31.410 --> 07:31.980
+out.
+
+07:32.220 --> 07:35.460
+Well it looks like that's a bit too much it's too big.
+
+07:35.520 --> 07:39.630
+Coming out of the light I'll just split the difference here.
+
+07:39.900 --> 07:45.930
+Maybe take it down to a point to five and we go I think that's pretty good.
+
+07:46.740 --> 07:52.520
+And lastly I think what I want to do is change the color of the light as well.
+
+07:52.800 --> 07:57.400
+So maybe a blue or a color.
+
+07:57.480 --> 08:04.080
+Now if we wanted to try and make the scene a little bit brighter in the in the background we could also
+
+08:04.080 --> 08:09.020
+come in here and increase the ambient occlusion a bit more.
+
+08:09.030 --> 08:12.660
+I'll try point 0 3 see how that works.
+
+08:12.660 --> 08:15.760
+You can see it brightens it up just a little bit.

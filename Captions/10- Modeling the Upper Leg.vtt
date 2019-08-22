@@ -1,0 +1,241 @@
+WEBVTT
+
+00:00.720 --> 00:08.550
+The legs in my rough sketch here are well they're very rough.
+
+00:09.120 --> 00:16.740
+There's not a lot of detail to help us figure out what this is going to look like in a 3D model.
+
+00:16.740 --> 00:18.630
+So we're going to have to work that out.
+
+00:20.210 --> 00:22.100
+What I think we're going to need to do.
+
+00:22.110 --> 00:30.090
+Much like we did for the shoulder joint is to find some faces on the body that we can extrude out.
+
+00:30.430 --> 00:38.930
+I kind of want to have a place where the upper leg joint can go into kind of like we did with the shoulder.
+
+00:39.030 --> 00:48.560
+So I think if I select the body here and tab into Edit Mode Well then go to face mode with control tab
+
+00:48.960 --> 00:52.400
+and then selecting face.
+
+00:52.690 --> 00:58.470
+I think these are the faces I want to use.
+
+00:58.500 --> 01:03.930
+So with those faces selected I'm going to press X and delete faces.
+
+01:04.380 --> 01:12.000
+And now once again I've got an eight sided hole here which means if I'm going to extrude a circular
+
+01:12.000 --> 01:18.990
+piece I need an eight sided cylinder so I will tab back into object mode and come over here to the Create
+
+01:18.990 --> 01:25.710
+tab and when I click cylinder it will pop into the center of the grid because the cursor is here.
+
+01:26.100 --> 01:35.520
+So I click cylinder and for this one I have it already set at eight sides but I have the cap Phil set
+
+01:35.520 --> 01:43.590
+to nothing and I need to change that to triangle fan I'm just going to de-select these on the top here.
+
+01:45.020 --> 01:46.970
+And then everything else can go.
+
+01:47.060 --> 01:50.300
+I'll hit X and faces.
+
+01:50.300 --> 01:57.630
+Now I need to bring the origin of the object back into the center of the geometry.
+
+01:57.680 --> 02:04.520
+So in the Tools tab or click Set origin and origin to geometry and that will bring that pivot point
+
+02:04.520 --> 02:08.790
+back to the center of that of that object.
+
+02:08.960 --> 02:22.170
+And once again I think what I will do is select this edge with Allt select shift asked to move the cursor
+
+02:22.170 --> 02:31.290
+to the selected select this object and shift asked to move the selection to the cursor.
+
+02:31.500 --> 02:32.430
+And there we go.
+
+02:32.760 --> 02:38.230
+I think I will rotate it a bit so it kind of fits in there a little better.
+
+02:39.570 --> 02:44.870
+And I'll also shrink it down some with this with the esky something like that.
+
+02:46.320 --> 02:46.640
+All right.
+
+02:46.650 --> 02:54.300
+So from here I'm going to go back to the body and select that edge again I'll zoom in and from here
+
+02:54.330 --> 02:58.670
+I'm going to hit the e key to extrude these edges.
+
+02:59.040 --> 03:04.650
+Click the mouse and then with the Eski scale in just a bit.
+
+03:04.850 --> 03:09.720
+Now I need to connected these pieces up to the circle here.
+
+03:10.190 --> 03:13.520
+And of course to do that I need to combine these objects.
+
+03:13.640 --> 03:19.470
+So going to select the circle shows select the body and then press control J.
+
+03:20.030 --> 03:22.970
+And that will combine these two objects.
+
+03:22.970 --> 03:31.550
+Now if I hit the tab key they both go into edit mode and I can choose these vertices now so like this
+
+03:31.550 --> 03:42.610
+one and this one and press alt M and choose at last and go around and do the same thing for each of
+
+03:42.610 --> 03:48.820
+these points.
+
+03:48.970 --> 03:55.920
+So now we have that round hole in the main body that we can use to extrude out for the leg joint.
+
+03:56.350 --> 03:59.410
+I feel like I'd like to make that hole a little bigger.
+
+03:59.650 --> 04:06.610
+So what I want to do is press the C key to go to circle select and click and drag these faces as well
+
+04:06.610 --> 04:08.710
+as the ones around it.
+
+04:09.430 --> 04:13.760
+And then all right click to get out of circle select mode.
+
+04:13.810 --> 04:16.490
+Scale this up just a bit.
+
+04:16.540 --> 04:19.410
+I want that to be just a little bigger.
+
+04:19.530 --> 04:30.080
+I'm going to press control minus on the number pad to reduce the selection and maybe just hit the G
+
+04:30.090 --> 04:41.010
+key and pull this out just a little bit maybe even rotate at some and we go just for now to see how
+
+04:41.010 --> 04:42.130
+that's going to work.
+
+04:44.550 --> 04:47.800
+I might want to adjust some of these points here.
+
+04:54.730 --> 05:03.250
+So now I'm going to select these points or these faces and extrude out with the key and just pull straight
+
+05:03.250 --> 05:07.370
+out like that.
+
+05:07.500 --> 05:12.810
+Now I think I'm going to flare it out with the key and to scale it out some.
+
+05:13.380 --> 05:24.670
+And then I'm going to hit you again and click and then hit s and scale him to create this rim around
+
+05:24.670 --> 05:35.530
+there and then I think I want to hit you again push in some and then hit the s key and scale that in.
+
+05:35.950 --> 05:41.770
+So the edges don't overlap here.
+
+05:42.010 --> 05:44.030
+Something like that.
+
+05:44.050 --> 05:49.850
+Now I want to center up that cursor there so I'm going to go to edge mode here.
+
+05:49.900 --> 05:57.040
+Alt select this shift s and cursor to selected.
+
+05:57.060 --> 06:04.910
+Now when I create a sphere for that joint it will pop right down there where the 3D cursor is.
+
+06:05.470 --> 06:14.010
+So I go to the Create tab and click U-V sphere and I'll put this right in here.
+
+06:14.160 --> 06:20.310
+Now for this one I think I'm going to pull it out some and try and center it up.
+
+06:23.810 --> 06:25.620
+Something like that yes.
+
+06:27.790 --> 06:29.120
+I'm going to create the upper leg.
+
+06:29.120 --> 06:35.690
+Now I want to take the 3-D cursor back to the center of the grid click on cylinder and this time I think
+
+06:35.690 --> 06:43.980
+I want this cylinder to be 12 faces and it does not need a cap.
+
+06:43.980 --> 06:49.010
+Phil so I'll scale it down and move it into place.
+
+06:52.510 --> 06:59.400
+So with the top part in place I'll just go into edit mode and choose that bottom edge here.
+
+07:00.750 --> 07:10.500
+And maybe switch to local transform orientation with alt space and local and then move this out and
+
+07:10.500 --> 07:12.100
+maybe scale it in some
+
+07:15.510 --> 07:19.090
+I'll also rotate it a bit and move it forward.
+
+07:21.140 --> 07:23.070
+So.
+
+07:23.470 --> 07:32.320
+So we get a slight bend in the legs in its default position.
+
+07:32.440 --> 07:37.690
+Now another way I can rotate this into place is to use that 3D cursor again.
+
+07:37.990 --> 07:46.120
+And I can slide this fear and pop the 3D cursor to the selected and then if I select the upper leg here
+
+07:46.120 --> 07:51.640
+I can change that point of rotation from the median point to the 3D cursor.
+
+07:51.640 --> 08:00.580
+Now if I go to my rotate tool I can rotate it around that sphere so maybe I put it up a little bit like
+
+08:01.540 --> 08:09.790
+this and I can rotate it out or back in like that.
+
+08:09.820 --> 08:18.280
+I hope you're seeing now how useful the 3D cursor can be for rotating placing creating it's really useful
+
+08:18.280 --> 08:22.100
+once you get used to the underlying logic of it.
+
+08:22.510 --> 08:32.560
+So I'm going to take the 3-D cursor to the selected and then tab back into object mode.
+
+08:33.930 --> 08:39.070
+And create a U-V sphere there as well and scale it down.
+
+08:40.480 --> 08:41.440
+And put it in place.

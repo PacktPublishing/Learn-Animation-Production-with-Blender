@@ -1,0 +1,241 @@
+WEBVTT
+
+00:00.820 --> 00:09.640
+So to do that we use a U-V test pattern which is usually just a checker pattern of some sort and apply
+
+00:09.640 --> 00:13.220
+it to our object to test if there's any stretching.
+
+00:13.600 --> 00:15.000
+So how do we do that.
+
+00:15.190 --> 00:20.980
+Well to do that we need to do two things we need to one apply a material to our object and two we need
+
+00:20.980 --> 00:25.390
+to apply or assign a texture to that material.
+
+00:25.420 --> 00:30.880
+So to do that while I'm still in the editing screen layout I'm going to go ahead and grab this little
+
+00:30.880 --> 00:33.780
+corner tab of this window and drag it down here.
+
+00:34.030 --> 00:39.720
+I'm going to create a whole new window and this new window is going to be A.
+
+00:39.730 --> 00:49.420
+Ed. I'm going to come down here and select Noad Ed. And this will allow us to see and assign our materials
+
+00:49.450 --> 00:51.490
+and textures for our object.
+
+00:51.580 --> 00:55.560
+I'm going to press the End key to get rid of this panel here.
+
+00:55.570 --> 00:58.920
+All right so many go to object mode for the time being.
+
+00:59.080 --> 01:05.910
+And I'm going to press new and I'll call this new material I just created a new material here.
+
+01:06.090 --> 01:10.250
+I'm going to call this new material checker.
+
+01:10.390 --> 01:11.560
+And there it is.
+
+01:11.580 --> 01:16.280
+Now notice that I'm using the cycle's render engine.
+
+01:16.350 --> 01:19.630
+There's also the Blendr internal render engine.
+
+01:19.920 --> 01:24.030
+But I'm going to use cycle's throughout this entire course.
+
+01:24.810 --> 01:32.010
+So if I zoom in here scroll in with the mouse wheel you can see I've got this material output node and
+
+01:32.020 --> 01:36.250
+a material node called diffuse SDF.
+
+01:36.630 --> 01:43.580
+The next thing I want to do is come down here and create a U-V texture and to do that I'm going to click
+
+01:43.590 --> 01:45.380
+New down here.
+
+01:46.310 --> 01:56.960
+And I get this new image panel I'll call my texture checker I'm going to leave it at the default size
+
+01:56.960 --> 02:05.210
+of 10:24 will talk about resolution sizes here in just a bit but for the generated type instead of blank
+
+02:05.240 --> 02:13.310
+I'm going to choose U-V grid and that will generate a black and white checker pattern so that we can
+
+02:13.310 --> 02:15.480
+test are you these.
+
+02:15.620 --> 02:17.300
+So I'll click OK.
+
+02:18.450 --> 02:21.890
+And there is our r checker pattern.
+
+02:21.900 --> 02:25.830
+Now the trick is to apply this to our object.
+
+02:25.830 --> 02:34.530
+Now if I select my object here and go into edit mode you can see our Uvas are applied kind of over that
+
+02:34.740 --> 02:41.600
+checker pattern that checker pattern can now be applied to you to our object.
+
+02:41.790 --> 02:47.790
+But we need to assign this texture to this material.
+
+02:47.790 --> 02:55.590
+Remember I said textures are assigned to materials and materials are assigned to objects.
+
+02:55.590 --> 03:04.020
+So we need to assign a texture to our material so to do that I'm going to click add texture and add
+
+03:04.020 --> 03:13.520
+an image texture node and there it is I'm going to just move the mouse around and click and that creates
+
+03:13.520 --> 03:17.600
+an image texture node in the node Ed..
+
+03:17.600 --> 03:27.410
+So for this image texture node I want to use my checker texture and sense I created it directly down
+
+03:27.410 --> 03:33.110
+here if I click on this it'll pull down you can see it's here available to me so I'm going to click
+
+03:33.110 --> 03:42.210
+that and then I'm going to take this node here and drag it over to the color channel of my material.
+
+03:42.620 --> 03:49.850
+So now I have assigned the image texture to the material but I don't see it over here.
+
+03:50.240 --> 03:58.520
+What I need to do now I'm going to tab into object mode is change the way I view this in the 3D viewport
+
+03:59.030 --> 04:07.560
+from solid to texture and now I can see my checker pattern on my object.
+
+04:07.980 --> 04:13.340
+And one thing that becomes apparent very quickly is that it's stretched.
+
+04:13.530 --> 04:16.170
+So let's go back to our U-V editor here.
+
+04:16.170 --> 04:24.540
+I'm going to go tab back into edit mode and select all of the faces of of our objects so we can see
+
+04:24.540 --> 04:28.330
+the UVA's in our U.V. editor here.
+
+04:28.490 --> 04:34.190
+I'm going to slide this over you can slide these over by pressing the middle mouse button clicking and
+
+04:34.190 --> 04:41.250
+dragging over and then you can select one of these I've got U-V islands selected that's good some of
+
+04:41.260 --> 04:42.630
+us like this.
+
+04:43.090 --> 04:44.750
+And I'm going to move it over here.
+
+04:45.040 --> 04:52.450
+You can move things over anywhere you want so I'll just hit G and move it over here and click and then
+
+04:52.450 --> 04:58.000
+I'll hit the period key on the numpad to frame it up.
+
+04:58.050 --> 05:04.140
+So this whole U.V. image editor view is pretty much infinite.
+
+05:04.140 --> 05:10.770
+You can have all kinds of things out here all kinds of U-V islands out here that you want to work on.
+
+05:10.980 --> 05:16.160
+But in the end you need to move them all back into this zero to one space.
+
+05:16.470 --> 05:21.040
+But for now while I'm working I'll just move it out here.
+
+05:21.180 --> 05:29.570
+So now I need to figure out how to get these checker patterns from a rectangular shape to squares.
+
+05:30.000 --> 05:33.780
+So what I'm going to do is scale this and I want to scale this in the x axis.
+
+05:33.780 --> 05:41.700
+Now even though this is called the U-V Ed. And we use you for the horizontal and v for the vertical
+
+05:41.880 --> 05:45.300
+we still scale and move in the x and y axis.
+
+05:45.570 --> 05:53.940
+So I'm going to press the ESC key press the x key and scale out some and look at what happens on my
+
+05:53.940 --> 05:56.380
+3D view as I scale this out.
+
+05:56.550 --> 06:06.900
+Those squares are those black and white checkers become more square so I want to scale this out in such
+
+06:06.900 --> 06:14.370
+a way that those that Checker pattern is more square than rectangular.
+
+06:14.370 --> 06:21.030
+And that's why we're using this test pattern to see this stretching that's happening here.
+
+06:21.030 --> 06:22.130
+So I've got that.
+
+06:22.140 --> 06:26.320
+Now let's take a look at this down here.
+
+06:27.180 --> 06:36.130
+This piece here I'm going to move this out here frame it up and now look at this here.
+
+06:36.130 --> 06:38.600
+This looks stretched as well.
+
+06:38.830 --> 06:47.680
+So maybe I'll do the same thing press as an X and scale these out until they become Square.
+
+06:49.020 --> 06:50.870
+In the 3-D view as well.
+
+06:51.180 --> 06:55.600
+So in about the same size do we go.
+
+06:55.600 --> 07:06.180
+So now even though they look a little strange here these Uvas now are more appropriately scaled so that
+
+07:06.180 --> 07:11.710
+we can get our checker pattern to be square and that's what we want.
+
+07:11.760 --> 07:16.890
+The less stretching in the checker pattern the less stretching in our textures.
+
+07:16.890 --> 07:17.250
+All right.
+
+07:17.250 --> 07:26.190
+So let's now pack this back into the zero to one space so I'll select everything press control a and
+
+07:26.190 --> 07:32.010
+then control P and it packs everything into the zero to one space.
+
+07:32.130 --> 07:34.050
+So there we are.
+
+07:34.120 --> 07:37.590
+That is the U-V map for our first pillar.

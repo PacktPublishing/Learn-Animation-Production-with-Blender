@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00.920 --> 00:08.580
+Now let's think about creating a panel here on the back some sort of panel with buttons and lights and
+
+00:08.580 --> 00:11.170
+things like that that can go on the back here.
+
+00:11.430 --> 00:19.310
+To do that I think I'll just go to a new layer and I think I'll create a cube.
+
+00:20.100 --> 00:27.630
+So I'll take this and kind of shape it the way I think it might need to go I think I'll do a rectangular
+
+00:27.630 --> 00:30.350
+panel here.
+
+00:30.660 --> 00:33.840
+I don't need the bottom face once again.
+
+00:38.630 --> 00:48.170
+And maybe I'll just select this face on top and extrude and then click and then scale it in a bit and
+
+00:48.170 --> 00:50.350
+then extrude and pull downs.
+
+00:50.510 --> 00:58.010
+So we've got a little inset panel there and I'll go ahead and add a subdivision surface modifier
+
+01:01.390 --> 01:10.500
+and I'll smooth it and let's see about adding some edge loops here.
+
+01:10.520 --> 01:13.070
+I'm going to add two edge loops.
+
+01:13.070 --> 01:27.320
+Scale them out like so and add two more along here and scale them out to hold the corners and we go
+
+01:28.580 --> 01:34.230
+and maybe I'll do two on the rim here.
+
+01:36.460 --> 01:38.590
+And maybe two along the side
+
+01:42.540 --> 01:45.410
+and scale those out.
+
+01:45.410 --> 01:54.880
+All right so now we have a panel that we can use to set our buttons and things.
+
+01:55.310 --> 01:57.220
+Let's create a light.
+
+01:57.380 --> 02:04.440
+So to create a little light I'm going to begin with cylinder.
+
+02:04.660 --> 02:15.340
+I'll take this down to 12 and I don't need any capful for this.
+
+02:15.580 --> 02:17.160
+Scale it down.
+
+02:17.920 --> 02:31.120
+And all I'm going to do is just take this top edge here scale it in a bit extrude and scale in extrude
+
+02:31.600 --> 02:33.500
+and move down.
+
+02:37.130 --> 02:40.110
+And then maybe scale into hair here.
+
+02:40.520 --> 02:43.310
+So there's the edge of it.
+
+02:43.400 --> 02:53.840
+Maybe I'll scale that out a bit more and now I can place a sphere in there a U.V. sphere and scale it
+
+02:53.840 --> 02:54.550
+down.
+
+02:56.350 --> 03:03.130
+I could always isolate this and get rid of half of it.
+
+03:03.130 --> 03:04.680
+I don't need all of this
+
+03:08.750 --> 03:14.630
+so I could border select the bottom part here and delete faces
+
+03:19.970 --> 03:21.790
+and bring that back.
+
+03:22.190 --> 03:28.140
+And then we can go ahead and combine these two objects with control J.
+
+03:28.700 --> 03:36.410
+We could add a subdivision surface modifier and now we could add a few edge loops.
+
+03:36.850 --> 03:39.880
+So let's drag this up
+
+03:44.850 --> 03:47.450
+and there we have a light.
+
+03:47.460 --> 03:52.460
+Now we could move this over put it in place
+
+03:55.960 --> 04:04.530
+so maybe it's some sort of a blinking light on the back of his jetpack here.
+
+04:05.400 --> 04:07.490
+So we can put that in place for now.
+
+04:08.800 --> 04:13.030
+Something like that and then how about a button.
+
+04:13.150 --> 04:17.070
+We might as well create some sort of a button.
+
+04:18.540 --> 04:27.260
+With say cylinder we could add the Caps fill back in with the triangle fan.
+
+04:28.560 --> 04:35.780
+I should probably delete these I'll go ahead and add a subdivision surface modifier to
+
+04:41.420 --> 04:43.070
+add a few edge loops.
+
+04:45.610 --> 04:50.800
+Now let's move this one over into place and see how that looks.
+
+04:50.800 --> 04:53.970
+We've got some sort of a button.
+
+04:54.370 --> 04:56.070
+We'll put that in place.
+
+04:56.080 --> 05:02.730
+I'm not sure where that's going to go and we'll just duplicate these to arrange our panel.
+
+05:03.280 --> 05:09.980
+And lastly I think I want some sort of rectangular item as well.
+
+05:10.120 --> 05:13.690
+I'll create a cube.
+
+05:14.560 --> 05:16.350
+Delete the bottom face.
+
+05:19.110 --> 05:29.730
+And also for this we'll probably want to subdivide this as well so I'll add a subdivision surface modifier.
+
+05:29.790 --> 05:32.010
+Go through the same process here.
+
+05:35.540 --> 05:37.580
+Add a few edge loops
+
+05:45.810 --> 05:49.780
+and maybe one or two along here.
+
+05:53.010 --> 05:58.320
+OK so there is our rectangular button thing.
+
+05:58.860 --> 06:06.040
+So now we have a couple of items that we can play with here.
+
+06:06.180 --> 06:13.530
+So what I'll do now is go to the top view and orthographic view and wireframe and just begin figuring
+
+06:13.530 --> 06:23.430
+out what I'm going to do with these I think first of all I'll duplicate this and maybe this can be some
+
+06:23.430 --> 06:28.090
+sort of a longer panel here.
+
+06:28.110 --> 06:32.190
+Maybe we need a light up here.
+
+06:32.430 --> 06:34.110
+I don't know something that could blink
+
+06:38.320 --> 06:39.870
+something like that's
+
+06:42.820 --> 06:43.190
+all.
+
+06:43.270 --> 06:46.280
+Take this and move it up here as well.
+
+06:48.730 --> 06:58.720
+And then over here we can have a few more little blinking lights type thing and maybe we need one more
+
+06:58.720 --> 07:02.350
+of these appear so it's just however you want to do it.
+
+07:02.350 --> 07:10.050
+I'm just making something that looks as if it has some sort of purpose something like that.
+
+07:11.720 --> 07:23.420
+So that'll be our panel and I'll just select everything in control J and then that will all call this
+
+07:25.310 --> 07:32.060
+panel and I'll set the origin to the center of this geometry.
+
+07:32.630 --> 07:41.390
+And now if we take a look at everything I get to bring the layers back by pressing shift and click and
+
+07:41.390 --> 07:43.140
+there is our panel.
+
+07:43.580 --> 07:47.860
+I will rotate it 90 degrees
+
+07:50.480 --> 07:54.220
+negative 90 around the X..
+
+07:54.920 --> 07:57.410
+Now let's come back here and put it into place.
+
+07:57.410 --> 07:59.080
+Now of course it's a little big
+
+08:04.340 --> 08:15.470
+0 0 it out in the x I might want to take these edges here and move them back a bit something like that.
+
+08:20.870 --> 08:21.570
+And there we go.
+
+08:21.570 --> 08:27.250
+Now we've got some sort of panel that just kind of hints that extra detail there.
+
+08:27.250 --> 08:33.120
+All right well it looks as if the mech is getting pretty close to being done now.
+
+08:33.220 --> 08:40.730
+I think all we need to do is mirror these pieces over and then we begin modeling our environment.

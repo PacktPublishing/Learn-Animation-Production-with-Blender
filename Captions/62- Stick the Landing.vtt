@@ -1,0 +1,205 @@
+WEBVTT
+
+00:00.780 --> 00:03.750
+So I've done a little more work on the drop.
+
+00:03.750 --> 00:06.040
+Let me just go ahead and play it from here.
+
+00:06.390 --> 00:13.520
+And what I did is I adjusted the curve of the y axis for the bone.
+
+00:13.590 --> 00:17.220
+So let's zoom in and take a look here.
+
+00:18.000 --> 00:29.260
+Let me go back I'm going to set my I'll start at 150 here set my range from 150 to to 50.
+
+00:29.710 --> 00:37.990
+And if we just play this you can see that he kind of drops a little more quickly and without a break
+
+00:38.560 --> 00:42.880
+from the top to the bottom of the movement here that foot still pops.
+
+00:42.880 --> 00:45.610
+But I'll work on that pretty soon.
+
+00:45.610 --> 00:51.250
+But my main concern was a direct drop from here down to here for the root.
+
+00:51.250 --> 01:00.940
+And one thing I did was I came in here to the y axis that up and down axis for the root bone and I changed
+
+01:00.940 --> 01:08.410
+the curve from the normal or the default of bezique yea to Lennier.
+
+01:08.410 --> 01:16.690
+So if I press the T key here you can see that I've got the ability to change the way the curves look
+
+01:17.140 --> 01:26.110
+but the default is bezier with the handles and I changed it to Lennier just so I'd have a straight line
+
+01:26.230 --> 01:33.610
+right down from the top of the drop to the bottom and I deleted all keyframes out of the middle.
+
+01:33.610 --> 01:39.400
+So we've got that straight drop from here right down to here.
+
+01:40.980 --> 01:47.400
+So what I need to do now is bring him back up into his standing pose.
+
+01:47.610 --> 01:51.200
+So he's dropped down here.
+
+01:51.280 --> 01:53.980
+Now he needs to stand back up.
+
+01:54.070 --> 01:57.130
+So we'll begin with the root bone here.
+
+01:57.310 --> 02:05.230
+And so he's dropped and maybe Let's see when he's going to stand up.
+
+02:05.450 --> 02:11.430
+Let me see.
+
+02:11.510 --> 02:14.650
+So maybe he begins standing up here.
+
+02:16.950 --> 02:25.160
+So I'm going to go ahead and ZERO him out in the wind so I'll press the key and choose the Y-axis and
+
+02:25.160 --> 02:30.630
+type in zero and bring him back up like this.
+
+02:30.780 --> 02:37.230
+That's not quite where he needs to be but I can just hit G and move him around so maybe he needs to
+
+02:37.230 --> 02:42.470
+be right around trying to find the center of gravity over those feet.
+
+02:42.630 --> 02:45.610
+Something like that Mary is.
+
+02:46.010 --> 02:47.560
+So let's see how that works.
+
+02:52.650 --> 02:53.850
+Not too bad actually.
+
+02:55.890 --> 03:06.220
+All right so now let's come to the point where he's fully stood up here and let's pose the arms so we'll
+
+03:06.220 --> 03:10.070
+bring the arms back down and rotate those hands.
+
+03:11.920 --> 03:22.190
+Yeah move the elbows out a bit like this and for this hand move it down and rotate that hand.
+
+03:23.170 --> 03:39.670
+And move that elbow out just a bit maybe the whole arm can come down a bit.
+
+03:39.930 --> 03:41.760
+All right let's see how that works.
+
+03:49.420 --> 03:52.270
+Yeah they need to come down quicker.
+
+03:52.480 --> 04:01.090
+So let's move these back see here the arms up here.
+
+04:01.350 --> 04:03.180
+So each one of these
+
+04:09.150 --> 04:18.180
+here they are so here's the left arm.
+
+04:18.440 --> 04:20.800
+Let's take this back.
+
+04:20.910 --> 04:24.690
+This and that works.
+
+04:29.480 --> 04:31.830
+Got a pop because of the elbow there.
+
+04:32.240 --> 04:34.380
+But just the speed of it.
+
+04:36.390 --> 04:38.070
+Isn't too bad.
+
+04:38.070 --> 04:42.210
+So I'll find Here's the right arm.
+
+04:42.300 --> 04:45.280
+Let's drop that one down a little quicker and see what happens.
+
+04:49.230 --> 04:50.930
+Will too much.
+
+04:51.380 --> 04:52.870
+Take that move forward.
+
+04:58.170 --> 04:58.740
+Not bad.
+
+04:58.740 --> 05:06.640
+I'm going to move forward two more frames.
+
+05:07.010 --> 05:15.660
+I feel like I want to try dropping him down just a hair more at the bottom of his drop.
+
+05:15.660 --> 05:23.520
+I feel like that he maybe should go down just a tad bit more just a hair and I don't know how much this
+
+05:23.520 --> 05:33.330
+is going to screw it up so save it and then pull him down a bit like a see if that does anything at
+
+05:33.330 --> 05:33.920
+all.
+
+05:38.160 --> 05:38.400
+All right.
+
+05:38.400 --> 05:41.830
+Let's do it from the beginning again here.
+
+05:41.840 --> 05:44.500
+Go back to the beginning and let's hit play.
+
+05:44.850 --> 05:46.020
+Actually you know what let's do.
+
+05:46.040 --> 05:52.860
+Well I'll hit Control up arrow to make this full screen and then I'll hit the zero key to view it through
+
+05:52.860 --> 05:54.190
+the camera view.
+
+05:55.470 --> 05:59.350
+All right so I'll press Alt A to begin the playback.
+
+06:09.970 --> 06:12.260
+Yeah I think the arms are a little bit.
+
+06:12.460 --> 06:15.280
+Stay a little bit too high.
+
+06:15.280 --> 06:20.080
+They don't need to be that high when he hits the ground but other than that everything's looking pretty
+
+06:20.080 --> 06:20.810
+good.
+
+06:23.330 --> 06:23.660
+All right.
+
+06:23.660 --> 06:25.580
+Well I will keep tweaking this.
+
+06:25.580 --> 06:33.440
+There are a couple of things I see that I could work on in addition to the hands but in the next video
+
+06:33.440 --> 06:39.680
+will work on animating him looking around the scene and animating the spotlight.

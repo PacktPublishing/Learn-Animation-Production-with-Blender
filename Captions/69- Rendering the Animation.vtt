@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.630 --> 00:04.100
+Well we're just about ready to render out our scene.
+
+00:04.260 --> 00:06.660
+We need to do a few tests though.
+
+00:07.080 --> 00:16.080
+I've got my render presets here and the render panels got my render presets and I want to set this to
+
+00:16.530 --> 00:24.310
+HDTV 720 P and that will give me this 12 HD by 720 resolution here.
+
+00:24.510 --> 00:29.560
+And I want my percentage scale to be up to 100 percent.
+
+00:29.730 --> 00:39.480
+I'm going to render out from one to frame 310 here and I want to render out individual frames.
+
+00:39.510 --> 00:48.840
+I think it's important to render animation out in individual frames rather than rendering it out straight
+
+00:48.840 --> 00:52.150
+to a quick time or Navy or something like that.
+
+00:52.410 --> 01:02.430
+Mainly because that if you're doing it with frames if no I should say when when something goes wrong
+
+01:02.430 --> 01:09.150
+when your computer crashes or something happens you don't lose the entire file.
+
+01:09.210 --> 01:17.360
+Say if your computer crashes it frame a 120 you still have frames 1 through 119.
+
+01:17.580 --> 01:25.680
+Then you can just reboot and begin again at frame 120 whereas if you're rendering out straight to movie
+
+01:25.680 --> 01:31.530
+file like a quick time when it crashes the whole thing is gone and you have to begin again from the
+
+01:31.530 --> 01:32.870
+beginning.
+
+01:32.910 --> 01:41.790
+There are of course other reasons to use single frames when rendering out an animation in terms of compositing
+
+01:42.240 --> 01:47.480
+things like that but we're not going to be getting into that in this particular course.
+
+01:48.000 --> 01:55.810
+So in frame is going to be 310 we've got our frame rate here at 24 frames per second.
+
+01:56.370 --> 02:02.430
+If I scroll down here we should set an output destination here.
+
+02:02.430 --> 02:05.480
+Currently it's just going to a temp folder.
+
+02:05.850 --> 02:11.850
+What I'd like to do is create a render frame's folder for these to go in.
+
+02:11.850 --> 02:18.750
+So I'm going to go ahead and click on this open browser button and in my project here I'm going to go
+
+02:18.750 --> 02:28.470
+ahead and create a new directory call it rendered frames and that's where I'm going to put all of my
+
+02:29.100 --> 02:33.270
+frames and I'll click accept.
+
+02:33.290 --> 02:40.160
+So now this output is going to that rendered frames folder.
+
+02:40.160 --> 02:46.830
+I've got my file format at PMG now for the sampling.
+
+02:47.060 --> 02:52.280
+Usually your preview is already set to 10 or 6 or something like that.
+
+02:52.310 --> 03:01.970
+And this preview is what dictates how hard blender works to render your scene out in rendered viewport
+
+03:02.030 --> 03:03.060
+shading.
+
+03:03.170 --> 03:10.290
+But this field will dictate how hard blender works and rendering out your final frames.
+
+03:10.310 --> 03:13.090
+I've got mine set up to 65 here.
+
+03:13.130 --> 03:23.690
+Yours could be different in regards to how you want it to look but I'm going to try a sample of 65 here
+
+03:23.990 --> 03:32.000
+and see how long it takes to render a frame as well as how good it looks because it's a balancing act
+
+03:32.060 --> 03:35.630
+between quality and time spent.
+
+03:35.630 --> 03:45.170
+My goal is to try and keep each frame under five minutes and at 310 frames that's going to be like 20
+
+03:45.170 --> 03:47.110
+24 hours.
+
+03:47.390 --> 03:55.050
+So that's still going to be a long time if I scroll down here to the light Papps.
+
+03:55.430 --> 04:04.520
+You can see that you've got some different presets for limited global illumination for global illumination.
+
+04:04.520 --> 04:06.220
+I am not going to touch this.
+
+04:06.230 --> 04:12.200
+I'm going to leave these the way they are because turning on global illumination will just ramp up your
+
+04:12.260 --> 04:16.310
+render times by by a lot.
+
+04:16.310 --> 04:23.630
+It will help it look wonderful but it will also take a long time to render so you have to once again
+
+04:23.780 --> 04:31.220
+balance that I've set my filter a glossy here under light paths to three.
+
+04:31.370 --> 04:35.080
+And remember we've turned off Kostikov here.
+
+04:35.090 --> 04:43.100
+I've set the filter glossy to three to try and reduce the number of those little fireflies sparkles
+
+04:43.400 --> 04:47.550
+that can happen when using cycles.
+
+04:47.720 --> 04:52.860
+So that's pretty much the way I have my render panel set up now.
+
+04:53.900 --> 05:01.550
+So we're going to need to do some test Rynders to see how our scene looks at different points in the
+
+05:01.550 --> 05:05.320
+animation from different camera angles.
+
+05:05.330 --> 05:09.150
+And I usually like to set my display to a new window.
+
+05:09.350 --> 05:13.580
+You can set your rendered stills to come out in the image editor.
+
+05:14.030 --> 05:18.040
+But I like to have it overlaid as a new window here.
+
+05:18.500 --> 05:25.310
+So to create a test render all we really need to do is just hit render and that will render out our
+
+05:25.310 --> 05:28.250
+scene in a new window.
+
+05:28.250 --> 05:29.930
+So let me play this.
+
+05:29.930 --> 05:36.320
+I'm going to play it going forward here to maybe right about here so I can come over here and hit the
+
+05:36.320 --> 05:37.900
+render button.
+
+05:38.930 --> 05:45.020
+And a new window comes up and we can test our renders out like this.
+
+05:45.970 --> 05:50.940
+And this will also give us a sense of how long the renders are taking.
+
+05:50.940 --> 05:59.280
+So the one I did just a little bit ago came out to be four minutes and 23 seconds and that's under-five.
+
+05:59.740 --> 06:06.300
+And that's what I'm trying to keep to so there's frame 95 that looks pretty good.
+
+06:06.460 --> 06:13.900
+We can see our our jet thrusters we can see the cone of light coming down through the hole we can see
+
+06:13.900 --> 06:16.450
+our sky image here.
+
+06:17.630 --> 06:19.800
+It's looking pretty good.
+
+06:19.880 --> 06:23.730
+I'm going to go ahead and save this out just so I can compare it to other tests.
+
+06:23.750 --> 06:24.540
+I do.
+
+06:24.710 --> 06:33.590
+I'm going to go to image save as image and I'll just put this on my desktop and I'll call this render
+
+06:33.590 --> 06:33.970
+three.
+
+06:33.980 --> 06:44.970
+Now since I've done a couple previously and saved that out so this is the process I'll go through several
+
+06:44.970 --> 06:50.010
+other places in the scene and see how it looks.
+
+06:50.070 --> 06:57.750
+And from that I'll do any tweaking that I need to do on textures lighting anything like that before
+
+06:57.750 --> 07:00.060
+I begin the final render.
+
+07:00.090 --> 07:03.690
+So let me do another render here.
+
+07:03.990 --> 07:06.360
+So I'll hit play and let's take a look.
+
+07:06.360 --> 07:15.630
+Maybe we can stop it right up in here and see how this looks.
+
+07:15.740 --> 07:21.800
+So I'll hit render and wait another four and a half minutes or so.
+
+07:23.440 --> 07:28.150
+And this render again took about four minutes 20 seconds.
+
+07:28.210 --> 07:32.340
+So that's about right as I go forward.
+
+07:32.350 --> 07:38.270
+I could begin playing with the sampling down here.
+
+07:39.930 --> 07:46.320
+I could begin increasing this to get the Render to look a little cleaner a little better but once again
+
+07:46.350 --> 07:48.870
+it would increase the render time.
+
+07:49.020 --> 07:51.110
+So I'll have to test this.
+
+07:51.120 --> 07:59.040
+I may try a render up to 100 and then maybe split the difference back down to 75 or something like that.
+
+07:59.040 --> 08:05.810
+So I'm just as I said I'm trying to stay under five minutes for each frame.
+
+08:06.120 --> 08:12.960
+So I think I'll go ahead and play it through again and this time I'm going to go up to the point where
+
+08:13.350 --> 08:16.560
+he drops and the light turns on.
+
+08:16.650 --> 08:19.650
+So there and then that should be it.
+
+08:19.650 --> 08:24.390
+So I'm going to go ahead and render this up to see how this looks.
+
+08:25.060 --> 08:29.180
+I'll go back up here and hit render.
+
+08:29.190 --> 08:31.350
+Now here are a couple of issues I've discovered.
+
+08:31.360 --> 08:40.200
+Undoing a test render one is that with the spotlight on it looks like the render time goes up to over
+
+08:40.200 --> 08:45.450
+six minutes so I need to take that into consideration as well.
+
+08:45.480 --> 08:56.460
+The other thing is that look at this back here you see this kind of box overlaid over the over the pillar.
+
+08:56.460 --> 09:02.440
+This looks to me like it is the domain box for the jet thrusters.
+
+09:02.700 --> 09:12.090
+So the volumetric lighting that's happening in the scene isn't working on those on those boxes.
+
+09:12.090 --> 09:13.630
+So that's interesting.
+
+09:14.010 --> 09:18.400
+I have not seen that before but I think we can fix that.
+
+09:18.450 --> 09:22.460
+I don't I didn't see a problem when the jet thrusters were on.
+
+09:22.680 --> 09:33.570
+So I think what we can do is turn or animate the render the restrict rendering option here.
+
+09:33.570 --> 09:44.190
+So what I need to figure out is if I can actually animate the visibility of those domains in the scene.
+
+09:44.190 --> 09:50.760
+So what I will have to do is see if I can animate the visibility of the scene in the render at the point
+
+09:50.760 --> 10:00.050
+when the jet thrusters turn off so I can maybe remove them from the scene at that at that point.
+
+10:00.060 --> 10:06.860
+So this is the kind of thing that test rendering brings to light.
+
+10:06.900 --> 10:14.460
+So once were done with all of our tests and are ready to render out an animation we need to once again
+
+10:14.460 --> 10:18.700
+make sure that our path is going to the proper place.
+
+10:18.780 --> 10:24.170
+But then once that happens all we really need to do is just click animation
+
+10:26.920 --> 10:33.030
+and it will begin rendering out the individual frames of our animation.
+
+10:33.260 --> 10:40.790
+So now the first frame of our animation has gone ahead and rendered it only took a little under three
+
+10:40.940 --> 10:44.570
+minutes since there isn't a whole lot in the scene at this point in time.
+
+10:44.720 --> 10:52.010
+But now it's working on frame two and you can see it going through and updating the frame also in the
+
+10:52.040 --> 11:01.910
+rendered frames folder you can see that it's placed a file called 0 0 0 or 1 in that folder and that
+
+11:01.910 --> 11:05.230
+is our first frame of the animation.
+
+11:05.270 --> 11:06.740
+So if I open this
+
+11:12.230 --> 11:14.120
+there's our frame.
+
+11:14.320 --> 11:18.550
+So now it's going to keep working on through every frame.
+
+11:18.550 --> 11:24.100
+Once it's completely finished we can then take these frames into the video sequence.
+
+11:24.100 --> 11:30.130
+Editor in Blender here and render out a final movie file like a quick time.

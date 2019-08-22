@@ -1,0 +1,433 @@
+WEBVTT
+
+00:00.900 --> 00:09.270
+Back here in the default screen layout you can see that our U-V mapped pillar is a little different
+
+00:09.390 --> 00:14.670
+than the others and that's because it's got a cycle's material on it.
+
+00:14.670 --> 00:22.100
+Now since we created the material you can come over here to the materials panel right here and you can
+
+00:22.100 --> 00:27.770
+take a look at this and you can see that it's got that Checker material that we created.
+
+00:27.860 --> 00:33.790
+If you click on one of these other pillars you can see it has no material whatsoever.
+
+00:33.800 --> 00:40.250
+In addition if you come down here to the viewport shading we can switch this over from solid to texture
+
+00:40.250 --> 00:44.990
+now and you can see the movie map in the 3-D view here.
+
+00:44.990 --> 00:52.180
+Now we also U-V mapped this block but we're not seeing it even with it's switched over to the texture
+
+00:52.190 --> 00:53.240
+view.
+
+00:53.270 --> 00:58.970
+The reason that is is because it has no material you've got to have both a U.V. map and the material
+
+00:59.030 --> 01:01.730
+to be able to see the texture.
+
+01:01.760 --> 01:08.330
+So I'm just going to click here and choose our one material so far from the list.
+
+01:08.580 --> 01:10.830
+And there is our checker pattern.
+
+01:11.040 --> 01:17.250
+So now we could go through the process of duplicating and replacing each of these pillars.
+
+01:18.100 --> 01:24.340
+And I'll do that a little bit later but we just go through the same process we did for each of these
+
+01:24.460 --> 01:33.980
+appere and I could maybe change these and we could see the checker pattern on these as well.
+
+01:35.970 --> 01:36.230
+All right.
+
+01:36.240 --> 01:40.880
+Well let's take a look at another part of Racine scene that we could U-V map.
+
+01:40.900 --> 01:44.880
+How about this coffin or crypt over here.
+
+01:44.880 --> 01:48.420
+I'll zoom in with period key and take a look at it.
+
+01:48.480 --> 01:57.110
+Now this one I think instead of using seems Nuvi unwrap we should probably use that smart U-V project.
+
+01:57.120 --> 01:57.900
+Let's take a look.
+
+01:57.900 --> 02:01.150
+I'm going to switch to the U-V editing view here.
+
+02:01.290 --> 02:11.790
+I'll zoom in on isolate it with the division key and if we went through and let's say we tried just
+
+02:11.960 --> 02:18.870
+the straight unwrap here and let's see what happens and what we'd get is a lot of stretched U-V islands
+
+02:18.870 --> 02:28.170
+here we would have to go through and mark a lot of seams in here to be able to break this up and get
+
+02:28.260 --> 02:31.690
+a good unwrap for each of these blocks.
+
+02:31.740 --> 02:41.100
+So what we could try we could try like map pack and what that would do is it would break each of these
+
+02:41.100 --> 02:43.540
+polygons out as a square.
+
+02:43.920 --> 02:50.010
+And if we did that our texture on each of these blocks would be stretched because these are more rectangular.
+
+02:50.010 --> 02:52.290
+So that's not going to work either.
+
+02:52.290 --> 02:59.640
+So I press you and let's try smart U-V project and what that will do is it will actually break each
+
+02:59.640 --> 03:08.430
+polygon out as its own U.V. island but it will maintain the relative size the rectangular shape of each
+
+03:08.430 --> 03:09.460
+of those.
+
+03:09.810 --> 03:13.490
+So that I think is probably the best we're going to do for this particular object.
+
+03:13.500 --> 03:15.510
+And that's and that's fine.
+
+03:15.510 --> 03:19.150
+So let's go ahead and add that checker material to it.
+
+03:19.160 --> 03:24.660
+I'll add that here and there's our checker pattern so all and isolate it.
+
+03:24.930 --> 03:30.120
+And let's go back into the default view here and there we are.
+
+03:30.130 --> 03:34.430
+There's our coffin object U.V. mapped.
+
+03:34.470 --> 03:35.610
+Let's try something else.
+
+03:35.610 --> 03:39.060
+How about the stairs over here.
+
+03:39.970 --> 03:46.750
+I'm going to go back to the U-V editing lay out the period key hit the division key.
+
+03:47.120 --> 03:52.990
+And so this piece there are a couple of things that we could try here.
+
+03:53.000 --> 03:59.840
+First of all I don't think we're going to need the faces on the back or on the bottom so I'm going to
+
+03:59.840 --> 04:07.510
+go ahead and select these faces back here and delete them.
+
+04:07.620 --> 04:11.460
+And I think the same with these faces down here.
+
+04:11.460 --> 04:16.990
+We don't need those because they just won't be seen.
+
+04:16.990 --> 04:22.940
+And it's just going to be a pain to try and U-V map things that aren't going to be seen.
+
+04:23.260 --> 04:30.990
+So I'll go to edge mode and I'll begin marking some edges here we could break this piece out.
+
+04:31.150 --> 04:32.980
+I think let's try that.
+
+04:32.980 --> 04:43.480
+I'm going to mark seams here and then we could break these edges are we could mark these edges so I'll
+
+04:43.480 --> 04:46.280
+mark this as a seam and I'll go over them to it.
+
+04:46.330 --> 04:51.780
+On the other side as well.
+
+04:51.940 --> 04:55.000
+All right you know Mark that is a seam.
+
+04:55.420 --> 04:58.340
+And I think that's about it.
+
+04:58.660 --> 05:07.510
+Let's take a look at how this is going to unwrap so I'll select everything press you and hit unwrap
+
+05:08.770 --> 05:09.850
+and.
+
+05:10.370 --> 05:12.060
+OK that doesn't look too bad.
+
+05:12.060 --> 05:15.770
+Let's take a look at it with the checker pattern on it.
+
+05:16.880 --> 05:20.430
+Hmm that looks a little stretched.
+
+05:20.560 --> 05:22.330
+That's I don't think that will work.
+
+05:22.330 --> 05:24.440
+Let's take a look at what's going on here.
+
+05:24.820 --> 05:31.810
+Now if you've noticed when we've been unwrapping things a little air pops up here and it's really not
+
+05:31.870 --> 05:33.730
+a big deal but I just wanted to point it out.
+
+05:33.730 --> 05:39.600
+So I'm going to hit unwrap again just to show you that it says object has non-uniform scale.
+
+05:39.600 --> 05:48.640
+Unwrap will operate in nine scaled version of the mesh which is fine it does just fine with that but
+
+05:48.640 --> 05:52.480
+I just want to see if there's any difference.
+
+05:52.480 --> 06:00.130
+If we come over here and go to object mode and you see the scale here what it's saying is the scale
+
+06:00.190 --> 06:01.820
+isn't applied.
+
+06:01.870 --> 06:10.770
+So let me press control a and apply the scale so that the scale is back to ALL ones.
+
+06:10.840 --> 06:13.630
+So let's just try this again.
+
+06:14.470 --> 06:17.580
+You unwrap and now look at it.
+
+06:17.590 --> 06:25.640
+We get a lot more uniform clean U-V unwrap because we've applied the scale.
+
+06:25.660 --> 06:28.810
+Now we don't always want to apply the scale to everything we do.
+
+06:28.810 --> 06:38.620
+There may be instances in which we don't want to do that but when we can and if it's reasonable It might
+
+06:38.620 --> 06:41.260
+help with the U-V unwrapping.
+
+06:41.260 --> 06:41.620
+All right.
+
+06:41.620 --> 06:45.530
+So let's take a look at another object in the scene.
+
+06:46.190 --> 06:47.960
+How about the ceiling up here.
+
+06:47.960 --> 06:50.050
+Let's take a look at this.
+
+06:50.120 --> 06:56.630
+Now one of the things we can do while we're in a particular screen lay out like this is if we want to
+
+06:56.630 --> 07:06.050
+make one window temporarily full screen we can press control up arrow and that will give us view in
+
+07:06.050 --> 07:08.370
+full screen and then to toggle back.
+
+07:08.390 --> 07:12.500
+We just press control up arrow again and we can toggle back.
+
+07:12.500 --> 07:20.450
+So if I wanted to make this U-V image editors screen full screen I could press control up with the arrow
+
+07:20.690 --> 07:27.420
+or the cursor hovered over here to press control up arrow and that will make that full screen.
+
+07:27.710 --> 07:32.110
+So I hit Control up again and I want to make this one full screen here.
+
+07:32.150 --> 07:32.480
+All right.
+
+07:32.480 --> 07:33.870
+So let's take a look at this.
+
+07:33.870 --> 07:35.300
+I'll hit the tab key.
+
+07:35.570 --> 07:42.590
+What I think I'll do is just select the edges along the side here I'll also select these
+
+07:45.270 --> 07:47.440
+and I'll make these my seams
+
+07:51.410 --> 07:52.400
+and then we go.
+
+07:52.400 --> 07:56.100
+So that's going to break out this piece has its own piece.
+
+07:57.890 --> 08:06.140
+And for the hole in the roof I think I'll go ahead and press alt and shift and go around here and select
+
+08:06.170 --> 08:07.520
+these edges.
+
+08:08.280 --> 08:14.160
+I like that and I'll do the same thing for these down here.
+
+08:14.160 --> 08:20.900
+And so I'm going to also or Marcus seam for this edge right here as well.
+
+08:21.160 --> 08:28.450
+So once again I'm just trying to be mindful of where the camera is going to be so I don't put a seam
+
+08:28.450 --> 08:35.440
+right in front of the camera and I'll press control up to go back to my U-V editing view.
+
+08:35.440 --> 08:42.090
+I'll go into edit mode and select everything and then press you and unwrap and there we go.
+
+08:42.720 --> 08:47.600
+So it didn't quite do what I was hoping it would do.
+
+08:47.600 --> 08:49.200
+It didn't split all these out.
+
+08:49.200 --> 08:58.590
+This is that rim around the hole in the ceiling so it looks like I missed some edges here let's take
+
+08:58.590 --> 08:59.430
+a look.
+
+08:59.880 --> 09:00.580
+Yeah.
+
+09:00.930 --> 09:03.470
+See how I miss some edges here.
+
+09:03.870 --> 09:07.280
+And that's why it didn't break it out completely.
+
+09:07.350 --> 09:13.950
+If you don't get all the edges selected it'll hang onto it these won't be split off.
+
+09:13.950 --> 09:20.450
+So I need to select these edges so make sure I didn't miss any others here yet.
+
+09:20.490 --> 09:25.630
+So I need to select these edges and control the and Mark seam.
+
+09:25.670 --> 09:33.180
+Now let's see how we do so I'll select everything you and enwrap.
+
+09:33.200 --> 09:33.520
+All right.
+
+09:33.520 --> 09:34.820
+So that helped.
+
+09:34.820 --> 09:37.380
+That helped break that out.
+
+09:37.400 --> 09:43.100
+I could try angle based or informal.
+
+09:43.200 --> 09:45.450
+I'll go with angle based.
+
+09:45.620 --> 09:56.340
+Now in addition this piece over here it looks like it's the top view or the top part of the ceiling
+
+09:56.350 --> 10:02.520
+and we don't really care about that and it's not important to us because we're just not going to see
+
+10:02.520 --> 10:03.020
+it.
+
+10:03.360 --> 10:11.380
+So I'm going to go ahead and add the checker material to this and then I'll shrink this top part down
+
+10:12.070 --> 10:14.600
+and something like that.
+
+10:14.710 --> 10:16.480
+So we don't really care about that.
+
+10:16.480 --> 10:19.660
+This is just kind of a throw away piece.
+
+10:19.660 --> 10:26.390
+So I'll go ahead and select that and instead of hitting control a to average islands scales.
+
+10:26.560 --> 10:33.580
+I think what I'm going to do is just press control P because I want to pack everything in with the same
+
+10:33.580 --> 10:36.980
+proportional scale as they have here.
+
+10:37.030 --> 10:43.740
+So if I had control a it would make everything proportional to the 3D view again and I don't want that
+
+10:43.750 --> 10:50.400
+I want to hit command or control Z to undo what I want to do is pack it in with the scale that I've
+
+10:50.410 --> 10:51.340
+established here.
+
+10:51.340 --> 10:57.910
+So I'm going to press control P and that will pack that into the zero to one space with the scale that
+
+10:57.910 --> 10:59.590
+I've established.
+
+10:59.590 --> 11:07.370
+So now you can see down here it looks good except for a little bit of stretching but up here it's really
+
+11:07.370 --> 11:09.910
+stretched and that's OK because it's so small.
+
+11:10.040 --> 11:13.140
+And no one's ever kind of see it.
+
+11:13.160 --> 11:21.370
+So for this down here I need to work on that to zoom out here and just select this and move it aside
+
+11:22.480 --> 11:25.460
+and let's try and scale it in the X and see what happens.
+
+11:25.450 --> 11:26.470
+Well that's not well.
+
+11:26.510 --> 11:34.360
+I can maybe I can scale it kind of like this and try and get those to be square.
+
+11:34.370 --> 11:40.640
+Now I can press control P and pack them in to the 0 to one space.
+
+11:40.640 --> 11:40.930
+All right.
+
+11:40.940 --> 11:46.590
+Let's go back to the default view and let's see how we did yeah.
+
+11:46.650 --> 11:47.790
+Now looks pretty good.

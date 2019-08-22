@@ -1,0 +1,250 @@
+WEBVTT
+
+00:00.920 --> 00:04.760
+So now we're seeing our character kind of come together here.
+
+00:04.760 --> 00:10.250
+One thing I'd like to do before I begin detailing this before we actually begin going in and adding
+
+00:10.250 --> 00:18.050
+cleaner edges and smoothing the objects and getting them really detailed what I'd like to do is mirror
+
+00:18.050 --> 00:26.800
+these pieces over to the other side just so I get a sense of how it's going to look when we've got all
+
+00:26.820 --> 00:28.720
+the arms and legs on.
+
+00:28.730 --> 00:33.170
+So let's talk about using the mere modifier to do this.
+
+00:33.260 --> 00:38.210
+We used it earlier on but now we're going to use it in a little bit different way.
+
+00:38.210 --> 00:40.760
+Let's first work on the body here.
+
+00:40.760 --> 00:45.830
+I'm going to select the body and what we need to do is Mayre over these pieces.
+
+00:45.950 --> 00:49.980
+The shoulder joint here and the leg opening here.
+
+00:50.150 --> 00:53.930
+I want to mirror these pieces over to the other side.
+
+00:54.320 --> 01:00.620
+To do that we're going to have to delete half of this and this happens a lot in character modeling as
+
+01:00.620 --> 01:06.830
+you kind of have to get comfortable deleting half and marrying and then working on one side and then
+
+01:06.980 --> 01:09.290
+deleting half again and mirroring.
+
+01:09.470 --> 01:14.410
+It's a process that often has to be done several times during the creation of a model.
+
+01:14.450 --> 01:18.560
+So let's go ahead and do this to isolate this object.
+
+01:18.560 --> 01:20.200
+There are a couple of ways to do that.
+
+01:20.360 --> 01:26.000
+But how many do it here is to press the division key on the numpad.
+
+01:26.000 --> 01:28.390
+It's kind of a backslash.
+
+01:28.550 --> 01:36.350
+So I'm gonna hit that and that will isolate the selected object and then I can hit it again and everything
+
+01:36.350 --> 01:37.440
+else will come back.
+
+01:39.160 --> 01:43.060
+Now what I want to do is select the half that I want to get rid of.
+
+01:43.060 --> 01:47.410
+So I'm going to press the one key and the five key to go to the front.
+
+01:47.410 --> 01:56.590
+Orthographic view and the Z key to go to wireframe and then I'll tab into edit mode and use control
+
+01:56.590 --> 01:59.680
+tab to go to face mode.
+
+01:59.680 --> 02:09.640
+Now I can use the border select with the key and click and drag and get this half selected.
+
+02:09.640 --> 02:14.250
+Now I'll hit the x key and delete face's.
+
+02:14.310 --> 02:17.000
+So now I could mirror this over.
+
+02:17.010 --> 02:23.040
+The problem is that let's take a look at where the pivot point is or where the origin of the object
+
+02:23.040 --> 02:23.750
+is.
+
+02:23.910 --> 02:30.280
+When we use the mirror modifier it's going to try and mirror the object around the origin.
+
+02:30.300 --> 02:36.930
+So for this one if we use the mirror modifier it would try and mirror it around this piece here or around
+
+02:36.930 --> 02:38.220
+this spot here.
+
+02:38.430 --> 02:45.510
+We need to move the origin not just the pivot point but the origin to the center of the object or more
+
+02:45.510 --> 02:48.270
+easily to the center of the grid.
+
+02:48.270 --> 02:54.990
+Now this is one place where I think Blendr really shines in that you can move the pivot point and the
+
+02:55.050 --> 02:57.960
+origin of the object independently.
+
+02:57.960 --> 03:03.180
+So what I'm going to do is I'm going to press shift s and move the cursor to the center of the grid.
+
+03:04.020 --> 03:07.420
+And then I'm going to come over here to the Tools tab.
+
+03:08.270 --> 03:10.660
+And use this set origin.
+
+03:10.670 --> 03:18.350
+Pull down menu and change the origin to the 3D cursor and that pops that down into the center of the
+
+03:18.350 --> 03:19.340
+grid.
+
+03:19.340 --> 03:25.810
+Now when we mirror this it will mirror across your mirror at that origin point.
+
+03:25.970 --> 03:30.650
+I'm going to press the End key to take a look at the properties panel too.
+
+03:30.990 --> 03:41.630
+Oftentimes if we have rotation on our object we can get some strange behavior when mirroring our objects.
+
+03:41.630 --> 03:47.180
+I'm not exactly sure what will happen here but let's give it a try just to prove our point.
+
+03:47.420 --> 03:56.630
+I'm going to click the Add modifier and click mirror and you can see now that because of our rotation
+
+03:57.620 --> 04:02.260
+this mirror is not exactly the way we'd want it to be.
+
+04:02.300 --> 04:08.370
+So let's get rid of the mirror modify our here by hitting the x key.
+
+04:08.390 --> 04:16.430
+Now with this object selected in Object mode let's press control a and we get this apply transformation
+
+04:16.640 --> 04:17.480
+menu.
+
+04:17.570 --> 04:25.590
+So I'm going to apply the rotation and scale Currently I'm going to do that so that will zero out the
+
+04:25.590 --> 04:30.880
+rotation and take the scale back to 1.
+
+04:30.940 --> 04:35.990
+Now let's try the mirror modifier So I click add modifier and mirror.
+
+04:36.230 --> 04:38.620
+That looks a little better.
+
+04:38.630 --> 04:43.720
+So now what that's done is it brought over these pieces over to the other side.
+
+04:43.730 --> 04:50.420
+Now let's do this again for say the arms here for the time being I think I'm going to combine all the
+
+04:50.420 --> 04:55.030
+objects of the arm so I can mirror it over easily.
+
+04:55.040 --> 05:02.270
+Ultimately these pieces are going to be broken up into like the upper arm this piece and the shoulder
+
+05:03.080 --> 05:13.900
+and also the forearm and the elbow will be one piece and then the hand will be a single piece and then
+
+05:13.960 --> 05:17.560
+the fingers will be printed to the hand.
+
+05:18.160 --> 05:21.070
+But for now I'm going to just select all of these
+
+05:24.170 --> 05:31.610
+I'm going to press the Z key here and press the B key and border select this area so I can select all
+
+05:31.610 --> 05:33.200
+of those.
+
+05:33.230 --> 05:36.610
+Now that all of those are selected on press control J.
+
+05:36.920 --> 05:40.450
+And that will make them all one object.
+
+05:40.460 --> 05:46.760
+Now once again the pivot point or the origin of the object is in the wrong place so I'll press shift
+
+05:46.820 --> 05:53.690
+s cursor to center and then set origin origin to 3D cursor.
+
+05:53.690 --> 05:59.480
+Now when I add that mirror modifier it will mirror over to the other side.
+
+05:59.590 --> 06:03.050
+And now we're beginning to get a sense of how this is going to look.
+
+06:03.280 --> 06:05.970
+But let's do the same thing for the leg here.
+
+06:06.030 --> 06:15.960
+I'll select all these objects press control J and then set origin to the 3D cursor.
+
+06:15.960 --> 06:20.730
+Now I'll add the mirror modifier and look at what happened.
+
+06:20.880 --> 06:23.640
+The leg mirrored around the wrong spot.
+
+06:23.640 --> 06:24.780
+Why did it do that.
+
+06:25.020 --> 06:26.790
+Well take a look at the rotation.
+
+06:26.850 --> 06:30.530
+We've got 90 degrees in here so that isn't going to work.
+
+06:30.540 --> 06:39.900
+I'm going to hit the X to delete the mere modifier and let's hit control a and apply our rotation and
+
+06:39.900 --> 06:41.590
+scale.
+
+06:41.630 --> 06:47.740
+Now that we've cleaned up these values let's add the mere modifier again.
+
+06:49.510 --> 06:57.890
+And then we go so now that we get a sense that this is kind of working for us I think now we'll begin
+
+06:57.890 --> 07:04.130
+working on actually detailing the character and breaking it apart and organizing it for the rigging
+
+07:04.130 --> 07:04.800
+process.

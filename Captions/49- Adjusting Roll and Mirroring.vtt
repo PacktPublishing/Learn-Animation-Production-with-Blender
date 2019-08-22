@@ -1,0 +1,322 @@
+WEBVTT
+
+00:00.900 --> 00:08.670
+Now we should look at the role and goals of our bones and make sure that the bones are going to rotate
+
+00:08.670 --> 00:10.850
+in a consistent way.
+
+00:11.100 --> 00:19.120
+So if we take a look at say this bone here the lower arm bone what we can do.
+
+00:19.120 --> 00:27.370
+Let me zoom in here is we can look at the axes that it's going to rotate on by coming over here to the
+
+00:27.670 --> 00:28.740
+armature panel.
+
+00:29.020 --> 00:35.410
+And let's click on axes and now we get this white access here.
+
+00:35.410 --> 00:45.940
+When we're in edit mode and what I want to do is rotate around the x axis with the main bend say the
+
+00:45.940 --> 00:51.900
+main bend of this bone is going to be this way with the main bend toward the Z-axis.
+
+00:51.910 --> 01:00.160
+So this one actually looks pretty good because we've got the x axis going to this side and the Z axis
+
+01:00.160 --> 01:01.650
+facing forward.
+
+01:01.660 --> 01:12.040
+So if I went to pose mode here and change my rotation mode to local and went to rotate you can see that
+
+01:12.040 --> 01:20.890
+it would rotate around the x axis in the positive direction when it's moving when it's bending you can
+
+01:20.890 --> 01:23.070
+see the x is here positive.
+
+01:23.080 --> 01:29.560
+Now if I bent it back the other way like that we'd go into the negative here.
+
+01:29.680 --> 01:41.440
+So I want to be able to rotate in the x axis with the main bend moving toward the z axis or toward the
+
+01:41.440 --> 01:44.340
+positive x.
+
+01:44.350 --> 01:47.640
+So let's take a look at this one up here.
+
+01:48.160 --> 01:59.240
+I think this is a good angle here that we're rotating in the X going back and forth and that looks good.
+
+01:59.260 --> 02:06.550
+However I'd like the positive x to be this way because if we bend it forward you can see it's going
+
+02:06.550 --> 02:10.720
+into the negative numbers and I don't want that.
+
+02:10.720 --> 02:17.780
+So what I need to do is rotate this axis around 180 degrees.
+
+02:17.780 --> 02:22.020
+So I'll come back here to edit mode.
+
+02:22.550 --> 02:29.810
+And with that bone selected I'll use the roll field over here in the properties panel and I'll just
+
+02:29.810 --> 02:38.670
+click and then drag and I'll roll that around and I can take it around 180 degrees.
+
+02:38.700 --> 02:47.480
+So now we go back to pose mode now you can see that we're still rotating in the X-axis But when we move
+
+02:47.930 --> 02:53.740
+the arm forward we go in the positive x All right.
+
+02:53.960 --> 02:59.550
+Let's take a look at the legs when they zoom in down here.
+
+02:59.600 --> 03:06.430
+Now I would say the positive or the main axis of rotation maybe back.
+
+03:06.800 --> 03:12.830
+And this decision is kind of arbitrary but I'm going to say that this would be should be positive going
+
+03:12.830 --> 03:14.930
+this way and negative going this way.
+
+03:14.930 --> 03:21.770
+You may certainly disagree and that's fine for this once again.
+
+03:21.770 --> 03:28.320
+Also I'd say this should be positive and this should be negative this.
+
+03:28.360 --> 03:33.270
+I think if this is positive like this that doesn't hurt anything.
+
+03:34.280 --> 03:40.420
+And if this rotates around the X and positive goes up that's fine too.
+
+03:40.430 --> 03:46.450
+So I think the legs are fine the fingers are going to be a different challenge here.
+
+03:46.940 --> 03:51.020
+Let's take a look at say the index finger.
+
+03:51.900 --> 03:57.900
+Notice that the X is going this way we don't really want it to bend side to side.
+
+03:57.900 --> 04:00.550
+We wanted to bend forward and back.
+
+04:00.930 --> 04:05.480
+So I will tab into edit mode and take a look at this.
+
+04:05.490 --> 04:16.140
+Currently the X is facing up what we should probably do is have the X face side to side and the Z face
+
+04:16.140 --> 04:17.270
+down.
+
+04:17.320 --> 04:25.490
+So click this on the roll in drag and let's move this.
+
+04:25.810 --> 04:30.380
+Let's try and line it up with the angle of the finger here.
+
+04:31.620 --> 04:32.870
+Like that
+
+04:35.930 --> 04:38.340
+and how was this one doing this one
+
+04:41.070 --> 04:48.100
+needs to go the other way so it needs to have the Z facing down so I'll click and rotate that.
+
+04:48.230 --> 04:50.080
+So the z is facing down
+
+04:53.620 --> 04:55.480
+and this one
+
+04:58.970 --> 05:03.650
+will try and line that up so the Z's facing down as well.
+
+05:08.100 --> 05:09.280
+So.
+
+05:09.370 --> 05:19.230
+All right so now if we go back to pose mode we can select a finger and you see that it rolls in the
+
+05:19.230 --> 05:26.070
+X and when we bend it down like that it's positive and up like that is negative and that's good.
+
+05:26.070 --> 05:27.480
+That's what we want.
+
+05:27.690 --> 05:33.270
+So I need to go through and do the same thing with all these other fingers before we try and mirror
+
+05:33.720 --> 05:37.240
+this arm and leg over to the other side.
+
+05:38.010 --> 05:39.580
+Let's try and line this one up
+
+05:42.510 --> 05:45.150
+so the Z needs to go down.
+
+05:46.100 --> 05:53.020
+Like that roll this one.
+
+05:53.090 --> 05:54.540
+So the z is down.
+
+05:55.600 --> 05:58.880
+And finally this one here.
+
+05:58.990 --> 06:00.320
+Roll that one as well.
+
+06:01.660 --> 06:02.190
+All right.
+
+06:02.200 --> 06:05.760
+So we have our fingers all rotated properly.
+
+06:06.060 --> 06:08.470
+I'll go back to object mode here.
+
+06:08.850 --> 06:18.610
+And let me make sure we have everything in place before we begin mirroring.
+
+06:18.640 --> 06:19.930
+I'll turn off the axes.
+
+06:19.930 --> 06:22.650
+We don't need those right now.
+
+06:22.720 --> 06:23.830
+How about names.
+
+06:23.830 --> 06:25.550
+I me make sure ah.
+
+06:25.750 --> 06:29.770
+I need to go through and name all of these finger bones.
+
+06:29.860 --> 06:32.550
+So let me do that.
+
+06:32.620 --> 06:35.650
+All right I've gone ahead and named these.
+
+06:35.860 --> 06:40.930
+Now what I need to do is duplicate and mirror them over to the other side.
+
+06:41.080 --> 06:47.860
+When to close the properties panel here and over here in the armature panel I'm going to turn on names.
+
+06:47.980 --> 06:54.130
+Now we can see all the names in the viewport of our bones to mirror these over.
+
+06:54.130 --> 07:02.180
+I need to select a joint chain duplicated and then mirror it over around the center point.
+
+07:02.220 --> 07:15.000
+So if I select the leg bones here in and then if I change my pivot point from median to 3D cursor and
+
+07:15.000 --> 07:19.050
+move that 3D cursor into the center of the grid.
+
+07:19.050 --> 07:24.810
+Now the pivot point of those selected items is in the center of the grid and we're going to mirror around
+
+07:24.810 --> 07:26.030
+that point.
+
+07:26.520 --> 07:32.340
+So I'll press shift d to duplicate and I'll immediately press the enter key.
+
+07:32.340 --> 07:40.620
+Now notice that the names of the bones are just leg low dot l at 0 0 1 0 0 1 0 0 1.
+
+07:40.620 --> 07:49.440
+We need to switch the names from DOT L to dot R. and Blendr has a nice little tool to do that with everything
+
+07:49.450 --> 07:50.590
+still selected.
+
+07:50.610 --> 07:59.380
+I'm going to press the W key and bring up the specials menu and here in the menu is Phlip names.
+
+07:59.400 --> 08:06.220
+So if I select that it will automatically flip the name is from DOT l r.
+
+08:06.270 --> 08:07.090
+That's pretty handy.
+
+08:07.090 --> 08:12.470
+So now we can mirror these over using control him.
+
+08:13.050 --> 08:19.050
+And I'm going to press the access in which we're going to mirror which will be the x axis and then I
+
+08:19.050 --> 08:23.590
+have to press the enter or return key and there we go.
+
+08:23.590 --> 08:29.020
+Now we've got our chain mirrored and the names flipped.
+
+08:29.020 --> 08:29.350
+All right.
+
+08:29.350 --> 08:30.910
+Let's do that again.
+
+08:31.210 --> 08:37.720
+I'm going hit the Z key to go into wireframe and I'm going to press control and click and drag a selection
+
+08:37.720 --> 08:40.720
+around all of these.
+
+08:40.930 --> 08:46.400
+And now I'm going to hit the Z key to come back into solid mode here.
+
+08:46.690 --> 08:54.490
+And it looks like I've got them all selected and since my pivot point is it 3D cursor and the 3D cursor
+
+08:54.490 --> 08:56.300
+is at the center of the grid.
+
+08:56.680 --> 09:00.640
+It will pivot or mirror around the center of the grid.
+
+09:00.640 --> 09:10.880
+So now what I need to do is press shift D and press Enter press w click flip names.
+
+09:10.910 --> 09:17.360
+Now press control em press the x key and hit enter.
+
+09:17.360 --> 09:18.170
+So there you go.
+
+09:18.170 --> 09:23.490
+We've got our joints mirrored over we've got all the names labeled correctly.
+
+09:23.870 --> 09:24.830
+We're looking pretty good.
+
+09:24.830 --> 09:28.920
+It looks like I need to name this bone up here for the spotlight.
+
+09:29.270 --> 09:35.510
+But other than that I think we're ready to begin creating the control rig that will actually use to
+
+09:35.510 --> 09:36.880
+animate the armature.

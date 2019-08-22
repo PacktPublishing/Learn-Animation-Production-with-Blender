@@ -1,0 +1,370 @@
+WEBVTT
+
+00:00.910 --> 00:07.150
+It's time now for us to take a look at creating the materials of our scene but to do that we really
+
+00:07.150 --> 00:13.230
+need to see how the scene is going to look when it's going to be rendered or at least a rough approximation.
+
+00:13.480 --> 00:19.520
+And if I come down here to the viewport shading I can switch to rendered here.
+
+00:19.870 --> 00:24.230
+And if we look at that you can see it's kind of dark.
+
+00:24.250 --> 00:29.470
+We've got a little bit of light coming in through the hole in the ceiling but that's about it.
+
+00:29.530 --> 00:34.680
+We would have trouble setting up materials in this kind of a lighting situation.
+
+00:35.020 --> 00:38.730
+So let's go back to the textured view here.
+
+00:40.100 --> 00:43.530
+And let's think about putting a light in here.
+
+00:43.640 --> 00:50.360
+One of the things I like about the cycle's render engine is that you can make a material light.
+
+00:50.390 --> 00:55.640
+It's pretty simple to do and it looks pretty good especially for this kind of work when we're setting
+
+00:55.640 --> 00:57.200
+up materials.
+
+00:57.380 --> 01:02.620
+So to do that what I'll do first is just create a polygon plane.
+
+01:02.750 --> 01:10.030
+So I'll come over here click plain and move this out into the sea and make it a little bigger.
+
+01:11.240 --> 01:16.340
+Move it up into the scene and what I want this to be is a light source.
+
+01:16.390 --> 01:19.360
+So I'm just going to move it to the side here.
+
+01:20.560 --> 01:30.610
+So I'll go to my top view with the seven key and wireframe with the Z and I'll move this around and
+
+01:30.610 --> 01:35.090
+place it maybe over here like this.
+
+01:36.510 --> 01:45.300
+If you need to switch from solid to textured a quick way to do that is to press alt Z and you can toggle
+
+01:45.300 --> 01:49.020
+between solid and texture.
+
+01:49.440 --> 01:55.050
+So I've got that placed what I can do now is create a new material for it.
+
+01:55.050 --> 01:59.180
+We already have our checker material and that's good.
+
+01:59.200 --> 02:05.970
+Let's create a new material here by clicking the New button over here in the materials panel.
+
+02:06.240 --> 02:07.920
+And now I'm going to give it a name.
+
+02:07.920 --> 02:15.720
+I'll call this light temp and I'll also call this plane in here.
+
+02:15.720 --> 02:20.420
+Light temp just so we know what the object is as well.
+
+02:20.420 --> 02:27.920
+And if you look down here when you first create a material the type of material is automatically set
+
+02:27.920 --> 02:29.820
+to diffuse BSD.
+
+02:29.870 --> 02:37.040
+And that's just a standard default non shiny kind of material.
+
+02:37.130 --> 02:43.640
+If we click on this we can see a lot of different materials here and we'll be using quite a few of these
+
+02:43.640 --> 02:48.050
+as we go through to set up our materials in the scene.
+
+02:48.290 --> 02:53.120
+But this one right here a mission that's the one I want.
+
+02:53.120 --> 02:58.590
+So I will choose a mission and under-strength Maybe I'll increase the strength of five.
+
+02:58.610 --> 03:07.560
+Let's try that and now I'm going to switch from textured to rendered and see how that looks.
+
+03:07.560 --> 03:13.170
+So as you can see what it's doing is emitting light into the scene that there's not a whole lot of light
+
+03:13.200 --> 03:16.830
+there at this point in time and that's fine.
+
+03:17.010 --> 03:25.140
+I'll switch back to the textured view and what I'd like to do is actually scale this down a bit and
+
+03:25.140 --> 03:27.050
+maybe move it up.
+
+03:27.060 --> 03:33.840
+One thing I try not to do is to intersect a light source into other objects so I'm just going to pull
+
+03:33.840 --> 03:42.060
+it up and try and make sure it doesn't cut into another object so I'll switch back to rendered and just
+
+03:42.060 --> 03:43.840
+take a look at this.
+
+03:44.040 --> 03:49.610
+I could increase this up to 10 or even 20.
+
+03:49.610 --> 03:51.700
+Let's try let's try that.
+
+03:52.250 --> 03:55.310
+So we're getting some light into the scene.
+
+03:55.310 --> 04:00.570
+My concern is how does it look with the mech here.
+
+04:00.760 --> 04:05.030
+Zoom in to that the other thing I can do.
+
+04:05.030 --> 04:08.260
+Of course I can always increase the intensity of the light.
+
+04:08.390 --> 04:17.050
+But the other thing I can do is come over here to the world setting's and turn on ambient occlusion
+
+04:17.650 --> 04:23.440
+and what this will do will just give us a general wash of indirect light into the scene.
+
+04:23.440 --> 04:27.340
+So click that and now you can see that's a little too much.
+
+04:27.340 --> 04:33.670
+Now I'm going to take this factor and take it down to maybe point three.
+
+04:33.670 --> 04:35.910
+Let's try that.
+
+04:35.990 --> 04:44.090
+Now I don't know if you can hear the fan in my computer clicking on because rendering this kind of thing
+
+04:44.090 --> 04:51.530
+in the viewport is pretty resource intensive so you may hear the fan in the background as we're doing
+
+04:51.530 --> 04:52.780
+this.
+
+04:53.000 --> 04:54.470
+So that looks pretty good to me.
+
+04:54.470 --> 04:58.130
+I like the way that looks in the in the render view.
+
+04:59.200 --> 05:05.460
+I've taken the Ambien inclusion back down to Point 4 am and I think this is going to be good.
+
+05:05.470 --> 05:08.770
+I think I'll go ahead and go with this.
+
+05:08.800 --> 05:09.100
+All right.
+
+05:09.100 --> 05:17.950
+So I'll switch back to my textured view here and I'll select the main body of the Mac and go into edit
+
+05:17.950 --> 05:18.350
+mode.
+
+05:18.370 --> 05:24.490
+And right now as you recall this is pretty much all one object.
+
+05:24.490 --> 05:31.140
+There are a few pieces that have been kept out of the mix but generally speaking this is all one object.
+
+05:31.240 --> 05:39.700
+So what am I to do in edit mode is just hover over the body here and press the L key and that will select
+
+05:39.730 --> 05:40.920
+that piece.
+
+05:41.350 --> 05:47.680
+I'm going to come over here to the materials panel and just click the plus icon the add new material
+
+05:47.710 --> 05:54.240
+button here add a new material slot and then add a new material for that slot.
+
+05:54.310 --> 05:57.490
+So click new and there's new material.
+
+05:57.700 --> 06:03.710
+Let's call this one metal mech body.
+
+06:03.760 --> 06:08.760
+This will be the material for the body the arms and the legs.
+
+06:08.760 --> 06:15.730
+Here what we could do is go into rendered view and take a look at that.
+
+06:16.390 --> 06:19.450
+And as you can see we can't see it yet.
+
+06:19.450 --> 06:29.450
+The problem is is we haven't assigned the material to the selected faces so if I click a sign it will
+
+06:29.450 --> 06:35.880
+now assign that new material to the faces that were selected here.
+
+06:35.900 --> 06:43.350
+So now we can see the new material in the in the rendered view and it's just this plain white material.
+
+06:43.370 --> 06:50.960
+Let's change it to a glossy material and you can see that it becomes almost like a mirror.
+
+06:50.950 --> 06:59.770
+Now I'll just increase the roughness just a bit so it isn't quite so reflective.
+
+06:59.790 --> 07:00.030
+All right.
+
+07:00.030 --> 07:02.060
+So there's our metal.
+
+07:02.220 --> 07:10.410
+What we can do is come back over here to the textured view and just begin selecting the upper arm lower
+
+07:10.410 --> 07:12.080
+arm upper leg lower leg.
+
+07:12.090 --> 07:15.110
+I'm just pressing the L key on the keyboard.
+
+07:15.180 --> 07:19.160
+Hovering over each of these and pushing the key.
+
+07:19.320 --> 07:27.870
+And if I select each one of these now I can with this metal mech body material selected I'll just click
+
+07:27.970 --> 07:30.980
+assign and there we go.
+
+07:30.990 --> 07:37.620
+Now if we come back to the rendered view you can see that the material has been added to all of those
+
+07:37.620 --> 07:39.180
+as well.
+
+07:39.180 --> 07:39.480
+All right.
+
+07:39.480 --> 07:43.840
+Let's work on the cockpit here.
+
+07:43.920 --> 07:56.250
+I'll switch back and select this and let's create a new material slot add a new material to it and let's
+
+07:56.250 --> 08:09.660
+call this glass cockpit and for this let's have this be a glossy material again I'll switch to my rendered
+
+08:09.660 --> 08:11.090
+view so we can see it.
+
+08:12.290 --> 08:21.240
+And notice I haven't clicked a sign yet so I'll click a sign and there's our new material.
+
+08:21.240 --> 08:25.840
+Now it's a little too much like a mirror for me here.
+
+08:25.850 --> 08:33.410
+I'm going to first of all change the color of it maybe change it to blue and maybe make it a little
+
+08:33.740 --> 08:42.560
+darker here something like this maybe a little more and I'll increase the roughness just a bit.
+
+08:42.750 --> 08:47.450
+So it isn't quite so reflective.
+
+08:47.720 --> 08:52.050
+So let's move onto the jointness.
+
+08:52.070 --> 08:58.620
+Now if I go back to the textured view I can select these joints with the L key.
+
+08:58.700 --> 08:59.720
+Each one of these
+
+09:02.420 --> 09:09.320
+and with those selected are created new materials slot and in that slot I'll put in new material I'll
+
+09:09.320 --> 09:20.240
+call it rubber neck joints and I'll assign the material and then let's go back to the rendered view
+
+09:21.290 --> 09:22.760
+and let's just see what we have here.
+
+09:22.760 --> 09:30.030
+It's kind of a matt finish for the diffuse I think I'll just take this and bring it down.
+
+09:30.530 --> 09:36.440
+So it's a little darker What about the trim here.
+
+09:36.460 --> 09:40.090
+Let's take a look at the trim around the cockpit.
+
+09:40.090 --> 09:43.780
+Let's look at that.
+
+09:43.800 --> 09:51.720
+I will select that piece and let's call this in our new material slot.
+
+09:51.720 --> 10:01.280
+Let's call this new material metal mech trim and assign.
+
+10:01.740 --> 10:08.580
+And we could also probably assign that same material to say this little vent here.
+
+10:08.580 --> 10:15.060
+So I just need to pull this down here and select that metal mech trim and that will add that material
+
+10:15.090 --> 10:20.280
+to that object because it is a separate object currently.
+
+10:20.280 --> 10:29.310
+So I'll go back to the mech switch over to my rendered view and with the metal mech trim selected I'll
+
+10:29.310 --> 10:38.940
+change this maybe to a glossy give it a little bit of roughness so it'll be just a little bit of a different
+
+10:38.940 --> 10:41.460
+material than the main body.
+
+10:41.820 --> 10:52.170
+Let's work on this jet pack now I'll select it and for this I'll apply the metal mech body I'll just
+
+10:52.290 --> 11:01.970
+assign that and for these pieces down here the little jet packs at least for now I'll just design this
+
+11:02.090 --> 11:06.470
+metal mech trim to it and assign.
+
+11:06.470 --> 11:12.980
+Now keep in mind that all of these materials that I'm creating are preliminary they're just establishing
+
+11:12.980 --> 11:20.840
+base materials that we can tweak for each piece of the scene and we'll be going into the node Ed. to
+
+11:20.870 --> 11:30.140
+mix and combine shaders to get these materials more the way we want them for final product.
+
+11:30.140 --> 11:36.650
+Well there are a few more objects that require materials here on the Mac but also we need to begin working
+
+11:37.040 --> 11:39.040
+on the materials for the environment.

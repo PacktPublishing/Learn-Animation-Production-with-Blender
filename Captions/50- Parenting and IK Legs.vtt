@@ -1,0 +1,355 @@
+WEBVTT
+
+00:00.690 --> 00:06.170
+Well now that we've got the main bones in place let's go ahead and parent them.
+
+00:06.450 --> 00:10.920
+And then also we're going to want to parent the objects to the bones.
+
+00:10.920 --> 00:20.440
+So first of all let's begin with say this arm bone here I'm going to select it and go into edit mode
+
+00:21.330 --> 00:28.980
+and if I selected this bone and then shift select the main bone here I should be able to press control
+
+00:28.980 --> 00:38.260
+P and choose make parent with keep offset and that will now parent that bone.
+
+00:38.260 --> 00:45.970
+And therefore this whole chain to the main bone of the body I'll do the same thing down here select
+
+00:45.970 --> 00:53.270
+the upper leg bone shift select the main body bone control P and keep offset.
+
+00:53.620 --> 00:58.260
+I will select this spotlight bone up here.
+
+01:00.130 --> 01:03.990
+And then shifts like the body and press control.
+
+01:06.280 --> 01:08.150
+I'll also do that on the other side.
+
+01:15.440 --> 01:19.450
+So now they all should be Parenthood to that main bone of the body.
+
+01:19.670 --> 01:27.080
+If I tabbed out of that mode and go into pose mode and maybe rotated this you can see that they all
+
+01:27.080 --> 01:28.890
+come along.
+
+01:28.940 --> 01:35.760
+So now I want to parent these individual objects to each of their corresponding bones.
+
+01:35.990 --> 01:40.250
+Now to do that I need to go through a similar process here.
+
+01:40.400 --> 01:47.780
+But for this I'm going to make sure that the armature is in PPOs mode and then I'm going to go over
+
+01:47.780 --> 01:49.160
+and select that object.
+
+01:49.190 --> 02:00.600
+So like say this upper arm shift select that bone and press control P and parent to the bone.
+
+02:00.760 --> 02:02.420
+So same thing here.
+
+02:04.090 --> 02:12.990
+Select the lower arm shift select that bone control P and bone I'll do that with the body
+
+02:20.390 --> 02:22.830
+and on through the whole rig.
+
+02:29.070 --> 02:30.900
+I'll begin on the fingers here.
+
+02:30.900 --> 02:34.570
+Selecting one joint shift selecting a bone and control P.
+
+02:40.830 --> 02:51.000
+one thing that I've noticed as I've been going through this is that if I select this bone and I rotate
+
+02:51.000 --> 02:55.560
+it the fingers do not come along.
+
+02:55.570 --> 03:01.380
+Same with the bone I appear if I select this bone and rotate it.
+
+03:01.540 --> 03:07.840
+The fingers don't come along so I need to parent those fingers to this main hand bone.
+
+03:08.080 --> 03:18.490
+So I'm going to go back to edit mode and select this finger and shifts like the hand and then press
+
+03:18.490 --> 03:21.850
+control P and keep offset.
+
+03:21.850 --> 03:28.870
+Now if I go to pose mode and rotate this now that comes along that's what we want.
+
+03:29.140 --> 03:33.310
+So I just forgot to parent the fingers to the hand.
+
+03:33.580 --> 03:36.480
+So I'll go ahead and do that.
+
+03:36.490 --> 03:43.240
+So now if I go to pose mode and select this lower arm if I hit the Arki to rotate.
+
+03:43.240 --> 03:54.840
+Now everything comes along for the ride and lastly I'll need to select this object the spotlight and
+
+03:54.840 --> 04:01.830
+shift select that bone and press control P and parent to bone.
+
+04:01.830 --> 04:11.390
+So now if I select that bone and I'll press R twice and now I can rotate around like that.
+
+04:11.690 --> 04:19.430
+So now we can see if I Slik this main body bone and hit our twice again I can rotate this guy around
+
+04:19.460 --> 04:22.750
+and everything comes along and that's what we want.
+
+04:24.700 --> 04:31.720
+So the next thing let's do is set up what's called an iCade chain on the legs and I K stands for inverse
+
+04:31.720 --> 04:38.590
+kinematics which means that we'll be able to select like the ankle and when we move the ankle around
+
+04:38.590 --> 04:40.950
+it will move the entire leg.
+
+04:40.990 --> 04:47.620
+So it's kind of like when someone shakes your hand and they move your hand around and your whole arm
+
+04:47.620 --> 04:53.920
+at the elbow and shoulder adjusts as the hand is moved around.
+
+04:53.920 --> 05:04.420
+So what we need is an I.K. target a target down here near the ankle that the inverse kinematics chain
+
+05:05.020 --> 05:08.570
+can use as it's control object.
+
+05:08.650 --> 05:12.800
+A good thing to use is just this foot bone here.
+
+05:12.970 --> 05:18.760
+So I'm going to select the armature and I'll go into edit mode.
+
+05:19.270 --> 05:20.200
+I'll select that.
+
+05:20.200 --> 05:22.930
+Let me turn off the axes here.
+
+05:22.960 --> 05:24.870
+So there you go.
+
+05:24.880 --> 05:32.830
+So to create an I.K. target I'll just select this bone and press shift D and then I'll hit enter and
+
+05:32.830 --> 05:36.090
+that will create a new bone there.
+
+05:36.430 --> 05:42.390
+If I look in the properties panel and scroll down here I can see that it's been named foot.
+
+05:42.410 --> 05:44.380
+Heal l 001.
+
+05:44.530 --> 05:52.750
+So that's the copy that's the one we want to rename and I'll call this foot I K Dot else.
+
+05:52.750 --> 05:57.910
+And this will be the I.K. target for the left foot here.
+
+05:57.970 --> 06:06.890
+Now this foot bone was a child of the lower leg bone and it's also apparent of the toe.
+
+06:07.150 --> 06:08.950
+But we need to clear those out.
+
+06:08.950 --> 06:11.230
+We need to clear that parenting information out.
+
+06:11.230 --> 06:18.880
+So let's press with this new bone selected let's press alt P and let's clear the parent for this bone
+
+06:19.680 --> 06:21.240
+we go.
+
+06:21.470 --> 06:21.880
+All right.
+
+06:21.890 --> 06:25.210
+So now what we need to do is go ahead and create the iCade chain.
+
+06:25.220 --> 06:30.580
+So I will go to pose mode and select this lower leg.
+
+06:32.050 --> 06:41.080
+And in post mode we get this panel over here this bone constraints panel I select that I can add a bone
+
+06:41.150 --> 06:46.570
+constrained and in here I'll choose inverse kinematics.
+
+06:46.570 --> 06:50.050
+Now we have a few things that we need to fill in here.
+
+06:50.230 --> 06:53.020
+First of all we need to target something.
+
+06:53.170 --> 06:59.500
+So to do that I'm going to click in this field and choose the armature first and then the bone within
+
+06:59.500 --> 07:02.170
+the armature that we're going to target.
+
+07:02.350 --> 07:10.600
+I'm going to type in foot and it'll search for everything with foot in it and I'll choose this foot
+
+07:10.650 --> 07:12.310
+I.K..
+
+07:12.610 --> 07:19.030
+Now the iCade Shane is going to consist of two bones the lower leg and the upper leg.
+
+07:19.090 --> 07:25.500
+So I need to set the chain length to match that so I need to change this to two.
+
+07:26.200 --> 07:34.840
+And now if I come back and select that I k target let me click I can click through here and kind of
+
+07:34.840 --> 07:36.010
+toggle between two.
+
+07:36.010 --> 07:42.420
+So there's the foot heel the original one if I click again I get the foot OK.
+
+07:42.940 --> 07:51.240
+Now if I hit the G key and move this around you can see I'm moving the entire leg around which is kind
+
+07:51.240 --> 07:53.000
+of cool.
+
+07:53.040 --> 07:53.580
+There you go.
+
+07:53.580 --> 07:57.200
+There's our robot leg.
+
+07:57.390 --> 07:58.480
+All right.
+
+07:58.680 --> 08:03.910
+So now as we move this around you can see that click there.
+
+08:03.930 --> 08:11.010
+And now you can see that the foot bone isn't following the I.K. target.
+
+08:11.220 --> 08:13.290
+So we need to fix that.
+
+08:13.800 --> 08:20.290
+So to clear the location of this and get it back to where it was I could just press command Z to do
+
+08:20.640 --> 08:27.180
+but I can also press alt G and that will clear the location.
+
+08:27.180 --> 08:34.650
+You can also clear the rotation with Allt are and clear the scale with old ass.
+
+08:34.700 --> 08:41.750
+So let's constrain that original foot bone or click here again that foot heel bone.
+
+08:41.840 --> 08:45.470
+Let's constrain that to the I.K. target.
+
+08:45.860 --> 08:54.170
+So I'll add a bone constraint and I'll choose a copy rotation constraint and for the target I'll choose
+
+08:54.170 --> 09:01.830
+the armature for the target bone or type in foot and choose that foot.
+
+09:01.850 --> 09:03.280
+I.K. bone.
+
+09:04.040 --> 09:13.820
+And now if I choose that foot I K should be able to move this around and have that foot bone stay constrained
+
+09:14.690 --> 09:16.400
+to the I.K. target.
+
+09:16.400 --> 09:20.110
+Now if I move it away away you can see it's going to pull away.
+
+09:20.120 --> 09:25.200
+But generally speaking within the range of the leg it should be fine.
+
+09:26.240 --> 09:29.720
+Let's go ahead and create an iCade chain over here on this other leg.
+
+09:29.900 --> 09:32.110
+So I'll choose the foot.
+
+09:32.150 --> 09:35.570
+He'll actually I need to go into edit mode to do that.
+
+09:35.720 --> 09:40.760
+So I'll choose this foot heel bone all duplicated
+
+09:43.420 --> 09:49.530
+and let's call it foot I K Dot R.
+
+09:50.010 --> 09:59.310
+Let's clear any parenting information by pressing alt P and clear parent Nalut switch to pose mode and
+
+09:59.310 --> 10:05.770
+select that lower leg bone and let's add a constraint and inverse kinematics.
+
+10:06.270 --> 10:13.680
+And for our target we'll choose armature for our target bone type and foot will choose that foot.
+
+10:13.710 --> 10:22.450
+ICade our will change the chain length to where we go.
+
+10:22.560 --> 10:30.720
+So now if we choose that foot I.K. bone we should be able to move things around but we want to constrain
+
+10:30.930 --> 10:35.010
+the foot bone to the I.K. bone.
+
+10:35.310 --> 10:38.640
+So I'll select that foot heel.
+
+10:38.730 --> 10:45.880
+Our go to our constrains panel Add a bone constraint and let's add that copy rotation again.
+
+10:47.460 --> 10:55.440
+We'll choose armature for our target foot iCade are for the bone.
+
+10:55.440 --> 11:05.760
+And so now if we choose that I.K. bone we can hit G and move that foot around.
+
+11:05.840 --> 11:06.860
+All right.
+
+11:07.010 --> 11:12.070
+So we now have I.K. chains for each of the legs.
+
+11:12.380 --> 11:21.320
+We should now be able to choose this main body bone and hit G and move him around and he does deep knee
+
+11:21.320 --> 11:22.570
+bends.
+
+11:22.640 --> 11:31.450
+So we're getting there in the next video we'll take a look at creating a full roll rig for each of the
+
+11:31.450 --> 11:37.870
+feet so that we can roll the feet up onto the ball of the foot and back onto its heel.

@@ -1,0 +1,280 @@
+WEBVTT
+
+00:00.780 --> 00:07.110
+For the beams on the ceiling I think we can probably just give it that sandstone texture and be done
+
+00:07.110 --> 00:07.810
+with it.
+
+00:08.130 --> 00:09.710
+Let's take a look.
+
+00:09.750 --> 00:17.610
+I'll grab one of these beams and maybe go into the editing view and isolate this.
+
+00:17.610 --> 00:24.540
+So for this we can do a very similar thing that we did before we can just bring in a texture coordinate
+
+00:25.530 --> 00:31.520
+we can bring in with Shift A The image texture node.
+
+00:31.740 --> 00:39.990
+We can hook up the U-V know to the vector input and the color to the color and then click open and bring
+
+00:39.990 --> 00:42.930
+in that sandstone seamless texture.
+
+00:44.400 --> 00:46.290
+So there it is.
+
+00:46.650 --> 00:54.040
+It's once again looking a little big for the object in the properties panel here.
+
+00:54.040 --> 01:00.370
+I'll go into the texture window and change the scale maybe increase this to 3.
+
+01:00.400 --> 01:01.690
+See how that works.
+
+01:02.960 --> 01:06.500
+Actually let me try for here let me try one more.
+
+01:07.090 --> 01:08.830
+Yeah I'm going to go with four.
+
+01:09.250 --> 01:20.390
+And so now I can bring in a new image node and I'll change this from color to non color data and I'll
+
+01:20.390 --> 01:24.240
+open in the textures folder.
+
+01:24.410 --> 01:28.410
+I'll grab that sandstone seamless bump.
+
+01:28.660 --> 01:36.690
+And then with that I'll bring in a bump node under vector here.
+
+01:39.560 --> 01:48.150
+Bring the color into the normal and the normal into the displacement and then I'll also increase the
+
+01:48.150 --> 01:51.210
+scale here to 4 as well.
+
+01:51.540 --> 01:57.230
+Something like that so let's go back to the default view.
+
+01:57.350 --> 02:02.790
+Take a look at that that looks pretty good.
+
+02:02.870 --> 02:09.260
+We'll go with this until we get the final lighting and then we may adjust the scale or something like
+
+02:09.260 --> 02:10.540
+that.
+
+02:10.610 --> 02:15.710
+I think I want a different color along this sculpted area.
+
+02:15.860 --> 02:25.830
+I think I want it to be a darker kind of rock so I will go back to the U-V editing view.
+
+02:27.450 --> 02:30.640
+And as it turns out it's got the same materials as the walls.
+
+02:31.020 --> 02:36.920
+I think we should probably go ahead and give it its own material so I'll add a new material slot.
+
+02:37.790 --> 02:42.840
+And the new material to the slot are called the ceiling.
+
+02:43.620 --> 02:48.410
+And then I'll get rid of the walls.
+
+02:48.430 --> 02:51.450
+Let's take a look at the U-V map real quick.
+
+02:53.150 --> 03:04.760
+I'll go into edit mode and with everything selected we can see this U-V map and this right here this
+
+03:04.760 --> 03:10.650
+piece right here is that edge of the hole that I was talking about.
+
+03:10.700 --> 03:16.760
+So my thought is I would try and add rock type texture here.
+
+03:16.850 --> 03:25.070
+So with all of these selected I'm going to go to Uvas and export you lay out and the ceiling is actually
+
+03:25.070 --> 03:27.730
+going to be fairly big in the scene.
+
+03:27.920 --> 03:35.970
+So I think what I'm going to do is increase the image size from 10:24 to 2048
+
+03:40.360 --> 03:47.550
+and sense our resolution size is going to be 12:3 by 720 and that ceiling is going to take up a good
+
+03:47.550 --> 03:49.940
+part of the image.
+
+03:50.130 --> 03:56.260
+I'm going to make it fairly big so that the textures don't get pixilated and blurry.
+
+03:56.430 --> 04:02.400
+So I'll call this one ceiling Uvas and export it.
+
+04:02.430 --> 04:05.610
+And now let's go take a look at it in Gamp.
+
+04:05.610 --> 04:14.640
+So in Gamp I'll go to a file and open and in my images folder I'll take a look for that ceiling Uvas.
+
+04:14.640 --> 04:15.400
+Here it is.
+
+04:15.480 --> 04:17.240
+And I'll open that.
+
+04:17.580 --> 04:23.100
+Now for this I can once again put that sandstone texture on here I can probably use that.
+
+04:23.190 --> 04:25.050
+So I'll go ahead and open that up.
+
+04:26.250 --> 04:30.840
+And in my textures I'll use that sandstone seamless
+
+04:35.730 --> 04:46.470
+and now select it with command a copy with command C and then I'll put it over here with command V and
+
+04:46.470 --> 04:50.700
+to anchor that floating selection I'll go ahead and click a new layer.
+
+04:51.180 --> 05:02.710
+I'll go ahead and scale it down some with the scale tool and I'll click and go and scale it down a bit
+
+05:04.790 --> 05:14.070
+I'll move this layer down beneath the Uvas and I'll go to the moved tool and I'll move this down so
+
+05:14.070 --> 05:17.210
+it covers up that area.
+
+05:18.520 --> 05:21.250
+Now this may need to be pretty small and repeat.
+
+05:21.250 --> 05:24.260
+Let's see what we can do here.
+
+05:30.050 --> 05:33.980
+Go I'll duplicate this layer
+
+05:36.940 --> 05:38.360
+move that down.
+
+05:39.550 --> 05:43.780
+Go now for this top part.
+
+05:43.990 --> 05:51.040
+I think I'm going to have to take a look online and see if I can find some sort of a rock cliff kind
+
+05:51.040 --> 06:02.900
+of texture so to do that I'm going to go to Google here and I'll type in rock cliff texture and see
+
+06:02.900 --> 06:03.920
+what happens.
+
+06:05.430 --> 06:15.630
+Click images and search tools are good size and large and let's try something like let's see what we
+
+06:15.630 --> 06:16.540
+have here.
+
+06:18.150 --> 06:19.930
+Here's one that's not bad.
+
+06:20.280 --> 06:24.470
+Let's try this.
+
+06:24.480 --> 06:29.070
+So back in Gamp I'll go ahead and open that image.
+
+06:35.100 --> 06:42.840
+I only need a part of this so I'll go over here to the rectangle select tool and just drag an area out
+
+06:42.840 --> 06:43.790
+like this.
+
+06:45.630 --> 06:57.770
+And I'll press control or command see go back to my Uvas and for this press command the and to make
+
+06:57.770 --> 07:04.570
+this floating selection a new layer I'll just click new layer and then lets move this into place.
+
+07:04.740 --> 07:14.570
+I'll drag that down below all the other layers and let's just zoom in here and I'll scale this to fit
+
+07:17.370 --> 07:18.930
+see how this works.
+
+07:21.730 --> 07:28.250
+I might come in to the colors menu here and go to brightness and maybe brighten this up just a little
+
+07:28.250 --> 07:28.830
+bit.
+
+07:31.400 --> 07:34.790
+And we go let's try that.
+
+07:35.090 --> 07:39.840
+I'm going to press shift command J to frame everything up in the window here.
+
+07:40.010 --> 07:42.260
+Turn off the you Vees.
+
+07:42.770 --> 07:46.910
+So we don't get those in the image and then go to file export as
+
+07:51.020 --> 07:56.830
+and in the textures folder I'll save it as ceiling color and export
+
+08:02.950 --> 08:09.670
+back in Blendr Let's go ahead and add the nodes we need in the node editors so our press shift a and
+
+08:09.670 --> 08:18.520
+go to input and texture coordinate and then I'll press shift a and go to texture and image texture and
+
+08:18.520 --> 08:23.450
+I'll hook these up the Uvas to vector and the color to color.
+
+08:23.680 --> 08:28.890
+And then let's click open and find our texture in the textures folder.
+
+08:28.900 --> 08:32.630
+I'll grab that ceiling color and let's see how we did here.
+
+08:34.460 --> 08:35.300
+All right.
+
+08:35.630 --> 08:43.350
+So it's quite a bit different than the rest but let's see how we did.
+
+08:43.350 --> 08:44.300
+I don't know.
+
+08:44.580 --> 08:47.230
+I'll go to the default view here.
+
+08:47.610 --> 08:52.000
+And let's go to the camera view by hitting the zero key.
+
+08:52.250 --> 09:03.400
+And let's go ahead and go to the rendered viewport shading We'll work on balancing the colors of all
+
+09:03.400 --> 09:04.770
+the objects here.
+
+09:04.840 --> 09:11.860
+Once we get everything textured so let's go with this and then see how we're doing as we get closer
+
+09:11.860 --> 09:13.830
+to the final lining's set up.

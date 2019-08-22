@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.620 --> 00:07.390
+Usually you put that master control at the base or at the ground plane which is what I'm going to do.
+
+00:07.670 --> 00:13.880
+And usually the pivot point or the or the origin of that object is at the center of the grid.
+
+00:13.880 --> 00:20.670
+However I want this one to be able to fly kind of fly down into the scene.
+
+00:20.870 --> 00:27.410
+And I want it to be able to pivot kind of around where the jetpack thrusters are.
+
+00:27.410 --> 00:33.570
+So I want that pivot point that origin of that bone to be right about here.
+
+00:33.620 --> 00:42.890
+So to do that I'm going to come back into edit mode on these bones so all select one and go to Edit
+
+00:42.890 --> 00:44.460
+mode.
+
+00:44.870 --> 00:51.080
+So I will create one more bone here in edit mode I'll press shift a and that will pop into where the
+
+00:51.200 --> 00:52.670
+cursor is.
+
+00:52.670 --> 00:57.750
+I will select it and I'm going to go to the side view here and I'll move it up
+
+01:00.470 --> 01:01.820
+right around here.
+
+01:01.820 --> 01:07.640
+I want the pivot point to be right around here so the pivot point will be where this where the base
+
+01:07.640 --> 01:09.650
+of that bone is.
+
+01:09.650 --> 01:12.960
+So now I want to create a custom shape for it.
+
+01:14.810 --> 01:23.240
+So I'll go back to object mode de-select everything and create a circle and for this I will call this
+
+01:23.330 --> 01:25.140
+shape master.
+
+01:25.460 --> 01:27.970
+This will be the master control.
+
+01:28.280 --> 01:37.840
+And in addition I should probably in edit mode select that bone and let's name this one let me do that.
+
+01:37.840 --> 01:39.140
+Let's name this one.
+
+01:39.190 --> 01:53.260
+Master Control I'll select that bone in Poser mode and if we come over here to the bone panel custom
+
+01:53.350 --> 02:01.390
+shape call the shape and we'll select master and click wireframe.
+
+02:01.420 --> 02:10.060
+Now there is the control and what we need to do is rotate it and move it down to the grid floor.
+
+02:11.030 --> 02:16.900
+So I'll go into edit mode and let's begin rotating and see what we can do here.
+
+02:18.130 --> 02:19.430
+If I rotate it forward.
+
+02:19.450 --> 02:20.690
+OK that's good.
+
+02:21.820 --> 02:23.620
+Rotates that way.
+
+02:24.130 --> 02:28.430
+Well need to scale it some might think.
+
+02:28.570 --> 02:32.230
+And then if I move it let's see which way moves it up and down.
+
+02:32.230 --> 02:36.260
+This does move like this.
+
+02:36.370 --> 02:40.950
+And then I want to move it forward.
+
+02:40.980 --> 02:41.850
+That's right.
+
+02:41.860 --> 02:42.980
+I'll move this.
+
+02:42.990 --> 02:44.350
+No that's not right.
+
+02:44.370 --> 02:50.350
+Move it in the z and move it forward like this.
+
+02:50.390 --> 02:53.590
+I can see that to be a little bigger.
+
+02:53.670 --> 02:54.510
+So there we go.
+
+02:54.540 --> 03:01.240
+We've got the master control on the ground floor so we know that when it's zeroed out it's on the ground.
+
+03:01.590 --> 03:06.600
+But we also have it so that the pivot point is back here at the thrusters.
+
+03:06.600 --> 03:09.570
+So I'll go back to object mode.
+
+03:09.570 --> 03:17.970
+Let me select this and I'll move it to that level where we hide all the custom shapes.
+
+03:17.960 --> 03:21.180
+Now if I move this around it isn't going to do anything.
+
+03:21.570 --> 03:24.910
+I need to parent the proper items to it.
+
+03:25.350 --> 03:35.280
+And what I mean by proper items I know I want to parent this I know I want to parent this control to
+
+03:35.280 --> 03:35.610
+it.
+
+03:35.820 --> 03:45.420
+So I go back to edit mode and I want to parent the body to that master control so I'll select the body
+
+03:45.510 --> 03:54.500
+shift select the master control and press control P and keep offset.
+
+03:54.500 --> 04:04.320
+Now what else do I want if I select say I select this and pose mode and move it around well now that
+
+04:04.320 --> 04:07.520
+we've got this let's select this actually and move it around.
+
+04:07.770 --> 04:09.380
+What do I leave behind.
+
+04:09.780 --> 04:19.640
+Well I leave behind the feet and the heels but keep in mind the heels are Parenthood to the feet already
+
+04:20.490 --> 04:22.890
+and so are the knees.
+
+04:22.890 --> 04:29.310
+So I need to parent the feet to the master control.
+
+04:29.460 --> 04:38.510
+So I'll take one foot shift select the master control and parent that as well as the other one I to
+
+04:38.540 --> 04:40.180
+go.
+
+04:40.190 --> 04:47.900
+All right let's go back to pose mode again and I'll say like this one and let's move it and see what
+
+04:47.900 --> 04:48.350
+happens.
+
+04:48.350 --> 04:54.760
+OK so now we've got almost everything it looks like one of the neat controls is not Parenthood to a
+
+04:54.830 --> 04:57.830
+foot control so let's fix that.
+
+05:00.150 --> 05:01.910
+I'll come back over here.
+
+05:03.850 --> 05:05.220
+Let me test these.
+
+05:05.220 --> 05:08.380
+And let me just test this for a quick OK.
+
+05:08.390 --> 05:09.350
+That's fine.
+
+05:10.490 --> 05:18.190
+Let me go to Edit mode and I will select this and shift select the foot and parent that.
+
+05:18.270 --> 05:20.850
+So let's get that OK so now.
+
+05:21.120 --> 05:25.670
+Now select this control and pose mode and move it.
+
+05:25.920 --> 05:30.810
+So it looks like now all of the feet and the heel and the knees are moving along with it.
+
+05:30.810 --> 05:31.730
+That's good.
+
+05:32.040 --> 05:38.850
+But we've got problems with the hands the elbows.
+
+05:38.880 --> 05:51.050
+Let's work with those so we go back to edit mode select that arm I.K. and shift select the master and
+
+05:51.050 --> 05:52.120
+parent it.
+
+05:52.490 --> 05:53.740
+Let's try again.
+
+05:53.750 --> 05:58.420
+So I come back here to pose mode select them master control and move it.
+
+05:58.430 --> 06:01.610
+And why do we leave behind only the spotlight.
+
+06:01.610 --> 06:09.830
+All right let's get the spotlight now go back to edit mode shift select the master control P and keep
+
+06:09.830 --> 06:11.440
+offset.
+
+06:11.450 --> 06:17.310
+So now let's go back to pose mode select that master control and move it around.
+
+06:17.320 --> 06:21.170
+And sure enough there we go we can move it.
+
+06:21.170 --> 06:32.930
+Now notice that if I go to rotate it'll pivot around that point so it'll hopefully look like the thrusters
+
+06:32.930 --> 06:38.460
+are controlling the angle as it's coming down into the scene.
+
+06:39.700 --> 06:47.470
+And I also wanted to point out why I put this on the ground plane because if I take this and I move
+
+06:47.470 --> 06:54.400
+it move it up you can see that the y increases as I move it up right.
+
+06:55.970 --> 07:05.200
+But if I zero it out it goes right back down onto the ground plane the same with the feet.
+
+07:05.210 --> 07:11.970
+If I move this up I can zero out the Y and that will plant it back down on the ground.
+
+07:11.970 --> 07:19.260
+Now the reason why it's the why and not dizzy is because it's looking at it in local mode.
+
+07:19.880 --> 07:25.670
+The last thing I'm going to do here is go back to the armature panel and turn off x rays so we don't
+
+07:25.670 --> 07:32.280
+see the controls through the objects and now it looks a little bit better.
+
+07:32.460 --> 07:35.330
+It looks a little cleaner.
+
+07:35.580 --> 07:41.650
+I think the controls are pretty obvious pretty intuitive as to what they are.
+
+07:41.850 --> 07:47.410
+And as I said it's just cleaned up the seam quite a bit so that's about it.
+
+07:47.410 --> 07:50.870
+That's the rig for the mech.
+
+07:51.030 --> 07:53.910
+What we can do now is begin on the animation.

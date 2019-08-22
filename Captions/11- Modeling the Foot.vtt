@@ -1,0 +1,328 @@
+WEBVTT
+
+00:00.960 --> 00:04.520
+Well at this point I think I'd like to work on the foot.
+
+00:05.100 --> 00:11.410
+We're getting to the stage where we need to begin figuring out how tall this guy is going to be.
+
+00:11.410 --> 00:19.090
+Now I've brought him above the grid so far about this far.
+
+00:19.410 --> 00:28.540
+But let's add the foot and then we may need to move this guy up or down depending on the relationship
+
+00:28.540 --> 00:29.880
+with the flat.
+
+00:29.890 --> 00:31.040
+So let's work on that.
+
+00:31.060 --> 00:39.730
+I think just to block it out first I'm going to create a cube here and scale it down and I want to have
+
+00:39.730 --> 00:46.510
+this be just kind of the temporary heel for the foot.
+
+00:47.950 --> 00:54.160
+I think I will a couple of things here I think I'm going to change the pivot point from the 3D cursor
+
+00:54.160 --> 00:56.580
+to median point.
+
+00:56.740 --> 01:01.530
+So now that move manipulator is there in the center of that object.
+
+01:01.780 --> 01:09.760
+I'm going to press the three key to go to side view here to the right camera and then press the five
+
+01:09.760 --> 01:12.180
+key to go to orthographic view.
+
+01:12.490 --> 01:18.730
+And now I'm just going to place this so that this will be maybe the Heagle of the foot and I'll press
+
+01:18.730 --> 01:24.910
+shift D and click to duplicate this and move this forward for the toe.
+
+01:25.450 --> 01:25.830
+All right.
+
+01:25.830 --> 01:30.140
+So let's see what this is going to look like.
+
+01:30.140 --> 01:38.150
+So from the side view is this a good size for the foot.
+
+01:38.150 --> 01:39.830
+Now it's kind of big.
+
+01:42.060 --> 01:43.260
+However it might work.
+
+01:43.260 --> 01:49.030
+Let's let's take the rest of this thing and move it up some.
+
+01:49.050 --> 01:57.850
+So I'm going to change from local transformation to global I'm going to go into wireframe and I'm going
+
+01:57.850 --> 02:07.210
+to press the B key and click and drag to border select this and I'll hit the Z key again to come back
+
+02:07.210 --> 02:08.780
+out of wireframe.
+
+02:09.460 --> 02:11.770
+And now I think I'm just going to move this up.
+
+02:11.890 --> 02:23.150
+Let me go to the front camera and the five four orthographic and let me see how big do I want this
+
+02:26.150 --> 02:29.080
+maybe something like that.
+
+02:29.330 --> 02:36.030
+Like the foot the lower leg would come down about like that.
+
+02:36.060 --> 02:38.300
+Let's take a look at it from the side view here.
+
+02:41.810 --> 02:49.610
+Move this forward maybe just a little bit and this is why I've been keeping things fairly rough and
+
+02:49.610 --> 02:56.830
+simple here at the beginning is just to be able to move things around like this in case we needed to.
+
+02:57.320 --> 03:00.650
+Let me try it a little bit taller.
+
+03:02.170 --> 03:04.840
+So I'm thinking something like this.
+
+03:04.990 --> 03:08.830
+And of course for the Mac you're building it's completely up to you.
+
+03:08.830 --> 03:17.820
+How tall and what the proportions should be and what I want here is kind of a heel piece and a toe.
+
+03:17.860 --> 03:21.260
+And I'll put a joint in between here as well.
+
+03:22.280 --> 03:29.990
+So now that I've decided on the proportions and size of the foot I think I'll move these over to a new
+
+03:30.050 --> 03:32.390
+layer here a third layer.
+
+03:32.510 --> 03:39.260
+So I select those objects I'll press the M key and then I'll choose the third layer here and that will
+
+03:39.260 --> 03:41.330
+move those over.
+
+03:41.330 --> 03:47.720
+Now if I come over and select that layer there they are isolated on their own.
+
+03:47.750 --> 03:58.190
+So I come over here to the modifiers panel click add modifier click subdivision surface and if I go
+
+03:58.190 --> 04:05.100
+into edit mode with the tab key I can see my original mesh cage here.
+
+04:05.540 --> 04:13.040
+And so to get the shape I want and I'm going to begin inserting edge loops so press control are.
+
+04:13.490 --> 04:21.500
+And for this I will insert an edge loop by clicking and then I'm going to pull it back toward the heel
+
+04:21.500 --> 04:26.270
+of the foot and that gives me a little bit of a rounded edge up here.
+
+04:26.990 --> 04:34.730
+Maybe I'll insert an edge or loop down the center here and maybe if I press control tab and good edge
+
+04:34.730 --> 04:41.200
+I can slide this edge and bring it out just a bit like this.
+
+04:41.250 --> 04:44.670
+Now for this other one let's do the same kind of thing.
+
+04:44.790 --> 04:52.640
+I'm going to add the subdivision surface modifier press the tab key hit the A key to de-select.
+
+04:52.650 --> 04:58.420
+Now let's work on adding enough resolution to make this the shape that we want.
+
+04:58.670 --> 05:05.130
+So press control are and maybe this could use three subdivisions.
+
+05:05.170 --> 05:13.320
+Let's see how this works click and then click again and let's add one down the center here.
+
+05:15.960 --> 05:20.320
+And for this once again maybe I could select that edge and pull it back a bit.
+
+05:22.420 --> 05:28.740
+I just want to add one edge loop here on the side maybe even pull it down a bit.
+
+05:30.270 --> 05:35.140
+So the bottom is a little flatter and I'll do that with this one as well.
+
+05:40.090 --> 05:47.470
+So now that I have the basic shape that I want and I'm going to apply the modifiers so that I can work
+
+05:47.470 --> 05:49.880
+with the resolution that I see here.
+
+05:49.900 --> 05:58.210
+So if I selected this and hit the tab key here I'd still see the original cage but if I come over here
+
+05:58.570 --> 06:07.270
+and click on this button here I can kind of see how the polygons will be split up if I increase the
+
+06:07.270 --> 06:13.540
+view here you can see a little bit more how the polygons would be split up into smaller segments but
+
+06:13.540 --> 06:21.730
+I'm going to keep it at one here so I'm going to go to object mode and I'm going to press apply now.
+
+06:21.750 --> 06:29.520
+Hit the tab key you can see how it has broken it up into these smaller faces and that's good that's
+
+06:29.520 --> 06:30.900
+what we want for this.
+
+06:30.900 --> 06:35.310
+I'll do the same thing for this one click apply.
+
+06:35.310 --> 06:40.150
+And there we have a little more resolution to the object.
+
+06:40.260 --> 06:48.180
+I think I can remove this edge and perhaps this edge and do a little bit better with this.
+
+06:48.210 --> 06:54.960
+Now the way to delete edges is once again to hit the x key for delete.
+
+06:54.960 --> 06:59.430
+But instead of just hitting edges you need to come down here to dissolve edges.
+
+06:59.430 --> 07:02.220
+Because if I just click edges I get that.
+
+07:02.220 --> 07:09.270
+And that's not what I want someone to undo that and I'll press X and then dissolve edges allows me to
+
+07:09.270 --> 07:14.680
+get rid of those edges while still keeping all the faces.
+
+07:14.700 --> 07:25.180
+So now I can select these edges and begin spacing them out so that I get four nicely spaced polygons
+
+07:25.930 --> 07:28.010
+for my extrusion here.
+
+07:28.510 --> 07:36.000
+So now if I select four this way I'll also select four this way.
+
+07:36.310 --> 07:45.550
+So now I've got all of these faces that I can delete to insert my round shape or my cylinder and when
+
+07:45.550 --> 07:54.310
+I create that cylinder I'm going to have to create it using four times 4 or 16 sides so I'll hit the
+
+07:54.310 --> 07:57.060
+x key and delete faces.
+
+07:57.520 --> 08:04.510
+Why don't I move this pivot point into the center of this edge here so I'll go to edge mode and press
+
+08:04.600 --> 08:12.010
+alt and select and now move the pivot point with shift s using cursor to selected.
+
+08:12.160 --> 08:19.360
+And now when I create that cylinder it'll pop into the center of this object for the 3D cursor is.
+
+08:19.510 --> 08:22.000
+So I create a cylinder.
+
+08:22.070 --> 08:23.710
+It's kind of big but that's OK.
+
+08:25.000 --> 08:29.160
+And we'll change this to what did we say 16.
+
+08:30.340 --> 08:35.100
+And we're going to want the cap Phil to be triangle.
+
+08:35.100 --> 08:35.600
+All right.
+
+08:35.620 --> 08:47.560
+So now if we go to face mode de-selected with the key hit the B key and select all of these faces and
+
+08:47.680 --> 08:51.250
+delete them delete faces.
+
+08:51.320 --> 08:58.340
+Now we can begin moving this and scaling this so it fits within this object.
+
+08:58.570 --> 09:07.180
+I'm going to pull this down here and go to the tools tab and move the origin back to the center of the
+
+09:07.180 --> 09:10.080
+geometry we go.
+
+09:10.310 --> 09:18.700
+So scale this down and move it down here to where the object is let's maybe go to the side view here
+
+09:19.700 --> 09:22.930
+and take a look at placing it well here.
+
+09:24.590 --> 09:33.050
+And we go I just need to select this object and shift select the first and press control J to join them
+
+09:33.050 --> 09:34.250
+together.
+
+09:34.340 --> 09:38.960
+Then when I hit the tab key to go into edit mode.
+
+09:38.960 --> 09:45.500
+Now that we can see they're all one object all press control tab and go into edge mode.
+
+09:45.500 --> 09:51.470
+Now to connect the two pieces of this object we've selected points and used the merge table with alt
+
+09:51.570 --> 09:56.240
+M but let's try something different here let's try to use the bridge tool.
+
+09:56.240 --> 10:00.890
+What I'm going to do is all select this edge so it selects the whole thing all the way around and then
+
+10:00.890 --> 10:06.920
+I'll press shift alt and select this edge to select that entire edge loop as well.
+
+10:06.920 --> 10:11.690
+Now what let's do is let's try the bridge tool under the edges menu.
+
+10:11.750 --> 10:15.970
+So going to press control easy to get to the edges menu.
+
+10:17.460 --> 10:26.630
+You can also press control f to get to the faces menu or control V to get to the vertices menu.
+
+10:26.640 --> 10:32.110
+But let's do control E and then down here is bridge edge loops.
+
+10:32.190 --> 10:34.480
+So I'll just click this and see what happens.
+
+10:35.500 --> 10:39.310
+And there we go those begin to connect up there.
+
+10:39.370 --> 10:48.400
+So now we have our foot here with a round piece that we can extrude out to place the joint or the ankle
+
+10:48.550 --> 10:49.060
+into.

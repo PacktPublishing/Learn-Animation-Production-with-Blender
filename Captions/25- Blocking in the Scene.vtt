@@ -1,0 +1,193 @@
+WEBVTT
+
+00:00.660 --> 00:02.960
+I think I'll also put a floor down.
+
+00:02.970 --> 00:09.310
+So just in the create tab or create a plane and I'll just scale this out.
+
+00:10.670 --> 00:17.150
+For now I don't know if this is going to be the actual permanent floor but I'd like to kind of get a
+
+00:17.150 --> 00:24.500
+floor down just to get a sense of this in this one image here we've got these
+
+00:27.160 --> 00:33.750
+cross-bars going along where the pillars are and then branching out from the pillars.
+
+00:33.840 --> 00:43.100
+Like I may want to try and replicate that and over here for these We've got these cubes on top of the
+
+00:43.100 --> 00:46.750
+pillars here so perhaps I need those as well.
+
+00:46.760 --> 00:54.290
+So first of all I think I'll work on creating some of these cross pieces here with Cube and I will go
+
+00:54.290 --> 01:03.140
+to my top view if the seven key and then the orthographic view with five and I'll hit the Z key to go
+
+01:03.140 --> 01:13.990
+to wireframe so I can see the top view a little better and I'll scale this up and maybe
+
+01:18.600 --> 01:26.860
+scale this in the y like this for this cross-piece here.
+
+01:33.110 --> 01:39.800
+Move it up to give it some room for those blocks on the top of the columns and then for each of those
+
+01:39.810 --> 01:45.330
+I'll go ahead and duplicate this and I'll rotate it 90 degrees.
+
+01:47.800 --> 01:51.610
+And I'll place this above each one of these here
+
+02:00.100 --> 02:00.750
+OK.
+
+02:00.750 --> 02:05.790
+So we've got something like this.
+
+02:06.180 --> 02:14.040
+And let me just take the floor and duplicate it and move it up just to get a sense of how this is looking
+
+02:18.600 --> 02:22.440
+and to enclose the space I'll go ahead and just duplicate this again.
+
+02:23.640 --> 02:29.810
+And move it to the side and I'll rotate this 90 degrees just so we get a wall over here.
+
+02:29.940 --> 02:32.440
+And as you can tell I'm just blocking things in.
+
+02:32.440 --> 02:37.990
+I'm not exactly sure how this is going to work.
+
+02:38.300 --> 02:46.980
+And I don't think you ever are even if you have a lot of reference images which I don't know but I'm
+
+02:46.980 --> 02:51.230
+still just trying to block in the space just to get a sense of it.
+
+02:53.490 --> 02:56.340
+I don't think there's anything wrong with that.
+
+02:58.750 --> 03:04.760
+I'll duplicate this and move it over and rotate it 90 degrees.
+
+03:05.700 --> 03:14.010
+So I push our z and type in 9 0 and that will rotate that 90 degrees
+
+03:19.560 --> 03:26.010
+and I guess I'd better put that over here too shifty and move it over to this side.
+
+03:29.310 --> 03:32.230
+Just to put the cubes on top of the pillars here.
+
+03:32.230 --> 03:38.760
+I'll go ahead and create a cube and bring this up and put these on top of the pillars just so I get
+
+03:38.760 --> 03:43.310
+a better sense of how the room is beginning to come together.
+
+03:56.100 --> 04:03.080
+And in the top orthographic view I'll grab that cube and go ahead and duplicate it to the other pillars
+
+04:03.090 --> 04:04.290
+as well.
+
+04:10.690 --> 04:20.740
+The next thing I should do is bring in a camera a render camera and get it framed so that I know approximately
+
+04:20.800 --> 04:28.930
+what the cameras are going to see in the scene because if I don't set up a render camera early the danger
+
+04:28.930 --> 04:36.190
+is that I could do a lot of extra work that isn't then going to be seen by the final rendered animation.
+
+04:36.400 --> 04:43.720
+So I'm going to go ahead and create a camera by going to the Create tab over here and all the way down
+
+04:43.720 --> 04:44.470
+at the bottom.
+
+04:44.470 --> 04:51.000
+Clicking on camera and then you create this camera here in the middle of the scene.
+
+04:51.240 --> 04:52.620
+I'm going to pull it back.
+
+04:53.430 --> 04:56.190
+So it's viewing the scene.
+
+04:56.190 --> 05:00.290
+And now I can't really see through it at this point in time.
+
+05:00.420 --> 05:05.950
+So what I'm going to do is create a new window to see through this camera.
+
+05:06.090 --> 05:15.200
+I'm going to call this camera render camera I'm going to take this little triangular tab right up here
+
+05:15.200 --> 05:22.570
+at the top of the 3D view and click on that and drag it down and that will create a whole new window.
+
+05:23.030 --> 05:27.290
+And each one of these windows has this little tab on it.
+
+05:27.290 --> 05:35.450
+You can see it on all of these so you can click and drag new windows wherever you want if you ever want
+
+05:35.450 --> 05:38.610
+to get rid of a window or collapse it back.
+
+05:38.750 --> 05:47.000
+You can come over here in between the two windows right click Choose join the area and you'll get this
+
+05:47.000 --> 05:52.820
+arrow you can move the mouse and you'll get this arrow and you can say which one you want to collapse
+
+05:53.000 --> 05:59.820
+into the other so I can collapse this one up to get rid of that top window.
+
+06:00.100 --> 06:09.250
+So I'm going to click this and drag it down and I'm going to change the view of this window to see through
+
+06:09.250 --> 06:10.490
+this camera.
+
+06:10.510 --> 06:17.440
+So what I can do with it selected I can press the zero key on the numpad and it will switch the view
+
+06:17.440 --> 06:19.420
+to look through that camera.
+
+06:19.420 --> 06:27.190
+Now what I can do is I can come down here into my perspective view and begin moving this camera around
+
+06:27.190 --> 06:31.410
+like this so I can see what it's going to look like.
+
+06:31.490 --> 06:43.260
+So if I pull this camera back some and I can rotate it something like this you can just kind of get
+
+06:43.260 --> 06:48.660
+a sense of what the view is going to look like.
+
+06:48.750 --> 06:58.460
+The camera will probably move in some like this and probably end up around like that but I want to get
+
+06:58.460 --> 07:02.160
+it at the beginning of the shot like this.
+
+07:03.310 --> 07:10.840
+So that just gives us a sense of what we need to build how big our view needs to be because honestly
+
+07:10.840 --> 07:19.330
+there's nothing worse than creating a lot of objects texturing sculpting whatever and then realizing
+
+07:19.330 --> 07:23.720
+that in the final shot they're not even going to be in view.
+
+07:23.830 --> 07:28.380
+So that's why I like to get a render camera in the scene as early as possible.

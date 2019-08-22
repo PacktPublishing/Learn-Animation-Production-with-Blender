@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.650 --> 00:05.720
+Well we finally come to the part of the process where we can actually begin animating.
+
+00:05.840 --> 00:12.200
+There are a couple of housekeeping chores that we should do before we begin I think one of the things
+
+00:12.200 --> 00:17.950
+I should do is take the camera and the light in the scene.
+
+00:19.370 --> 00:24.950
+And I will move them to layer 2 just so they're out of the way.
+
+00:26.750 --> 00:35.630
+In addition as I go through the process of animating here I don't want to accidentally select say the
+
+00:35.630 --> 00:44.990
+Mac or the floor or a pillar so I should really go through and restrict the selection of these so I
+
+00:44.990 --> 00:47.320
+can't accidentally select them.
+
+00:47.570 --> 00:54.260
+For example say this floor if I select the floor and then hover over the outliner and press the period
+
+00:54.260 --> 00:57.940
+key on the numpad it will frame up that object.
+
+00:57.980 --> 00:59.350
+So I can see it here.
+
+00:59.600 --> 01:04.490
+I'm going to go ahead and click on the arrow and turn off the select ability of that.
+
+01:04.490 --> 01:07.550
+So I can't select it at all.
+
+01:08.000 --> 01:16.000
+And I want to go through and do a similar thing to the rest of the objects in the room.
+
+01:16.100 --> 01:22.460
+Now for the Mac I should probably go ahead and select or restrict these as well
+
+01:31.340 --> 01:38.270
+and for the fingers I'll just select the top arrow here and just click and drag down to de-select them
+
+01:45.830 --> 01:50.300
+and I'll restrict the light on the Mac as well.
+
+01:50.300 --> 01:58.040
+All right so that ensures that I won't accidentally restrict any part of the MX body while we're animating.
+
+01:58.040 --> 02:01.330
+I can only select the actual rig itself.
+
+02:03.700 --> 02:07.900
+The next thing I should do is set the frames per second.
+
+02:08.200 --> 02:14.040
+Over here in the render panel if I scroll down here I can see frame rate.
+
+02:14.260 --> 02:21.240
+So I've currently got it set to 24 frames per second so that's what I would suggest you do as well.
+
+02:21.250 --> 02:25.810
+The next thing I need to do is kind of think about how long my animation is going to be.
+
+02:25.810 --> 02:33.550
+Currently I'm at 250 frames and that's just over 10 seconds what I'd like to do is probably set it to
+
+02:33.790 --> 02:35.200
+15 seconds.
+
+02:35.200 --> 02:41.860
+I'm not sure but I just want to have enough time to get all the action in that I want and you can extend
+
+02:41.860 --> 02:43.150
+this at any point in time.
+
+02:43.150 --> 02:52.590
+So this isn't like it's written in stone or anything but at 24 frames a second time's 15 seconds.
+
+02:52.930 --> 02:54.120
+I can actually type.
+
+02:54.130 --> 03:04.270
+I can actually click in here and type 15 and an asterix times 24 and hit enter and that will give me
+
+03:04.270 --> 03:05.980
+360 frames.
+
+03:06.190 --> 03:11.380
+So I know now that my time line is going to be 15 seconds long.
+
+03:11.380 --> 03:18.020
+So I can click with the middle mouse button here and drag and move the timeline here.
+
+03:18.310 --> 03:23.740
+And then I can also scroll the mouse wheel and zoom in or out on the timeline.
+
+03:23.740 --> 03:32.710
+So I'll just Center up my timeline here this green line on the timeline is an indicator of what frame
+
+03:32.720 --> 03:35.510
+we're on as we play our animation.
+
+03:35.560 --> 03:42.580
+If I hit play here you can see that the animation begins playing and we can see where we are on the
+
+03:42.630 --> 03:44.710
+timeline as it plays through.
+
+03:44.950 --> 03:52.480
+We'll hit pause here and then I'll hit this button to go back to the beginning for each major movement
+
+03:52.480 --> 03:59.950
+in the animation we will be putting a key frame at particular points on the timeline and all a key frame
+
+03:59.950 --> 04:05.520
+is just a marker at a specific time and a specific place.
+
+04:05.530 --> 04:12.280
+So the process will be that will move the mic and pose it in a particular position at a particular place
+
+04:12.280 --> 04:18.340
+in time and then will insert a key frame and you can see appear in the Tools tab that we've got insert
+
+04:18.340 --> 04:25.990
+key frame and the shortcut is the key and remove keyframe and the shortcut for that is Alt.
+
+04:25.990 --> 04:36.090
+I now up here in the screen out menu we could change to the animation screen the layout would click
+
+04:36.090 --> 04:36.920
+that.
+
+04:37.050 --> 04:40.810
+Now we see that we've got a couple of things going on here.
+
+04:40.860 --> 04:47.400
+We've got our normal perspective view here that we can pose and move our character.
+
+04:47.400 --> 04:53.820
+Over here we've got what's called the dope sheet and this is really just a spreadsheet of all of our
+
+04:53.820 --> 04:54.810
+key frames.
+
+04:54.840 --> 05:03.150
+So as we create key frames for each of these each of these objects here on the Meck we will see them
+
+05:03.270 --> 05:06.070
+arranged in the dope sheet over here.
+
+05:06.150 --> 05:14.670
+Down here is the graph editor and the graph editor is where we will actually adjust our curves between
+
+05:14.700 --> 05:23.010
+the keyframes animation programs by default will attempt to create smooth curves between each of our
+
+05:23.010 --> 05:23.930
+key frames.
+
+05:23.950 --> 05:30.800
+It'll create what's called in-betweens up here in the right hand corner is another 3D view.
+
+05:30.990 --> 05:36.600
+And this one we can use to see or scene through our render camera.
+
+05:36.600 --> 05:44.580
+Now what I'll need to do is select this layer that the camera is on and let me zoom out a bit and just
+
+05:44.580 --> 05:46.530
+select that.
+
+05:46.530 --> 05:55.750
+Now if I hover over this and press the zero key it should frame up the scene now within the camera.
+
+05:55.800 --> 06:02.670
+I think that about does it for the prep work for animation in the next video will start animating the
+
+06:02.670 --> 06:02.990
+Mac.

@@ -1,0 +1,457 @@
+WEBVTT
+
+00:00.660 --> 00:08.550
+Let's now work on creating foot roll reg for the character's feet I'm going to select one of these bones
+
+00:08.550 --> 00:09.880
+here and zoom in.
+
+00:10.080 --> 00:18.360
+And what I want to do is have the ability to roll the foot forward while keeping the toe planted on
+
+00:18.360 --> 00:19.370
+the ground.
+
+00:19.650 --> 00:25.700
+And also I want the ability to be able to roll the foot back while keeping the heel planted on the ground.
+
+00:25.980 --> 00:29.140
+So let's take a look at how we might create that.
+
+00:29.340 --> 00:35.630
+We're going to need to create a few extra bones here to be able to control that motion.
+
+00:35.670 --> 00:38.850
+So let's go back into edit mode here.
+
+00:40.190 --> 00:48.690
+And if I selected this joint right here I'm going to go in and close the properties panel.
+
+00:48.690 --> 00:56.660
+Now I'm going to select that joint there and press shift ass and snap the cursor to the selected and
+
+00:56.690 --> 00:59.150
+I want to create a bone right here.
+
+00:59.150 --> 01:02.650
+So I'm going to press shift a and there it is.
+
+01:02.660 --> 01:09.730
+So now I'm going to go to my side view with the three key and orthographic view with the five key and
+
+01:09.740 --> 01:13.750
+I'm going to press the G key and I'm a whole down control.
+
+01:13.760 --> 01:18.960
+And as I move this down it all snap to the grid.
+
+01:18.960 --> 01:20.860
+So I want it to be right about
+
+01:23.520 --> 01:24.640
+right about here.
+
+01:26.220 --> 01:31.680
+Now I want to while this is selected I want to snap the cursor to that.
+
+01:31.800 --> 01:38.040
+So I'll move the cursor there and I'm going to press shift day to create a new bone and I want to do
+
+01:38.040 --> 01:40.590
+the same thing here I'm going to press the G key.
+
+01:40.590 --> 01:47.600
+Hold the control key down to snap to the grid and move this back to about right here.
+
+01:48.740 --> 01:59.170
+Now I need to rotate this bone back so that the tip is here and the root of the bone is here.
+
+01:59.480 --> 02:09.270
+So what I'll do is press R hold down the control key and spin it around until it snaps right there and
+
+02:09.290 --> 02:11.360
+click.
+
+02:11.360 --> 02:18.610
+Now I just need to create two more bones and those bones need to be based out of the ankle joint.
+
+02:18.830 --> 02:26.600
+So I'll move the cursor to that press shift a and for this one I'm going to press g hold the control
+
+02:26.600 --> 02:33.010
+key down and I want to bring it out straight back about like that.
+
+02:33.220 --> 02:39.350
+And then I want to create one more bone I'll de-select the bones press shift a.
+
+02:39.670 --> 02:45.610
+And now this one I want to hit the press control and bring all the way down and have it go straight
+
+02:45.610 --> 02:49.260
+down like this.
+
+02:49.280 --> 02:49.940
+All right.
+
+02:49.940 --> 02:56.100
+So those are the bones we need to create this foot control rig we need this bone.
+
+02:56.150 --> 03:02.510
+So the foot can rotate up at this joint leaving the toe on the ground.
+
+03:02.510 --> 03:07.430
+We need this bone so the heel can rotate back.
+
+03:07.670 --> 03:17.060
+At this point we need this bone to control those two movements and we need this bone here to move the
+
+03:17.060 --> 03:24.560
+entire thing to be the main foot control to move the entire foot and leg around.
+
+03:24.560 --> 03:34.020
+So let's name these bring the properties panel back and for this one let's call this toe roll.
+
+03:34.150 --> 03:44.170
+Al for the one at the heel Let's call this heel roll.
+
+03:44.650 --> 03:55.160
+Al this went up here we can call foot roll control.
+
+03:55.380 --> 04:03.260
+Well and this one down here we'll call foot control.
+
+04:03.460 --> 04:09.710
+So now we're going to need to do some parenting to get this all working correctly.
+
+04:09.880 --> 04:17.620
+The first thing imma do is parent the foot I.K. let me tumble around to choose that.
+
+04:17.730 --> 04:19.450
+Here it is.
+
+04:19.570 --> 04:21.220
+I need to parent this foot.
+
+04:21.220 --> 04:26.450
+I k bone to the toe so I'll select that foot.
+
+04:26.480 --> 04:36.110
+I.K. shift select the toe roll control press control P and keep offset.
+
+04:36.110 --> 04:37.090
+Now I need this leg.
+
+04:37.100 --> 04:46.180
+The toe roll bone shifts select the heel roll and control the and keep offset and then I'm going to
+
+04:46.230 --> 04:54.310
+Slyke this heel roll and shift select the foot roll control and then I'm going to parent.
+
+04:54.310 --> 05:04.260
+Both of these two this main foot control here saw shift select that and press control P and keep offset.
+
+05:04.270 --> 05:12.490
+Now theoretically if I go to pose mode and select this bone now I should be able to hit the G key and
+
+05:12.490 --> 05:17.260
+move this whole thing around all right.
+
+05:17.590 --> 05:20.790
+So now we need to add our constraints.
+
+05:21.070 --> 05:26.290
+What I need to do is select this toe roll bone add a copy constraint
+
+05:29.480 --> 05:32.810
+and for the target We'll of course choose armature.
+
+05:32.810 --> 05:44.940
+And for this we need to choose that foot roll control like that will choose local space for both of
+
+05:44.940 --> 05:52.150
+these and we'll turn off the Y and Z so that it only rolls in the x axis.
+
+05:52.500 --> 06:01.950
+So to test this let me select this bone and I'm going to turn on my rotation manipulators here and I'm
+
+06:01.950 --> 06:11.370
+going to roll this now in the x axis and you can see how as I roll that foot roll control bone it rolls
+
+06:11.670 --> 06:15.090
+that foot forward.
+
+06:15.100 --> 06:22.430
+Now we need to limit that constraint so let's go ahead and add a new constraint to the Toban here.
+
+06:22.710 --> 06:24.820
+I'll add a constraint.
+
+06:25.780 --> 06:38.430
+Limit rotation and for this LIT's limited in the X and let's set a maximum here of say 45 degrees and
+
+06:38.430 --> 06:41.740
+we'll change this to local space.
+
+06:41.760 --> 06:49.320
+So now if I choose that foot roll control and roll it forward you can see that after a certain point
+
+06:49.950 --> 06:53.040
+it does not affect it.
+
+06:54.250 --> 07:00.490
+All right let's do the same thing for the heel now we want to set up a copy rotation constraint for
+
+07:00.490 --> 07:01.700
+this as well.
+
+07:02.170 --> 07:07.990
+So I'll come over here create a copy rotation constraint.
+
+07:08.410 --> 07:16.820
+The target will be armature the bone will be the foot roll control.
+
+07:17.260 --> 07:24.930
+It gets all weird here so let's switch it to local space and that should help.
+
+07:24.980 --> 07:32.480
+Let's turn off the Z and the Y and for this we want to have it roll in the opposite direction so we're
+
+07:32.480 --> 07:34.910
+going to check invert here.
+
+07:36.050 --> 07:42.670
+Now let's also add limit rotation constraint here just like we did before.
+
+07:42.920 --> 07:50.750
+Well choose local space will limit it in the X and put in 45 degrees.
+
+07:50.750 --> 07:52.590
+And let's test this.
+
+07:52.610 --> 07:58.850
+So if I roll forward he rolls up on his toe right there on the toe joint.
+
+07:58.850 --> 08:03.770
+But if I roll it back now it's not working.
+
+08:03.950 --> 08:06.810
+And why is that what we want.
+
+08:06.810 --> 08:09.340
+Is this heel to roll up.
+
+08:09.360 --> 08:12.340
+It seems to be rolling down.
+
+08:12.630 --> 08:13.260
+Well let's do it.
+
+08:13.260 --> 08:15.990
+Let's take a look at the bone roll.
+
+08:15.990 --> 08:21.540
+So going to go back into edit mode and take a look at this bone right here.
+
+08:21.540 --> 08:29.220
+Now if you recall when we go back to here and look at the axes remember we dealt with the X season when
+
+08:29.220 --> 08:31.700
+we were creating the reg.
+
+08:31.710 --> 08:38.050
+And right now the positive is rolling down c toward the Z.
+
+08:38.220 --> 08:45.630
+We're rotating in the x axis and the positive is toward the Z what we actually want is we want the positive
+
+08:45.630 --> 08:48.450
+to be pointing up.
+
+08:48.460 --> 08:53.340
+So if you look here the roll of this bone is 180 degrees.
+
+08:53.380 --> 08:56.740
+I flipped it around when I created it.
+
+08:56.740 --> 09:02.790
+So what we want to do is we want to zero out the roll of the x axis.
+
+09:03.080 --> 09:12.430
+Let me turn axes off here for a minute and if I select this bone in edit mode and press control in.
+
+09:12.740 --> 09:23.210
+Now I've got selection of ways to recalculate the bone roll and what I want is this local x tangent
+
+09:23.480 --> 09:24.940
+so I'll click this.
+
+09:25.550 --> 09:29.000
+And now that roll has been zeroed out.
+
+09:29.240 --> 09:29.530
+All right.
+
+09:29.540 --> 09:34.970
+So let's go back now to pose mode and then select this bone.
+
+09:34.970 --> 09:38.090
+And if I roll it forward we get that.
+
+09:38.090 --> 09:39.690
+And if I roll it back.
+
+09:39.860 --> 09:43.980
+Now we get the proper role of the heel.
+
+09:44.330 --> 09:54.190
+So that's all that was was just I needed to recalculate or zero out the roll of that particular bone.
+
+09:54.200 --> 09:54.590
+All right.
+
+09:54.590 --> 09:57.970
+So we're almost done with our foot roll here.
+
+09:58.130 --> 10:05.660
+What we need now is when this rolls forward we need the toe to stay planted on the ground so to keep
+
+10:05.660 --> 10:14.120
+this toe planted on the ground let's select it and let's add a bone constraint and let's use a copy
+
+10:14.120 --> 10:17.090
+rotation constraint right here.
+
+10:17.090 --> 10:25.440
+And for our target let's choose the armature and for the bone all target that toe roll bone.
+
+10:25.490 --> 10:31.730
+Now it's going to flip around and that looks painful but let's change it to local space and that should
+
+10:31.730 --> 10:44.820
+help let's turn off the Y and Z here and for this one instead of choosing Inver Let's check offset.
+
+10:44.830 --> 10:48.970
+So let me select this bone and rotate it forward.
+
+10:48.970 --> 10:51.850
+Now you've got the toe planted on the ground.
+
+10:52.160 --> 10:53.100
+Let's roll it back.
+
+10:53.110 --> 10:56.010
+And now you've got the heel planted on the ground.
+
+10:56.290 --> 11:03.910
+So you have a nice foot roll there that really helps when you're trying to animate with a walk or a
+
+11:03.910 --> 11:07.440
+run or something like that.
+
+11:07.480 --> 11:15.640
+The last part of controlling the leg here is going to be controlling the knee angle what we need is
+
+11:15.640 --> 11:22.360
+a bone out here in front of the knee that will allow us to point the knee in the direction that we want.
+
+11:22.360 --> 11:31.570
+So if I'm going to move say the leg like this perhaps I'd want this need to point over the foot to create
+
+11:31.570 --> 11:32.980
+something like that.
+
+11:33.340 --> 11:37.630
+Let's go into edit mode again and select this joint.
+
+11:37.620 --> 11:44.240
+I'll snap the cursor to it and I'll go ahead and create a bone there with shift a.
+
+11:44.550 --> 11:50.940
+So now with this bone selected I'm going to go to my move tool and I just want to move it straight out
+
+11:51.300 --> 11:56.440
+straight out from that knee there and I'll give this a name.
+
+11:56.440 --> 12:02.270
+Call this knee control doc.
+
+12:04.010 --> 12:09.480
+So what we're really doing with this is controlling the angle of the I.K. chain.
+
+12:09.620 --> 12:17.440
+So going to go back into pose mode and select that lower leg bone where the I.K. constraint is.
+
+12:17.540 --> 12:25.400
+And if you see here you've got a field called Pole target and that if we choose the armature and then
+
+12:25.400 --> 12:33.920
+the bone knee I'll choose the control that will now point the knee at that bone.
+
+12:33.920 --> 12:39.350
+But the problem is is it's not pointed exactly at it.
+
+12:39.410 --> 12:46.490
+We need to adjust this pole angle field if I click and drag in here I can rotate that knee so it points
+
+12:46.490 --> 12:51.420
+more at that object.
+
+12:51.610 --> 12:53.260
+So let's test this.
+
+12:53.260 --> 13:01.990
+I'm going to select the leg and move it up and then I'm going to move this over and let's get this knee
+
+13:01.990 --> 13:11.120
+pointed right at that let me adjust the pole angle a bit so it points right at that bone.
+
+13:12.020 --> 13:13.360
+There you go.
+
+13:13.400 --> 13:21.350
+So it looks like for me the pole angle is going to be negative 50 so I'm going to zero out the location
+
+13:21.380 --> 13:28.970
+or transform of all the bone so disliked everything with a in posed mode and press alt G and that will
+
+13:28.970 --> 13:32.980
+move everything back to its original position.
+
+13:32.990 --> 13:36.850
+So now I can move the leg here.
+
+13:37.080 --> 13:43.280
+I can roll the foot forward and back.
+
+13:44.420 --> 13:47.680
+And I can move the knee around as well.
+
+13:50.400 --> 13:58.380
+Now I should probably parent this need to the foot so it doesn't get lost in the scene when we're moving
+
+13:58.380 --> 14:01.070
+the whole character around.
+
+14:01.140 --> 14:08.550
+So I'll go back to edit mode here and select the control and then I'll shift select that main foot control
+
+14:08.550 --> 14:13.300
+down here press control P and keep offset.
+
+14:13.740 --> 14:20.620
+So now if I go back to pose mode I can see that that Niek control follows along.
+
+14:21.030 --> 14:25.620
+And then once it's in place I can select it and move it around as well.
+
+14:27.560 --> 14:31.830
+All right alt G.
+
+14:32.160 --> 14:34.440
+And we're back.
+
+14:34.600 --> 14:42.140
+So I will go ahead and complete the foot roll rig on the other foot as well as the knee control.
+
+14:42.370 --> 14:49.600
+But in the next video we'll work on setting up an exchange for the arms and controls for the fingers.

@@ -1,0 +1,451 @@
+WEBVTT
+
+00:00.720 --> 00:07.830
+Continuing on with the materials of the mech Let's take a look at the tubes and the spotlight on top
+
+00:07.830 --> 00:08.930
+of him.
+
+00:09.090 --> 00:13.970
+If I zoom in here let's take a look at these pieces.
+
+00:14.430 --> 00:22.880
+So the tubes here are still curves they're not polygon objects yet.
+
+00:23.130 --> 00:28.490
+If we press the Z key we can see the curve here.
+
+00:28.620 --> 00:34.050
+If we hit the tab key we can still see the Bezier curves in here.
+
+00:34.050 --> 00:38.190
+I think I'm going to continue to leave them as curves for now.
+
+00:38.190 --> 00:41.410
+I still don't need to change them to polygons.
+
+00:41.490 --> 00:44.630
+We may in the future once we begin rigging them back.
+
+00:44.640 --> 00:47.860
+But for now I'll go ahead and leave them as curves.
+
+00:48.030 --> 00:51.430
+So we have a rubber material already created.
+
+00:51.600 --> 00:53.350
+Let's take a look at that.
+
+00:53.430 --> 00:59.220
+The rubber mech joints material we could assign these to that material.
+
+00:59.220 --> 01:00.850
+Let's take a look at that.
+
+01:00.850 --> 01:04.280
+Let me switch over to my rendering viewport.
+
+01:04.600 --> 01:08.190
+Now I think I'd like these to be a different color.
+
+01:08.190 --> 01:14.720
+So I think what I'll do is go ahead and create a new material slot here and then create a new material
+
+01:16.610 --> 01:22.900
+and for this material let's call it rubber neck tubes.
+
+01:23.750 --> 01:27.790
+And I think this material should be a little bit darker.
+
+01:27.830 --> 01:31.260
+I'll take it down quite a bit like that.
+
+01:32.280 --> 01:39.750
+Not much has changed here but if I take this particular one and remove this material slot from this
+
+01:39.810 --> 01:47.220
+object now we see that the only material left is that tube material.
+
+01:47.220 --> 01:55.560
+So I think this is the one I want to go with I'll go back to my texturing viewport Slyke that hose and
+
+01:55.620 --> 02:03.780
+I will add that rubber mask tubes to it and that just switches it out here.
+
+02:03.900 --> 02:10.450
+So if I go back to my rendered view you can see that that material has been applied.
+
+02:10.470 --> 02:10.720
+All right.
+
+02:10.740 --> 02:16.740
+I'll switch back to my textured view again and I'll select one of these and this and this.
+
+02:16.830 --> 02:24.240
+These little pieces here I think I'll just use that metal mech trim for these.
+
+02:24.370 --> 02:26.530
+All right let's take a look at this.
+
+02:26.560 --> 02:34.460
+Spotlight for this I think I'd like to have the metal trim be on this.
+
+02:34.460 --> 02:40.000
+And I think up here I'd like kind of a black and gray kind of theme up here.
+
+02:40.430 --> 02:47.930
+What I need to do is just establish base material for this as you seen when we create material for an
+
+02:47.930 --> 02:48.550
+object.
+
+02:48.560 --> 02:56.300
+It applies that first material to the whole thing and then we have to go back and select faces and add
+
+02:56.360 --> 02:59.360
+new materials to collections of faces.
+
+02:59.360 --> 03:08.570
+So for this entire one let's go ahead and add that trim metal mech trim here we'll add that whole thing.
+
+03:08.600 --> 03:15.610
+So I'll go into edit mode and I'll select this piece up here with the L key and this is a rubber piece.
+
+03:15.620 --> 03:22.060
+Once again I'm going to go ahead and create a new material slot.
+
+03:23.570 --> 03:28.220
+And I'll sign that rubber mech joints to it.
+
+03:28.220 --> 03:34.100
+Now click a sign so I should have something that looks like this.
+
+03:34.100 --> 03:34.980
+Let's take a look.
+
+03:36.600 --> 03:39.660
+Almost maybe think I should use the other one the black.
+
+03:39.850 --> 03:42.470
+Let's try that one or the tubes.
+
+03:44.150 --> 03:55.550
+Then let's take a look at this piece here and a frame up on that one I'd like to do is have a combination
+
+03:55.610 --> 03:58.030
+of gray and black here.
+
+03:58.250 --> 04:05.900
+I think I'll go to face mode and select these faces and then I'll use the control plus key combination
+
+04:05.900 --> 04:08.460
+here to expand the selection.
+
+04:08.690 --> 04:14.170
+And I think what I want to do is create a new material so I create a new material slot for this object.
+
+04:15.430 --> 04:26.260
+Creating new material and I'll call this metal metal black spot light and I'll give it a colossi
+
+04:28.780 --> 04:30.510
+and I'll take the color down.
+
+04:30.520 --> 04:37.630
+Pretty dark and increase the roughness quite a bit here.
+
+04:37.640 --> 04:39.220
+So let's take a look at that.
+
+04:41.730 --> 04:42.080
+Oh.
+
+04:42.150 --> 04:45.740
+And I need to assign it.
+
+04:45.860 --> 04:49.240
+Now we go that's a little too dark.
+
+04:49.430 --> 04:54.030
+Let's increase that a bit like so.
+
+04:54.510 --> 04:58.180
+I'll come back here and go to that textured view.
+
+04:58.190 --> 05:03.880
+And now I'll select individual faces here.
+
+05:07.340 --> 05:15.010
+So I've selected these pieces and once again I'll press control plus and expand these out just a bit
+
+05:15.680 --> 05:19.850
+and I'll assign these to that black metal as well.
+
+05:19.850 --> 05:24.310
+I think I'd like to switch this piece back to that lighter gray.
+
+05:24.470 --> 05:28.850
+So instead of this tube's one I'll switch it to the joints one
+
+05:33.090 --> 05:34.820
+and then we go.
+
+05:35.380 --> 05:42.810
+And I think lastly I'll select this fear here and assign this that black metal as well.
+
+05:43.650 --> 05:49.030
+I'll select that and let's create a whole new material now.
+
+05:49.570 --> 05:59.020
+I'll create a new material slot new material and we'll call this glass spot lens.
+
+05:59.870 --> 06:09.700
+And for this I'll create a glossy material and let's assign it assign those faces to that material.
+
+06:10.730 --> 06:12.060
+And let's take a look.
+
+06:13.790 --> 06:20.270
+So that may be a little bit too much in terms of the reflectivity.
+
+06:20.270 --> 06:28.070
+Now for the fingers I think what I'll do is just assign them that trim metal material for now and see
+
+06:28.070 --> 06:29.380
+how that works.
+
+06:29.480 --> 06:38.900
+So I'll just select the fingers and in the material pull down I'll select that metal neck trim and then
+
+06:38.990 --> 06:41.260
+back here this little panel.
+
+06:41.270 --> 06:42.630
+Let's take a look at this.
+
+06:42.740 --> 06:52.810
+I think for this to begin with the metal mech trim and then I'll come in with the individual pieces
+
+06:52.810 --> 06:55.020
+and select these.
+
+06:55.090 --> 07:03.050
+So maybe this and this has a material that's similar.
+
+07:03.070 --> 07:04.840
+So I'll create this.
+
+07:04.840 --> 07:08.540
+We'll call this let's just call all these panel.
+
+07:08.860 --> 07:10.860
+So this will be Panel blue
+
+07:14.220 --> 07:15.720
+something like that.
+
+07:18.640 --> 07:29.020
+We'll make these different colors so this will be like a panel maybe a this one will be maybe an orange
+
+07:29.020 --> 07:29.430
+light.
+
+07:29.440 --> 07:31.870
+So I'll call it panel orange.
+
+07:31.980 --> 07:38.890
+Now to see what we're doing a little better I can switch from textured to material viewport shading.
+
+07:39.190 --> 07:42.280
+And when we do that we can at least see the colors.
+
+07:42.280 --> 07:48.250
+Granted we don't see the actual properties of the material but we can at least tell what color we're
+
+07:48.250 --> 07:49.210
+putting on it.
+
+07:49.600 --> 07:52.770
+So I'll select this one here.
+
+07:53.570 --> 07:56.090
+And I'll call this panel red
+
+08:01.910 --> 08:10.130
+change it to red and assign it it doesn't look great but we can work with that at least.
+
+08:10.130 --> 08:15.770
+Now we have the materials on there and we can adjust the materials as we go.
+
+08:15.790 --> 08:21.220
+Looks like the last thing I need to do is sign something to the joints down there on the foot.
+
+08:21.230 --> 08:22.600
+Let's take a look at that.
+
+08:22.940 --> 08:29.060
+Oh and I also need to assign materials to the rubber feet as well.
+
+08:29.060 --> 08:30.120
+So let's do that.
+
+08:30.140 --> 08:40.740
+I'll take this joint and I'll assign it to the sign that the trim material and for this one over here
+
+08:40.740 --> 08:41.510
+as well.
+
+08:43.080 --> 08:49.680
+For the rubber pieces we're going to need to bring them back up aren't we too.
+
+08:49.710 --> 08:54.380
+He's not exactly standing on the ground plane here.
+
+08:54.450 --> 08:57.720
+But for now actually that's maybe easier to get to.
+
+08:57.720 --> 09:00.500
+So let's go ahead and do this.
+
+09:00.800 --> 09:07.130
+I'll select all of these and let's assign the rubber to that.
+
+09:07.170 --> 09:13.960
+So click a sign and let's do the same thing over here.
+
+09:13.990 --> 09:14.460
+All right.
+
+09:14.470 --> 09:20.180
+I think our Mac now has materials assigned to all the pieces of it.
+
+09:20.260 --> 09:23.860
+We're going to need those materials as we create the look and feel of the neck.
+
+09:24.220 --> 09:25.670
+But that'll work for now.
+
+09:25.720 --> 09:30.060
+And we can move on to setting up the materials for the environment.
+
+09:30.280 --> 09:33.420
+Now for the rest of the scene the environment.
+
+09:33.610 --> 09:36.590
+I don't think we need that many materials at all.
+
+09:36.610 --> 09:42.420
+I think I'll create one here for the floor and call this sand.
+
+09:42.640 --> 09:43.790
+Let me do that.
+
+09:45.830 --> 09:47.920
+Just call it sand.
+
+09:49.310 --> 09:56.050
+And this one can be just an off white for now.
+
+09:56.060 --> 09:57.680
+Something like that.
+
+09:57.740 --> 10:00.610
+Let me take this away.
+
+10:00.760 --> 10:04.890
+So we should have something that looks kind of like that.
+
+10:04.960 --> 10:10.440
+Now the walls I think are going to be a different material as well as the ceiling.
+
+10:10.600 --> 10:20.320
+That's going to be maybe stone solid stone so I'll go ahead and select one of these walls and I'll create
+
+10:20.320 --> 10:29.060
+a new material slot and I'll call this new and let's call this was and for this is well I'll just change
+
+10:29.060 --> 10:37.010
+the color a little bit and keep in mind this is just the colors are all temporary just kind of placeholders
+
+10:37.520 --> 10:47.580
+and I'll remove this I'll go ahead and do the same for these so I can select these walls shifts like
+
+10:47.580 --> 10:50.390
+that and the ceiling.
+
+10:50.570 --> 10:57.170
+And then if I shift select this wall it has its material already assigned.
+
+10:57.170 --> 11:04.400
+Now if I press control L I can link those to the material and there we go.
+
+11:04.400 --> 11:09.090
+So that assigns the wall materials to all those other objects as well.
+
+11:10.250 --> 11:17.320
+I think I may make the pillars and the beams all the same material.
+
+11:17.330 --> 11:29.170
+So for this pillar all added material slot call this well pillars and beams and I'll give that a little
+
+11:29.170 --> 11:37.460
+bit of a color to it just a slight something and remove the checker now.
+
+11:37.700 --> 11:46.480
+Now I'll go through and select all the pillars all the beams and these pillars caps.
+
+11:46.700 --> 11:54.680
+And then lastly select that pillar that has a material on it and press control Al and choose materials
+
+11:56.920 --> 12:02.170
+and then these blocks and the stairs all make one material as well.
+
+12:02.200 --> 12:15.390
+So I create I'll select these create a material slot new and we'll call this blocks and stairs and we'll
+
+12:15.390 --> 12:17.460
+give it a slight color as well.
+
+12:19.470 --> 12:27.790
+All right so I'll remove the checker and add that to this.
+
+12:27.800 --> 12:34.010
+So now we should be able to take a look at it in the rendered viewport shading and see wow that really
+
+12:34.250 --> 12:36.450
+brightened up the room now didn't it.
+
+12:36.890 --> 12:37.610
+But that's OK.
+
+12:37.610 --> 12:43.600
+This is all still temporary but we're beginning to see what the room might look like now.
+
+12:44.030 --> 12:50.580
+So just for the time being I can take this light object and turn the intensity down a bit.
+
+12:50.750 --> 13:01.880
+Something like 10 or maybe even 5 and I could also bring the ambient occlusion down Sam as well.
+
+13:04.130 --> 13:12.720
+To maybe point 1 5 and I'll go and select the Mac and zoom in.
+
+13:12.720 --> 13:19.560
+Now my thought is that the lighting in the room ultimately will be more contrasty kind of like that
+
+13:19.620 --> 13:27.960
+reference image we had earlier kind of like this that there'll be pools of light and pockets of darkness
+
+13:27.990 --> 13:35.900
+and shadow but I think now we're able to get a sense of the basic materials and look of the scene.
+
+13:35.980 --> 13:43.900
+What I'd like to do next is to work a little bit on sculpting since we've got all this sand on the floor
+
+13:43.900 --> 13:44.650
+in the room.
+
+13:44.650 --> 13:51.790
+I'd like to do some I'd like to introduce the sculpting tools to create that on the floor.
+
+13:51.790 --> 13:53.100
+So that's coming up next.

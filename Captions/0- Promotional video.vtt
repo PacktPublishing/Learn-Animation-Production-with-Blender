@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.550 --> 00:04.830
+I do an Lisl blender foundation certified trainer.
+
+00:04.830 --> 00:11.130
+And I'd like to invite you to join me as we use Blender to create this animated scene of a mech descending
+
+00:11.130 --> 00:12.580
+into an underground tomb.
+
+00:13.570 --> 00:20.210
+As we go you'll be introduced to Blender's modeling tool set as we build the character and the environment.
+
+00:20.320 --> 00:22.720
+We'll talk about manipulating objects.
+
+00:22.780 --> 00:25.570
+The difference between object mode and edit mode.
+
+00:25.720 --> 00:31.960
+And as we begin modeling the Mac will discuss more advanced topics like cutting one 3D object with another
+
+00:32.020 --> 00:33.280
+using booleans.
+
+00:33.280 --> 00:39.940
+We'll talk about object origins and parenting creating geometry with the bridge tool and creating tubes
+
+00:39.940 --> 00:46.660
+or pipes with Bezier curves will create the elements of the environment the pillars the walls and we'll
+
+00:46.660 --> 00:49.930
+add more detailed scene elements along the way.
+
+00:49.930 --> 00:56.950
+Once the modeling is complete we'll talk about U-V mapping what it is why it's needed and how Blender's
+
+00:56.950 --> 01:03.270
+U.V. mapping tool set can help you U-V map your 3D objects quickly and efficiently.
+
+01:03.310 --> 01:10.450
+We'll take a look at Blender's cycles render engine as we add the materials for the Mac and the environment.
+
+01:10.450 --> 01:17.350
+We'll use the free open source image editing program gimp to prepare and edit our textures and apply
+
+01:17.350 --> 01:20.670
+them to the 3D models in the environment and on the Mac.
+
+01:21.450 --> 01:23.890
+Ultimately we'll want our character to move.
+
+01:23.970 --> 01:30.330
+So we'll go overpreparing the character for rigging creating the armature and how to set up an advanced
+
+01:30.330 --> 01:38.700
+foot roll rig will create custom shapes and make sure all our controls are parroted and organized ready
+
+01:38.700 --> 01:45.640
+for animating will begin animating our character flying into the scene and drop into the ground.
+
+01:45.690 --> 01:52.410
+We'll use Blender's graph editor and dope sheet to adjust the timing and we'll talk about key framing
+
+01:52.650 --> 01:54.540
+and tangents as well.
+
+01:54.660 --> 02:00.060
+Once our scene is complete and we've animated the character we'll do some final tweaks to the lighting
+
+02:00.330 --> 02:07.260
+as well as have some fun creating a jet flame effect for our MX's jet pack and in the end will render
+
+02:07.260 --> 02:14.910
+out the animation and export a movie file bringing an animated scene to life is an amazing process and
+
+02:14.910 --> 02:19.230
+once you know how to do it you can bring any of your ideas to life.
+
+02:19.230 --> 02:21.810
+So join me for mastering Blendr.

@@ -1,0 +1,307 @@
+WEBVTT
+
+00:01.030 --> 00:06.240
+Well let's continue working on giving the arms and legs a little more detail.
+
+00:06.730 --> 00:14.000
+I'm going to work on the lower leg here and click it and zoom in with the period key on the numpad.
+
+00:14.290 --> 00:20.650
+And if I hit the tab key I can see that we've just got three edge loops here.
+
+00:20.770 --> 00:28.400
+I'm going to click over here and turn off the Adjust edit cage setting here.
+
+00:28.600 --> 00:34.080
+So what I want to do is provide some sort of detail at the top and the bottom of this piece.
+
+00:34.240 --> 00:39.700
+So I'm just going to insert an edge loop here and bring it down and I'm going to make kind of like a
+
+00:39.700 --> 00:40.720
+cuff.
+
+00:40.720 --> 00:49.120
+I'm going to go to face mode and Allt click and edge between these two faces to select that whole edge
+
+00:49.120 --> 00:49.870
+loop.
+
+00:49.990 --> 00:55.540
+And now I want to extrude these out and what I'm going to do is I want to come over here under the extrude
+
+00:55.780 --> 01:03.910
+pulldown and choose region vertex normal's and what that will do is it will actually extrude in one
+
+01:04.150 --> 01:08.200
+step in the direction of each individual face.
+
+01:08.200 --> 01:13.450
+So if I click this and I drag the mouse you can see it's coming out.
+
+01:13.600 --> 01:17.340
+Each individual face is coming out in its own direction.
+
+01:17.530 --> 01:18.460
+So that's what I want.
+
+01:18.460 --> 01:20.170
+I think I'm going to go about right.
+
+01:20.960 --> 01:29.090
+Here and click and then I'm going to add a couple of extra edge loops to hold this because if I unselect
+
+01:29.090 --> 01:33.950
+this and turn this back on over here this edit cage setting.
+
+01:34.400 --> 01:38.170
+You can see that it's kind of it isn't real tight.
+
+01:38.180 --> 01:39.810
+The edges aren't real clean.
+
+01:40.040 --> 01:46.250
+So I'm going to try and add some to that and press control are and right in here I'm going to hover
+
+01:46.250 --> 01:54.200
+and I'm going to scroll the mouse wheel and maybe I'll scroll it so I can get two edge loops in here
+
+01:55.220 --> 01:56.480
+and then click again.
+
+01:56.720 --> 02:04.220
+And in addition I think I'm going to add an edge loop right in here to so it will really hold that pretty
+
+02:04.220 --> 02:08.350
+tightly about there.
+
+02:08.360 --> 02:11.730
+Now you can see that edge is pretty sharp.
+
+02:11.840 --> 02:20.300
+It's still rounded enough to give us the sense that it's a real world object because no real world object
+
+02:20.300 --> 02:24.590
+is exactly 90 degrees at an edge.
+
+02:24.590 --> 02:29.300
+But it sharpens up the edge to give us a sense that it is a hard surface object.
+
+02:29.300 --> 02:35.890
+So now up here at the top of this piece I'm going to turn off the cage for just a moment and insert
+
+02:35.890 --> 02:46.280
+an Angelou appear face mode alt click and edge between those two faces and use this extrude region Virtex
+
+02:46.310 --> 02:52.760
+normal's again and pull that out just a bit something like that.
+
+02:52.790 --> 02:58.140
+Insert a couple of edge loops and maybe one or more down here.
+
+02:59.040 --> 03:03.610
+Tighten that up and we go.
+
+03:03.970 --> 03:09.550
+So now we've got a sense that yes the object spins smooth but it's still a hard surface object because
+
+03:09.550 --> 03:12.170
+it's maintaining those relatively hard edges.
+
+03:13.340 --> 03:13.670
+All right.
+
+03:13.670 --> 03:21.830
+Let's go on up here and I'm going to do the same thing I'm a turn off this adjust edit cage for now
+
+03:22.940 --> 03:30.110
+insert and loop face mounted and extrude region.
+
+03:30.200 --> 03:30.850
+Same thing
+
+03:33.530 --> 03:41.720
+insert two edge loops to hold that shape insert an edge loop appear and pull it down a bit and then
+
+03:41.720 --> 03:43.410
+we have that one.
+
+03:43.910 --> 03:50.600
+And I'm just going to keep going for the rest of the leg here as well.
+
+03:50.600 --> 03:55.560
+I'm going to do this for the forearm and the upper arm too.
+
+03:55.610 --> 04:02.770
+Now one thing I've noticed is that some of these don't completely meet with the joints.
+
+04:02.810 --> 04:10.070
+So there's this kind of a gap here and he's going to select this edge and scale this in so it meets
+
+04:10.070 --> 04:12.270
+that shoulder joint.
+
+04:12.470 --> 04:17.780
+Just so you can't accidentally see down into one of the limbs.
+
+04:17.780 --> 04:21.480
+I'll take a look at the leg joints as well to
+
+04:27.650 --> 04:34.970
+well I've taken care of the arm and leg but this shoulder joint looks a little bit messy as well.
+
+04:34.970 --> 04:36.750
+We need to clean that up.
+
+04:36.920 --> 04:43.790
+So I've selected the body of the Mac and I'm just going to press the forward slash or divide key on
+
+04:43.880 --> 04:46.310
+the numpad to isolate it.
+
+04:46.850 --> 04:53.620
+And now I'm going to select maybe just an edge and zoom in with the period key.
+
+04:54.050 --> 05:00.290
+So here's what it looks like it's pretty low rez which means it's going to be kind of gloppy here.
+
+05:00.440 --> 05:07.040
+So I think I need to insert a couple of edge loops here at least on the outside to see what I can get.
+
+05:07.040 --> 05:11.580
+Let's try this and insert maybe two edge loops here.
+
+05:13.430 --> 05:14.900
+I think that's helped.
+
+05:15.890 --> 05:19.170
+But also I think we need to do something with this.
+
+05:19.250 --> 05:25.640
+Now one thing about inserting an edge loop or the loop cut and slide tool is that if I press control
+
+05:25.640 --> 05:32.030
+are here and hover over these edges I don't get an edge here if I come over here.
+
+05:32.180 --> 05:33.740
+I do.
+
+05:33.740 --> 05:41.630
+The reason why I don't get an edge when I have a rover these is that they're tri's that when you insert
+
+05:41.630 --> 05:46.930
+an agile loop they can only go through four sided polygons or quads.
+
+05:47.150 --> 05:49.310
+These are three sided or tries.
+
+05:49.460 --> 05:56.420
+So I can't get an edge loop to go through them what I want is I want an edge loop in here to hold the
+
+05:56.420 --> 05:58.840
+edge a little bit tighter.
+
+05:59.270 --> 06:04.590
+So how to insert an edge loop into a collection of tries.
+
+06:04.910 --> 06:09.750
+The best way to do that is actually to select faces and then extrude.
+
+06:09.740 --> 06:10.930
+So let me do that.
+
+06:10.930 --> 06:14.690
+I want to select these faces here.
+
+06:16.940 --> 06:22.310
+And then I want them to do is hit the e key and then I'm going to click the mouse.
+
+06:22.340 --> 06:25.680
+And now I'm going to hit the ESC key and I'm on a scale in.
+
+06:25.700 --> 06:34.700
+And now what I've done is I've actually created a place let me tab out of edit mode here.
+
+06:34.760 --> 06:40.680
+Now I've created an edge here that's going to hold that.
+
+06:40.700 --> 06:45.110
+So let me go back let me turn on this cage modifier here.
+
+06:45.920 --> 06:53.420
+So now you can see I've inserted this edge loop by extruding and then scaling and so now I have this
+
+06:53.420 --> 06:54.990
+piece to work with.
+
+06:55.220 --> 07:04.260
+So I could maybe insert another edge loop in here like this and that would hold that a little bit tighter
+
+07:04.260 --> 07:05.920
+as well.
+
+07:06.000 --> 07:13.650
+I think one more thing I'm going to select these faces with the C key the circle select tool and click
+
+07:13.650 --> 07:20.190
+and drag and then all right click to get out of that and then maybe I'll extrude one more time going
+
+07:20.190 --> 07:27.310
+and I'm going to turn off this and it cage here and maybe I will hit the e key.
+
+07:27.330 --> 07:29.130
+I'm going to push back in.
+
+07:29.130 --> 07:34.850
+So it's going to be kind of ugly here at the beginning and then I'm going to scale in from here.
+
+07:35.630 --> 07:38.200
+I like that.
+
+07:38.210 --> 07:40.190
+Now what does that do for me.
+
+07:42.220 --> 07:42.690
+Let's see.
+
+07:42.700 --> 07:44.850
+I'm going to hit this button again.
+
+07:46.300 --> 07:47.920
+And that gives me something like that.
+
+07:47.930 --> 07:53.010
+Now if I insert an edge loop along here.
+
+07:53.020 --> 07:53.420
+Now
+
+07:56.620 --> 08:04.810
+that will allow me to make this a little bit sharper than a scale this in some I guess.
+
+08:04.810 --> 08:10.610
+So now I have that kind of rim around that piece.
+
+08:10.680 --> 08:11.010
+All right.
+
+08:11.010 --> 08:17.100
+So let's see how that looks with the shoulder in I'm going to press the forward slash on the numpad
+
+08:17.580 --> 08:18.800
+and bring that back.
+
+08:20.020 --> 08:25.750
+That's looking OK but I feel like I need to collapse or scale in these edges a bit.
+
+08:25.750 --> 08:32.320
+I don't need them quite that big but just going to scale that in just a bit.
+
+08:32.360 --> 08:33.870
+I think that's all it needed.
+
+08:34.280 --> 08:39.010
+Ok so we now have some detail on the arm and the legs there.
+
+08:39.470 --> 08:45.510
+We can next take a look at this jet pack and see what we need to do to it.

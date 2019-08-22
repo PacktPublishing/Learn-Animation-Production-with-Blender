@@ -1,0 +1,322 @@
+WEBVTT
+
+00:00.770 --> 00:07.710
+Well let's take a look at using the sculpting tools to give a little texture to the floor and other
+
+00:07.710 --> 00:09.400
+objects in the scene.
+
+00:09.410 --> 00:18.630
+And I'm just looking for a kind of texture like this and maybe rough up a few of the pieces like the
+
+00:18.660 --> 00:24.810
+coffin and the stairs when you're doing sculpting you really need a pen and tablet.
+
+00:24.810 --> 00:30.350
+I've got a away come tablet here with a pen.
+
+00:30.480 --> 00:32.060
+It's not an expensive one.
+
+00:32.060 --> 00:34.840
+It's a pretty small one it's in in to us.
+
+00:35.100 --> 00:41.630
+But just the amount of control that you can get with a pen and tablet over a mouse is really useful.
+
+00:41.700 --> 00:46.800
+I really recommend getting a pen and tablet I'll work on the floor.
+
+00:46.790 --> 00:54.170
+First I'll select it and I'll isolate it with the division key.
+
+00:54.220 --> 01:03.760
+Now if I go over to the modifiers panel here and click on Add modifier I can add a multi resolution
+
+01:03.850 --> 01:04.510
+modifier.
+
+01:04.510 --> 01:10.890
+Now this is similar to the subdivisions surface modifier in that it can smooth an object.
+
+01:11.170 --> 01:20.140
+But the nice thing about this is that you have the ability to create multiple levels of subdivisions.
+
+01:20.470 --> 01:30.010
+If I were to say add a subdivision here I could click add new level of subdivision if I click that if
+
+01:30.010 --> 01:37.600
+I press the Z key and as I click subdivide you can see that it begins to subdivide the mesh more and
+
+01:37.600 --> 01:38.200
+more.
+
+01:38.620 --> 01:45.730
+But it's just a modifier it's it's previewing it's not actually applying that higher resolution to the
+
+01:45.730 --> 01:47.430
+mesh quite yet.
+
+01:47.800 --> 01:54.980
+If I hit the tab key you can see that we're still at the original subdivision level here in edit mode
+
+01:55.750 --> 02:03.410
+but if we look at it in wireframe we can see all of the subdivided polygons there.
+
+02:03.850 --> 02:08.740
+So with three sculped subdivisions I'll see what I can do with this.
+
+02:08.740 --> 02:16.120
+Now the pre-view subdivisions is what you can see here in the viewport in Object mode.
+
+02:16.120 --> 02:23.650
+The sculped subdivisions is what you can see over here in sculped mode if I click on object mode I can
+
+02:23.650 --> 02:31.780
+change it to sculpt mode and then the render subdivisions is what you'll see when the scene is actually
+
+02:31.840 --> 02:33.070
+rendered out.
+
+02:33.100 --> 02:39.250
+Now that I've clicked on the sculped tool you can see that I've got my sculped tools panel over here
+
+02:40.210 --> 02:40.870
+up at the top.
+
+02:40.870 --> 02:44.810
+I've got a collection of Prussia's that I can use.
+
+02:44.920 --> 02:51.880
+And generally speaking I begin with something like the sculped draw brush which is kind of the default
+
+02:51.940 --> 02:52.640
+brush.
+
+02:52.840 --> 03:01.210
+But you've got a lot of other options here like Clay strips and blob and grab and inflate.
+
+03:01.330 --> 03:08.680
+These are all great options and we'll go through some of these as we sculpt the various parts of our
+
+03:08.680 --> 03:12.880
+environment in addition to our brushes.
+
+03:12.880 --> 03:16.850
+You've got a radius and strength slider here.
+
+03:16.900 --> 03:21.250
+Let me open this panel just a little bit.
+
+03:21.250 --> 03:27.730
+And what these control is the brush you can see the red circle here around my cursor.
+
+03:27.730 --> 03:37.170
+The radius is the size of the brush and the strength is of course how strong the brush is on the object.
+
+03:37.190 --> 03:46.330
+You can also change the radius and strength of the brush by pressing the F key for radius and then click.
+
+03:46.610 --> 03:52.820
+Or you can press shift F to increase or decrease the strength.
+
+03:52.820 --> 03:55.250
+There are a lot of settings in this panel.
+
+03:55.250 --> 04:02.870
+Not all of which were going to go through at this point in time but another setting to look at is the
+
+04:03.020 --> 04:04.970
+symmetry tool here.
+
+04:05.150 --> 04:11.690
+Scroll down and we can see that we've got symmetry on and that will mirror what we do on one side of
+
+04:11.690 --> 04:14.750
+the axis on to the other side.
+
+04:14.750 --> 04:21.890
+So let's say I am going to make a stroke over here like this.
+
+04:22.010 --> 04:24.530
+You can see that it also makes a stroke.
+
+04:24.710 --> 04:27.230
+On the other side of the x axis.
+
+04:27.590 --> 04:32.010
+So for this I don't think I want symmetry on so I'm going to turn that off.
+
+04:32.030 --> 04:34.290
+I don't need that.
+
+04:34.420 --> 04:36.700
+Another option is add and subtract.
+
+04:36.700 --> 04:44.680
+If you look at the brush here when I draw here it adds or bulges out the mesh.
+
+04:44.680 --> 04:52.510
+But you can also click subtract here and that will push it in an easier way to do that I think.
+
+04:52.550 --> 05:00.680
+Let me just undo this is when it's on and just press the control button on the keyboard and then drag
+
+05:00.820 --> 05:05.690
+a stroke and that will cut into the object.
+
+05:05.690 --> 05:07.340
+So I'll undo those.
+
+05:07.340 --> 05:12.950
+So as you've seen when we draw a stroke out here it's kind of blocky.
+
+05:13.100 --> 05:14.800
+It's not real smooth.
+
+05:15.760 --> 05:24.030
+We could increase our subdivisions here by just clicking on subdivide again and maybe one more time
+
+05:24.570 --> 05:29.100
+till we're up to five in our sculped view.
+
+05:29.100 --> 05:31.410
+So now let's try this.
+
+05:31.550 --> 05:32.420
+That's pretty good.
+
+05:32.420 --> 05:37.060
+We've got a pretty good relatively smooth stroke there.
+
+05:37.070 --> 05:42.530
+I think that should probably do so to sculpt a sand kind of texture.
+
+05:42.530 --> 05:49.100
+I'm going to press the division key to bring all my other objects back and what I want to do is just
+
+05:49.100 --> 05:55.080
+barely bring up the floor.
+
+05:55.080 --> 05:59.750
+So it looks as if sand has been blown around in here.
+
+05:59.760 --> 06:08.220
+I'm going to increase the size of my brush really reduce the strength with shift F.
+
+06:08.310 --> 06:16.060
+Let's see what I can do here if I just begin sculpting it's kind of hard to see isn't it.
+
+06:16.420 --> 06:24.010
+Let's come over here to the properties panel by pressing in and let's click on shading.
+
+06:24.010 --> 06:32.560
+Now there should be a feature here or a checkbox called madcap but I don't see it because I'm in textured
+
+06:32.560 --> 06:32.890
+view.
+
+06:32.890 --> 06:36.160
+I need to switch from textured to solid view.
+
+06:36.370 --> 06:43.820
+And now I can see a feature called matte cap and what this will do is just change the look of your scene.
+
+06:43.990 --> 06:51.320
+It's applied a different kind of material to our scene and this is just really for viewing purposes.
+
+06:51.640 --> 06:54.880
+So we can kind of see what we're doing here.
+
+06:54.880 --> 07:00.690
+We could select this one or if we click on this sphere we can select any one of these.
+
+07:00.700 --> 07:05.230
+These aren't actual materials that you'd see in a rendered scene.
+
+07:05.230 --> 07:09.900
+These are materials just to help you work when you're sculpting.
+
+07:09.940 --> 07:17.270
+So I'm going to click this it's still not given me what I want to see.
+
+07:17.320 --> 07:19.680
+Let's try something like this.
+
+07:19.750 --> 07:28.450
+What I'm trying to do is find a material that will allow me to see what I'm doing a little better.
+
+07:28.550 --> 07:30.570
+This one's pretty good.
+
+07:30.590 --> 07:32.250
+I'll try this one.
+
+07:32.300 --> 07:39.290
+It may look a little strange but as I said these materials are just to help you see what you're doing
+
+07:39.350 --> 07:40.550
+in the viewport.
+
+07:40.820 --> 07:51.260
+So press in again and now begin coming back in here and using the sculpt tool to kind of form this object.
+
+07:51.280 --> 07:59.340
+And I'm just going to begin to sculpt around the columns and bring that bring that floor up a bit.
+
+07:59.340 --> 08:03.200
+So it kind of molds around the objects here.
+
+08:04.310 --> 08:10.270
+I kind of want to make sure the place where the mech is going to land is fairly flat.
+
+08:10.300 --> 08:13.070
+I don't want to do too much there.
+
+08:13.090 --> 08:20.740
+The next thing I could try is to add a texture to this so if I come down here to texture and click on
+
+08:20.740 --> 08:23.180
+new.
+
+08:23.500 --> 08:31.030
+Now if I come over here to the materials panel I can see my sand material on the floor here I'm going
+
+08:31.030 --> 08:38.650
+to come over here to the texture panel and now I can see that texture I created over here so I could
+
+08:38.650 --> 08:44.470
+call this sand as well and that will update over here.
+
+08:44.470 --> 08:51.190
+Now I would need to choose what type of texture I'm going to use for this particular brush I'll choose
+
+08:51.190 --> 08:59.150
+type and for this maybe choose noise texture.
+
+08:59.920 --> 09:06.910
+And when we go I'll switch back to my solid views so I can see the matte cap.
+
+09:06.910 --> 09:17.320
+I'll adjust the brush size maybe like this and I'll come in here and just begin lightly creating some
+
+09:18.070 --> 09:19.680
+texture around here.
+
+09:23.480 --> 09:25.510
+Right something like that.
+
+09:25.700 --> 09:33.950
+I'm going to switch over to my camera by pressing the zero key and then I'll go ahead and switch over
+
+09:33.950 --> 09:39.370
+to render it and see if we can see anything.
+
+09:39.450 --> 09:42.660
+So I'm seeing a little bit of texture in here.
+
+09:42.660 --> 09:48.670
+Now we'll continue sculpting on the coffin and the stairs here.
+
+09:48.810 --> 09:49.410
+Up next.

@@ -1,0 +1,355 @@
+WEBVTT
+
+00:00.960 --> 00:08.060
+All right well I've got all the fingers separated out and labeled now and need to work on the leg here.
+
+00:08.070 --> 00:10.930
+It is all one object of course.
+
+00:10.950 --> 00:18.090
+So in the same way I need to go into edit mode and hover over the upper leg and press the L key as well
+
+00:18.090 --> 00:25.200
+as this upper leg joint here and I need to separate them out with the key.
+
+00:26.860 --> 00:38.830
+And then I need to select it and give it a name and I'll call this leg up or underscore L and then this
+
+00:39.730 --> 00:47.360
+lower leg piece go into edit mode and select these pieces hit the P key.
+
+00:47.440 --> 00:48.520
+Separate that out
+
+00:51.470 --> 01:02.000
+and we'll call that leg lower underscore Al and now the foot I'm going to zoom in here.
+
+01:02.590 --> 01:05.500
+We should split this out.
+
+01:05.740 --> 01:10.810
+This piece is going to rotate around the center of this sphere.
+
+01:11.140 --> 01:15.820
+And the toe piece is going to rotate around the center of this joint.
+
+01:15.880 --> 01:18.800
+So I need to split those out in that way.
+
+01:19.000 --> 01:29.960
+So I also like the ankle joint and the heel here and separate these out and we'll call that foot he'll
+
+01:31.080 --> 01:39.590
+underscore well and maybe we can call this one here foot toe underscore Al.
+
+01:39.750 --> 01:41.760
+There we go.
+
+01:41.760 --> 01:46.010
+So now I've got things fairly well broken out and labeled here.
+
+01:46.200 --> 01:53.360
+I think now we can begin working on detailing each of the parts to do that.
+
+01:53.370 --> 01:55.680
+I'm going to begin smoothing them.
+
+01:55.890 --> 02:03.860
+I'm going to select say this body and I'm going to begin applying a subdivision surface modifier.
+
+02:04.140 --> 02:09.680
+It looks like I still have a mere modifier on this I'm going to go ahead and apply that.
+
+02:09.750 --> 02:12.010
+I don't need that anymore.
+
+02:12.090 --> 02:14.280
+I need that to be all one piece now.
+
+02:14.690 --> 02:17.570
+And so I'll apply another modifier.
+
+02:17.570 --> 02:22.120
+This subdivision surface and that will smooth that object a bit.
+
+02:22.140 --> 02:28.230
+I'm also going to come over here to the Tools tab and click on smooth shading and that will help smooth
+
+02:28.230 --> 02:29.080
+it up a bit.
+
+02:29.520 --> 02:36.990
+And it looks like if I do a subdivision to the view that looks pretty good I think I'll probably go
+
+02:36.990 --> 02:43.720
+with that and I'll do the same for the cockpit here now.
+
+02:44.040 --> 02:47.940
+I'm going to go through and smooth these pieces and the sphere.
+
+02:47.940 --> 02:50.920
+I'm going to leave the fingers unsmooth.
+
+02:51.060 --> 02:53.630
+So they're more blocky.
+
+02:53.760 --> 03:02.970
+But if you want to add a subdivision surface modifier or any modifier for that matter to multiple objects
+
+03:02.970 --> 03:05.590
+you can't just select.
+
+03:05.700 --> 03:14.790
+If I selected let's say this hand's fear and the forearm and the upper arm and I went in I said add
+
+03:14.790 --> 03:17.510
+subdivision service modifier.
+
+03:17.910 --> 03:23.580
+Notice here it only adds it to the the last object I selected.
+
+03:23.580 --> 03:28.750
+So it's really now only added to the upper arm.
+
+03:28.800 --> 03:40.480
+So what you can do is you can say you can select multiple objects say I'm going to smooth the foot to
+
+03:40.480 --> 03:47.440
+heal the lower leg the upper leg as well as the hand and upper arm.
+
+03:47.620 --> 03:52.220
+Then I can select an object that is already smooth.
+
+03:52.900 --> 03:59.930
+And now if I press control L I can link all of these with the same modifier.
+
+04:00.220 --> 04:08.520
+So if I click modifiers now they all are smoothed with their own subdivision surface modifier.
+
+04:08.540 --> 04:10.720
+So click smooth over here.
+
+04:10.780 --> 04:11.070
+All right.
+
+04:11.080 --> 04:18.250
+So now we've got our objects smooth and if you noticed they're a little bit gloppy like down here.
+
+04:18.250 --> 04:24.220
+Let's take a look at the toe here you can see it's a little it's kind of collapsed.
+
+04:24.280 --> 04:32.430
+Same with the ankle piece here it's kind of collapsed the the edges aren't holding anymore.
+
+04:32.770 --> 04:36.290
+And the reason for that is we just don't have enough edges.
+
+04:36.350 --> 04:45.260
+When you go through and add edge loops to hold the shape that we want it to be so save for this toe
+
+04:45.260 --> 04:47.720
+piece here.
+
+04:47.890 --> 04:49.910
+Let's take a look at this.
+
+04:49.930 --> 04:57.660
+I'm going to turn the cage off here so we can see the original piece.
+
+04:57.960 --> 05:04.740
+And with this I can do something like add edge loops here I can press control are and then scroll the
+
+05:04.800 --> 05:07.340
+mouse wheel and and some edge loops here.
+
+05:07.650 --> 05:17.820
+Maybe I'll add maybe I'll add five here and that will begin to give me a good shape here.
+
+05:17.820 --> 05:20.770
+But there's still more that can be done along the edges.
+
+05:22.530 --> 05:28.330
+For the foot I think I'm going to add an edge loop or the toe I'm going to add an edge loop up here
+
+05:29.810 --> 05:31.270
+and maybe one down here
+
+05:35.350 --> 05:43.390
+and I think I'd like to add an extrusion along here so I'm going to select this and I'm going to hit
+
+05:43.420 --> 05:52.120
+E and then go immediately to my scale tool and scale this in a bit and I should be able to hold that
+
+05:52.120 --> 05:54.130
+edge a little better now.
+
+05:54.130 --> 05:56.530
+So let me go do that to this other side here.
+
+05:59.550 --> 06:04.530
+Well hit the click hit s and scale and just a bit.
+
+06:04.530 --> 06:09.540
+So now you can see it's looking a little bit more like a hard surface object a little more like we want
+
+06:09.540 --> 06:11.100
+it to be.
+
+06:11.100 --> 06:20.910
+I can take these edges here and scale them out like this and closer to the edge so that edge will be
+
+06:20.910 --> 06:25.120
+a little bit tighter now on both sides.
+
+06:25.200 --> 06:38.610
+I think what I'm also going to do is select these faces here and these faces here and I'm going to create
+
+06:38.610 --> 06:44.820
+little bolts or indentations Here let me show you what I mean.
+
+06:45.180 --> 06:51.060
+So with both of those sides selected what I can do is hit extrude.
+
+06:51.060 --> 06:53.340
+And now I want to scale them in.
+
+06:53.340 --> 06:54.950
+Now if I hit s.
+
+06:55.020 --> 06:57.800
+Watch what happens as they scale and like that.
+
+06:57.810 --> 06:59.850
+And that's not what I want.
+
+06:59.850 --> 07:07.650
+I want to scale them in the z and the Y but not together in the X here.
+
+07:07.820 --> 07:12.220
+What I can do is I can shift click and drag the axis.
+
+07:12.240 --> 07:14.520
+I do not want to scale in.
+
+07:14.610 --> 07:16.010
+So let me show you what I mean.
+
+07:16.020 --> 07:23.580
+I'm going to press shift and click on the x axis and then scale and then drag and notice they're scaling
+
+07:23.580 --> 07:25.100
+in only the axes.
+
+07:25.150 --> 07:32.060
+I'm not selecting maybe something like that.
+
+07:32.150 --> 07:38.370
+And then if I hit you again now I can scale them out in the X
+
+07:40.870 --> 07:53.430
+go and then if I hit E again I can shift click the X and scale them in again like this.
+
+07:53.740 --> 07:54.690
+So there we go.
+
+07:55.840 --> 08:04.330
+Now I could even insert one more edge loop around here like this and tighten that up a bit.
+
+08:08.030 --> 08:09.160
+And over here as well.
+
+08:12.090 --> 08:14.820
+What if we wanted to bring these faces in.
+
+08:14.820 --> 08:22.860
+So let me show you what I mean if I select these faces by pressing Allt and clicking on one of the edges
+
+08:24.190 --> 08:32.000
+to make an edge loop I'll do the same thing over here with Allt shift like this.
+
+08:32.040 --> 08:38.570
+Now what if I wanted to extrude those in what I could do is I get it easy and immediately click.
+
+08:38.570 --> 08:46.470
+I'm going to hit E again and click and this time I'm going to shift select or shift click and drag that
+
+08:46.500 --> 08:50.720
+x axis so that will collapse in a bit.
+
+08:50.820 --> 08:54.520
+I couldn't I could bring them out or in whichever you want.
+
+08:54.600 --> 08:56.120
+So.
+
+08:56.320 --> 09:04.510
+So now what I do is press control are an insert say two edge loops here and then scale them out to hold
+
+09:04.510 --> 09:06.600
+that edge.
+
+09:06.850 --> 09:14.920
+And I can do the same thing over here two edge loops click and then scale these out like that.
+
+09:14.920 --> 09:25.420
+So these are just ways of getting extra detail into your objects and smoothing them without losing the
+
+09:25.510 --> 09:27.850
+shape that you want.
+
+09:27.850 --> 09:30.250
+Let's take a look at this ankle piece.
+
+09:30.250 --> 09:32.690
+Now I'm just going to work on this.
+
+09:32.980 --> 09:35.740
+Same thing applies.
+
+09:35.890 --> 09:39.430
+What I would like to do is tighten up these edges.
+
+09:39.430 --> 09:43.240
+They look a little bit like they've kind of collapsed.
+
+09:43.600 --> 09:49.570
+So what I'll do first is work on this edge here I'm going to press control are and that will insert
+
+09:49.570 --> 09:51.220
+an edge loop right up here.
+
+09:51.220 --> 09:57.130
+I can insert an edge loop right up here on top and I'm going to scroll the mouse wheel to insert two
+
+09:57.130 --> 10:03.400
+of them click and that holds that edge a little better.
+
+10:03.400 --> 10:11.440
+Now I'm going to take a look down here maybe I can insert an edge loop or maybe two of them down here
+
+10:13.940 --> 10:18.340
+like so and maybe I can even insert a loop down here.
+
+10:23.360 --> 10:30.770
+And move it in a bit to hold that shape and click something like that.
+
+10:30.800 --> 10:39.290
+So now that I've got a little bit more of a hard edge along that joint I think I will also turn this
+
+10:39.440 --> 10:39.950
+off.
+
+10:39.950 --> 10:46.160
+I will also insert one more edge loop down here at the bottom to hold this like so
+
+10:50.320 --> 10:51.180
+there we go.
+
+10:51.420 --> 10:55.470
+So it just looks a little more mechanical and machined.
+
+10:55.800 --> 11:02.970
+So what I'm going to do is work my way up the leg and up the arm and begin putting a little detail into
+
+11:02.970 --> 11:04.830
+these by inserting edge loops.

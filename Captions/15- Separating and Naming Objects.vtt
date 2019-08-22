@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.630 --> 00:06.340
+Now that we have the arms and the hands in the general size we want them to be let's do a little bit
+
+00:06.340 --> 00:10.440
+of house cleaning and split them out and give them each a name.
+
+00:10.450 --> 00:14.740
+So if we select this we can see that we've got the mirror are still on it.
+
+00:14.740 --> 00:22.700
+Let's take away that mirror modifier for the time being just so we can go in and separate these pieces.
+
+00:22.750 --> 00:29.440
+I think what we need to do is separate the pieces for the upper arm and then the lower arm and then
+
+00:29.440 --> 00:35.130
+the hand and we'll also split the fingers out into individual objects as well.
+
+00:35.410 --> 00:40.780
+So for the upper arm let's tab into edit mode and then let's go ahead and select this upper arm with
+
+00:40.780 --> 00:47.520
+the L key hover over an edge and press l and then I'll do the same thing up here for the sphere.
+
+00:47.830 --> 00:53.640
+We'll just press l there and that will select just that part of the object.
+
+00:53.650 --> 00:58.240
+Let's now press the P key and separated out by selection.
+
+00:58.540 --> 01:01.580
+And now that is its own object.
+
+01:01.730 --> 01:03.950
+It's tab back into object mode.
+
+01:04.180 --> 01:05.290
+De-select everything.
+
+01:05.290 --> 01:16.400
+Now if we select this new object we can call this upper arm underscore l the naming convention may change.
+
+01:16.410 --> 01:18.450
+But let's give that a try.
+
+01:18.660 --> 01:23.920
+Then I'll select the original object again and tab into edit mode.
+
+01:24.120 --> 01:30.520
+And this time I'll hover over the lower arm and then also the elbow.
+
+01:30.900 --> 01:38.950
+And then I'll press the P key and separate by selection tab back into object mode select that new object
+
+01:39.700 --> 01:42.130
+and let's call this lower arm.
+
+01:42.130 --> 01:43.630
+Underscore L.
+
+01:43.980 --> 01:50.040
+Now for the hands this portion here will need to be its own object so let's tab into edit mode.
+
+01:50.130 --> 01:52.520
+Hover over this press the L key.
+
+01:52.680 --> 01:56.790
+And now let's press P and separate that out.
+
+01:57.030 --> 02:04.470
+We can call this I'll select it and we can call this hand underscore.
+
+02:05.070 --> 02:10.050
+Now for these pieces the fingers pose an interesting challenge.
+
+02:10.230 --> 02:17.790
+We need to separate these out individually and we need to do it in such a way that we'll be able to
+
+02:18.090 --> 02:21.660
+rig the fingers and animate them in the future.
+
+02:21.660 --> 02:29.700
+So if we tap into Edit Mode what we can do is select say this piece this piece this piece and this piece
+
+02:29.700 --> 02:33.970
+with the L key and that will be one object.
+
+02:34.020 --> 02:42.270
+So I'll hit P and separate that object out tab back into object mode and select that and let's call
+
+02:42.270 --> 02:43.720
+this.
+
+02:44.430 --> 02:50.820
+We're going to call this thumb three because we're going to say that this is the first joint second
+
+02:50.820 --> 02:52.020
+joint third joint.
+
+02:52.010 --> 02:57.670
+So let's call this from three underscore Al.
+
+02:57.670 --> 03:00.470
+There we go select the next one.
+
+03:00.470 --> 03:01.950
+Select that object.
+
+03:02.330 --> 03:03.860
+Hover over this.
+
+03:03.860 --> 03:07.640
+Select these three with the L key like that.
+
+03:07.660 --> 03:15.600
+Press the P key split that out tab back into object mode and let's give this a name to.
+
+03:15.800 --> 03:21.500
+This will be Thum to underscore L and then this piece right here.
+
+03:23.280 --> 03:26.530
+We'll hit the L key for that.
+
+03:26.530 --> 03:27.890
+Separate it out.
+
+03:27.900 --> 03:33.260
+Select it individually and we'll call this thumb one underscore.
+
+03:33.320 --> 03:36.610
+Well here we go.
+
+03:36.610 --> 03:43.910
+Now we can go through and begin doing that for the rest of the fingers so I'll hover here here here
+
+03:43.970 --> 03:52.730
+and here pressing the L key and begin again with the index finger middle and Pinky.
+
+03:52.730 --> 03:59.430
+So I'll work on that before the next video where we will work on adding more loops and smoothing our
+
+03:59.520 --> 04:00.020
+objects.

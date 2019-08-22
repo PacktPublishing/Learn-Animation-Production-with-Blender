@@ -1,0 +1,403 @@
+WEBVTT
+
+00:00.750 --> 00:07.710
+Well let's see what we can come up with for Jet Pack thrusters effect here.
+
+00:08.160 --> 00:16.260
+I'm going to use a relatively new tool in Blender called quick smoke or a quick fire and smoke but let's
+
+00:16.260 --> 00:26.410
+go back to the first frame here and let's come up here to this guy and I'll zoom in again.
+
+00:27.140 --> 00:36.030
+What I'd like to do is create objects inside the thrusters here that will add the quick fire and smoke
+
+00:36.120 --> 00:46.290
+effect onto and then will also parent this object to the root bone here of the neck.
+
+00:46.500 --> 00:58.960
+So I'm going to select this and I'm going to zoom in here and select this vertex so that I can snap
+
+01:00.250 --> 01:01.270
+the cursor to it.
+
+01:01.270 --> 01:07.930
+So I'm going to press shift s and cursor to selected and that snaps that there.
+
+01:07.930 --> 01:15.700
+Now I'm going to for the object that we're going to use I'm going to use a cone here and I don't need
+
+01:15.700 --> 01:26.450
+this face on the bottom so I will delete it with the x key and then I'll spin it around let me turn
+
+01:26.450 --> 01:37.100
+on the manipulators here I want to rotate it in the X 180 degrees so I'll press the R key X and type
+
+01:37.100 --> 01:41.700
+in 1 8 0 and then I'm on a scale this down a bit.
+
+01:41.720 --> 01:50.770
+So it fits inside of here and maybe even scale it this way.
+
+01:52.800 --> 01:59.540
+I like this and let me pull it out so it isn't intersecting at a little big.
+
+01:59.940 --> 02:03.890
+So let me scale it down again and move it back in
+
+02:07.690 --> 02:09.000
+something like that.
+
+02:10.250 --> 02:11.100
+All right.
+
+02:11.360 --> 02:20.630
+So I'll give this object a name I'll call it just one and I'll duplicate it and move it over here to
+
+02:20.630 --> 02:23.960
+this thruster and I'll call this jet to
+
+02:27.090 --> 02:28.570
+go.
+
+02:28.680 --> 02:37.140
+These are going to need to be printed to this route bone's so I'll select that the first jet one object
+
+02:37.170 --> 02:43.880
+and shift select that bone and press control P and I'll do the same over here.
+
+02:45.080 --> 02:49.530
+Control peeing pong.
+
+02:49.550 --> 02:54.910
+So now what I can do is select one of these objects and I'm going to go to object.
+
+02:55.100 --> 03:00.140
+Quick effects and I'm going to choose quick smoke.
+
+03:00.170 --> 03:06.080
+Now what that does is it gives it the smoke style here.
+
+03:06.080 --> 03:11.010
+But what I want to do is change this immediately to smoke and fire.
+
+03:12.650 --> 03:21.860
+Now I want to select this and come over here to the physics tab and make sure that it says fire and
+
+03:21.860 --> 03:24.290
+smoke here as well.
+
+03:24.290 --> 03:34.520
+Another thing you need to make sure of that if you select this box around the object this is the smoke
+
+03:34.580 --> 03:39.130
+domain you should be able to see this in the Noad Ed..
+
+03:39.130 --> 03:48.970
+So I'm just going to with that selected switch over to the Noad editor here and if I change to object
+
+03:49.420 --> 03:52.150
+we should see all of this.
+
+03:52.180 --> 03:59.810
+So what that quick smoke style does is it creates this entire node network.
+
+03:59.980 --> 04:06.370
+And the important part about this is is that you need to see this color ramp here if you didn't if you
+
+04:06.370 --> 04:13.090
+don't see this then you need to probably try again just undo and try again.
+
+04:13.100 --> 04:15.310
+It can be kind of touchy.
+
+04:15.310 --> 04:21.560
+So when you select the domain you need to see this node network.
+
+04:21.640 --> 04:21.960
+All right.
+
+04:21.970 --> 04:24.430
+So going to go back to the 3D view here.
+
+04:24.850 --> 04:32.590
+And one of the things also we need to do is parent this domain to this bone as well.
+
+04:32.620 --> 04:36.630
+So when a press control P and parent Tabone.
+
+04:36.640 --> 04:44.580
+So now as we move it all of these come along and you can see the flame beginning here as we scroll through
+
+04:44.590 --> 04:46.120
+so if I hit play.
+
+04:46.630 --> 04:49.030
+Let me go back to the camera view here.
+
+04:49.300 --> 04:57.450
+If I hit playing you should be able to see the fire and smoke in the viewport here.
+
+04:57.450 --> 05:04.600
+The problem is that it's going up and we need it to be thrusting downward.
+
+05:04.950 --> 05:10.680
+So let's go back to the beginning here again and to do that.
+
+05:10.710 --> 05:14.970
+Just a quick way to do that is to create a force.
+
+05:15.360 --> 05:22.480
+So I'm going to de-select everything I'll go back to object mode here and de-select everything.
+
+05:22.710 --> 05:34.290
+And I want to create a new polygon plane and that will be our wind force so I'll create a plane and
+
+05:34.290 --> 05:40.730
+I'll scale it up so we can see it a bit and I can just move it up out of the way here.
+
+05:40.770 --> 05:44.150
+So this is going to be our wind plane.
+
+05:44.160 --> 05:47.630
+I'll go ahead and give it a name I'll call this wind.
+
+05:48.360 --> 05:57.750
+And for the physics effect that we want we want a force field and we want to immediately change that
+
+05:57.750 --> 06:01.390
+type from force to wind.
+
+06:01.410 --> 06:06.340
+Now you can see these circles up at the top here.
+
+06:06.420 --> 06:13.480
+If I increase the strength you can see those circles will kind of expand to show us the strength.
+
+06:13.590 --> 06:17.070
+I'm going to give this a strength of I don't know 50.
+
+06:17.130 --> 06:18.390
+We'll try that.
+
+06:18.930 --> 06:27.730
+And I want to rotate this as well so I'll press R X type in 180 and that'll spin it around.
+
+06:28.050 --> 06:36.000
+So now that wind force should help move the thrusters down.
+
+06:36.060 --> 06:43.000
+So now let's go back to our camera view and let's hit play.
+
+06:43.090 --> 06:51.660
+Now we can see it being blown downward as if it's thrusting out of the jetpack.
+
+06:51.660 --> 06:53.370
+All right.
+
+06:53.370 --> 06:58.270
+Let's go back and let's just do a test render and see how that looks.
+
+06:58.290 --> 07:00.840
+I'm going to do it right about here.
+
+07:01.200 --> 07:06.070
+Go to the rendered viewport shading and see how it looks.
+
+07:06.460 --> 07:08.590
+Well OK it's looking pretty good.
+
+07:08.910 --> 07:10.380
+That's not too bad.
+
+07:10.380 --> 07:14.240
+Let's go ahead and set up the same thing for the other side as well.
+
+07:14.520 --> 07:24.240
+So I'm going to slide this other object here and I'll go to object quick effects quick smoke immediately
+
+07:24.420 --> 07:28.320
+make sure that it says smoke and fire over here.
+
+07:28.530 --> 07:32.210
+And when I select that object I also liked it here in the outliner.
+
+07:32.340 --> 07:36.120
+I need to make sure it says fire and smoke here as well.
+
+07:36.600 --> 07:45.810
+So that if I select this domain I'll go to the note editor and make sure that I see this node set up.
+
+07:45.810 --> 07:48.490
+And so we should be ok now.
+
+07:48.630 --> 07:56.420
+So I'll go back to my 3-D view and I need to parent this domain to the root bone.
+
+07:56.460 --> 08:03.870
+I better go to select this and go to pose mode first then de-select everything.
+
+08:03.870 --> 08:08.100
+Now select that domain shift's select the root bone.
+
+08:08.100 --> 08:13.860
+So it's in PPO's mode and control P and parent that to the bone.
+
+08:13.860 --> 08:19.000
+Now let's go back to our camera view and see how this works.
+
+08:20.950 --> 08:21.080
+Right.
+
+08:21.370 --> 08:24.370
+So there we have our two thrusters.
+
+08:25.010 --> 08:30.920
+So the next thing we need to do is figure out when it needs to turn off because he shouldn't have these
+
+08:30.920 --> 08:34.880
+on when he drops down.
+
+08:34.960 --> 08:39.070
+So let's go back and see when that should turn off.
+
+08:42.170 --> 08:47.100
+Maybe right about right or right in here.
+
+08:47.100 --> 08:51.270
+So when he hit the arrow key and go back to chest
+
+08:56.840 --> 09:00.860
+there that's where he begins to drop that's 182.
+
+09:01.070 --> 09:06.990
+I'm thinking maybe he should kind of hover for about six frames after the Jets go off.
+
+09:07.040 --> 09:10.370
+Let's try that.
+
+09:10.380 --> 09:17.280
+So at this point is when they should go off which means at this point one more frame back that's when
+
+09:17.280 --> 09:22.530
+we should put that anchor keyframe in with it on.
+
+09:22.860 --> 09:32.650
+Let's grab this one here and it's going to be I'm going to keyframe both the density and the flame rate
+
+09:32.650 --> 09:33.440
+here.
+
+09:33.760 --> 09:45.640
+So at this point I'll say it's going to be one inserted keyframe here and insert a keyframe here.
+
+09:45.850 --> 09:54.320
+I will also go back to frame 1 and insert keyframes there.
+
+09:54.380 --> 10:02.480
+Now if I come to this point and go forward one frame now I'm going to change these to zero.
+
+10:03.860 --> 10:13.500
+Like so and insert keyframes here as well so insert a key frame there and insert a key frame there.
+
+10:13.510 --> 10:17.020
+Now theoretically that should turn it off at that point.
+
+10:17.050 --> 10:20.230
+Let's give it a try here.
+
+10:20.290 --> 10:23.350
+I will go back and we'll try it.
+
+10:23.350 --> 10:29.000
+So if he comes in comes down well now it needs to refresh it.
+
+10:29.050 --> 10:30.660
+Sometimes we'll do this.
+
+10:30.670 --> 10:43.460
+Let me exit out of that camera view and try and save and see if I can get this to refresh.
+
+10:43.470 --> 10:44.260
+There they are.
+
+10:44.370 --> 10:45.100
+OK.
+
+10:45.550 --> 10:47.890
+So I'll go back to my camera view.
+
+10:48.420 --> 10:51.140
+Hit Play.
+
+10:51.160 --> 10:56.350
+So there they are.
+
+10:56.490 --> 10:57.890
+And it goes off.
+
+10:57.900 --> 10:58.650
+Good.
+
+10:58.890 --> 11:01.970
+So I'll do that for the other one as well.
+
+11:02.010 --> 11:11.090
+Let's go back to that frame so that was 175 there and I'll choose jet 2.
+
+11:11.240 --> 11:16.260
+And here I'll insert a key frame here and here.
+
+11:18.210 --> 11:21.810
+Then go all the way back and I'll do the same thing.
+
+11:21.930 --> 11:23.990
+Insert keyframes there.
+
+11:25.080 --> 11:32.800
+And then at 176 we zero these out and Key them
+
+11:37.550 --> 11:40.040
+inserting keyframes there.
+
+11:40.040 --> 11:44.030
+So now I'll try and move around save to refresh.
+
+11:44.030 --> 11:46.210
+Go back to my camera view.
+
+11:46.670 --> 11:51.330
+Let's go back to the beginning and let's it play.
+
+11:51.860 --> 11:55.620
+We still can't see our thrusters there.
+
+11:55.670 --> 12:00.270
+Let me go back up here and we see them up here.
+
+12:00.510 --> 12:01.010
+Yeah.
+
+12:01.010 --> 12:02.320
+OK.
+
+12:02.480 --> 12:04.520
+They're there.
+
+12:04.790 --> 12:06.850
+Now we hit play again.
+
+12:07.820 --> 12:12.440
+We see them there on down through here.
+
+12:12.440 --> 12:15.470
+They turn off and he drops.
+
+12:15.470 --> 12:16.160
+Good.
+
+12:16.310 --> 12:18.890
+That's what we want.
+
+12:18.900 --> 12:25.660
+So in the next video we'll actually begin adjusting the settings to begin rendering out the animation.

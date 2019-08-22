@@ -1,0 +1,181 @@
+WEBVTT
+
+00:01.110 --> 00:05.670
+I think this kaufen here would be a good candidate for the sculped tools.
+
+00:05.710 --> 00:14.290
+So let's go ahead and select that and I'm going to isolate it with the division key and let's work on
+
+00:14.290 --> 00:15.770
+this.
+
+00:15.850 --> 00:19.930
+I'll add the multi resolution modifier here.
+
+00:21.050 --> 00:26.270
+And as I increase the subdivisions I'll click on subdivide.
+
+00:26.270 --> 00:29.760
+Here you can see that it kind of collapses.
+
+00:29.780 --> 00:33.150
+And that's really not going to work for us.
+
+00:33.470 --> 00:40.960
+What we need is a way to increase the subdivisions without it collapsing into a blob.
+
+00:41.570 --> 00:47.460
+So what we can do is change from the Catmull Clark subdivision to simple.
+
+00:47.510 --> 00:55.520
+And if we click on that now we have increased resolution on the objects without them turning into little
+
+00:55.520 --> 00:56.960
+blobs.
+
+00:56.960 --> 01:04.490
+So if I hit the Z key to take a look at it in wireframe you can see that it's got a higher resolution
+
+01:04.490 --> 01:09.470
+than say if we hit the tab key and look at it in edit mode.
+
+01:09.470 --> 01:14.500
+So we're still getting increased resolution just without the smoothing.
+
+01:14.510 --> 01:18.090
+Let me go ahead and increase it a couple more times maybe.
+
+01:18.290 --> 01:26.940
+Let's go up to 4 here and now switch from object mode to sculpt mode and one of the things I'd like
+
+01:26.940 --> 01:31.080
+to do is just to beat it up a little bit.
+
+01:31.080 --> 01:39.600
+I'd like these corners and the edges to be not quite as uniform like it's aged and decayed over time.
+
+01:39.750 --> 01:49.100
+So I'm just going to grab the grab tool and with shift f maybe bring the strength down a bit like that
+
+01:50.090 --> 01:57.200
+and if I come in here I can just begin pulling around and beating up these corners just a bit.
+
+01:57.200 --> 02:04.670
+I don't want a whole lot just a little bit enough to make it feel like it's old and decayed so I'll
+
+02:04.670 --> 02:11.930
+hit the F key and increase the brush size a bit and just come in here and begin moving these around
+
+02:12.230 --> 02:13.370
+just a little bit.
+
+02:15.000 --> 02:17.310
+OK I think that's helped some.
+
+02:17.310 --> 02:26.010
+In addition let's go back to the sculped draw tool and I'd like to also beat up the corners a bit with
+
+02:26.010 --> 02:32.040
+this as well so I'm going to press F and reduce the size of my brush.
+
+02:33.000 --> 02:40.130
+And I'm just zoom in and if I test a stroke here you can see that that's what I get.
+
+02:40.350 --> 02:45.290
+I think I'll increase the subdivisions one more time here and see what I get.
+
+02:45.300 --> 02:47.000
+Yeah that's a little smoother.
+
+02:47.280 --> 02:56.520
+So with the sculped DRob rush I'll just begin kind of both drawing and cutting in so I'll do a stroke.
+
+02:56.520 --> 03:01.700
+I'll hold the control key down and I'll also cut into this a bit.
+
+03:02.040 --> 03:07.090
+And in addition I think maybe I'll try and add a texture brush to this as well.
+
+03:07.080 --> 03:16.360
+So over here in this sculped panel scroll down and add another texture here click new and over here
+
+03:16.360 --> 03:28.950
+in the texture panel I can see my texture here and I'll choose maybe a noise and under stroke over here
+
+03:28.950 --> 03:34.220
+in the sculped panel and go over here to stroke and I'll try anchored.
+
+03:34.290 --> 03:41.970
+I'm going to choose this and what that should do is when I click and drag it will increase or decrease
+
+03:41.970 --> 03:49.140
+the size of my of my brush and I can throw down that texture then onto the object.
+
+03:49.140 --> 03:51.090
+Now that's a little too much.
+
+03:51.090 --> 03:54.080
+I'm going to come back up here to the strength.
+
+03:54.100 --> 04:01.080
+Yeah I'm going to press shift F and reduce the strength quite a bit there.
+
+04:01.110 --> 04:09.180
+Now I'm going to click and drag and add some texture like this with the anchored brush here.
+
+04:10.260 --> 04:15.500
+All right well let's go take a look at the stairs now and let's do kind of the same thing.
+
+04:15.960 --> 04:25.380
+So I'm going to go ahead and remove this texture for now and I'll hit the division key on the numpad
+
+04:25.380 --> 04:33.660
+to come back to our scene and I'll select the stairs over here isolate them and let's go through and
+
+04:33.660 --> 04:35.660
+do the same thing here.
+
+04:35.940 --> 04:45.540
+I'm going to add a multi resolution modifier and I'll subdivided up two four or five.
+
+04:45.600 --> 04:54.380
+And as we did before let's choose simple instead of Catmull Clark I'll go to the sculped tool and I'll
+
+04:54.390 --> 04:57.020
+choose the grab tool here.
+
+04:57.360 --> 04:59.750
+I'll reduce the size of my brush a bit.
+
+05:00.960 --> 05:06.190
+And let's come in here and try and beat this up a bit like we did before.
+
+05:06.190 --> 05:13.260
+So I'll just grab these and try and give it some give it some wear and tear
+
+05:16.260 --> 05:23.380
+and then let's go and use the sculpt tool to add some more detail to it.
+
+05:24.490 --> 05:33.760
+I think increase the subdivisions one more time and I should go down and change back from anchored to
+
+05:33.760 --> 05:41.800
+something like dots and I'll just come through and begin beating this up as well.
+
+05:43.580 --> 05:50.570
+Pressing the control key to cut in as well as just laying down sculp strokes.
+
+05:51.150 --> 05:53.140
+There we go so it's pretty beat up.
+
+05:53.140 --> 06:02.670
+Now we could also maybe go over to object mode here and click on smooth shading and that couldn't help
+
+06:03.000 --> 06:07.120
+smooth that out and blend it together some.
+
+06:07.230 --> 06:13.950
+All right well I'll hit the division key to go back to our scene and in the next video we'll take a
+
+06:13.950 --> 06:17.060
+look at doing a little sculpting on the ceiling.

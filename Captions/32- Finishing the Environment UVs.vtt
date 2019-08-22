@@ -1,0 +1,151 @@
+WEBVTT
+
+00:00.640 --> 00:12.150
+Let's do the walls let's apply the scale for these press control a and scale same over here.
+
+00:12.380 --> 00:14.080
+I'll select one of these.
+
+00:14.420 --> 00:15.940
+Go to edit mode.
+
+00:16.280 --> 00:18.310
+Make sure it's selected.
+
+00:18.350 --> 00:28.420
+I'll press you and unwrap Now I'll come over here to the materials area and assign this checker material
+
+00:29.590 --> 00:41.210
+and then we go let's do that for over here you unwrap and assign the checker.
+
+00:41.210 --> 00:46.510
+Now for the floor I think it's going to need some more resolution.
+
+00:46.700 --> 00:55.640
+So I'm going to tap into edit mode and hit the W key and choose subdivide.
+
+00:55.640 --> 01:01.130
+And now I can bring this panel up over here and increase the number of cuts I'll just take it up to
+
+01:01.130 --> 01:09.650
+10 just so we have some more resolution in there because I think we may want to use the sculped tool
+
+01:09.710 --> 01:12.580
+to add some texture to this.
+
+01:12.590 --> 01:20.060
+So in Object mode I can see that the scale is non uniform so I'll go ahead and apply the scale here
+
+01:21.080 --> 01:29.750
+and I'll tab into Edit Mode press you and unwrap and then assign that Checker material.
+
+01:29.780 --> 01:31.370
+And there we go.
+
+01:31.580 --> 01:38.480
+The last piece of the puzzle I think is these beams we can work on one of these.
+
+01:38.480 --> 01:47.600
+Now I think we don't need a couple of faces here so if I go to face mode I don't think we need this
+
+01:47.600 --> 01:48.680
+face off on top.
+
+01:48.680 --> 01:50.430
+We're never going to see that.
+
+01:50.810 --> 01:54.730
+And I don't think we need this face back here either.
+
+01:54.750 --> 01:57.040
+I know we're never going to see that.
+
+01:57.230 --> 02:01.130
+So that makes it a little easier to unwrap.
+
+02:01.350 --> 02:08.780
+I'll go to edge mode and select these edges here and unwrap or scuse me.
+
+02:08.780 --> 02:16.460
+Mark seems there we can take a look at our scale and we can go ahead and apply that.
+
+02:16.810 --> 02:24.070
+And then in edit mode we can select everything press you and unwrap and then assign that Checker material
+
+02:24.070 --> 02:28.620
+just to see how we did.
+
+02:28.990 --> 02:35.560
+Well I've gone ahead and duplicated the pillars and beams on the ceiling but there's this one being
+
+02:35.560 --> 02:39.620
+here this shorter one that we should probably think about.
+
+02:39.820 --> 02:47.530
+I think I'll probably use the sculpting tools on this one to get this kind of jagged edge as if it's
+
+02:47.530 --> 02:51.850
+been broken off at the point where the hole in the ceiling begins.
+
+02:51.850 --> 02:58.160
+So I think for this I'm going to need to add a bit more subdivisions a bit more resolution.
+
+02:58.330 --> 03:00.930
+We just zoom into this real quick.
+
+03:00.970 --> 03:05.140
+Right now it's pretty low resolution there isn't much there.
+
+03:05.150 --> 03:15.850
+I'm going to press the W key and click subdivide and I'll add maybe maybe four cuts on it.
+
+03:15.900 --> 03:24.300
+So now what let's do is go to the U-V editing screen lay out we'll frame it up and take a look at it
+
+03:24.300 --> 03:25.510
+here.
+
+03:25.680 --> 03:33.150
+As we've established before we're probably not going to need the faces on the top when the press control
+
+03:33.180 --> 03:43.110
+up arrow to to make that view full screen or go to face mode and I'll start selecting these faces here
+
+03:43.110 --> 03:54.110
+up on top with the circle select tool and I'll delete those and I won't need the ones on the back either.
+
+03:59.470 --> 04:01.050
+Something like that.
+
+04:01.360 --> 04:05.410
+Pest Control up arrow again to come back to the screen lay out
+
+04:08.420 --> 04:16.580
+I can probably go ahead and apply my scale and then select everything in edit mode you and unwrap and
+
+04:16.580 --> 04:17.520
+let's see what happens.
+
+04:17.540 --> 04:19.190
+Oh well see what I've done here.
+
+04:19.190 --> 04:26.660
+I forgot to mark seems and so there's this polling that's happening up here so I should mark my seams
+
+04:26.660 --> 04:27.920
+here.
+
+04:27.930 --> 04:38.380
+I go to Edit mode and select and shift alt select these and control the and Mark seam.
+
+04:38.490 --> 04:45.450
+Now if I select everything and hit you and unwrap that should open that up a little bit so it doesn't
+
+04:45.450 --> 04:52.980
+stretch as much and I'll go ahead and apply the checker material to it just to make sure that there's
+
+04:53.010 --> 04:56.090
+no stretching there and it looks pretty good.
+
+04:56.100 --> 05:02.950
+The main thing we have to do is to use map the neck and we will work on that next.

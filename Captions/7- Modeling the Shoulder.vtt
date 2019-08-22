@@ -1,0 +1,343 @@
+WEBVTT
+
+00:01.240 --> 00:07.930
+Well now that we've looked at one way of cutting into an object let's take a look at another way.
+
+00:07.930 --> 00:16.420
+Actually before I do that I'm just going to take this edge here and maybe scale it down so it fits within
+
+00:16.420 --> 00:21.220
+the range of this cockpit glass here.
+
+00:21.250 --> 00:28.330
+So one of the things you can do to hide away everything except the object you want to work on is you
+
+00:28.330 --> 00:30.340
+can press shift H.
+
+00:30.700 --> 00:35.310
+And that will hide away everything but the selected object.
+
+00:35.380 --> 00:41.500
+Now I'm going to go into edit mode by hitting the tab key and now going to choose Allt and select an
+
+00:41.500 --> 00:50.630
+edge and that will select a continuous edge here so press shift and Allt to continue that edge.
+
+00:50.680 --> 00:56.990
+So now that I have that edge selected I'm going to press the ESC key and just scale it down just a bit.
+
+00:57.040 --> 01:04.180
+Now I can press alt H back in Object mode and bring that piece back in.
+
+01:04.180 --> 01:10.170
+Let's look at another way to create a circular inset into an object.
+
+01:10.180 --> 01:13.990
+So what I'm going to do is work on the arms here.
+
+01:14.230 --> 01:21.720
+What I want is I want an arm joint coming out of this portion of the model here.
+
+01:22.030 --> 01:28.840
+So I'm going to tab into edit mode and press control tab to go into face select mode and I'll select
+
+01:28.840 --> 01:32.570
+these four faces.
+
+01:32.680 --> 01:36.000
+This is where I'd like that arm joint to come out of.
+
+01:36.310 --> 01:42.070
+So I'm going to press the x key to delete these and choose faces.
+
+01:42.160 --> 01:52.120
+And now what I need to do is somehow insert a circular piece into this so that I can extrude a round
+
+01:52.120 --> 02:00.880
+part out of a squared off base so to do that what I'm going to do is create a cylinder that matches
+
+02:00.880 --> 02:03.380
+the number of sides I have here.
+
+02:03.580 --> 02:12.850
+And if I go into edge mode right here I can see that I have if I press alt and select an edge and then
+
+02:12.850 --> 02:20.950
+come up here two edges I can see that I have eight edges selected out of the 506 edges that are in that
+
+02:20.950 --> 02:22.110
+object.
+
+02:22.120 --> 02:31.000
+So what I need is a cylinder with eight sides that I can use to frame out that round piece that I want
+
+02:31.000 --> 02:32.090
+to extrude.
+
+02:32.290 --> 02:35.410
+So to do that I'm going to tab back into object mode.
+
+02:35.590 --> 02:38.200
+De-select everything by hitting the a key.
+
+02:38.710 --> 02:48.070
+And I'm going to come over here to the Create tab and create a cylinder and when I do I get this panel
+
+02:48.070 --> 02:51.480
+down here on the bottom left hand part of the screen.
+
+02:51.760 --> 02:59.620
+And what this will allow me to do is adjust the settings of this cylinder now going to press the Z key
+
+02:59.620 --> 03:02.890
+so we can go to wireframe and see it in here.
+
+03:02.890 --> 03:10.560
+Now what I want is eight sides to this cylinder so when I'm in here type in eight and I also need the
+
+03:10.560 --> 03:17.660
+top of the cylinder to have a triangle fan so I'm going to choose the triangle fan under the cap Phil
+
+03:17.700 --> 03:19.290
+type.
+
+03:19.290 --> 03:26.550
+And now if I hit the Z key to go back to the shaded view I can move this cylinder out and we can take
+
+03:26.550 --> 03:27.770
+a look at it.
+
+03:28.230 --> 03:35.940
+If I would have moved it out before I tried to change the settings I would have lost the ability to
+
+03:35.940 --> 03:37.160
+change those.
+
+03:37.170 --> 03:45.450
+So you have to adjust those properties before you do any editing or moving to the object.
+
+03:45.790 --> 03:51.840
+So now that I have my cylinder I'm going to hit tab to go into edit mode and I'm going to hit control
+
+03:51.840 --> 04:00.320
+tab in the three key to go to face mode and what I want now is just these eight faces.
+
+04:00.440 --> 04:09.680
+I don't need the rest of the cylinder so I'll hit a to de-selected go to Z to go to all wireframe and
+
+04:09.680 --> 04:16.760
+to select all of these faces down here I'm going to press the Beaky for border select and click and
+
+04:16.760 --> 04:17.470
+drag.
+
+04:17.570 --> 04:20.460
+And now I've selected all of those faces.
+
+04:20.510 --> 04:24.580
+I can hit X and choose faces.
+
+04:24.600 --> 04:34.370
+Now this top of the cylinder will act as a round template for extruding or cutting a round piece out
+
+04:34.370 --> 04:35.340
+of the body.
+
+04:35.360 --> 04:37.290
+So let me show you what I mean here.
+
+04:37.400 --> 04:43.760
+I'm going to tab back into object mode and sense the pivot point is away from this object.
+
+04:43.760 --> 04:50.540
+I need to move that pivot point back to the center of this object to do that I'll go back to the Tools
+
+04:50.540 --> 04:55.940
+tab and here this set origin pull down menu.
+
+04:55.940 --> 05:04.500
+I can say set origin to the geometry and that will pop the pivot point or the origin back into the center
+
+05:04.500 --> 05:06.680
+of the object.
+
+05:06.690 --> 05:10.350
+Now I want to move this to that hole.
+
+05:10.560 --> 05:13.390
+So how to do that quickly and precisely.
+
+05:13.440 --> 05:19.500
+I mean I could move this and move it here and then and go to rotate to and rotate it.
+
+05:19.500 --> 05:20.460
+Things like that.
+
+05:20.560 --> 05:24.390
+But that's not real efficient.
+
+05:24.660 --> 05:25.480
+It'll work.
+
+05:25.680 --> 05:29.970
+But let me show you another way here so I can tab into edit mode.
+
+05:30.000 --> 05:33.590
+And I need to go to edge select mode.
+
+05:33.600 --> 05:39.570
+So I'm in a press control tab and slight edge and I'm just going to make sure I'm going to press alt
+
+05:39.600 --> 05:43.110
+and select an edge just to reast select those edges.
+
+05:43.230 --> 05:51.300
+Now I'm going to press shift s and choose cursor to selected and that will move that cursor right there
+
+05:51.630 --> 05:54.210
+in the center of those edges.
+
+05:54.210 --> 06:05.930
+Now if I tab back to object mode select this object I can choose to shift s selection to cursor and
+
+06:05.930 --> 06:11.390
+that will pop that object to the point of the cursor.
+
+06:11.420 --> 06:13.840
+That's a lot easier and more precise.
+
+06:13.970 --> 06:17.310
+So I'm going to now hit the s key and scale this down.
+
+06:17.720 --> 06:22.900
+So I get that circle in the center of that hole.
+
+06:22.970 --> 06:23.740
+All right.
+
+06:23.900 --> 06:25.180
+So now what.
+
+06:25.550 --> 06:32.030
+Well I need to connect these two so that I can use this to extrude out and to connect these two.
+
+06:32.150 --> 06:34.930
+I'm going to need to combine these two objects.
+
+06:35.330 --> 06:39.290
+So to do that I need to select both objects.
+
+06:39.430 --> 06:44.900
+Select one shift select the other and now I'm going to press control J.
+
+06:45.340 --> 06:49.210
+Which is the shortcut key for joining objects.
+
+06:49.210 --> 06:55.420
+Now if I tab into edit mode you can see they both go into edit mode because they're all one object.
+
+06:55.420 --> 06:58.790
+There are two different pieces of the same object.
+
+06:58.810 --> 07:09.760
+So now if I select this edge and hit the e key to extrude and then click with the left mouse button.
+
+07:09.760 --> 07:16.150
+Now if I hit the s key and scale in just a bit I can bring that in just a little.
+
+07:16.160 --> 07:19.530
+I don't need it a whole lot just a little.
+
+07:19.730 --> 07:25.850
+Because these are the points now that I'm going to connect to this round part.
+
+07:25.850 --> 07:32.880
+So I think before I do that I'm going to bring that out a smidge I'm going to select this whole piece
+
+07:32.880 --> 07:39.400
+with the L key L for select linked and I'll move this out just a bit.
+
+07:39.720 --> 07:41.700
+So it lines up with those edges.
+
+07:44.420 --> 07:49.010
+And maybe even rotate it some.
+
+07:49.020 --> 07:50.740
+All right.
+
+07:50.930 --> 07:56.630
+So I think I'm about ready to connect him up.
+
+07:56.730 --> 08:06.060
+So now I'm going to go to Virtex mode and what I want to do is connect these vertices into the round
+
+08:06.060 --> 08:06.350
+part.
+
+08:06.360 --> 08:13.250
+I don't want to connect them out because that would form the round shape I'm trying to get.
+
+08:13.260 --> 08:21.450
+So I'm going to select this one and then shift select this one and then press alt m to get the merge
+
+08:21.510 --> 08:24.790
+menu and choose at last.
+
+08:24.810 --> 08:31.860
+So now I can just choose each one of these alt him at last and keep going on around
+
+08:35.720 --> 08:36.550
+and then we have it.
+
+08:36.560 --> 08:43.410
+We now have a round hole in an object full of square polygons.
+
+08:43.460 --> 08:50.900
+So what this allows us to do is to select these faces to quickly select them I'm going to press the
+
+08:50.900 --> 08:57.680
+C key and I can scroll the mouse wheel to adjust the size of the selection.
+
+08:57.680 --> 08:58.850
+Brush here.
+
+08:58.860 --> 09:02.120
+I'm just going to click and drag to select those.
+
+09:02.260 --> 09:09.140
+All right click to get out of the circle select tool and now I've got these faces selected so I can
+
+09:09.140 --> 09:10.820
+extrude them out.
+
+09:10.850 --> 09:14.420
+So let's do that I'm going to hit the e key for extrude.
+
+09:14.420 --> 09:16.670
+I'm going to move the mouse out.
+
+09:17.700 --> 09:18.760
+A bit like that.
+
+09:20.530 --> 09:24.490
+Now I'm thinking that this piece where the joint is going to go is going to be flared out.
+
+09:24.500 --> 09:28.170
+Something hit the s key scale out a bit.
+
+09:28.420 --> 09:34.170
+And I think what I'd also like to do then is go to the rotate tool and click and drag.
+
+09:34.510 --> 09:39.940
+So it's angled like this yeah something like that.
+
+09:39.960 --> 09:44.290
+So this is where around the joint is going to go.
+
+09:44.460 --> 09:46.900
+That's the shoulder of our arm.
+
+09:47.880 --> 09:52.660
+So in the next video we'll begin working on the shoulder joint and the arm as well.

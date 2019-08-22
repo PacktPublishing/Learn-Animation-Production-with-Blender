@@ -1,0 +1,304 @@
+WEBVTT
+
+00:00.270 --> 00:09.030
+So I go ahead and go to face mode or press the C key and scroll the mouse wheel just a bit to make it
+
+00:09.060 --> 00:13.260
+a little bigger and then click and drag and select these faces.
+
+00:14.470 --> 00:17.370
+Now let's extrude this out.
+
+00:18.370 --> 00:19.660
+I'll hit the e key.
+
+00:21.030 --> 00:25.420
+And this time I'm just going to click and so I can move this straight out like this.
+
+00:26.290 --> 00:37.490
+And I think once again I'll scale it a bit and then maybe move it up a little and then I'm going to
+
+00:37.490 --> 00:40.940
+hit the e key click the Esc key.
+
+00:40.940 --> 00:47.500
+Scale it in a bit more and then I'll hit the key again and move it straight down.
+
+00:48.550 --> 00:51.930
+Then hit the cue to scale it in.
+
+00:52.060 --> 00:56.370
+So there is our piece for the Yankel.
+
+00:56.900 --> 01:03.200
+The last thing I'd like to do is just to create a little joint here between the base of the foot and
+
+01:03.200 --> 01:04.450
+the toe.
+
+01:04.460 --> 01:13.340
+So what I'll do is all select these two objects and press shift s and cursor to selected and that puts
+
+01:13.340 --> 01:15.380
+the cursor right there.
+
+01:15.380 --> 01:20.360
+Now if I wanted to move the cursor just a little bit more forward one of the things I could do is go
+
+01:20.360 --> 01:29.060
+into the properties panel with the key and if I scroll down here you can see I've got an x y and z values
+
+01:29.060 --> 01:31.100
+for the 3D cursor.
+
+01:31.100 --> 01:38.720
+Now I could move this in the Y just a bit and I can move it into the center of these two objects and
+
+01:38.720 --> 01:45.710
+you can move the cursor in the z axis or in the Y or in the X
+
+01:48.610 --> 01:48.820
+right.
+
+01:48.820 --> 01:55.960
+So I've got that 3D cursor right between those two objects what I'll do is I'll go ahead and create
+
+01:56.020 --> 02:03.400
+a new object or create a cylinder and it'll pop right into the center there.
+
+02:03.410 --> 02:07.110
+Now once again this is at 16.
+
+02:07.290 --> 02:10.180
+I could use 16 and I think I'll just use 12 here.
+
+02:12.190 --> 02:14.120
+The triangle fan is fine.
+
+02:15.100 --> 02:16.960
+I will scale this down.
+
+02:18.940 --> 02:31.970
+And rotated a bit say around the Y scroll back up and change the Y to 90 degrees and scale this a bit
+
+02:31.970 --> 02:33.680
+like this.
+
+02:33.710 --> 02:37.150
+Now I have it scaled to the width that I want it.
+
+02:37.310 --> 02:43.640
+But what I'd like to do is make it a little bit smaller in terms of the radius of the cylinder.
+
+02:43.640 --> 02:46.280
+If I clicked yes it would change the whole thing.
+
+02:46.280 --> 02:48.390
+All three axes and I don't want that.
+
+02:48.410 --> 02:55.470
+What I'd like is to change or scale the object just in the Y and Z.
+
+02:55.910 --> 03:00.580
+One trick to do that here is using the scale manipulator.
+
+03:00.590 --> 03:09.410
+If you shift and click on the access you do not want to scale and then move the mouse.
+
+03:09.560 --> 03:16.820
+You can see you can scale it in just those two axes so I'm not scaling it in the X but I am in the Y
+
+03:16.820 --> 03:18.320
+and Z.
+
+03:18.650 --> 03:26.330
+Now that we have the foot in place let's work on the ankle and lower leg here for the ankle of course
+
+03:26.330 --> 03:28.740
+we're just going to do a sphere again.
+
+03:29.030 --> 03:32.780
+And to do that we can do the same thing we did before.
+
+03:33.020 --> 03:35.330
+We can choose an edge here.
+
+03:36.150 --> 03:44.580
+With all select and transfer the 3D cursor to the center of that selection with cursor to select it.
+
+03:45.090 --> 03:52.980
+And now if I go back to object mode and create a sphere it will pop into that position so that the key
+
+03:52.980 --> 03:55.090
+and scale it down a bit.
+
+03:55.830 --> 04:06.180
+I think I want it to be a little bit higher than the exact center.
+
+04:06.390 --> 04:08.150
+Maybe something like that.
+
+04:09.620 --> 04:14.750
+Now with this large it looks like the rest of the object is a little too low.
+
+04:14.750 --> 04:22.090
+Now let me take a look at it again from the side view by hitting the three key and the five key.
+
+04:22.310 --> 04:30.200
+And if I hit the one key Yeah it looks like I could take that whole body up just a bit.
+
+04:30.800 --> 04:37.970
+So I'm going to de-select the sphere with the key and go to a wireframe with the Z key and press the
+
+04:38.420 --> 04:40.000
+Beaky for border select.
+
+04:40.000 --> 04:46.880
+And I'm just going to drag select all of these pieces make sure I'm in global mode here and just drag
+
+04:46.880 --> 04:51.770
+these up a bit maybe something like that.
+
+04:52.190 --> 05:01.220
+So I go back into shaded view and rotate around and hit the five key to go back to perspective that
+
+05:01.250 --> 05:05.640
+the A key to de-select everything and now we've got him up a little higher.
+
+05:06.710 --> 05:08.650
+And let's try it like this.
+
+05:08.930 --> 05:15.070
+And once again we're blocking all this in just to get a sense of how he's going to look.
+
+05:15.080 --> 05:18.890
+We'll be providing more detail to each of these pieces.
+
+05:18.950 --> 05:27.530
+But first we need to get a sense of scale and proportion on him now to create the lower leg.
+
+05:27.740 --> 05:35.390
+We can try something a little different this time for the other pieces we've just used a cylinder and
+
+05:35.390 --> 05:37.220
+we can certainly still do that.
+
+05:37.310 --> 05:45.080
+But when we select these pieces and hit the period key on the numpad to zoom in another way to do this
+
+05:45.140 --> 05:49.250
+is to use circles and the bridge tool.
+
+05:49.550 --> 05:58.040
+So let's move the cursor up to this fear almoner press shift desk and cursor to selected and then I'm
+
+05:58.040 --> 06:01.590
+going to click circle here to create a circle.
+
+06:02.030 --> 06:06.260
+Now we don't need thirty two sides to this.
+
+06:06.260 --> 06:09.920
+In fact I think we've been working 12 is that right.
+
+06:10.070 --> 06:17.210
+So I'm going to put 12 in there and then I'm going to scale this down to around something like this
+
+06:18.190 --> 06:25.330
+and maybe move that down a hair like that and scale that in.
+
+06:25.900 --> 06:34.630
+And then four down here we could move the cursor to this one and then click circle.
+
+06:34.880 --> 06:36.160
+We've got 12 Sides.
+
+06:36.160 --> 06:37.590
+That's good.
+
+06:37.610 --> 06:43.160
+Scale it in and then maybe move this up some here too as well.
+
+06:46.150 --> 06:52.210
+So what I'm going to do is actually use these two circles and bridge between them to create the geometry
+
+06:52.210 --> 06:54.170
+of the lower leg here.
+
+06:54.250 --> 06:59.500
+But I think I like to angle them towards each other they're currently just kind of flat.
+
+06:59.800 --> 07:08.730
+So what I'd like to do is change the pivot point for a moment here from median to 3D cursor.
+
+07:09.400 --> 07:17.830
+And so when we click on one of these now the pivot point is no longer at the origin of the object but
+
+07:17.830 --> 07:20.250
+the pivot point is that the 3D cursor.
+
+07:20.590 --> 07:25.690
+So if I go to the side view here and hit 5 for orthographic.
+
+07:25.690 --> 07:32.490
+Now when I rotate this notice I can rotate it at the center of this sphere.
+
+07:32.650 --> 07:33.270
+Right.
+
+07:33.730 --> 07:36.990
+And aim it toward that other sphere up there.
+
+07:37.900 --> 07:41.790
+Like so and now do the same thing appear else like the sphere.
+
+07:42.010 --> 07:43.580
+Move the 3D cursor.
+
+07:43.720 --> 07:49.630
+And now when I select this object the rotation will happen at the center of the sphere.
+
+07:49.630 --> 07:55.240
+And so the circle will kind of slide along the surface of the circle.
+
+07:55.300 --> 08:02.860
+So I'm just going to try and get these two circles about parallel now to bridge between them.
+
+08:02.860 --> 08:05.540
+They need to be the same object.
+
+08:05.560 --> 08:08.830
+I'll go ahead and switch back to median point here.
+
+08:08.890 --> 08:14.750
+So to be the same object we need to select both of them and then press control J.
+
+08:14.950 --> 08:17.890
+So they become two pieces of the same object.
+
+08:18.250 --> 08:22.270
+And now I'm going to hit the tab key to go into edit mode.
+
+08:22.630 --> 08:31.360
+And so if I switch to vertices Now you can see the vertices for each of the objects.
+
+08:31.360 --> 08:37.760
+All right so I'm going to press the alt key and select and then shift and alt and select.
+
+08:38.080 --> 08:41.870
+And now I've got both of these selected I can press control e.
+
+08:42.250 --> 08:49.420
+And now we can come down here to bridge edge loops and if we click that you can see geometry is created
+
+08:50.050 --> 08:52.380
+between the two circles.
+
+08:52.420 --> 08:55.270
+So it's just another way to do this.
+
+08:55.360 --> 09:03.640
+All right so let's tab back into object mode and I'll hit the five key to go back to perspective view.
+
+09:03.700 --> 09:06.100
+So there we have our lower leg.

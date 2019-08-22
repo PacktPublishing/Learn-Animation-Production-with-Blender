@@ -1,0 +1,328 @@
+WEBVTT
+
+00:00.760 --> 00:06.640
+Let's go ahead and begin building our Meck character first of all I think I'd like to just delete all
+
+00:06.640 --> 00:07.900
+of these objects out of the scene.
+
+00:07.900 --> 00:09.130
+I don't need these.
+
+00:09.160 --> 00:12.070
+Ultimately we'll need a camera and lights.
+
+00:12.190 --> 00:17.520
+But for now they're just going to get in the way to de-select an object.
+
+00:17.590 --> 00:24.100
+You just press the A key and then you press the key again and then you will toggle the selection of
+
+00:24.100 --> 00:25.970
+all the objects in the scene.
+
+00:26.020 --> 00:29.560
+The key just toggles your selection on and off.
+
+00:29.800 --> 00:35.800
+So if you select an object you can de-select the object by pressing the a key.
+
+00:35.830 --> 00:42.180
+So I'm going to hit the key then hit the x key to delete and then click delete.
+
+00:43.250 --> 00:46.570
+So now we've got a clean scene ready to go here.
+
+00:46.910 --> 00:52.170
+Let's take a look at that reference image of the character.
+
+00:52.260 --> 00:56.640
+I think what I'll do is begin with this main body piece here.
+
+00:56.640 --> 01:03.150
+So the first thing I'll do is go over to the Tools panel over here which you can hide or reveal by pressing
+
+01:03.150 --> 01:11.280
+the T key or by clicking this little plus icon here and that will bring up the Tools panel.
+
+01:11.280 --> 01:16.620
+I'm going to go to the Create tab and here we've got a list of all the things that we can create in
+
+01:16.620 --> 01:17.430
+our scene.
+
+01:17.430 --> 01:19.750
+I'm just going to create a basic cube now.
+
+01:21.450 --> 01:30.080
+And what I'm going to do is use this basic cube to try and get that shape of the main body of the Mac.
+
+01:30.330 --> 01:35.450
+So many use two different modifiers on this as I go.
+
+01:35.490 --> 01:42.750
+So I'm going to come over here to the Properties window and this little wrench here is the modifiers
+
+01:42.750 --> 01:50.660
+panel and if you click add modifier you get a lot of possible modifiers that you could add to your objects.
+
+01:50.670 --> 01:57.150
+The one I'm interested right now is this subdivision surface modifier So if I click on that it will
+
+01:57.360 --> 01:59.700
+smooth the object.
+
+01:59.700 --> 02:05.490
+Granted it's not real smooth at this point in time but if I increase the view if I increase the number
+
+02:05.490 --> 02:13.110
+of subdivisions in the view here you can see that as I do it gets smoother and smoother so I'm going
+
+02:13.110 --> 02:21.960
+to want to use this to get that smooth round shape for the body but I'll also want to be able to modify
+
+02:21.960 --> 02:28.560
+the object symmetrically So as I edit one side of the object I went the other side of the object to
+
+02:28.560 --> 02:29.730
+follow along.
+
+02:29.760 --> 02:33.280
+So to do that I want to use the mirror modifier.
+
+02:33.480 --> 02:39.180
+But first I'm going to need to delete half of this because of falling a mere half I need to only have
+
+02:39.180 --> 02:40.740
+one side.
+
+02:40.770 --> 02:43.960
+So what I want to do is split the object in half.
+
+02:44.070 --> 02:50.930
+So these buttons here allow you to view the effects of the modifier in the render or in the view here.
+
+02:50.970 --> 02:59.220
+Now if I look at the cube here in Object mode and go to hit that by hitting the tab key I can see that
+
+03:00.270 --> 03:02.700
+there are no edges in here.
+
+03:02.700 --> 03:05.070
+I need to split this in half.
+
+03:05.070 --> 03:12.360
+So what I'm going to do is just press control our hover over the cube click once and click one more
+
+03:12.360 --> 03:14.070
+time to confirm that.
+
+03:14.190 --> 03:17.490
+And that places an edge right down the center of the cube.
+
+03:17.850 --> 03:21.750
+So now I can press control tab and go into face mode.
+
+03:22.260 --> 03:28.960
+And now I want to select one side of this and delete it so I can mirror it over.
+
+03:29.340 --> 03:36.730
+So to select all of these faces I could just select and press shift and keep clicking here.
+
+03:38.900 --> 03:45.380
+Like so another way to do that I'm going to press the A key to de-selected those.
+
+03:45.380 --> 03:51.810
+Another way to do that is to press the Z key to go into wireframe.
+
+03:51.990 --> 03:59.550
+And now I can border select all of these if I press the Beaky I get this kind of here and I can click
+
+03:59.550 --> 04:06.560
+and drag and it will create a border selection and now we'll select all those faces.
+
+04:06.570 --> 04:12.240
+So now press the Z key again to go back to shaded view here.
+
+04:12.360 --> 04:17.910
+Now I can press the x key and delete faces.
+
+04:17.920 --> 04:18.940
+All right.
+
+04:19.300 --> 04:22.260
+So I'm gonna hit the tab key to go back to object mode.
+
+04:22.570 --> 04:31.740
+And now if I turn my subdivision services modifier back on you can see I have this now.
+
+04:32.000 --> 04:35.570
+All right so now I'm going to create a mirror modifier for this.
+
+04:35.570 --> 04:43.160
+I'm going to click add modifier and go to a mirror and you can see that it doesn't do anything.
+
+04:43.160 --> 04:44.570
+Why doesn't it do anything.
+
+04:44.870 --> 04:51.100
+Well it's because the axis is set to the x axis here if I turn that off and turn on y.
+
+04:51.320 --> 04:55.790
+You can see it Meir's it over in the y axis.
+
+04:55.790 --> 05:04.090
+Now I don't really want that I want it to mirror in the x axis cause as we model and rig our character
+
+05:04.880 --> 05:13.640
+ultimately when we mirror the rig over when we do constraints and everything like that we're going to
+
+05:13.640 --> 05:20.120
+want the character to be facing us with the arms out toward the x axis.
+
+05:20.270 --> 05:27.950
+So I need to actually turn this 90 degrees I actually inserted the edge loop in the wrong place but
+
+05:27.950 --> 05:29.310
+that's an easy fix.
+
+05:29.330 --> 05:37.490
+We can press the end key to go to the properties panel here and in the rotation fields we can rotate
+
+05:37.490 --> 05:47.720
+90 degrees around the z axis so I can actually click and drag in here and rotate around the z axis so
+
+05:47.720 --> 05:52.740
+I want it actually 90 I want it to be negative 90 here.
+
+05:52.760 --> 05:55.680
+Now you may have it correct.
+
+05:55.700 --> 06:02.510
+You may already have it the way it needs to be but I need to do this to get it to where it's oriented
+
+06:02.510 --> 06:04.890
+in the proper direction.
+
+06:05.060 --> 06:11.960
+So I'm going to go ahead and delete the mere modifier for the time being and then I need to apply the
+
+06:11.960 --> 06:12.990
+rotations here.
+
+06:13.000 --> 06:22.850
+I need to have this be zeros so that the local axis of the object matches the global or the world axis
+
+06:23.150 --> 06:24.210
+of Arsene.
+
+06:24.530 --> 06:33.950
+So to do that I'm going to press control a and apply the rotation and notice there it zeroes out the
+
+06:33.950 --> 06:36.130
+rotation in the z axis.
+
+06:36.140 --> 06:40.080
+Now when I come back and add that mirror modifier again.
+
+06:40.430 --> 06:47.080
+And now with the x axis selected you can see that it's mirroring over in the correct direction.
+
+06:47.510 --> 06:55.070
+All right so they closed the properties panel and in the subdivisions going to increase that to say
+
+06:55.100 --> 06:57.050
+to here.
+
+06:57.080 --> 07:06.440
+So now if I press the tab key I can go into edit mode and you can see here that it's got both the smoothed
+
+07:06.860 --> 07:10.790
+mesh and kind of a ghost image of the original.
+
+07:10.790 --> 07:17.000
+So what I'm going to do is come over here to the subdivision surfaces modifier and just click this or
+
+07:17.020 --> 07:27.110
+just edit cage button and that will then allow me to see the points directly on the object itself.
+
+07:27.110 --> 07:33.590
+Now you can see when I click to select these this manipulator tool is still out here where the original
+
+07:33.590 --> 07:37.180
+one would be and that's fine for now.
+
+07:37.610 --> 07:43.960
+So now we can begin selecting these points and moving them around and modifying the shape of our object.
+
+07:44.270 --> 07:49.050
+But if I click on this point and I move it say the x axis look what happens.
+
+07:51.130 --> 07:57.040
+It actually breaks apart to undo that with control or command Z here.
+
+07:57.810 --> 08:04.260
+So to keep the pieces from splitting apart down the middle I can come over here to the mirror modifiers
+
+08:04.260 --> 08:07.610
+tab and turn on clipping right here.
+
+08:07.620 --> 08:14.820
+So now if I select that point and move it around you can see it only moves up and down and it it doesn't
+
+08:14.820 --> 08:17.320
+split out from the other side.
+
+08:19.290 --> 08:26.070
+All right I'm going to begin modifying this to try and make that basic shape of the of the character
+
+08:26.070 --> 08:26.630
+here.
+
+08:26.970 --> 08:34.560
+So to do that I'll go to face mode and I'll begin just dragging these around to try and get a basic
+
+08:35.280 --> 08:43.020
+shape here and I may need to add some edge loops as I as I go here so I'll hit control r and add an
+
+08:43.020 --> 08:51.880
+edge loop down the center here and that allows me to select this edge and maybe move it out a bit and
+
+08:51.880 --> 09:05.470
+I'm just switching from face mode to edge mode and just trying to get the shape that I want nuff I want
+
+09:05.470 --> 09:10.020
+to just like this whole edge around here instead of just one edge.
+
+09:10.020 --> 09:18.990
+I can press Allt and then click and select that edge and that will select that entire loop of edges
+
+09:19.080 --> 09:20.820
+around the object.
+
+09:20.820 --> 09:27.210
+Now I can move that whole thing up or down here and I'm just trying to do this with as few faces and
+
+09:27.210 --> 09:28.540
+edges as I can.
+
+09:28.560 --> 09:36.670
+At this point in time just to get the basic shape enough I go back to object mode and increase the views
+
+09:36.670 --> 09:37.320
+here.
+
+09:37.330 --> 09:46.480
+You can see I'm beginning to get kind of a rounded shape here with kind of as few edges as I can because
+
+09:46.480 --> 09:51.060
+the more geometry I put on this the harder it's going to be to manipulate.
+
+09:53.180 --> 10:00.550
+All right so there is the basic shape so far of the main body portion.
+
+10:00.590 --> 10:06.410
+So in the next video I'll begin creating the other pieces of the MC.
+
+10:06.410 --> 10:09.590
+The front glass piece and maybe the arms.

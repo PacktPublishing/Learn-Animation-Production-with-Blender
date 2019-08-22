@@ -1,0 +1,427 @@
+WEBVTT
+
+00:00.930 --> 00:07.260
+Before I go any further I think I'd like to move this guy up off the grid here.
+
+00:07.300 --> 00:10.180
+He's sitting in the middle of the grid.
+
+00:10.350 --> 00:15.690
+And I think I'm just going to select both pieces and move them up and try and get a sense.
+
+00:15.690 --> 00:21.870
+I kind of like to have things sitting or standing on the grid here and I'm going to try and get a sense
+
+00:21.870 --> 00:23.700
+of maybe how tall this guy would be.
+
+00:23.700 --> 00:30.140
+I don't know maybe he's going to be about like this something like that.
+
+00:30.260 --> 00:34.610
+So the legs will come off here and come down to the ground.
+
+00:36.040 --> 00:37.480
+Maybe a little bit taller.
+
+00:37.540 --> 00:44.800
+And of course this can change but as I go forward I kind of like to see it in proportion with the ground
+
+00:44.800 --> 00:46.470
+plane here.
+
+00:46.480 --> 00:49.830
+All right so let's work on the arm.
+
+00:50.200 --> 00:57.760
+Now that I've moved this up my pivot point has moved or my 3D cursor is stayed where it was.
+
+00:57.760 --> 01:07.750
+And actually I'm going to need that to insert the shoulder joint onto this extruded piece here so to
+
+01:07.750 --> 01:10.820
+move that pivot point again I'm going to tab.
+
+01:10.870 --> 01:18.520
+I'm going to select the body and tab into edit mode and I think all I need to do is press control tab
+
+01:18.520 --> 01:26.520
+and choose edge mode here and alt select this ring of edges around here.
+
+01:26.950 --> 01:31.920
+And now I can just press shift s and move the cursor to selected.
+
+01:32.380 --> 01:37.750
+So now this is where I'm going to place the next object I create.
+
+01:37.810 --> 01:44.830
+So I'm going to tab back into object mode and go over to the Create tab and here I'll choose U-V sphere
+
+01:46.550 --> 01:50.810
+and the U-V sphere pops into where the 3D cursor is.
+
+01:50.810 --> 01:59.450
+So I'll hit the s key and scale down I will press the period key on the number pad to zoom in.
+
+01:59.860 --> 02:09.110
+And I think I'm going to want this to be out a little bit more so it isn't overlapping there might be
+
+02:09.110 --> 02:10.690
+something like that.
+
+02:10.820 --> 02:17.600
+And keep in mind once I get these main pieces in like the body and the arms and the legs then I'll go
+
+02:17.600 --> 02:19.580
+back and refine them.
+
+02:19.580 --> 02:24.950
+I'm just trying to get the basic shapes down first.
+
+02:24.980 --> 02:31.730
+In addition what I'm doing is I'm modeling things on one side of the character here or one side of the
+
+02:31.730 --> 02:32.420
+object.
+
+02:32.780 --> 02:41.660
+And when I've got it the way I want it I'm going to mirror what I've done on one side over to the other
+
+02:41.660 --> 02:44.370
+side using the mirror modifier.
+
+02:44.570 --> 02:49.160
+Actually before we create anything new I think I better go through and clean this up a bit just so I
+
+02:49.160 --> 02:51.390
+know what is what.
+
+02:51.590 --> 03:00.920
+So like for the body I'm going to select that and call this main body over here in the outliner and
+
+03:00.920 --> 03:03.530
+this piece I can call.
+
+03:03.620 --> 03:09.260
+What do you think we should call that cockpit glass maybe do that.
+
+03:09.680 --> 03:15.670
+And for this sphere I'll call this shoulder joint.
+
+03:15.680 --> 03:17.190
+Just for now.
+
+03:17.390 --> 03:25.010
+These are probably temporary names but as I create new pieces here it can get confusing as to what is
+
+03:25.010 --> 03:25.830
+what.
+
+03:26.300 --> 03:31.450
+So now let's create a cylinder for that upper arm.
+
+03:31.700 --> 03:38.660
+So I'll go over here to the Create tab and press cylinder and that pops into the scene at the point
+
+03:38.660 --> 03:48.950
+of 3D cursor for the number of vertices we don't really need 32 probably but 12 would probably be a
+
+03:48.950 --> 03:57.380
+good number in terms of the cap filled type we probably don't need anything on that right now so I'll
+
+03:57.380 --> 03:59.100
+just choose nothing.
+
+04:00.090 --> 04:05.660
+I will scale this down a bit and begin moving this into place.
+
+04:05.760 --> 04:15.460
+So for the top part by the shoulder joint I think what I want to do is rotate this into place.
+
+04:15.870 --> 04:22.920
+And what might make it easier for me is if the manipulators here were based instead of on the world
+
+04:23.070 --> 04:28.020
+space were based on the local space of the object itself.
+
+04:28.020 --> 04:36.090
+In other words as I rotate this you can see the rotate tool remains straight up and down remains along
+
+04:36.090 --> 04:38.920
+the world axis or global axis.
+
+04:38.970 --> 04:47.250
+I can come down here and change this from global to local and that will change the axis of movement.
+
+04:47.280 --> 04:51.660
+So it's based on the object and not the world.
+
+04:51.660 --> 04:57.960
+So if I go to the move tool you can see that it too now is aligned to the object.
+
+04:57.960 --> 05:02.890
+This can be helpful for placing objects like this.
+
+05:03.000 --> 05:07.240
+And what I'm trying to do is just place it right on that sphere.
+
+05:07.710 --> 05:10.100
+It doesn't need to be perfect right now.
+
+05:10.100 --> 05:14.520
+We'll clean it up and make a better connection here coming up.
+
+05:14.520 --> 05:22.760
+But for right now I'll go into edit mode and choose edges and I'll alter select this whole edge.
+
+05:22.800 --> 05:33.840
+I think I'll scale it in just a little bit like so so it'll fit kind of over that sphere now that I've
+
+05:33.840 --> 05:41.070
+done that I want to I want to bring this edge down a bit to where the elbows should be.
+
+05:41.070 --> 05:47.140
+And it looks like in my drawings the elbows should be about the middle of the cockpit here.
+
+05:47.160 --> 05:53.760
+So what I'll do is tab into edit mode and alt select this ring of edges and with the move tool I'll
+
+05:53.760 --> 06:01.620
+just bring it straight down like so now in my drawing it looks like it flares in a bit.
+
+06:01.620 --> 06:04.900
+So for now I think that'll work pretty well as we're blocking this in.
+
+06:05.190 --> 06:09.910
+Let's go ahead and create now an elbow joint for the arm.
+
+06:09.930 --> 06:16.860
+Once again I'm going to go into edit mode and what I'll do is alt select this edge here and now let's
+
+06:16.860 --> 06:26.930
+move the 3-D cursor to this selection by pressing shift s cursor to selected and now if I tab back into
+
+06:27.110 --> 06:38.080
+object mode I can come over here to the Create tab and click on U-V sphere and it's huge of course but
+
+06:38.350 --> 06:47.000
+we can hit the key and scale it down and fit it right in here and once again we can create a cylinder
+
+06:47.270 --> 06:51.020
+from here it will pop in to where the 3D cursor is.
+
+06:51.020 --> 06:58.650
+So I'll hit cylinder and if we look at the reference image this one really flares out a lot.
+
+06:58.670 --> 07:05.450
+So I'm going to try and get that flayer there on the forearm so I'll scale this down and begin moving
+
+07:05.450 --> 07:06.320
+it into place.
+
+07:08.120 --> 07:15.830
+Maybe I'll take this edge here at the top and scale it down with the King I'm going to select this edge
+
+07:15.890 --> 07:24.440
+and go to the scale tool and maybe flatten it up just a bit so it's wide here and a little bit thinner
+
+07:24.830 --> 07:26.080
+from the front view.
+
+07:27.340 --> 07:34.890
+One thing I would like to do is give a bit of a curve to this as it comes back toward the fingers.
+
+07:34.960 --> 07:42.880
+If I zoom in here what I'd like to do is I'd like to take this edge and flatten it in just a little
+
+07:42.880 --> 07:49.390
+bit more here and then I'm going to insert an edge loop and to insert an edge loop I'm going to press
+
+07:49.390 --> 07:57.640
+control r and it'll give me this kind of ghost image of I have an edge loop and I'll click once with
+
+07:57.640 --> 07:58.460
+the mouse.
+
+07:58.600 --> 08:03.760
+And now I can drag this up and down to where I want to place it.
+
+08:03.760 --> 08:12.190
+And I think I want to place it right about here and now and this kind of scale this out here and here.
+
+08:12.260 --> 08:22.400
+So it kind of flares out a bit and then comes in toward the where the fingers will be kind of like that.
+
+08:22.580 --> 08:29.240
+And I'll maybe even insert a new edge loop right up here and do a similar thing right here with a bit
+
+08:29.240 --> 08:31.660
+of a flayer.
+
+08:31.880 --> 08:36.710
+And before I move any further I may come back to the outliner here and clean this up some.
+
+08:36.710 --> 08:47.830
+So once again I'll double click on one of these and I'll call this forearm and call this elbow joint.
+
+08:49.880 --> 08:54.020
+And this can be our upper arm.
+
+08:54.020 --> 08:54.290
+All right.
+
+08:54.290 --> 08:56.840
+So let's work on the hands now of the hand.
+
+08:56.840 --> 09:06.860
+I think what I'd like to do is place a sphere in here and then the fingers will be actually placed into
+
+09:06.860 --> 09:08.270
+that sphere.
+
+09:08.300 --> 09:09.060
+So let's try that.
+
+09:09.080 --> 09:18.960
+I'm going to select the forearm go into Edit Mode alt select that edge and move the cursor with shift
+
+09:18.960 --> 09:21.290
+yes to the selected area.
+
+09:21.710 --> 09:26.650
+I'll tab back into object mode and let's create a sphere.
+
+09:29.030 --> 09:33.650
+And then I'll scale it down with the Eski OK.
+
+09:33.900 --> 09:40.960
+And with this I'll then select this edge and scale this in a bit as well.
+
+09:47.650 --> 09:49.780
+So let's start working on the fingers here.
+
+09:49.780 --> 09:58.210
+I think what I'm going to do is go to a brand new layer and just model these independently for now.
+
+09:58.210 --> 10:04.760
+So I click on Layer 2 and that will hide the main body away here.
+
+10:04.960 --> 10:10.780
+And then when press shift s and move the cursor to the center of the grid.
+
+10:11.170 --> 10:17.710
+And now I think I'm just going to begin with a cube so I'll click on the cube in the create tab and
+
+10:17.710 --> 10:19.840
+that will pop in.
+
+10:19.840 --> 10:22.270
+I think I'll just move it up a bit.
+
+10:24.090 --> 10:32.730
+From here I think I'll create a cylinder to be the joint between the fingers.
+
+10:32.730 --> 10:36.440
+So let's go with cylinder.
+
+10:36.720 --> 10:43.980
+You can see here in the ADD cylinder options panel here that we've got 32 vertices we don't need that
+
+10:43.980 --> 10:44.280
+many.
+
+10:44.280 --> 10:52.770
+I'm just going to have about 12 and instead of the fill type being gone what I'd like to do is change
+
+10:52.800 --> 10:55.850
+this to triangle fan.
+
+10:56.110 --> 11:03.670
+I want to rotate this around the x axis and rotate it this way and I want it exactly 90 degrees so I'll
+
+11:03.670 --> 11:12.220
+press the end key to bring up the properties panel here and type 90 degrees and then scale this a bit
+
+11:12.250 --> 11:16.550
+and I'm going to place this as a joint right by the finger here.
+
+11:16.810 --> 11:21.330
+So I'll move this and move this over to the finger.
+
+11:21.340 --> 11:27.880
+Now I want to see that this is right in line with this so what I'm going to do is first of all I'm going
+
+11:27.880 --> 11:34.360
+to frame that cylinder up with the period key on the numpad and the next thing I want to do is press
+
+11:34.360 --> 11:42.210
+the one key to go to the front view and then I'm going to press the five key to go to orthographic view.
+
+11:42.700 --> 11:47.550
+So now I can see these objects in an orthographic view without any perspective.
+
+11:48.480 --> 12:00.870
+So I'm going to scale this down just a bit something like this and place this right about here so that
+
+12:00.860 --> 12:05.570
+this digit of the finger will rotate right around here.
+
+12:05.570 --> 12:07.770
+Ultimately at that joint.
+
+12:08.330 --> 12:14.960
+So I'm in a tumble around and then hit the 5 key to go back to perspective view and then I'm going to
+
+12:14.960 --> 12:20.050
+go to the seven key and five key and look at it from the top.
+
+12:20.150 --> 12:26.690
+And here I think I'll move this a bit like that and now I'm going to duplicate this object actually
+
+12:26.690 --> 12:34.080
+before I do that I think I want to scale this would make it a little thicker like this.
+
+12:34.100 --> 12:35.000
+There we go.
+
+12:35.300 --> 12:40.420
+And to duplicate this object I'm just going to shift the and then click.
+
+12:40.810 --> 12:45.090
+And now I can move the new object away from the old object there.
+
+12:45.320 --> 12:47.780
+So maybe something like that.
+
+12:47.800 --> 12:54.450
+So now I've got this piece with a joint in the middle there.
+
+12:54.780 --> 12:55.820
+And one more thing.
+
+12:55.820 --> 13:01.800
+One more thing actually let's create another cylinder and put in a cylinder right through the center
+
+13:01.800 --> 13:03.420
+of these objects here.
+
+13:03.450 --> 13:05.400
+So going to create a cylinder
+
+13:08.040 --> 13:17.570
+rotated again around the x axis scale this down make it a little longer now as well.
+
+13:18.350 --> 13:22.410
+And now here's another trick of the 3D cursor.
+
+13:22.440 --> 13:29.620
+I'm going to select these two objects press shift s and bring that cursor to the selected objects.
+
+13:29.720 --> 13:33.280
+So that puts it right in the center of those two objects.
+
+13:33.350 --> 13:41.600
+Now going to grab this cylinder press shift s and select selection to cursor and that pops it right
+
+13:41.600 --> 13:43.590
+into the center of those two objects.

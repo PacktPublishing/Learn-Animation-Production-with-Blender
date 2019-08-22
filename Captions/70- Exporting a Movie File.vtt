@@ -1,0 +1,139 @@
+WEBVTT
+
+00:00.690 --> 00:08.430
+Now that our frames are rendered out let's look at how we can export those out to a single quick time
+
+00:08.520 --> 00:15.600
+movie to do that we need to go over here to the video editing screen layout.
+
+00:15.960 --> 00:23.190
+And when we do that we get this screen here this window down here is our video sequence editor and this
+
+00:23.190 --> 00:32.580
+will allow us to drop our image sequence on the timeline as if it's a single movie clip and then we'll
+
+00:32.580 --> 00:35.440
+be able to export it out to quick time.
+
+00:35.790 --> 00:42.820
+So what I should do is come down here to add and choose image because we're choosing an image sequence.
+
+00:44.900 --> 00:50.650
+I'm going to browse to my project folder and go to that rendered frames folder.
+
+00:50.750 --> 00:59.150
+And here are all the rendered frames from zero all the way to 310.
+
+00:59.240 --> 01:07.880
+So I'll just press the A key to select them all and choose add image Strip and there is our movie.
+
+01:07.880 --> 01:12.110
+Now I'm going to zoom in just a little bit here so we can see this.
+
+01:12.110 --> 01:23.800
+So if I hit play there's our movie now it's running a little slow right now but it'll cache and play
+
+01:24.010 --> 01:27.660
+quicker the next time we play it.
+
+01:27.760 --> 01:37.770
+I'm going to zoom in a bit by dragging this bar over here just a bit so I can see the whole thing.
+
+01:37.790 --> 01:39.550
+So this is our clip.
+
+01:39.560 --> 01:45.230
+This is our rendered movie and we could export this out the way it is.
+
+01:45.260 --> 01:53.600
+But what I've done is I've added a little bit of fade to white as the spotlight comes around right about
+
+01:53.600 --> 01:55.900
+here I've faded to white.
+
+01:56.210 --> 02:04.700
+So let's do that maybe right around in here is when the fade would begin sort of do that.
+
+02:04.700 --> 02:11.330
+I'm going to come over here to add effects strip and I'll choose a color
+
+02:14.000 --> 02:16.840
+and that pops in right at where the cursor is.
+
+02:16.970 --> 02:19.790
+But I want to change this from black to white.
+
+02:19.940 --> 02:25.630
+So if I scroll down here I can change this.
+
+02:25.790 --> 02:34.100
+And we go now what I'd like to do is to crossfade from the clip to the white.
+
+02:34.100 --> 02:41.150
+So when I select the clip and shift select the white color strip and then I'm going to come back to
+
+02:41.210 --> 02:45.760
+add effect and cross.
+
+02:46.100 --> 02:49.500
+And that adds a crossfade there at that point.
+
+02:50.470 --> 03:00.360
+So now it's going to fade into white one thing I should also do is kind of increase the frame length
+
+03:00.480 --> 03:02.740
+of my movie here.
+
+03:03.090 --> 03:09.390
+And so I'll expand this out and I want to extend this out to three sixty.
+
+03:09.540 --> 03:14.330
+So I'm just going to select this little end of the strip and you can see it says 320.
+
+03:14.340 --> 03:22.840
+There are press g and then drag and move this out to 360.
+
+03:23.110 --> 03:23.770
+And there we go.
+
+03:23.770 --> 03:30.920
+So now if I go back to the beginning and press play now we're playing at 24 frames per second
+
+03:40.470 --> 03:43.230
+and we can see a crossfade.
+
+03:43.260 --> 03:47.640
+All right so now let's go ahead and export it out to a movie file.
+
+03:47.700 --> 03:54.900
+I'm going to click on this little tab here and drag it so I can open up a new window because what I
+
+03:54.900 --> 03:59.330
+want is that properties panel that the render settings are on.
+
+03:59.640 --> 04:08.970
+So I come up here to properties and in this window we need to scroll down so into the output section
+
+04:08.970 --> 04:15.060
+I'm going to click on the browse button here eyebrows to the main portion of my project folder and here's
+
+04:15.060 --> 04:24.890
+where I'll drop my rendered movie so I'll just call this final render and I'll click accept.
+
+04:24.910 --> 04:29.670
+Now I want to make sure that my start and in frame are correct.
+
+04:29.680 --> 04:32.710
+So I've got it from 1 to 360.
+
+04:33.980 --> 04:45.660
+If I scroll down here I need to change my output type from PMG to quick time and I need to change the
+
+04:45.690 --> 04:56.890
+video codec from j peg to h to 6 for and I'm going to go ahead and increase the quality up to 100 percent.
+
+04:56.910 --> 05:01.680
+Now if I scroll back up and click on animation
+
+05:06.340 --> 05:08.200
+it'll render out my final movie.

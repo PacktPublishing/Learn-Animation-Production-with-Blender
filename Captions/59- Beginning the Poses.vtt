@@ -1,0 +1,472 @@
+WEBVTT
+
+00:01.130 --> 00:07.100
+I've gone ahead and done a little tweaking to the animation I've kind of slowed him down as he's coming
+
+00:07.100 --> 00:10.050
+down through the ceiling here and let me play it.
+
+00:10.100 --> 00:17.300
+So he comes down and then he kind of hovers and then he kind of dips as he moves forward and then he
+
+00:17.300 --> 00:18.980
+drops.
+
+00:19.330 --> 00:25.290
+So that's what I've got so far and really it was just a matter of adjusting the curves.
+
+00:25.690 --> 00:29.420
+Tweaking the handles of each of the keys.
+
+00:29.770 --> 00:36.640
+At this point I think what I'd like to do is work on the rotation of him as he's coming down moving
+
+00:36.640 --> 00:43.270
+forward etc. I think I'd like him to come down pretty much straight up and down the way it is.
+
+00:43.330 --> 00:49.600
+But then as he begins to move forward I'd like him to kind of rotate forward as if the thrusters are
+
+00:49.600 --> 00:51.170
+kind of pushing him forward.
+
+00:51.190 --> 00:55.340
+And then as he comes to a stop I'd like him to rotate back a bit.
+
+00:55.960 --> 00:58.140
+So let's see if we can get that.
+
+00:58.300 --> 01:05.920
+I'll go back to the beginning here and I'm going to kind of turn like this just so I can see him a little
+
+01:05.920 --> 01:07.760
+bit better now.
+
+01:07.810 --> 01:14.770
+Hit play and I think so as he comes down I think this is OK but right here right here I'd like him to
+
+01:14.770 --> 01:17.540
+kind of roll forward just a bit.
+
+01:17.920 --> 01:19.860
+So he comes down.
+
+01:19.870 --> 01:21.610
+And then right here.
+
+01:22.270 --> 01:25.450
+Let's see if I can get him to roll forward just a bit.
+
+01:25.450 --> 01:30.340
+So I got in my rotation tool and I've still got autokey on.
+
+01:30.340 --> 01:34.690
+So before I begin a movement like this I've got a key the beginning state.
+
+01:34.690 --> 01:40.980
+In other words I need to key it say here like this or I'll hit.
+
+01:41.050 --> 01:43.860
+And for this I'll choose rotation.
+
+01:45.150 --> 01:51.600
+Now that's going to hold that position from the beginning here.
+
+01:51.630 --> 01:53.430
+Now if I move forward a bit
+
+01:56.670 --> 02:00.450
+go right here to frame 100 and I roll it forward some
+
+02:03.230 --> 02:07.300
+vs Now go back to the beginning.
+
+02:07.310 --> 02:16.730
+And so notice it's going to it's going to hold that upright position and then it'll turn and move forward
+
+02:16.730 --> 02:17.980
+like that.
+
+02:18.140 --> 02:18.800
+OK.
+
+02:18.800 --> 02:30.650
+And notice too that even after he tilts forward he'll move back up because at that he'll move back upright
+
+02:30.680 --> 02:38.110
+because at this keyframe we've got KEYES I believe for rotation here.
+
+02:38.220 --> 02:41.250
+So let's play this again and see how this looks.
+
+02:41.250 --> 02:45.710
+I think it kind of jerks forward a little bit too quickly.
+
+02:45.750 --> 02:47.820
+I want this to be pretty smooth.
+
+02:48.060 --> 02:51.640
+So let me take a look at the dope sheet here.
+
+02:52.180 --> 03:01.080
+If I scroll this down with the master control we can see that we've got rotation here.
+
+03:01.660 --> 03:08.320
+And notice I've got rotation over here so these are the keys that are driving it back upright.
+
+03:08.320 --> 03:13.760
+So by the time we get to hear these keys are telling it to be upright.
+
+03:13.780 --> 03:23.290
+So what I can do is for these keys here let me just check these so for these four I can delete these
+
+03:23.290 --> 03:24.310
+keys here.
+
+03:26.930 --> 03:27.910
+Let's try this.
+
+03:27.920 --> 03:34.110
+So I'm going to delete these keys and let's see if he turns back up again.
+
+03:41.400 --> 03:44.010
+He does but only because these are here too.
+
+03:44.010 --> 03:49.420
+So let me get rid of these.
+
+03:49.410 --> 03:50.520
+There we go.
+
+03:50.520 --> 03:52.210
+All right so let's play it again.
+
+03:52.230 --> 03:59.730
+He's going to come down rotate forward and he should stay rotated.
+
+03:59.730 --> 04:00.170
+Yeah.
+
+04:00.340 --> 04:06.080
+OK that's good because I want control over when he rotates back up right.
+
+04:08.570 --> 04:09.720
+All right.
+
+04:09.720 --> 04:19.170
+So I did say however that I thought the rotation was a little jerky here that it kind of moved too quickly.
+
+04:19.170 --> 04:31.930
+So I'm working with the X on this so for the X right here let me move this back some like so let's see
+
+04:31.930 --> 04:32.940
+how this works.
+
+04:38.090 --> 04:40.160
+I like that a little bit better.
+
+04:40.240 --> 04:45.360
+I'm going to move that forward just a little bit more and play that again.
+
+04:50.800 --> 04:57.400
+Yeah it looks like that the turn is part of the moving forward.
+
+04:57.400 --> 05:01.960
+Actually I'm going to take this and I'm going to move it forward just a couple more frames and see how
+
+05:01.960 --> 05:02.990
+that works.
+
+05:10.990 --> 05:11.660
+OK.
+
+05:11.810 --> 05:14.870
+So now he's got to turn back upright.
+
+05:15.020 --> 05:22.970
+So right in here I think as he comes up he's coming up just a bit I think right in here I'd like him
+
+05:22.970 --> 05:27.130
+to turn back upright.
+
+05:27.590 --> 05:36.680
+So if I want him to begin that at this point I've got to keep it here to hold that position from here
+
+05:37.520 --> 05:38.780
+to this point.
+
+05:39.230 --> 05:45.400
+So all I'm going to do is just take that keyframe and duplicate it and move it over to that point.
+
+05:45.410 --> 05:52.990
+Now that's going to hold that position now and move forward a bit here.
+
+05:54.060 --> 06:00.880
+And that's say at 165 that's where he's going to come back upright and do that.
+
+06:00.880 --> 06:08.570
+Let me just bring out my properties panel and in the rotation.
+
+06:09.730 --> 06:10.980
+Ax here.
+
+06:12.890 --> 06:18.580
+There is I think I'll take this back to zero like that.
+
+06:18.950 --> 06:19.460
+OK.
+
+06:19.560 --> 06:21.600
+So I'll hit in to close that.
+
+06:21.600 --> 06:23.060
+And let's take a look at this.
+
+06:26.530 --> 06:30.360
+He drops down rotates forward just a bit.
+
+06:31.880 --> 06:34.500
+And I think that's a little too quick.
+
+06:34.880 --> 06:37.160
+That's not quite organic enough.
+
+06:41.970 --> 06:49.210
+Well now that I play it again let me see.
+
+06:49.400 --> 06:51.620
+I feel like it's still a little too quick.
+
+06:53.040 --> 07:01.380
+Let me take this keyframe and move it back closer to here to give it more time to turn and I'll play
+
+07:01.380 --> 07:01.790
+that
+
+07:10.040 --> 07:10.610
+yeah.
+
+07:10.660 --> 07:14.200
+That works a little a little better I think.
+
+07:14.200 --> 07:22.780
+All right well the next thing I'd like to figure out is what he looks like how he's positioned as he's
+
+07:22.780 --> 07:26.010
+coming down into the scene.
+
+07:26.350 --> 07:31.000
+His arms and legs are just kind of the default positions.
+
+07:31.180 --> 07:35.600
+I feel like he should have a little bit more dynamic pose.
+
+07:35.950 --> 07:43.090
+So what I'm going to do is come back up to his beginning position here and I'll zoom in to him with
+
+07:43.090 --> 07:50.650
+the period key and I've got to figure out something where he looks a little bit more interesting than
+
+07:50.650 --> 07:55.560
+just this particular default pose.
+
+07:55.720 --> 08:01.190
+I'm going to start with the hands here and I'll just hit G and kind of move him up a bit.
+
+08:06.490 --> 08:13.690
+One thing I'm trying to do is make sure that I'm not doing the same exact thing on both sides of the
+
+08:13.690 --> 08:14.200
+character.
+
+08:14.200 --> 08:18.230
+I want him to be kind of asymmetrical in his poses.
+
+08:22.300 --> 08:32.080
+And for the fingers I'll deal with those on a last pass when the animation is pretty much all done.
+
+08:32.410 --> 08:34.870
+That kind of detail I'll save till the end.
+
+08:36.360 --> 08:36.630
+All right.
+
+08:36.630 --> 08:39.230
+Let's take a look at them with this pose.
+
+08:39.240 --> 08:42.810
+I'll hit the zero key just to get back to the camera view.
+
+08:44.610 --> 08:45.350
+And let's see
+
+08:53.070 --> 08:54.480
+right.
+
+08:54.750 --> 08:57.580
+That doesn't look too bad actually.
+
+08:58.470 --> 09:02.330
+He's going to need a new pose as he tilts forward.
+
+09:02.340 --> 09:10.530
+I think so if he comes down in this position then right about here he's going to have to change a bit
+
+09:10.580 --> 09:19.620
+and move his feet move his arms and then to a new position here.
+
+09:19.710 --> 09:24.570
+So let's see he's going to need to hold this position.
+
+09:26.090 --> 09:30.410
+Tell about right here.
+
+09:30.490 --> 09:38.890
+So I need to take all of these keyframes and move those so I'll hit the big key to border select all
+
+09:38.890 --> 09:39.930
+of these.
+
+09:39.940 --> 09:46.440
+So this is the arm and elbow and foot and the controls that I moved around.
+
+09:46.480 --> 09:51.120
+One thing I probably should do is establish a key frame for the other knee.
+
+09:51.130 --> 09:52.650
+Up front here.
+
+09:52.810 --> 10:03.520
+So why don't I go back to frame one and let's zoom in and just so I have that beginning keyframe So
+
+10:03.520 --> 10:07.150
+I've got one for the left leg.
+
+10:07.150 --> 10:11.010
+I'm just going to take this knee control and just tweak it just a hair.
+
+10:11.230 --> 10:15.640
+So I get an extra keyframe there so I get that keyframe.
+
+10:15.670 --> 10:21.490
+Now let's go back to the camera view.
+
+10:21.580 --> 10:22.380
+Play it.
+
+10:22.480 --> 10:28.450
+And I think he needs to come down and right about here is where
+
+10:32.640 --> 10:36.900
+those key frames should be copied to.
+
+10:36.950 --> 10:46.460
+So I'll select them shifty to duplicate and I'll drag the mouse forward to what is at frame 80 and we
+
+10:46.460 --> 10:47.240
+go.
+
+10:47.630 --> 10:51.210
+So that position will hold up to that point.
+
+10:52.070 --> 10:53.740
+Let's see what he should do now.
+
+10:54.840 --> 10:56.040
+If he drops down
+
+11:01.080 --> 11:05.150
+on like this and then move forward.
+
+11:05.280 --> 11:18.820
+OK so he as he comes down he should probably write about here one to those keyframes back
+
+11:22.630 --> 11:24.650
+to 75.
+
+11:25.420 --> 11:35.710
+And then as he comes back up like this to this point these feet I think should come down a bit because
+
+11:36.180 --> 11:43.840
+they're kind of kind of kind of dragged down so that secondary action of when the Met comes down and
+
+11:43.840 --> 11:44.620
+comes back up.
+
+11:44.620 --> 11:47.790
+Those feet will kind of drag or follow.
+
+11:48.490 --> 11:52.700
+So at this point move these down just a hair like so
+
+11:59.050 --> 12:00.510
+see how that works.
+
+12:05.850 --> 12:11.590
+So he is going to come down and those feet are going to kind of relax a bit like that.
+
+12:12.980 --> 12:17.560
+And they may even rotate a bit.
+
+12:17.580 --> 12:18.150
+Seeing
+
+12:28.420 --> 12:34.150
+so to change the start and end time here just because I want to play through it.
+
+12:34.150 --> 12:47.870
+Let's do it to let's say 50 from 50 to well let's see about 130.
+
+12:48.330 --> 12:53.690
+So I can kind of loop it at that from 50 to 130.
+
+12:53.970 --> 13:01.830
+So I will play.
+
+13:01.890 --> 13:02.920
+All right.
+
+13:02.920 --> 13:08.590
+It's not bad but I think those legs should come back as they come down.
+
+13:14.780 --> 13:15.660
+Take him back.
+
+13:15.650 --> 13:16.360
+Just bet
+
+13:22.440 --> 13:23.010
+that.
+
+13:23.110 --> 13:24.330
+Let's try that.
+
+13:31.880 --> 13:38.190
+Were all too much too quick I think me and you
+
+13:41.870 --> 13:44.410
+when we go to try that again.
+
+13:48.980 --> 13:56.740
+I'm going to switch to global mode here so I can pull these straight back just a hair.
+
+13:56.930 --> 13:57.440
+So
+
+14:02.830 --> 14:04.130
+that's a little better.
+
+14:10.680 --> 14:11.220
+All right.
+
+14:11.230 --> 14:16.620
+I think also I want to rotate the foot just a little
+
+14:21.020 --> 14:29.060
+like that.
+
+14:29.270 --> 14:30.750
+I'm going to go with that for now.
+
+14:30.920 --> 14:33.570
+I think there's more tweaking to be done there.

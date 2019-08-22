@@ -1,0 +1,376 @@
+WEBVTT
+
+00:00.540 --> 00:04.320
+Let's now set up I.K. controls for the arms.
+
+00:04.320 --> 00:07.250
+So let's zoom in here.
+
+00:08.070 --> 00:18.360
+And what I want to do is in a similar way to the feet I need to copy this hand bone to create the arm
+
+00:18.430 --> 00:20.210
+I.K. bone.
+
+00:20.220 --> 00:24.950
+So with this selected press shift D and hit enter.
+
+00:25.050 --> 00:35.760
+And now this all change to arm I K L and remember that we need to disconnected or clear the parenting
+
+00:35.760 --> 00:42.470
+information from this because it's still a child of this bone and parent of all of these.
+
+00:42.630 --> 00:51.280
+So I'll press Allt P and clear parent and now want to go back to pose mode and select this lower arm
+
+00:51.280 --> 00:52.060
+bone.
+
+00:52.060 --> 00:58.930
+And now we need to create an eye K-8 chain with two bones lower and upper and we need to target it to
+
+00:58.930 --> 00:59.850
+that arm.
+
+00:59.900 --> 01:08.320
+I.K. So with this selected I'll come over here to the bone constraints and add an inverse kinematics.
+
+01:08.320 --> 01:13.050
+I will target the armature and the bone is going to be that arm.
+
+01:13.090 --> 01:20.380
+I K.L. the chain length needs to be to and there we go.
+
+01:20.390 --> 01:29.390
+So now I should be able to select this arm I.K. bone and hit G and move it around.
+
+01:29.690 --> 01:32.090
+So there is the arm.
+
+01:32.150 --> 01:39.690
+Now once again the hand bone is not following the I.K. target.
+
+01:39.800 --> 01:52.610
+So I need to fix that so I'll select that hand bone and I will create a copy rotation I'll choose the
+
+01:52.670 --> 01:56.050
+armature and I'll pick that arm.
+
+01:56.060 --> 02:06.170
+I.K. And now we should be able to select that I k bone move it around and now the hand should follow
+
+02:06.170 --> 02:08.300
+along with that I.K. bone.
+
+02:08.300 --> 02:16.370
+So I'll hit our twice to go into rotation here and you can see that it's following along.
+
+02:16.440 --> 02:17.350
+All right.
+
+02:17.650 --> 02:26.080
+So I'll select all the bones and press alt are to clear the rotations and G to clear the transformations
+
+02:26.170 --> 02:28.570
+or the location.
+
+02:28.590 --> 02:29.290
+All right.
+
+02:29.290 --> 02:32.500
+So let's do that over here on the other side as well.
+
+02:32.620 --> 02:43.040
+I'll go back to edit mode and select that hand bone duplicated and let's rename that arm.
+
+02:43.040 --> 02:55.900
+I k r I will clear the parent with Allt P and now if we go back into PPOs mode select that lower arm
+
+02:56.020 --> 03:05.600
+and choose our inverse kinematics we will target the armature and that arm I.K. on the right and we'll
+
+03:05.610 --> 03:08.510
+increase the chain length to.
+
+03:08.520 --> 03:16.920
+So now if we choose that arm I.K. are should be able to hit the key and move the arm around.
+
+03:17.230 --> 03:21.380
+The only thing left for this is to do that copy constraint.
+
+03:21.400 --> 03:33.870
+So it's like the hand go to the copy rotation like the target that arm I.K. and there we go.
+
+03:34.300 --> 03:40.690
+So I'll say like the are my kid again just to test and sure enough it follows along.
+
+03:40.690 --> 03:42.140
+All right.
+
+03:42.310 --> 03:49.300
+So we've got inverse kinematics set up for our arms while we're doing this why don't we create elbow
+
+03:49.300 --> 03:51.160
+controls as well.
+
+03:51.160 --> 03:55.570
+So I'll go back to edit mode and select this elbow.
+
+03:55.700 --> 03:56.610
+I'll press shift.
+
+03:56.640 --> 03:57.580
+Yes.
+
+03:57.820 --> 04:04.640
+Move the cursor to selected all de-select everything and press shift a and there is that bone.
+
+04:04.840 --> 04:13.150
+This one we will go to my move tool and I'll move this straight back like this.
+
+04:13.150 --> 04:23.840
+And this is going to be our elbow control so we'll call it elbow C L L.
+
+04:23.910 --> 04:30.600
+Now we need to go back to pose mode and Slyke that lower arm and remember we're going to use the pole
+
+04:30.630 --> 04:39.030
+target for this so all Slyke the armature and select this bone which is going to be elbow control.
+
+04:39.050 --> 04:39.880
+Here it is.
+
+04:40.230 --> 04:47.910
+And of course the elbow pops around a bit but we can fix that by using our pole angle and bring it back
+
+04:47.910 --> 05:00.150
+around so it points at that control object or that bone or something like that and we go.
+
+05:00.170 --> 05:06.250
+So now if we grab this bone and move it around you can see it's moving the elbow around as well.
+
+05:06.260 --> 05:12.980
+Now for the foot we parroted the knee control to the foot control but I'm afraid if we do that to the
+
+05:12.980 --> 05:19.150
+hand control here we'll get some strange reactions when we actually rotate the hand.
+
+05:19.220 --> 05:26.910
+I think probably the better way to do it is to just parent it to the body for now so I'll select that
+
+05:26.930 --> 05:30.850
+and press control P and keep offset.
+
+05:30.860 --> 05:37.460
+So now if we go back to pose mode I can move this around you can see that elbow control moves along
+
+05:38.120 --> 05:38.860
+with it.
+
+05:39.140 --> 05:47.350
+But also we can move this down say and then grab that elbow control and move it around here.
+
+05:49.650 --> 05:50.330
+OK.
+
+05:50.670 --> 06:00.390
+So just like everything with the achy and press alt g to clear the location Allt are to clear the rotation.
+
+06:00.390 --> 06:07.380
+Now for the fingers I think what I'd like to do is create a system where we only have to move one bone
+
+06:07.380 --> 06:18.720
+at a time for each finger so instead of having to rotate this and then rotate this and then rotate.
+
+06:18.720 --> 06:27.000
+This what I'd rather do is just rotate one bone and have all the others rotate along with it.
+
+06:27.120 --> 06:31.960
+So I'm going to select everything and press alt are to clear the rotations again.
+
+06:32.040 --> 06:41.670
+So what we can do for that nego and press in to close that panel what we can do is create copy constraints
+
+06:41.670 --> 06:42.880
+from here to here.
+
+06:43.080 --> 06:51.120
+And from this joint to that joint so all we have to do is move this one and everything else bends along
+
+06:51.210 --> 06:51.920
+with it.
+
+06:52.940 --> 06:59.060
+So I'm going to turn on the names here so I can see what the names are.
+
+06:59.220 --> 07:00.180
+And we go.
+
+07:00.430 --> 07:06.610
+So what I'm going to do is create a copy rotation constraint from here to here so I'll select this finger
+
+07:06.610 --> 07:16.150
+index three and go back to my bone constraints Panel Add a copy rotation I'm going to only want to have
+
+07:16.150 --> 07:20.420
+this move in the X and I'm going to want it to be in local space.
+
+07:21.320 --> 07:23.450
+I'll choose the armature.
+
+07:23.450 --> 07:35.810
+And for this I want finger index 2 on the left you know like that so that if I choose this bone and
+
+07:35.810 --> 07:42.670
+rotate it you can see that other one rotates along with it.
+
+07:43.090 --> 07:43.970
+All right.
+
+07:44.040 --> 07:46.530
+Now let's do that again for this one.
+
+07:47.300 --> 07:50.900
+Index to copy rotation.
+
+07:50.900 --> 08:03.390
+Turn off y and z set these to local grab the armature and we want this to be finger index one and we
+
+08:03.390 --> 08:04.120
+go.
+
+08:04.440 --> 08:11.480
+So now if we just select this one finger and rotate it in the x.
+
+08:11.880 --> 08:15.600
+The other two joints come along with it.
+
+08:15.600 --> 08:17.790
+They rotate as well.
+
+08:17.850 --> 08:26.550
+So that's really all I'm going to need for this particular animation is just a little bit of finger
+
+08:26.610 --> 08:28.770
+movement like that.
+
+08:28.770 --> 08:35.160
+So what I need to do now is go through the rest of the fingers here creating copy rotation constraints
+
+08:35.580 --> 08:38.340
+from one to the next.
+
+08:38.340 --> 08:42.660
+Now as I've been working here I've noticed a bit of a problem I think.
+
+08:42.780 --> 08:50.450
+Notice how each one of these will rotate in the x or red X is here.
+
+08:50.480 --> 08:54.810
+All right we've got those all all lined up and for the thumb.
+
+08:54.810 --> 08:56.180
+These are OK.
+
+08:56.370 --> 08:58.260
+They're lining up in the X.
+
+08:58.260 --> 09:00.450
+But notice the tip of the thumb.
+
+09:01.770 --> 09:03.780
+The rotation is off.
+
+09:03.780 --> 09:06.140
+So I'm going to need to fix that.
+
+09:06.150 --> 09:16.290
+The problem is as I already have this object parent to that joint so I'm going to have to and parent
+
+09:16.620 --> 09:21.080
+that object fix the bone and then repair the object.
+
+09:21.480 --> 09:23.820
+Let's take a look at how we might do that.
+
+09:24.240 --> 09:29.940
+I'm going to come over here to the armature panel and turn on axes.
+
+09:29.940 --> 09:32.490
+I'll turn off names for a minute.
+
+09:32.530 --> 09:38.610
+And as it turns out you can see the problem here the z is pointing to the side and the X is pointing
+
+09:38.610 --> 09:39.410
+down.
+
+09:39.540 --> 09:43.400
+I need to rotate this 90 degrees here.
+
+09:43.500 --> 09:47.750
+But before I do that I'm going to need to and parent to this object.
+
+09:48.060 --> 09:54.060
+So let me go back to object mode and select this piece.
+
+09:54.110 --> 09:58.800
+What I'll do is press alt P and clear the parent information here.
+
+09:58.820 --> 10:06.940
+So now if I go back to pose mode on this and move this around it should not affect that.
+
+10:06.950 --> 10:08.430
+OK that's good.
+
+10:10.540 --> 10:20.390
+So now what I need to do is come in here to edit mode and use and the properties panel use the role
+
+10:20.390 --> 10:21.840
+field here.
+
+10:23.130 --> 10:32.800
+To roll this this way so that the z is pointing down like all the others something like that.
+
+10:35.080 --> 10:43.760
+All right so now what I can do is go back to object mode select this piece Schiff's select.
+
+10:44.060 --> 10:45.520
+Oh I need to go to pose mode.
+
+10:45.520 --> 10:54.860
+Scuse me I need to go a pose mode so that I can now select this shift select that bone in pose mode.
+
+10:56.230 --> 11:00.270
+And then control P and parent it to the bone.
+
+11:02.680 --> 11:08.750
+So now if we rotate in the X we should see that that joint rotates properly.
+
+11:08.770 --> 11:12.550
+So now I can go ahead and do the copy rotation for that.
+
+11:12.550 --> 11:24.960
+Over here in the constraints panel copy rotation and we'll go ahead and set these up local space armature
+
+11:25.050 --> 11:33.580
+and we will target the finger from two dot L.
+
+11:33.880 --> 11:38.280
+So hopefully now that should rotate properly when we rotate here.
+
+11:38.320 --> 11:40.070
+Yeah that looks good.
+
+11:41.410 --> 11:49.360
+All right we've just about set up the rig for the Mac what we need to do now is to create control objects
+
+11:49.660 --> 11:55.960
+so that when we animate the character we don't have to actually select the bones.
+
+11:55.960 --> 12:03.940
+We can hide them and just have control objects that will make our view cleaner and easier to handle.
+
+12:04.300 --> 12:05.550
+So that's up next.

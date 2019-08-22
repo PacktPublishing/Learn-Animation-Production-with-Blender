@@ -1,0 +1,313 @@
+WEBVTT
+
+00:00.740 --> 00:06.060
+All right let's add a little bit more detail to our textures with a bump map.
+
+00:06.060 --> 00:15.760
+So I'm going to go back to this kaufen and and let me go back into the editing lay out here.
+
+00:15.790 --> 00:24.160
+So what I can do is add a new image texture to this matching the one we already have and bring it in
+
+00:24.160 --> 00:30.700
+through the displacement socket here of the material and that will displace the normals just enough
+
+00:30.700 --> 00:35.350
+to make it look like this has some bump detail.
+
+00:35.770 --> 00:41.710
+Usually when you bring in a texture for a bump map it should probably be black and white.
+
+00:41.740 --> 00:46.890
+Let's go into Gamp and make our texture black and white.
+
+00:46.990 --> 00:53.320
+So here in Gamp all we really need to do is just convert this to black and white and save out a new
+
+00:53.320 --> 00:54.470
+image.
+
+00:54.490 --> 01:02.500
+Probably the easiest way to do that is just to go up here to image and mode and just convert it to grayscale
+
+01:03.250 --> 01:09.960
+at least temporarily and then we can save this out as a new image file.
+
+01:09.970 --> 01:22.970
+All right I'll just go to a file export as an on call this seamless bump.
+
+01:22.970 --> 01:25.750
+All right let's go back to blender and hook it up.
+
+01:25.970 --> 01:29.570
+So here in the note editor I will press shift A.
+
+01:29.570 --> 01:33.860
+Add a new image texture.
+
+01:34.260 --> 01:43.340
+Click open and I browse to my textures folder and choose that sandstone bump and open that.
+
+01:43.350 --> 01:54.190
+Now in this image texture this is going to be 9 color data and I want to make sure and I tell it that
+
+01:54.190 --> 01:58.600
+it's going to be based on the movies of the object.
+
+01:58.600 --> 02:05.380
+Now you can see my object has turned to black and white that's just because of the image texture.
+
+02:05.380 --> 02:17.900
+No that I'm choosing That's all I will press shift day and add a bump node under the vector menu and
+
+02:17.900 --> 02:27.090
+what I'll do now is Connect the color to the normal socket and the normal to the displacement.
+
+02:27.090 --> 02:34.020
+Now one thing we should take a look at is the scale of our bump map because if you recall we changed
+
+02:34.020 --> 02:36.500
+the scale of the color map.
+
+02:36.510 --> 02:39.910
+So let's take a look at that I'd better.
+
+02:40.100 --> 02:45.440
+I think what I'll do is create a new panel over here just drag this over.
+
+02:45.650 --> 02:48.650
+And in this new panel I'll change this to
+
+02:52.300 --> 02:53.410
+properties.
+
+02:54.810 --> 03:03.780
+And we go and maybe I'll press the T key to get rid of this and in my properties panel now here I'm
+
+03:03.780 --> 03:10.580
+going to go to the materials area and keep in mind this is the same panel as I have on the right side
+
+03:10.590 --> 03:18.810
+in in the default view as well so I'm just adding that panel here to this view so I have access to it.
+
+03:18.840 --> 03:26.370
+So in the materials panel actually I'll go over to the textures panel and if you notice the one that's
+
+03:26.370 --> 03:29.850
+chosen here is this sandstones seamless.
+
+03:29.970 --> 03:31.480
+That's this one here.
+
+03:31.710 --> 03:38.910
+If I choose this one which is the bump one I'll change to that sandstones seamless bump and notice that
+
+03:38.910 --> 03:41.590
+the scale hasn't been changed here.
+
+03:41.730 --> 03:50.610
+So the bump texture that's happening here isn't going to match the color texture so I need to have them
+
+03:50.670 --> 03:54.880
+match up so the bump is happening in the right places.
+
+03:54.930 --> 04:02.540
+So if I look at this color map I see that the scale is to form my image texture for the bump.
+
+04:02.550 --> 04:04.970
+I should make this too as well.
+
+04:05.030 --> 04:08.490
+I'll just type in two and there you go.
+
+04:08.490 --> 04:11.280
+I didn't rotate it at all.
+
+04:11.280 --> 04:13.560
+I just scaled it.
+
+04:13.620 --> 04:16.800
+So there is the bump information for the coffin.
+
+04:16.800 --> 04:21.020
+Let's come back over here and let's look at the stairs.
+
+04:21.020 --> 04:24.990
+Now we can do the same thing for this.
+
+04:24.990 --> 04:32.560
+I will go ahead and create a new image node with shift a texture image texture.
+
+04:32.790 --> 04:37.870
+I will bring in that bump texture and the textures folder here.
+
+04:38.110 --> 04:51.730
+Seamless bump open and now all hook up the u v coordinates to that I'll press shift A and add a bump
+
+04:52.000 --> 05:00.360
+node and I'll bring the color into the normal slot and this into the displacement.
+
+05:00.400 --> 05:08.930
+Now that's fine and all that here's the problem the bump is not going to match the color because of
+
+05:08.930 --> 05:11.120
+the scale and rotation.
+
+05:11.120 --> 05:22.670
+So for the scale I need to put in five and what the rotation was 160 162.
+
+05:22.860 --> 05:27.630
+And so now the bump information is going to match the color.
+
+05:28.150 --> 05:29.910
+All right I'll isolate that.
+
+05:29.910 --> 05:31.850
+And let's look at the floor now.
+
+05:32.210 --> 05:41.820
+I will isolate it and if we tab into edit mode and select everything we can see that here is our U-V
+
+05:41.910 --> 05:42.900
+map.
+
+05:43.230 --> 05:50.020
+I'm going to bring in texture in a very similar way as I did with the coffin and the stairs.
+
+05:50.190 --> 05:54.470
+So I will go back to gimp to begin working on that.
+
+05:54.990 --> 06:04.500
+So here in Gamp I'm going to open up another texture I've got this sand texture here that I found out
+
+06:04.500 --> 06:08.100
+on the Internet and there it is.
+
+06:08.100 --> 06:13.230
+So what I'll do first is try and convert this to a seamless texture.
+
+06:13.260 --> 06:19.430
+Good filters map and make seamless and there we go.
+
+06:19.430 --> 06:32.920
+So now I will get a file export as and in my textures folder I will call this sand seamless.
+
+06:33.310 --> 06:48.180
+And now back in Blender I will now bring in that image with shift a image texture Oh I also need a texture
+
+06:48.180 --> 06:58.110
+coordinate and I'll bring the movies into the image texture the image texture into the diffuse Shater
+
+06:58.890 --> 07:07.510
+and I'll click open and browse to my textures and choose that sand seamless and open that.
+
+07:07.520 --> 07:12.400
+So now we can see there's arcing and then it's looking pretty good.
+
+07:13.040 --> 07:17.830
+But I think I may want to reduce the size of that just a bit.
+
+07:19.040 --> 07:25.610
+Let's change over here in the texture panel it's changed from brush to image texture.
+
+07:25.880 --> 07:32.790
+And in the scale maybe I'll try for Looks like maybe a little bit too small to
+
+07:35.700 --> 07:38.220
+or maybe three I'll try three.
+
+07:38.730 --> 07:43.890
+You can see some repeating patterns here but that may not be very visible.
+
+07:43.890 --> 07:47.700
+We'll take a look and see how that looks here in a minute.
+
+07:47.770 --> 07:51.080
+We'll go back to my default view here.
+
+07:51.300 --> 07:55.720
+Press the zero key on the keyboard to get to my camera view.
+
+07:56.040 --> 08:05.510
+Now go ahead and switch to the rendered viewport shading just to see what we have so far well the way
+
+08:05.510 --> 08:08.880
+it looks to me is it looks like the text is just too big.
+
+08:08.930 --> 08:16.240
+I think I need to repeat it some another time or two because this just looks too big in the scene.
+
+08:16.250 --> 08:20.660
+In addition I'm noticing that the camera may be slightly canted.
+
+08:20.660 --> 08:23.310
+Let's take a look at fixing that as well.
+
+08:23.810 --> 08:30.410
+So I'll go back to my texture of view tumbled out of my camera of you let me select this camera and
+
+08:30.410 --> 08:33.020
+see what I think here.
+
+08:34.740 --> 08:40.350
+Yeah it looks like it's a little rotated in the wind so I'm just going to select that and type in zero
+
+08:42.480 --> 08:44.960
+and fix that.
+
+08:44.970 --> 08:48.320
+So for this texture I'll select it.
+
+08:49.620 --> 08:56.600
+Go back to my image texture and repeat it maybe five times.
+
+08:56.610 --> 09:00.700
+Try that.
+
+09:00.900 --> 09:05.830
+Let me try eight Let's try that.
+
+09:08.250 --> 09:14.670
+And I'll try this again yeah I think that looks a little better in this scene that looks a little more
+
+09:14.670 --> 09:15.900
+proportional.
+
+09:16.440 --> 09:18.690
+So I'll go with 8 for now.
+
+09:19.320 --> 09:22.550
+So now that we know that that scale is going to be eight.
+
+09:22.710 --> 09:26.480
+Let's go back to the U-V editing view here.
+
+09:26.700 --> 09:32.940
+And what I'd like to do is add a bump map in here as well a bump texture.
+
+09:32.940 --> 09:43.240
+So I'll go back to Gimp and here in Gamp I will change the image to grayscale and export this out
+
+09:46.370 --> 09:58.220
+as a bump in Blendr in the note editor I'll press shift a and bring in an image texture I'll click Open
+
+09:58.850 --> 10:03.710
+eyebrows to my textures folder and I'll choose that sand seamless bump.
+
+10:05.410 --> 10:16.610
+Now I need to adjust the scale to 8 like the other one I need to add a bump note in here under vector
+
+10:16.620 --> 10:24.960
+and bump look the color up to the normal channel and the normal up to the displacement.
+
+10:24.960 --> 10:33.500
+Now we should be able to see it a little better in our render that's looking pretty good.
+
+10:33.530 --> 10:39.230
+All right we've got textures on a couple of our objects now coming up next we'll begin texturing the
+
+10:39.230 --> 10:48.590
+pillars and for that we'll actually begin applying the textures first in GIMP onto the U-V maps and
+
+10:48.590 --> 10:51.580
+then bringing those edited textures back into Blendr.

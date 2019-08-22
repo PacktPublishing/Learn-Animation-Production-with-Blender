@@ -1,0 +1,418 @@
+WEBVTT
+
+00:00.780 --> 00:06.510
+Let's see if we can tweak our animation a bit to get the movements to be a little more realistic let's
+
+00:06.510 --> 00:08.400
+take a look at it again here.
+
+00:09.890 --> 00:16.640
+So he comes down slowly I'd kind of like to see him come down a little quicker and maybe bounce at the
+
+00:16.640 --> 00:17.470
+bottom.
+
+00:18.510 --> 00:20.300
+Of the drop.
+
+00:20.460 --> 00:22.230
+So let's work on that.
+
+00:22.260 --> 00:29.490
+So to get him to move down a little quicker we need to reduce the time or reduce the number of frames
+
+00:29.490 --> 00:34.930
+between this top key frame and the bottom keyframe.
+
+00:34.950 --> 00:41.760
+So what I'll do is I'll press the Beaky and drag select these key frames here and I'll hit the G key
+
+00:41.760 --> 00:44.040
+and move them down.
+
+00:44.040 --> 00:48.800
+Move them back maybe 30 frames and see how that works.
+
+00:49.080 --> 00:55.390
+Go back to the beginning hit play and let's see a little bit better.
+
+00:55.470 --> 00:57.770
+Feels like he's moving down a little quicker.
+
+00:57.780 --> 01:03.650
+I'm going to bring it down a little more maybe another six frames and see how that works.
+
+01:06.960 --> 01:14.360
+I'd be a little fast maybe I'll undo it and let's see how that is.
+
+01:14.670 --> 01:17.670
+Yes so that has him coming down a little bit quicker.
+
+01:17.720 --> 01:23.720
+Now what I want him to do is kind of bounce a little bit down here at the bottom so I want him to come
+
+01:23.720 --> 01:30.260
+down bounce just go down a hair and then back up before he even begins moving forward.
+
+01:31.810 --> 01:36.640
+So I'm going to zoom in to my graph editor here.
+
+01:36.700 --> 01:43.480
+You can press the home key on your keyboard to frame up all the key frames and then you can use the
+
+01:43.480 --> 01:51.790
+Control key and the middle mouse button to kind of collapse the frames or make them bigger or drag left
+
+01:51.880 --> 01:55.600
+and right and squish and stretch.
+
+01:55.600 --> 02:03.550
+So it isn't changing the placement or position of the keyframes it's just adjusting the view.
+
+02:03.880 --> 02:11.290
+So I'm going to scroll in here and let me see if I can find I want to look at this.
+
+02:11.290 --> 02:15.080
+Keyframe the graph here that's the y axis.
+
+02:15.090 --> 02:17.070
+Let me move this up here.
+
+02:17.390 --> 02:26.120
+The y axis is the one that's dictating how quickly he drops this green axis over here right here.
+
+02:26.120 --> 02:30.650
+This is the one that's telling us how quickly he's dropping down.
+
+02:30.650 --> 02:38.360
+But if you look over here the up and down is the z axis and that's because we're in global transformation
+
+02:38.360 --> 02:39.350
+orientation here.
+
+02:39.350 --> 02:42.250
+So I'm going to switch from global to local.
+
+02:42.800 --> 02:45.390
+And now you can see that Y-axis is pointing up.
+
+02:45.380 --> 02:48.920
+So that's just for consistency sake.
+
+02:48.920 --> 02:53.730
+I think we should have that up just so we can see which axis we're working with.
+
+02:54.940 --> 03:03.680
+So if he comes down here and wants to we want to have him bounce a little bit we may need another keyframe
+
+03:03.850 --> 03:14.590
+right in here so if he comes down and bounces right about here what say we take this keyframe and we
+
+03:14.650 --> 03:25.110
+duplicate it and then press g and X and move it in the x over to that place there.
+
+03:25.130 --> 03:30.910
+So let's see if that's going to that's just going to kind of like he's going to hit a brick wall there.
+
+03:32.580 --> 03:38.650
+So I think I also need to duplicate this axis in the Z because that's the one where he's moving forward.
+
+03:38.650 --> 03:47.650
+So as he drops it down I kind of want him to stay in place so maybe I'll just move this over I'll hit
+
+03:47.650 --> 03:52.640
+G and X and move it over that.
+
+03:52.910 --> 03:54.410
+See how that works.
+
+04:03.240 --> 04:07.390
+All right so now we can work on our little bounce here.
+
+04:07.890 --> 04:16.470
+Maybe I'll move this a little bit to the left and we can take these little bezier handles here and select
+
+04:16.470 --> 04:23.550
+them and rotate them like this and that will adjust the curve.
+
+04:24.280 --> 04:25.580
+I like that.
+
+04:25.580 --> 04:31.910
+Now what we can also do is split them so we can adjust just one side at a time.
+
+04:31.910 --> 04:41.630
+So if I select this keyframe and I press the the key on the keyboard I'll see the vector type.
+
+04:41.630 --> 04:50.300
+So we can do this free handle here which means I can take one of these and move it around independently.
+
+04:50.410 --> 04:53.910
+Now I can make a little dip there.
+
+04:54.320 --> 05:00.620
+And for this kind of smooth that curve out so it's a little smoother for this one.
+
+05:00.620 --> 05:09.710
+I'll press the key and choose free and then I'll maybe dip this or move this around just a bit to get
+
+05:09.710 --> 05:12.690
+more of a smooth curve there.
+
+05:14.340 --> 05:15.440
+Something like that.
+
+05:15.450 --> 05:17.430
+Let's see how this works that maybe.
+
+05:17.840 --> 05:23.990
+Well we'll see.
+
+05:24.100 --> 05:24.540
+All right.
+
+05:24.550 --> 05:25.330
+We're getting there.
+
+05:25.330 --> 05:30.400
+I think I need a little bit more time before he moves on.
+
+05:30.400 --> 05:38.160
+So let me move this over and I'll move this over just a hair as well.
+
+05:40.080 --> 05:44.350
+And then I'll dip these down just a little more
+
+05:47.400 --> 05:47.820
+like.
+
+05:47.860 --> 05:49.340
+So let's check that out
+
+05:54.050 --> 05:54.520
+yes.
+
+05:54.580 --> 05:58.120
+There we get a little bounce there.
+
+05:58.220 --> 05:59.320
+That's good.
+
+05:59.930 --> 06:02.210
+But it looks like this.
+
+06:02.210 --> 06:04.370
+Here is a little bit sharp.
+
+06:04.400 --> 06:06.110
+Let's take another look at it.
+
+06:11.440 --> 06:11.760
+Yeah.
+
+06:11.770 --> 06:18.310
+I want to extend this out just a bit salted G and extend that out a hair like so maybe
+
+06:27.440 --> 06:28.000
+right.
+
+06:28.020 --> 06:31.590
+So he comes down he pops up.
+
+06:31.590 --> 06:33.700
+Maybe I'll bring this up just a bit.
+
+06:33.770 --> 06:41.970
+I'll hit G and y move it up maybe move it over in the next a bit and I'll adjust this to smooth that
+
+06:41.970 --> 06:44.720
+curve a little more.
+
+06:45.120 --> 06:52.270
+Let's see if we can get here.
+
+06:52.620 --> 06:53.950
+All right.
+
+06:54.150 --> 06:59.210
+It's still a little choppy there's something going on there's a pop happening somewhere.
+
+06:59.850 --> 07:10.430
+Let's take a look at this here.
+
+07:10.630 --> 07:13.620
+I think it may just be happening too quickly.
+
+07:16.250 --> 07:17.490
+I'll go like this.
+
+07:24.400 --> 07:24.990
+Yeah.
+
+07:25.090 --> 07:29.040
+Well now it's not now it's not bouncing.
+
+07:29.230 --> 07:30.370
+So I'll move it back
+
+07:33.170 --> 07:36.140
+maybe extend this a little bit.
+
+07:36.200 --> 07:39.700
+So this is really the process of animating right here.
+
+07:39.750 --> 07:43.070
+I'm just trying to find something that's going to work
+
+07:55.990 --> 07:56.580
+all right.
+
+07:56.580 --> 08:03.180
+So now I'm going to work on the little dip here as it moves forward.
+
+08:03.570 --> 08:10.290
+I'm going to remove this keyframe one of the things that I see very often is when people find a problem
+
+08:10.290 --> 08:13.290
+with their animations something is happening too quickly.
+
+08:13.310 --> 08:16.680
+There is a sharp turn and there's a pop.
+
+08:16.710 --> 08:22.210
+People tend to try and fix those kinds of problems by adding keyframes.
+
+08:22.260 --> 08:30.510
+And what I think is that oftentimes or the majority of the time the problem can be solved by deleting
+
+08:30.510 --> 08:31.720
+a keyframe.
+
+08:31.950 --> 08:39.780
+So I'm going to go ahead and delete this keyframe here and select it at the x key and delete and then
+
+08:39.810 --> 08:46.670
+I can come in here and change the handles to free and do a little bit of adjusting here.
+
+08:50.710 --> 08:56.070
+To kind of smooth out that curve and let's see how this works.
+
+09:04.690 --> 09:05.390
+All right.
+
+09:05.390 --> 09:13.380
+So there's that so far I'm going to take this and I don't think I want it to dip down quite so far.
+
+09:15.160 --> 09:25.040
+So I'll move this up with G and Y and move it up a bit like that see how this works.
+
+09:25.100 --> 09:36.070
+I must feel like that if these keyframes moved forward a bit speeding up that drop that bounce would
+
+09:36.070 --> 09:37.990
+be a little bit more believable.
+
+09:38.080 --> 09:40.680
+So I'll press the G key and move it forward.
+
+09:40.810 --> 09:44.350
+And let's see if we can increase the speed of that drop.
+
+09:47.160 --> 09:48.170
+Little too much
+
+09:51.730 --> 09:52.320
+try that
+
+09:57.490 --> 09:58.360
+right.
+
+09:58.390 --> 10:01.280
+I'm going to move it over two more frames like that.
+
+10:02.700 --> 10:03.580
+Let's try that.
+
+10:09.680 --> 10:17.410
+I'm going to reduce the height of this one by pressing g y and move that one down a bit like that.
+
+10:17.540 --> 10:21.200
+So it doesn't come back up quite as much.
+
+10:21.200 --> 10:24.550
+Now I'm going to take this in and extend it just a bit like this.
+
+10:24.590 --> 10:34.490
+Now this keyframe may not be necessary we may be able to do what we want to do by adjusting the bezier
+
+10:34.520 --> 10:36.110
+handles instead.
+
+10:36.140 --> 10:37.750
+Let me show you what I mean here.
+
+10:37.760 --> 10:43.060
+I'm going to go ahead and I'm going to press the x key to delete this.
+
+10:43.310 --> 10:51.650
+And now if I come over here if I want a smooth dip in this curve I can press the key and kind of go
+
+10:51.650 --> 10:57.800
+like this and then use the handles here free these with the key.
+
+10:57.860 --> 11:06.310
+Select this and maybe dip this down like that something like that.
+
+11:06.310 --> 11:07.780
+Now let's test that out.
+
+11:16.230 --> 11:16.920
+All right.
+
+11:17.280 --> 11:21.220
+So now what let's do is let's work on the drop here.
+
+11:21.510 --> 11:24.840
+I think we're probably going to need to insert a key frame though.
+
+11:26.080 --> 11:33.810
+Well let's see maybe I can adjust this and then have it drop.
+
+11:34.030 --> 11:43.990
+Let's try it.
+
+11:44.010 --> 11:46.940
+All right it needs to drop a little quicker there.
+
+11:47.450 --> 11:52.610
+So I'm going to move this a bit like this.
+
+11:52.610 --> 12:03.680
+And let's see how this works.
+
+12:03.870 --> 12:05.480
+That's not too bad.
+
+12:05.880 --> 12:07.280
+So that's the general process.
+
+12:07.290 --> 12:09.920
+I'll be going through as I animate this.
+
+12:10.110 --> 12:17.400
+I think the key takeaways here is that oftentimes deleting a keyframe is a better option than adding
+
+12:18.030 --> 12:26.850
+and that you can break the tangents here or you can adjust the handles of these points individually
+
+12:26.850 --> 12:30.850
+by selecting it and then pressing V and choosing free.
+
+12:31.020 --> 12:37.470
+And that allows you to really have a lot more control over how the curve behaves.
+
+12:37.470 --> 12:43.830
+So in the next video we'll begin working on the more detailed movements of how the mech moves while
+
+12:43.830 --> 12:44.660
+he's flying.

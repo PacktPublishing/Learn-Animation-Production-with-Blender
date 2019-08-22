@@ -1,0 +1,412 @@
+WEBVTT
+
+00:00.660 --> 00:08.190
+Well we are now ready to move into the texturing phase now that we've got basic light set up here you
+
+00:08.190 --> 00:16.950
+may notice that when rendering this out with the rendered viewport shading that you get a lot of these
+
+00:16.950 --> 00:23.870
+little fireflies in the render they're little white dots all over the place.
+
+00:23.910 --> 00:29.780
+Those I think maybe caused by kind of excessive reflectivity here on the Mac.
+
+00:29.790 --> 00:35.760
+And we can come in and turn down the reflectivity but that's not always going to do the trick.
+
+00:35.760 --> 00:46.510
+So I'm going to come over here to the render panel and if I scroll down underneath the light paths section
+
+00:46.930 --> 00:56.440
+is a couple of settings for cost caustic and caustic are the light patterns that are created when light
+
+00:56.500 --> 01:01.600
+goes through a refractive material like glass or something like that.
+
+01:01.720 --> 01:10.670
+And they can also be caused by reflections as well but I'm not going to turn these off and let blender
+
+01:10.670 --> 01:17.930
+really render this and you'll see hopefully that those little fireflies are pretty much gone and we
+
+01:17.930 --> 01:20.690
+don't really need Kostic in this scene.
+
+01:20.750 --> 01:27.770
+We only use those if we were doing maybe a close up of a glass of tea with ice cubes or something like
+
+01:27.770 --> 01:30.230
+that for a scene like this.
+
+01:30.290 --> 01:32.160
+We don't really need them at all.
+
+01:32.360 --> 01:37.600
+So just clicking those couple of things can really clean up your scene.
+
+01:37.610 --> 01:38.080
+All right.
+
+01:38.090 --> 01:41.120
+So let's move on to texturing.
+
+01:41.120 --> 01:49.310
+What I'm going to be doing is using an image manipulation program called Gimp and it too is free to
+
+01:49.310 --> 01:52.020
+download free to use in any way.
+
+01:52.160 --> 01:55.340
+So it's a really great companion to Blender.
+
+01:55.400 --> 02:02.570
+It's been around a while and it's really been developed over time to be a good solid program.
+
+02:02.570 --> 02:08.100
+Now there are two main ways that I'm going to be applying textures to our object in the scene.
+
+02:08.180 --> 02:16.760
+One going to apply the texture directly in blender and then adjust how many times the texture repeats
+
+02:16.820 --> 02:24.470
+over the object and the other is that I'm going to export the U-V maps of objects out to Gimp and then
+
+02:24.470 --> 02:30.910
+paint over or lay images over those U-V maps them.
+
+02:30.920 --> 02:38.960
+Once I've done that I'm going to bring that image texture that color map back into blender and apply
+
+02:38.960 --> 02:40.280
+it there.
+
+02:40.280 --> 02:43.750
+So anyway let's take a look at this.
+
+02:43.760 --> 02:51.630
+So first of all I think what I'm going to do is work on this kaufen all zoom into it here.
+
+02:51.820 --> 02:53.180
+And let's take a look at this.
+
+02:53.180 --> 02:57.680
+Now if you recall this is a U-V map.
+
+02:57.680 --> 03:02.340
+This just a lot of different pieces a lot of different islands broken up.
+
+03:02.660 --> 03:06.760
+Let's take a look at it in the U-V texture editor here.
+
+03:06.800 --> 03:11.180
+So if I hit the tab key Heres the movie map.
+
+03:11.180 --> 03:18.610
+So it is just a big explosion of polygons or U-V islands.
+
+03:18.770 --> 03:27.110
+So what lets do instead is actually bring a texture into here so let's go from here to Gamp.
+
+03:27.110 --> 03:27.950
+So this is Gamp.
+
+03:27.940 --> 03:31.970
+It's an image manipulation program a paint program.
+
+03:32.180 --> 03:39.400
+It's really useful as I said as a companion to Blendr when doing things like texturing.
+
+03:39.680 --> 03:45.410
+If yours looks a little different than mine does here is probably because the first thing I did when
+
+03:45.410 --> 03:50.940
+I opened it was I went to Windows and I chose single window mode.
+
+03:50.990 --> 03:57.080
+Otherwise Gamp opens up in a lot of modular windows that you have to kind of move around.
+
+03:57.080 --> 03:59.060
+I like it on one screen.
+
+03:59.330 --> 04:06.710
+So for the texture of that coffin let me show you what I've found so far and I got a file open and I've
+
+04:06.710 --> 04:15.890
+got a folder called Images here in my project folder and in here I've stored a couple of things I've
+
+04:15.890 --> 04:17.360
+found on the Internet.
+
+04:17.630 --> 04:27.990
+So this sandstone If I open that I'm going to press the minus key on the keyboard to kind of zoom out.
+
+04:28.250 --> 04:29.880
+So here is that texture.
+
+04:30.050 --> 04:37.350
+Now one of the things I'm going to want to do is repeat this texture several times over the U-V map.
+
+04:37.800 --> 04:46.650
+And if I repeated it the way it is now I would get visible seams between the tiles of the texture.
+
+04:46.670 --> 04:53.420
+So what I need to do is make this seamless or as seamless as possible so that when it repeats we don't
+
+04:53.420 --> 04:56.780
+see the seams between the tiles.
+
+04:56.990 --> 05:04.510
+And then one of many things I like about Gimp is that it has a feature to make this seamless.
+
+05:04.610 --> 05:06.060
+Built right in.
+
+05:06.140 --> 05:17.500
+So I can come up here to filter's map and make seamless and if I click that and then it will think for
+
+05:17.500 --> 05:25.770
+a while and it will actually go through and re calculate the image to make the edges seamless.
+
+05:26.110 --> 05:27.360
+And there we go.
+
+05:27.910 --> 05:33.070
+So now I can save this or export this out as a seamless texture.
+
+05:33.130 --> 05:36.990
+So I'll go a file export as.
+
+05:37.230 --> 05:39.620
+And in this one I'm going to call.
+
+05:39.720 --> 05:52.640
+I'm going to put this in my textures folder and I will call this sandstone seamless and click export.
+
+05:52.660 --> 05:58.000
+So now that I've done that let's go back to Blendr and apply the texture.
+
+05:58.000 --> 06:02.880
+All right now that we're back in Blender Let's go ahead and apply that texture.
+
+06:02.920 --> 06:07.300
+Notice this has a material on it called blocks and stairs.
+
+06:07.300 --> 06:14.280
+And if you recall I set up this material for both the coffin and the stairs in the scene.
+
+06:14.560 --> 06:16.750
+So keep that in mind as we move forward here.
+
+06:16.750 --> 06:23.260
+I want to just show you what happens when this when we have a material assigned to two different objects.
+
+06:23.260 --> 06:30.250
+All right so the first thing I'm going to do is I want to bring in a texture coordinate node to do that
+
+06:30.250 --> 06:37.690
+I'm going to come over here to add good input and going to choose texture coordinate and that gives
+
+06:37.690 --> 06:38.760
+us this node.
+
+06:38.770 --> 06:42.260
+Here let me make this just a little bigger here.
+
+06:43.950 --> 06:49.140
+And then we want to also bring in our texture so I can go to add again.
+
+06:49.140 --> 06:52.150
+But as you see here the shortcut is shift a.
+
+06:52.210 --> 07:00.940
+So I'll press shift a and I'm going to go to texture and image texture.
+
+07:01.200 --> 07:09.460
+Now I've got this image texture that I'm going to want to apply based on the UVA's of my object.
+
+07:09.480 --> 07:16.890
+The U-V map down here I'm going to want to bring the color of the texture in and apply the color to
+
+07:17.310 --> 07:23.750
+the object and I'll open this and go find that texture.
+
+07:23.750 --> 07:33.960
+So in my textures folder here I'll choose that sandstones seamless and open that.
+
+07:34.130 --> 07:43.290
+Now you can see over here click tab that that texture has been applied to my object.
+
+07:43.670 --> 07:45.620
+But I think it looks a little bit too big.
+
+07:45.620 --> 07:50.400
+I'd like the texture to be a little smaller on the object.
+
+07:50.430 --> 07:55.460
+So what we can do is repeat the texture multiple times.
+
+07:55.770 --> 07:58.920
+So I'm going to go back to my default view here.
+
+07:59.640 --> 08:04.700
+And I'll go to texture viewport shading.
+
+08:05.260 --> 08:07.770
+Let's go over to our materials.
+
+08:08.110 --> 08:15.460
+We can see that the material is this blocks and stairs and we have an image texture coming into our
+
+08:15.460 --> 08:16.500
+material.
+
+08:16.900 --> 08:24.250
+But if I go over to the texture panel over here I can see under the image texture selection.
+
+08:24.250 --> 08:30.820
+Now if I click this you can see you've got brush brush mask an image texture.
+
+08:30.910 --> 08:35.900
+If yours happens to be on brush go ahead and switch it over to Image texture.
+
+08:37.370 --> 08:40.100
+And right down here we've got mapping.
+
+08:40.400 --> 08:48.260
+And if we increase the scale of the mapping we can increase the number of times that it repeats over
+
+08:48.260 --> 08:49.220
+the texture.
+
+08:49.580 --> 08:57.170
+So if I click and drag over these three fields and maybe type in three and hit enter you can see that
+
+08:57.170 --> 09:02.460
+it gets smaller the texture gets smaller on the object.
+
+09:02.960 --> 09:04.070
+Well let's try to
+
+09:08.210 --> 09:10.040
+yeah maybe something like that.
+
+09:11.220 --> 09:18.990
+Now you can also increase the scale of one access or another so let's say I wanted to increase the scale
+
+09:19.050 --> 09:24.380
+in the X I can maybe take this and type in five and it would stretch it.
+
+09:24.570 --> 09:29.900
+Or maybe I wanted to decrease the scale I could type in one and it would do that.
+
+09:29.900 --> 09:35.950
+So you can scale it in a non-uniform way depending on how much you want to do.
+
+09:35.990 --> 09:38.500
+So I'll go back to there.
+
+09:38.510 --> 09:38.830
+All right.
+
+09:38.830 --> 09:43.800
+So that is really our texture for the coffin.
+
+09:43.880 --> 09:48.030
+Let's go take a look at the stairs and see what happened to it as well.
+
+09:50.030 --> 09:59.670
+You can see over here that our stairs now have that same texture on it.
+
+09:59.690 --> 10:06.450
+That's because remember we had the same material on those two objects.
+
+10:06.560 --> 10:13.640
+And I don't know if you recall I said that textures are assigned to materials and materials are applied
+
+10:13.640 --> 10:14.890
+to objects.
+
+10:14.990 --> 10:22.130
+So if two objects have the same material then whatever texture we apply to that material will also be
+
+10:22.130 --> 10:25.010
+applied to those multiple objects.
+
+10:25.010 --> 10:32.390
+So I actually want to be able to adjust the scale for this independently of the other object.
+
+10:32.420 --> 10:39.320
+So what I'm going to do with this object selected I'm going to add a new material slot click new to
+
+10:39.320 --> 10:41.150
+add a new material to it.
+
+10:41.240 --> 10:44.260
+And for this I'll call this stairs.
+
+10:44.720 --> 10:52.790
+Now this one here I'll go ahead and rename because it needs to be just called blocks or maybe I could
+
+10:52.790 --> 10:54.820
+call it coffin.
+
+10:54.860 --> 10:56.730
+Why don't I do that.
+
+10:56.930 --> 10:59.510
+And now I'm going to remove it from this object.
+
+10:59.510 --> 11:01.920
+Now it's still going to be on that other object.
+
+11:02.000 --> 11:03.990
+But I'm going to remove it from here.
+
+11:05.130 --> 11:13.980
+Now with the stairs material I'll go back to the U-V editing and lay out isolate this one just so we
+
+11:13.980 --> 11:25.590
+can see it once again I'll press shift a bring in a texture coordinate node press shift a bring in an
+
+11:25.650 --> 11:30.350
+image texture and I'll hook these up.
+
+11:30.630 --> 11:41.340
+So the Uvas into the image texture the color into the diffuse Chaytor and I'll pull down this little
+
+11:41.550 --> 11:45.040
+menu and choose sandstones seamless.
+
+11:45.420 --> 11:47.520
+And there we go.
+
+11:47.520 --> 11:58.330
+Now I have independent control of it using this texture panel image texture mapping.
+
+11:58.350 --> 12:05.540
+Now I can adjust this independently of the other objects so I'm going to take this up to four maybe
+
+12:05.550 --> 12:12.320
+so it's a little bit smaller on the object maybe even five here.
+
+12:14.500 --> 12:19.580
+And in addition I can see some repeats happening here kind of at an angle.
+
+12:19.890 --> 12:30.100
+What I can do is I can adjust this say rotate it in the z and it will rotate that texture.
+
+12:30.550 --> 12:34.750
+And I'm going to try and rotate it so it isn't quite as obvious.
+
+12:35.080 --> 12:36.960
+Something like that.
+
+12:37.150 --> 12:45.150
+So those lines of the textures go along the stairway instead of cutting through them at an angle.
+
+12:45.460 --> 12:51.840
+And so now the repeats aren't quite as visible because they're part of the structure of the object.
+
+12:52.330 --> 12:59.370
+So you have quite a bit of control here and the mapping for both scale and rotation.

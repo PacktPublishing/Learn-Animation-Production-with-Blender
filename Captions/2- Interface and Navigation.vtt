@@ -1,0 +1,160 @@
+WEBVTT
+
+00:00.790 --> 00:04.810
+The first we should talk a little bit about Blendr and the interface.
+
+00:04.950 --> 00:10.080
+If this is your first time using blender it can be a little intimidating to open this up and see all
+
+00:10.080 --> 00:12.890
+the buttons and windows and everything.
+
+00:13.050 --> 00:19.890
+But let's just take a look at the interface real quick and talk a bit about some of the panels and windows
+
+00:19.890 --> 00:21.720
+will be using.
+
+00:21.720 --> 00:28.950
+First of all over here on the left side is the Tools panel and this is usually open by default but if
+
+00:28.950 --> 00:35.820
+you hit the T key on the keyboard that will close that and open it up so you can hide it away if it's
+
+00:35.820 --> 00:37.120
+in the way.
+
+00:37.320 --> 00:44.310
+The other panel that's used a lot is the properties panel and that can be accessed by pressing the N
+
+00:44.310 --> 00:48.370
+key and that panel will pop up here.
+
+00:48.690 --> 00:55.450
+Now you can also use this little Plus key right here to open up the properties panel as well.
+
+00:58.170 --> 01:04.650
+This of course is your main 3-D view where we'll be building all of our objects setting up the scene
+
+01:04.650 --> 01:11.550
+and animating the World here on the right hand side you've got the outliner which is basically a list
+
+01:11.550 --> 01:19.940
+of all the objects in your scene for each of these you can turn off the visibility within the scene.
+
+01:20.100 --> 01:27.720
+You can turn off the select ability or restrict it so you cannot selected and you can also turn off
+
+01:27.720 --> 01:32.610
+the visibility within the final rendered image or animation here.
+
+01:34.810 --> 01:40.090
+Now down below this we've got the properties window which I think can be a bit confusing when we call
+
+01:40.090 --> 01:46.660
+this the properties panel and this the properties window but they are both properties.
+
+01:46.720 --> 01:49.450
+It's got a lot of different sections to it.
+
+01:49.450 --> 01:57.230
+We've got the rendering section went which we'll be using near the end of the modifiers panel here.
+
+01:57.340 --> 02:02.950
+The materials window will be going through a lot of these as we move through the series.
+
+02:02.950 --> 02:07.350
+But one thing I should mention here is that all of these windows can be changed.
+
+02:07.350 --> 02:10.410
+They can be reconfigured and rearranged.
+
+02:10.510 --> 02:19.470
+If you look at this button here it's got a list of all the possible windows you can have in your interface.
+
+02:19.480 --> 02:28.240
+So this one here that we just took a look at is the Properties window the one above this is the outliner
+
+02:28.420 --> 02:33.490
+the one to the left over here is the 3D view.
+
+02:33.490 --> 02:37.900
+So each one of these can be changed to anything you want.
+
+02:37.900 --> 02:40.470
+So I can change this to a 3D view.
+
+02:40.630 --> 02:47.370
+I can change this to a 3-D view and I could change this to the outliner.
+
+02:47.650 --> 02:53.490
+So it's completely configurable which can get a little confusing at times but it's also really convenient.
+
+02:54.360 --> 02:57.050
+I mean it changes back to the 3D view.
+
+02:57.090 --> 03:05.120
+Change this back to the outliner and this one back to the Properties window.
+
+03:05.600 --> 03:14.390
+Now down here at the bottom is the timeline and ultimately we'll be animating our Meck character with
+
+03:14.390 --> 03:16.360
+the timeline down here.
+
+03:19.090 --> 03:24.640
+Now we should also talk about navigating within the 3D view and it can be a little different and a lot
+
+03:24.640 --> 03:25.860
+of other programs.
+
+03:26.140 --> 03:33.340
+One of the things to be aware of right up front is that by default you select things with the right
+
+03:33.400 --> 03:34.550
+mouse button.
+
+03:34.630 --> 03:42.760
+So if I click the right mouse button I can then select this cube or this camera or the light in most
+
+03:42.760 --> 03:49.630
+programs you select things with the left mouse button you can change that if you like or you can go
+
+03:49.630 --> 04:00.240
+to a file user preferences and under input you can change which mouse button you select things with.
+
+04:00.280 --> 04:09.820
+So I can change this to the the left mouse button here and click save user settings and then now I can
+
+04:09.820 --> 04:12.910
+select things with the left mouse button.
+
+04:12.910 --> 04:18.550
+And if this is your first time using blender or you've only used it a little bit and you've found it
+
+04:18.550 --> 04:23.860
+very unintuitive to use that right mouse button feel free to change this.
+
+04:23.860 --> 04:28.480
+I think it helps people get into blender a lot easier.
+
+04:28.480 --> 04:37.280
+I'm kind of old school I'm afraid so I'm going to switch back to the right here now the way you navigate
+
+04:37.280 --> 04:41.260
+within the 3D view is with the middle mouse button.
+
+04:41.270 --> 04:51.520
+So if I clicked the middle mouse button and drag the mouse I can tumble around if I hold the shift key
+
+04:51.520 --> 05:00.010
+down and click and drag the middle mouse button I will pan the scene and if I press the control button
+
+05:00.010 --> 05:05.910
+on the keyboard and middle mouse button click and drag I can zoom in and out.
+
+05:05.920 --> 05:14.040
+Now you can also scroll the mouse wheel as well to zoom in and out one in the next video we'll talk
+
+05:14.130 --> 05:19.560
+about creating and manipulating objects and actually begin modeling our scene.

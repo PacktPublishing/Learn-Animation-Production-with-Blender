@@ -1,0 +1,358 @@
+WEBVTT
+
+00:00.780 --> 00:06.660
+Now I think we can begin working on the end of the animation where you just kind of looks around the
+
+00:06.660 --> 00:15.450
+room and this is the point where I'd like to begin animating with this control so that maybe he looks
+
+00:16.500 --> 00:22.410
+he looks down looks over and then I'd like it to look back right at the camera.
+
+00:22.410 --> 00:24.320
+I'm going to try that.
+
+00:24.590 --> 00:30.480
+So let's actually let's take a look at the animation real quick before we move on.
+
+00:30.920 --> 00:37.280
+We've got him now so he kind of drops down and floats and then moves forward a bit and then turns off
+
+00:37.280 --> 00:39.440
+his thrusters and drops.
+
+00:39.440 --> 00:45.670
+And now we're to the point where he's going to look around the room.
+
+00:45.740 --> 00:50.730
+So I'm going to change my timeline here.
+
+00:51.320 --> 00:53.470
+Let's see what I just want him.
+
+00:53.570 --> 00:58.210
+I'll just begin with him dropping so maybe right about here.
+
+00:59.470 --> 01:00.330
+At 180
+
+01:03.190 --> 01:07.640
+and all continue on to 360 here.
+
+01:09.080 --> 01:10.880
+At least for now.
+
+01:11.630 --> 01:18.120
+So what we have here is him dropping and then he should be doing his thing here.
+
+01:18.740 --> 01:27.350
+Now one of the pieces of animation in the scene is going to be the camera and where he points the light
+
+01:27.410 --> 01:31.570
+at the end is going to be dictated by where the camera is.
+
+01:31.580 --> 01:40.520
+So if you go to the camera with the zero key this frame is going to be tighter on the Mac at the end
+
+01:40.520 --> 01:41.880
+of the animation.
+
+01:41.930 --> 01:50.360
+So it's going to be moving through kind of moving toward him I'm thinking beginning when he comes down
+
+01:50.360 --> 01:57.470
+into the frame so maybe we should begin with this maybe I should increase the range here and we should
+
+01:57.470 --> 02:01.410
+begin with that before we do anything else.
+
+02:02.640 --> 02:08.590
+So to animate that camera I think I'm going to go back to the default view here.
+
+02:09.440 --> 02:20.510
+And I think I'll split the screens like this and let's make this top one camera view here.
+
+02:21.330 --> 02:28.980
+I'm going to re-enable that camera so I can select it in the scene.
+
+02:28.980 --> 02:36.590
+I'm going to go to wireframe go the top view for right now just so I can see where the camera is.
+
+02:36.840 --> 02:43.500
+So at this point I'm I I go ahead and keep the camera right here where it is at the beginning of the
+
+02:43.500 --> 02:44.520
+scene.
+
+02:44.750 --> 02:45.670
+Well hit.
+
+02:45.960 --> 02:52.070
+And I'll just really I only need the location and the rotation.
+
+02:52.070 --> 02:56.070
+I'm not going to be scaling the camera at all so I'll hit that.
+
+02:56.390 --> 03:02.330
+The next thing I'll do is go right to where the camera needs to be after he's landed on the ground.
+
+03:02.330 --> 03:16.950
+I'm thinking that if he comes down and lands here the camera probably needs to finish its movement right
+
+03:16.950 --> 03:19.500
+around to 60.
+
+03:19.530 --> 03:22.070
+So let's move the camera in at this point.
+
+03:22.070 --> 03:31.950
+Now I've got autokey on him to save the scene before I make a major change here and I'm going to press
+
+03:31.980 --> 03:37.140
+g and I'm going to move the camera in like this.
+
+03:37.140 --> 03:39.610
+And I think I want to rotate it just a hair
+
+03:44.150 --> 03:45.740
+well let's try this.
+
+03:45.740 --> 04:02.180
+So I'm going to go back to the first frame and let's hit play.
+
+04:02.360 --> 04:09.590
+Not bad but there are a couple of places within the shot where he's not framed real well.
+
+04:10.100 --> 04:17.480
+So right here I'd maybe like to follow him a bit and just before he drops there's not enough head room
+
+04:17.870 --> 04:19.470
+at the top of the frame.
+
+04:21.410 --> 04:24.010
+I like the general feel of it.
+
+04:26.430 --> 04:31.730
+But right here he's almost out of frame.
+
+04:31.930 --> 04:33.030
+So a couple of things.
+
+04:33.040 --> 04:34.890
+Let's take a look here.
+
+04:34.930 --> 04:36.850
+So as he comes down into the frame
+
+04:40.350 --> 04:49.110
+I think right here we should be tilting up a little bit to see more of that hole in the ceiling before
+
+04:49.110 --> 04:50.490
+he comes down.
+
+04:51.820 --> 04:52.170
+Well.
+
+04:52.170 --> 04:56.380
+Another thing we could do is just move the keyframe.
+
+04:56.480 --> 05:05.120
+So I'm going to go back to the animation view and here instead of having him I think I will wait to
+
+05:05.120 --> 05:12.770
+begin the camera movement and tell about frame 40 as he's coming into frame and our eyes are distracted
+
+05:12.770 --> 05:20.620
+by that movement and that's when I'll maybe hide the initial movement of the camera.
+
+05:20.630 --> 05:26.370
+I really like to have camera movement be motivated or hidden.
+
+05:26.420 --> 05:34.580
+In other words you swinging the camera around to see something that you've heard or as movement in the
+
+05:34.580 --> 05:35.570
+frame happens.
+
+05:35.570 --> 05:38.600
+Then you can begin a camera movement.
+
+05:38.960 --> 05:41.630
+So it isn't quite as jarring.
+
+05:41.670 --> 05:44.000
+There's our camera right here.
+
+05:45.850 --> 05:52.930
+So I could just take this key frame and move it forward with the G key and just drag and move it forward
+
+05:52.950 --> 05:54.090
+so there.
+
+05:54.100 --> 05:58.630
+So now let's go back to that default view.
+
+05:58.630 --> 06:01.150
+It's a little easier for me to see here.
+
+06:01.180 --> 06:01.510
+All right.
+
+06:01.510 --> 06:03.490
+So go back to the beginning and hit play
+
+06:14.580 --> 06:16.500
+Yeah I think I'll go with that for now.
+
+06:16.500 --> 06:23.100
+Let me also take a look at when he kind of goes out of frame right here.
+
+06:23.100 --> 06:30.770
+It's not as bad now as it was because we've moved that first key frame forward all right.
+
+06:30.770 --> 06:33.370
+So now I need him to look around a bit.
+
+06:33.380 --> 06:38.960
+Let's go back to the animation window here.
+
+06:38.960 --> 06:46.770
+So if I hit play he drops here and about this point he needs to begin looking around.
+
+06:47.100 --> 06:47.980
+Well let's see.
+
+06:47.980 --> 06:54.720
+I'm going to go I'm going to begin to 30 here and I'm going to go to my rotate tool.
+
+06:56.830 --> 07:00.480
+And I'll just turn him a bit.
+
+07:00.580 --> 07:02.560
+Now we need to anchor that don't we.
+
+07:02.560 --> 07:06.040
+So I'm going to yeah at 225.
+
+07:06.040 --> 07:12.490
+I'm going to anchor him there and insert a key frame with location and rotation here
+
+07:15.250 --> 07:22.200
+and then at to 30 maybe to 35 I'll rotate them just a hair
+
+07:25.760 --> 07:26.360
+OK.
+
+07:26.360 --> 07:28.490
+So there's a bit of a turn there.
+
+07:28.500 --> 07:31.840
+He hits turns a bit
+
+07:34.610 --> 07:36.250
+as he turns.
+
+07:38.640 --> 07:40.590
+Move this one back a bit
+
+07:44.490 --> 07:46.320
+and then maybe here.
+
+07:48.550 --> 07:51.090
+And be it to 60 he'll come up a bit
+
+07:57.230 --> 07:58.020
+let's try that
+
+08:04.550 --> 08:09.410
+I moved the Y location back so he begins the upward movement a little earlier.
+
+08:10.130 --> 08:11.420
+So I'll push play
+
+08:14.540 --> 08:17.620
+and then maybe have in turn back at 300
+
+08:24.590 --> 08:26.230
+something like that yes.
+
+08:28.250 --> 08:29.390
+Let's try that.
+
+08:35.750 --> 08:39.080
+Move him in the X just a bit as he turns.
+
+08:40.800 --> 08:42.370
+Let's watch that again.
+
+08:42.920 --> 08:47.570
+Turns this way.
+
+08:47.890 --> 08:51.280
+Feel like he needs to get down as he's going.
+
+08:52.710 --> 08:59.020
+So we've got this as he comes up a bit move this
+
+09:02.050 --> 09:10.090
+keyframe in the local Y and a move that forward like as he's coming up just slowly Let's try that
+
+09:15.390 --> 09:15.680
+right.
+
+09:15.680 --> 09:21.110
+I've done some adjusting here on the Y the up and down.
+
+09:21.210 --> 09:22.740
+I'm having him come up a bit.
+
+09:22.770 --> 09:26.130
+And then here I'm having him dip down as he turns.
+
+09:26.130 --> 09:29.250
+I'm not sure exactly how this is working.
+
+09:29.250 --> 09:30.560
+Let's take a look at it.
+
+09:30.570 --> 09:32.110
+So he drops down.
+
+09:32.250 --> 09:37.410
+He turns he turns back and dips a bit as he turns.
+
+09:37.410 --> 09:40.010
+That doesn't look too bad.
+
+09:40.100 --> 09:46.970
+So my thought is that when he lands he lands the light
+
+09:51.120 --> 09:53.220
+the light scans.
+
+09:53.220 --> 09:55.850
+So he he lands here.
+
+09:55.860 --> 10:05.220
+And once he comes up the light comes down and looks forward and down to the ground and then he turns
+
+10:05.280 --> 10:10.760
+and then the light swings over there to where he's looking over there.
+
+10:11.010 --> 10:18.690
+And then he turns over here and then the light swings over and shines right into our eyes into the camera
+
+10:18.690 --> 10:19.770
+here right about here.
+
+10:19.770 --> 10:23.700
+So then at once he swings over here and takes a look.
+
+10:23.700 --> 10:31.100
+Then the spotlight swings over at us and blinds us and we fade to white.
+
+10:31.740 --> 10:34.760
+Well we're coming along in the next video.
+
+10:34.920 --> 10:38.420
+Let's take a look at animating the spotlight.

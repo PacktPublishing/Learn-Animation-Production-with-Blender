@@ -1,0 +1,385 @@
+WEBVTT
+
+00:01.080 --> 00:10.770
+Let's take a look at the fingers of fingers we want we want to control for the main joint here because
+
+00:10.860 --> 00:15.750
+that's the main access or that's the main thing we want to control all the others.
+
+00:15.750 --> 00:22.860
+I don't think I really care about having individual access to the other joints here.
+
+00:22.860 --> 00:28.380
+So all we really need is this main base Joint for each of the fingers.
+
+00:28.430 --> 00:39.470
+I'll go ahead and create a circle I'll call it shape fingers and let's come in here and select one of
+
+00:39.470 --> 00:40.170
+these fingers.
+
+00:40.170 --> 00:45.660
+Now so this is finger thumb one.
+
+00:45.680 --> 00:52.510
+I'll select the custom shape and find that shape fingers and click wireframe.
+
+00:52.510 --> 00:53.230
+And so there we are.
+
+00:53.230 --> 00:53.830
+There it is.
+
+00:53.830 --> 01:03.520
+It's OK it's a little it's not oriented the way I would want so I'm going to select that and turn on
+
+01:03.520 --> 01:06.090
+my manipulators.
+
+01:06.100 --> 01:08.560
+Now let's see if I rotated in the x.
+
+01:08.560 --> 01:09.910
+What will it do.
+
+01:09.940 --> 01:16.800
+OK so now what if I swing it around in the Z.
+
+01:17.090 --> 01:18.820
+That's not too bad.
+
+01:20.260 --> 01:21.840
+Let me line up a little better.
+
+01:21.850 --> 01:28.450
+I'm going to go into the front view and 5 and line this up so it's on axis here.
+
+01:28.880 --> 01:33.030
+Let me scale it down a bit and now I'm going to move it.
+
+01:34.300 --> 01:40.580
+See how this works I'm going to move it this way and this way.
+
+01:40.630 --> 01:50.070
+So it's kind of just hovering out over the finger like so and like so.
+
+01:50.070 --> 01:56.550
+All right so because if I select that then I should be able just to hit R and rotate it.
+
+01:56.660 --> 01:59.840
+Yeah that works.
+
+01:59.930 --> 02:07.910
+All right let's do that for the others I'll select this shape fingers narrative.
+
+02:07.940 --> 02:14.580
+So each one is going to be a little bit bigger since each bone is a little bit different sized but that's
+
+02:14.580 --> 02:15.250
+fine.
+
+02:17.550 --> 02:20.730
+And I'll go through and do these other fingers as well.
+
+02:22.150 --> 02:26.640
+All right well we're almost there we've got most of them done.
+
+02:26.770 --> 02:27.970
+The last one.
+
+02:27.970 --> 02:32.020
+It looks like is this bone for the spotlight.
+
+02:32.290 --> 02:35.530
+What I'd like to do for this is select this bone.
+
+02:35.530 --> 02:38.140
+And I better go to Edit mode here.
+
+02:38.410 --> 02:44.120
+I'll select that bone and I actually select this joint and snap the cursor to it.
+
+02:45.820 --> 02:55.300
+And then in edit mode I will press shift a to create a new bone and I'll select two that and what I
+
+02:55.300 --> 03:03.590
+want to do is move this straight out from that bone now I'm going to go to the side view and make sure
+
+03:03.590 --> 03:08.390
+that it's about the same distance away as the KNEEBONE here.
+
+03:08.420 --> 03:14.990
+It doesn't need to be I'm just trying to be neat and organized and let's call this bone
+
+03:18.460 --> 03:21.600
+light track.
+
+03:21.670 --> 03:28.930
+Now we should create a constraint for this spotlight bone so that wherever we move this bone it tracks
+
+03:29.440 --> 03:32.170
+or points to it at all times.
+
+03:32.180 --> 03:42.040
+So let me come back in here to pose mode and I'll select this bone and in our constraints panel over
+
+03:42.040 --> 03:54.420
+here let's add a bone constraint track to and of course we want to have the target be the armature have
+
+03:54.420 --> 04:03.970
+the bone B that light track and now we see that as soon as we do that let's test it here.
+
+04:06.530 --> 04:07.630
+I move this around.
+
+04:07.630 --> 04:08.940
+The light points at it.
+
+04:08.950 --> 04:09.790
+That's true.
+
+04:09.790 --> 04:16.150
+But look at the way it's oriented it flips it around completely.
+
+04:16.210 --> 04:22.210
+If we look at the constraint we can see that it says that the z is up and we can change this but I don't
+
+04:22.210 --> 04:26.690
+think that's going to help us much.
+
+04:26.710 --> 04:31.620
+Now we've got y up but it doesn't work at all.
+
+04:31.780 --> 04:34.180
+So that's not going to help.
+
+04:34.330 --> 04:43.270
+We really want it to be with z up and the y facing forward or tracking along the y and that's what it's
+
+04:43.270 --> 04:49.690
+doing but it's just flipping this over so let's see what we can do about this.
+
+04:49.690 --> 04:57.150
+I'm going to select this and remove the constraint and that'll flip it back up and go into edit mode.
+
+04:57.160 --> 05:02.080
+And with this bone selected let's turn on the axes.
+
+05:02.500 --> 05:04.360
+I'll go back to the armature panel.
+
+05:04.420 --> 05:07.490
+Turn on axes and let's see if we can see.
+
+05:07.870 --> 05:13.970
+Well if you look at this it says that the z is pointing down and the Y is pointing forward.
+
+05:13.970 --> 05:21.850
+So in other words when we applied that constraint it automatically flipped it down so that the Z was
+
+05:21.850 --> 05:22.300
+up.
+
+05:22.300 --> 05:24.880
+But it was actually facing down.
+
+05:24.910 --> 05:27.370
+So let's use the roll here.
+
+05:27.390 --> 05:31.960
+I'll click and drag in here and we can just type in 180
+
+05:34.600 --> 05:41.950
+and that will rearrange that so that Z is facing up and the Y is facing forward.
+
+05:42.040 --> 05:46.540
+Let's give that a try I'll go back to pose mode now.
+
+05:46.780 --> 05:50.570
+And the problem is is that it's flips it over.
+
+05:50.560 --> 05:52.740
+Now when we go into polars mode.
+
+05:53.140 --> 05:56.260
+So let's undo this.
+
+05:56.340 --> 05:57.690
+So that's not going to work.
+
+05:57.690 --> 06:04.830
+What we need to do before what we need to do before we rotate this is unpleasant.
+
+06:04.950 --> 06:12.010
+The light so let's select that light here that's its own object.
+
+06:12.110 --> 06:16.860
+Remember I'm going to press alt P and I'm going to clear the parent.
+
+06:16.890 --> 06:23.040
+Now let's go back into edit mode and roll that back up.
+
+06:23.040 --> 06:27.330
+So the Z's facing up.
+
+06:27.670 --> 06:37.180
+Now if I tab back into PPOs mode I can select the light shift select that bone and press control P and
+
+06:37.180 --> 06:40.080
+parent to the bone.
+
+06:40.080 --> 06:48.530
+Now we should be able to go ahead and turn off axes here and go back to our bone constraint panel.
+
+06:48.530 --> 06:54.860
+I'm going to de-select everything here when you get out of here back to object mode so I can de-select
+
+06:55.520 --> 07:03.880
+everything so the light isn't selected like the bone go back to pose mode.
+
+07:03.940 --> 07:13.150
+And now let's add a constraint a track to with the Z being up and tracking for the Y.
+
+07:13.310 --> 07:20.440
+Let's choose the armature and that light track bone.
+
+07:20.540 --> 07:23.810
+Now when we choose that bone and hit G.
+
+07:23.990 --> 07:27.140
+Now the light tracks wherever that bone is.
+
+07:27.560 --> 07:29.110
+That's good.
+
+07:29.120 --> 07:37.920
+All right so now let's create a custom shape for this bone all go back to object mode.
+
+07:39.650 --> 07:42.910
+De-select everything I'll get the cursor back to the center
+
+07:45.450 --> 07:52.460
+and for this I'll create two circles or create one circle here.
+
+07:53.360 --> 08:01.690
+And scale it in and then I'll create one more and maybe scale that in a bit as well.
+
+08:01.690 --> 08:10.960
+So I get this kind of target shape so like these two and press control J to combine them into one object
+
+08:11.620 --> 08:15.800
+and I'll call this shape light.
+
+08:15.820 --> 08:23.150
+Now we want to choose this in pose mode and here it is.
+
+08:23.550 --> 08:33.360
+And we want to go to the bone panel choose Custom shape type and shape and choose the shape light and
+
+08:33.360 --> 08:35.170
+choose wireframe.
+
+08:35.700 --> 08:36.300
+And there we go.
+
+08:36.300 --> 08:37.490
+So it's a little big.
+
+08:37.490 --> 08:48.430
+We can go select this go into edit mode and scale it down a bit so that we can have our custom shape
+
+08:48.430 --> 08:49.120
+for the light.
+
+08:49.120 --> 08:54.160
+So now if I come into pose mode let me choose.
+
+08:54.610 --> 08:56.130
+Get out of it mode.
+
+08:56.380 --> 08:57.420
+Choose that one.
+
+08:57.570 --> 08:58.810
+And there we go.
+
+08:58.810 --> 09:04.240
+Now I should be able to move that around and you can see the light comes along with it.
+
+09:05.630 --> 09:08.990
+Well that pretty much finishes the rig for the Mac.
+
+09:09.110 --> 09:14.300
+But the last thing we need to do is hide the bones a way that we aren't going to be using that we don't
+
+09:14.300 --> 09:21.050
+need to see and to do that we need to come over here to the armature panel and here in the layers we
+
+09:21.050 --> 09:28.250
+need to move them into a layer say Layer 2 that we won't be using.
+
+09:28.340 --> 09:39.750
+So I'm going to come in here and select all of these bones just shift select them and with those selected
+
+09:39.750 --> 09:44.580
+I can just press them and move these over to layer 2.
+
+09:44.780 --> 09:46.030
+And there they go.
+
+09:46.580 --> 09:48.380
+So you can see them over here.
+
+09:48.380 --> 09:53.250
+There they are but they're hidden away so we don't have to deal with them.
+
+09:53.300 --> 09:59.380
+I missed these AM and layer too.
+
+09:59.910 --> 10:02.240
+Let's get the arms and the fingers here.
+
+10:05.920 --> 10:09.740
+I'll press them and select one or two again.
+
+10:09.880 --> 10:11.520
+Those away let's get the spotlight
+
+10:14.210 --> 10:17.430
+and let's move this arm over to layer two as well.
+
+10:18.380 --> 10:18.880
+All right.
+
+10:18.890 --> 10:26.990
+So there is the rig so we should be able to select this and move it down and around like this in the
+
+10:26.990 --> 10:32.230
+arms and move them around and the legs and move those around.
+
+10:32.240 --> 10:33.010
+And that's great.
+
+10:33.020 --> 10:36.920
+But the problem is now we have one more thing we need to do.
+
+10:36.920 --> 10:40.960
+The problem is is he's going to be moving through the scene.
+
+10:41.060 --> 10:45.870
+But if I try and select this and move him.
+
+10:45.910 --> 10:46.980
+Look at what happens.
+
+10:47.020 --> 10:50.910
+It leaves a lot of the rig behind.
+
+10:51.060 --> 10:54.440
+So all right click to get him back there.
+
+10:54.850 --> 11:03.520
+So what we need to do is create a master control that allows us to just select one item and move the
+
+11:03.520 --> 11:06.610
+entire rig and character around the scene.

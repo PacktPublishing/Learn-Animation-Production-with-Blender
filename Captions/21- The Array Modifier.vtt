@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00.960 --> 00:06.660
+Well there are a couple of last details I'd like to add to the Mac here I've got in my drawing I've
+
+00:06.660 --> 00:16.590
+got a little hints at a grill on the front and maybe that there's a little panel or something on the
+
+00:16.590 --> 00:18.830
+back of the jetpack.
+
+00:18.930 --> 00:25.410
+So that's what I'm going to work on now to get this little grill on the front what I'm going to do is
+
+00:25.410 --> 00:28.410
+use some existing geometry.
+
+00:28.410 --> 00:37.020
+In other words I'm going to select this rim here and I'll hit the division key on the numpad to isolate
+
+00:37.020 --> 00:37.400
+it.
+
+00:39.120 --> 00:44.940
+And I think what I want to do is grab some of these faces down here because what I want is a kind of
+
+00:44.940 --> 00:55.560
+a grill that conforms to the shape of the rim here and to do that I'll go ahead and use its own geometry.
+
+00:55.650 --> 00:59.460
+So I'm going to select these faces right down here.
+
+00:59.730 --> 01:01.730
+I'm going to go ahead and duplicate them.
+
+01:02.840 --> 01:07.650
+And then click and I'll go ahead and move them out away from the object here.
+
+01:07.880 --> 01:14.230
+And while I've still got it selected I'm going to press the P key and separate by selection.
+
+01:14.420 --> 01:16.580
+And now that is its own object.
+
+01:16.580 --> 01:19.520
+So I'll go back to object mode de-select everything.
+
+01:19.520 --> 01:21.450
+Select this guy here.
+
+01:22.130 --> 01:29.450
+And for now I'm going to turn off or maybe even just get rid of completely the subdivision surface modifier
+
+01:29.510 --> 01:36.020
+that's on it so I can see it a little bit better and I'm going to bring everything back with the division
+
+01:36.020 --> 01:38.030
+key on the numpad.
+
+01:38.030 --> 01:41.770
+And so here is my new object.
+
+01:42.200 --> 01:45.860
+I'm going to move the origin to the geometry.
+
+01:46.080 --> 01:49.270
+And now I can move it and try and put it in place.
+
+01:49.280 --> 01:56.220
+It's generally going to be so I'm thinking that this is going to be down here underneath this piece
+
+01:56.400 --> 01:58.820
+like this.
+
+01:58.890 --> 02:04.860
+So there are a couple of things I'd like to adjust here with the vertices.
+
+02:04.860 --> 02:10.730
+I think I'm going to bring these down and in a bit.
+
+02:10.790 --> 02:13.630
+I want these to be straight up and down like this.
+
+02:14.420 --> 02:15.750
+Something like that.
+
+02:15.880 --> 02:23.150
+And if I wanted to make sure that these were completely vertical I could take these two vertices and
+
+02:23.150 --> 02:28.960
+scale them in the X and that will ensure that they're actually vertical here.
+
+02:29.300 --> 02:31.490
+Something like that.
+
+02:31.490 --> 02:34.270
+Now it also seems to be a little bit curved.
+
+02:34.550 --> 02:36.960
+See how it's kind of curved in like that.
+
+02:37.310 --> 02:42.720
+I can fix that by going to say vertex mode selecting all.
+
+02:42.830 --> 02:51.620
+And once again using the scale tool this time in the Y and just scale so that it all flattens in that
+
+02:51.620 --> 02:55.910
+axis they're move it down into place here.
+
+02:55.910 --> 02:59.650
+Maybe it's going to be about this far away from the body.
+
+03:02.510 --> 03:09.950
+And now I'm going to go into edge mode and select these edges with alt select and then shift alt select
+
+03:10.580 --> 03:16.820
+and select all of the edges all the way around and press the key and then I'm going to click and drag
+
+03:16.820 --> 03:21.500
+back into the y axis feel like it needs to be a little bit taller.
+
+03:21.500 --> 03:30.320
+So I'm just going to select some of these faces on the bottom and just pull down like so and then I'm
+
+03:30.320 --> 03:38.930
+going to take these faces here on the front and I think I fi extrude and then click and then scale in
+
+03:39.020 --> 03:45.850
+just a bit say in this axis and scale in a bit here as well.
+
+03:46.110 --> 03:47.390
+It's not going to be perfect.
+
+03:47.400 --> 03:53.610
+I may have to do a little bit of adjusting but I just was trying to get a rim here.
+
+03:56.440 --> 03:59.130
+I think I'll need to adjust some edges now.
+
+04:02.220 --> 04:04.050
+And maybe a few points.
+
+04:11.590 --> 04:16.890
+So that I've got something that I can then extrude in as well.
+
+04:19.820 --> 04:21.980
+Something like that.
+
+04:22.280 --> 04:25.230
+Now it looks like currently it's smooth.
+
+04:25.280 --> 04:30.550
+So I'm going to come over here to the shading area under the Tools tab and just click flat.
+
+04:30.710 --> 04:36.290
+So I can see it more in flat shading subdivision surface modifier.
+
+04:37.300 --> 04:38.970
+Views up to two.
+
+04:39.280 --> 04:43.550
+And now go back to smooth just to see how it looks.
+
+04:43.720 --> 04:49.160
+And I think what I'll do is add some edge loops here along the sides
+
+04:53.590 --> 05:04.530
+and on the top and bottom as well and drag it up and insert the other and drag it down and maybe lastly
+
+05:04.530 --> 05:10.750
+I could insert two edge loops along the rim of it here like that.
+
+05:10.980 --> 05:21.210
+And we go what I like to do is put some vents in here so to do that I'm going to bring the cursor here
+
+05:21.270 --> 05:29.200
+into the center of this object cursor to selected and I think I'm just going to create a cube it's going
+
+05:29.200 --> 05:31.100
+to be huge here but that's ok.
+
+05:33.780 --> 05:35.170
+And scale it down.
+
+05:39.740 --> 05:45.450
+And I think I just want to make this kind of a slant a little vent type thing.
+
+05:46.440 --> 05:56.590
+And I may take an edge here and just drag it out so it looks a little angled like this.
+
+05:56.590 --> 06:06.230
+And if I isolate it oh I can do things like delete the face in the back because we won't need that.
+
+06:07.400 --> 06:11.420
+And I could also add a subdivision service modifier to this
+
+06:15.580 --> 06:17.700
+and see how this is going to look
+
+06:20.910 --> 06:24.270
+and maybe just add a couple of edge loops to this as well.
+
+06:35.630 --> 06:37.550
+So it looks something like that.
+
+06:37.940 --> 06:41.330
+Now what I want to do is I'm going to bring this over here.
+
+06:42.680 --> 06:45.960
+And place it up in here like this.
+
+06:46.130 --> 06:53.250
+And then what I thought I'd do is use the array modifier to fill in this area here with slats.
+
+06:53.250 --> 07:01.280
+We're going to have to do a bit of moving around but at least to create these we could use the array
+
+07:01.700 --> 07:02.730
+modifier.
+
+07:03.050 --> 07:10.730
+So to do that I'm going to select this piece and come over here to the ADD modifiers area and click
+
+07:10.990 --> 07:11.780
+array.
+
+07:12.690 --> 07:15.580
+And you can see it adds a one here.
+
+07:15.840 --> 07:25.170
+I'm going to scroll down here and I can increase the count here and you can see that it adds to it.
+
+07:26.030 --> 07:29.790
+And I can increase the relative offset as well.
+
+07:30.870 --> 07:33.450
+So it spreads them out a bit.
+
+07:34.020 --> 07:45.100
+So I think I will spread them out a little more think I'll go like this and then add a few more like
+
+07:45.100 --> 07:45.900
+that.
+
+07:46.300 --> 07:56.950
+So now we've got 15 and now I'm going to go ahead and apply that soon now they become all one piece
+
+07:57.000 --> 07:58.540
+on one object.
+
+07:58.540 --> 08:04.960
+And so I'll select this one and now I'm just going to do a bit of moving around and move this into place
+
+08:05.500 --> 08:11.980
+and then I'm going to select this one and this one with the L key and move these into place and I'll
+
+08:11.980 --> 08:20.020
+just do this for all of them just moving them into place two by two here and I'm just hovering over
+
+08:20.020 --> 08:26.920
+each one pressing the L key to select and then hitting the A key to the de-select and then doing it
+
+08:26.920 --> 08:34.360
+again for the next few.
+
+08:34.380 --> 08:34.890
+There we go.
+
+08:34.890 --> 08:39.100
+So now we have event on the front of our Meck.

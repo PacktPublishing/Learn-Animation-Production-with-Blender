@@ -1,0 +1,178 @@
+WEBVTT
+
+00:00.480 --> 00:11.610
+Now for the feat I want to have the ankle joint at the heel and the heel pads all one piece on one object.
+
+00:12.030 --> 00:23.730
+So I'll select that joint the heel and each one of these little rubber pieces I'll press P separate
+
+00:23.730 --> 00:25.290
+by selection.
+
+00:25.770 --> 00:32.320
+Now for the toe I'll select this joint the toe and the pads.
+
+00:34.300 --> 00:35.950
+Separate by selection.
+
+00:39.650 --> 00:44.040
+And we'll call this foot toe.
+
+00:44.520 --> 00:46.690
+L..
+
+00:47.010 --> 00:48.890
+All right so we've got that side done.
+
+00:48.900 --> 00:54.740
+I need to go through and do the same thing to the objects on this side as well.
+
+00:55.950 --> 01:01.040
+Now I realize as I select these fingers that they're still mirrored.
+
+01:01.260 --> 01:08.850
+You see if I select this one over here and hit the tab key only this side goes into edit mode.
+
+01:08.850 --> 01:16.910
+So I need to go through and apply every one of these mirror modifiers on these fingers.
+
+01:16.950 --> 01:26.350
+So now when I hit the tab key I can see it and I can split it out and for the last piece here the toe.
+
+01:27.270 --> 01:32.760
+I don't need to split it out because it's just it's own piece so I'll just select that and call this
+
+01:32.760 --> 01:40.980
+foot toe Dot are the next thing I'd like to do is move the pivot points of the of each of the objects
+
+01:40.980 --> 01:42.750
+to the appropriate place.
+
+01:42.750 --> 01:50.760
+What we can do for ease of use I guess is to move the origin of each of the objects to where the object
+
+01:50.760 --> 01:58.710
+is going to pivot and that will make it easier to snap the joints of the skeleton of the rig to where
+
+01:58.710 --> 02:00.330
+they need to be.
+
+02:00.330 --> 02:08.050
+So let's take a look at doing that for the main body here.
+
+02:08.480 --> 02:13.550
+Let's just set the origin to geometry and see what happens so that just puts it there and that's fine.
+
+02:13.550 --> 02:15.190
+I don't think that's a problem.
+
+02:15.290 --> 02:19.870
+It's the limbs and the fingers that are going to be an issue.
+
+02:19.900 --> 02:25.440
+I'll take this upper arm and set the origin to geometry and that will put it there.
+
+02:25.450 --> 02:33.410
+And that's not exactly where I want it to rotate around by tab and edit mode and select this joint here.
+
+02:34.780 --> 02:44.220
+This is really where I want it to rotate some of the press shift s and move the cursor to the selected.
+
+02:44.590 --> 02:53.290
+And then if I tab out of edit mode back into object mode now I can move the origin to the 3D cursor
+
+02:53.950 --> 02:55.130
+and there you go.
+
+02:55.150 --> 02:57.610
+So that is where I want it to rotate.
+
+02:57.610 --> 03:05.680
+So if I go to the rotate tool or push the Arkie you see that's where it's going to rotate.
+
+03:06.010 --> 03:12.310
+That's what we want but it isn't so much these origins are these pivot points that are really going
+
+03:12.310 --> 03:13.870
+to do the animating.
+
+03:13.960 --> 03:21.280
+It's the rig or the armature that is going to do the animating I'm just doing this to make it easy to
+
+03:21.280 --> 03:25.360
+snap those joints to these points.
+
+03:25.360 --> 03:28.690
+So let me do this for the lower arm.
+
+03:29.140 --> 03:31.300
+I want to tab into edit mode.
+
+03:31.330 --> 03:33.610
+I want to select this joint.
+
+03:33.610 --> 03:38.960
+I want to snap the cursor to the selected and then back in Object mode.
+
+03:38.980 --> 03:46.750
+I want to set the origin to the 3D cursor and I need to do this for each of these objects so I'll do
+
+03:46.750 --> 03:50.450
+that for the upper leg down here.
+
+03:50.810 --> 04:01.620
+So the fact that joint snap the cursor to the selected and then set the origin to the 3D cursor.
+
+04:01.640 --> 04:07.460
+Now for the toe I think I just want the cursor to be in the center of this object here in the center
+
+04:07.460 --> 04:08.590
+of the joint.
+
+04:08.840 --> 04:15.920
+So I'll snap the cursor to that and then I'll set the origin to the 3D cursor for that.
+
+04:16.040 --> 04:21.950
+And now that should rotate around that point I would go.
+
+04:22.320 --> 04:29.060
+Now for the hands they just need to go right into the center of the object so I'll just set origin to
+
+04:29.070 --> 04:34.420
+geometry for the hands and the same for over here.
+
+04:38.710 --> 04:46.390
+For the fingers the point of rotation should really be at the center of this cylinder here.
+
+04:46.720 --> 04:56.410
+So if I just select that piece and snap the cursor to that and then snap the origin to the 3D cursor
+
+04:57.070 --> 04:58.830
+that should be good right there.
+
+05:00.130 --> 05:10.990
+And for the base of each of these fingers this here I think probably will want I don't know that it
+
+05:10.990 --> 05:11.910
+will matter much.
+
+05:11.920 --> 05:22.050
+I think what we're going to want to do is rotate these pieces around the center of the sphere.
+
+05:22.360 --> 05:28.430
+Now the spotlight up here will hopefully rotate around this point here.
+
+05:28.450 --> 05:39.400
+So what I need to do is actually select this fear with the L key and snap the cursor to it and then
+
+05:39.400 --> 05:45.460
+select the spotlight and set the origin of that to the 3D cursor.
+
+05:45.710 --> 05:49.160
+So now it should rotate around that point.
+
+05:50.810 --> 05:57.490
+Well that should take care of the housekeeping chores we needed to do to begin the rigging process.
+
+05:57.500 --> 05:59.550
+Up next we'll actually begin the rigging.

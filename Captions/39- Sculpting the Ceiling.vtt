@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00.750 --> 00:08.190
+The other two pieces I'd like to use the sculpt tools on our this beam here this shortened beam and
+
+00:08.190 --> 00:11.130
+also the whole of the ceiling.
+
+00:11.790 --> 00:18.330
+So let's work on this beam right now I'm going to go ahead and zoom in and isolate it with the division
+
+00:18.330 --> 00:19.150
+key.
+
+00:19.470 --> 00:30.420
+And what I want to do is just beat up this end here just a bit so it gets the feeling that it was broken
+
+00:30.420 --> 00:31.560
+off.
+
+00:31.560 --> 00:39.030
+So what I want to do is add a multi resolution modifier increased the subdivisions a bit here.
+
+00:39.050 --> 00:46.240
+Now you notice once again that it's beginning to collapse because we're using Catmull Clark.
+
+00:46.250 --> 00:53.660
+I'm going to change it to simple so we can increase the resolution with out the edges rounding off.
+
+00:53.670 --> 01:00.300
+So all right maybe I'll even give it one more subdivision and let me go into the sculped tools here.
+
+01:01.450 --> 01:04.360
+And I'll go ahead and use the sculped brush here.
+
+01:04.360 --> 01:10.660
+The sculped draw and let me just zoom in and see what we can do here.
+
+01:10.710 --> 01:19.470
+All hit the F key to reduce the size of the brush and I'll press shift F to increase the strength.
+
+01:19.470 --> 01:23.940
+And if I just yeah I think I can do something with this.
+
+01:23.980 --> 01:25.840
+I'll cut in.
+
+01:25.840 --> 01:29.070
+I'll pull out something like this.
+
+01:31.960 --> 01:37.760
+Just so we get a sense that there something kind of broke off of here.
+
+01:37.910 --> 01:40.060
+Here we go something like that.
+
+01:40.060 --> 01:47.880
+Now I can come in here and maybe I'll use the pinch tool and pinch up some of these edges here so they're
+
+01:47.920 --> 01:58.680
+a little bit sharper and I think that should probably do just to give the sense from a distance here
+
+01:59.340 --> 02:03.900
+that that's kind of crumbled stone.
+
+02:04.040 --> 02:04.370
+All right.
+
+02:04.370 --> 02:07.300
+Let's take a look at the other piece.
+
+02:07.460 --> 02:09.790
+The hole in the ceiling.
+
+02:10.340 --> 02:17.290
+I will select this piece and I'll zoom in a bit and let's do a similar thing here.
+
+02:17.660 --> 02:21.190
+So I'm going to go to the sculped mode again.
+
+02:21.500 --> 02:25.530
+Use the sculpt draw brush.
+
+02:25.740 --> 02:38.630
+I'll add a multi resolution modifier subdivide a bit maybe up to three and change from Catmull Clark
+
+02:38.630 --> 02:41.710
+to simple for this one.
+
+02:43.150 --> 02:50.200
+I think I'll reduce the size of the brush and maybe just work going up and down here like this.
+
+02:51.150 --> 02:53.780
+Maybe I'll need one more subdivision.
+
+02:54.820 --> 02:55.860
+And here we go.
+
+02:57.340 --> 03:04.580
+And I'll also hold the control key down and cut into it some as well as pushing out.
+
+03:05.150 --> 03:16.690
+So my goal here here isn't have it be perfect just to have it be rough and not so smooth.
+
+03:17.750 --> 03:23.520
+And we really don't need it all the way around because we're not going to see that part.
+
+03:24.800 --> 03:31.280
+I'll spin around and get some of this over here just to make sure we get what we need.
+
+03:33.360 --> 03:43.290
+And I'll also do some pushing in and also sculpting around here and going back and forth between just
+
+03:44.610 --> 03:52.600
+sculpting and using the control button just kind of going back and forth here.
+
+03:53.820 --> 03:55.540
+I may smooth some of that back.
+
+03:55.540 --> 04:02.700
+It looks like I did a little too much so I'm going to increase the size of the brush and hold the shift
+
+04:02.700 --> 04:11.700
+key down and just smooth it back just a little don't need it quite that much OK.
+
+04:11.700 --> 04:16.550
+So I will go back to object mode.
+
+04:16.710 --> 04:22.480
+We can increase the views here in Object mode just to see how we're doing.
+
+04:22.730 --> 04:24.230
+I'll press shift see
+
+04:28.390 --> 04:37.200
+and let's go ahead and take a look at it through the camera here and press the zero key and maybe switch
+
+04:37.200 --> 04:38.670
+to rendered view.
+
+04:38.670 --> 04:40.290
+And let's see what we have here.
+
+04:42.510 --> 04:49.230
+Yes or that kind of gives the sense that there is a little more happening there than just flat polygons
+
+04:49.230 --> 04:51.290
+like things have kind of broken off.
+
+04:52.700 --> 04:54.750
+Will work.
+
+04:54.900 --> 05:01.450
+So that is about all the sculpting I'd like to do for our scene in the final render.
+
+05:01.470 --> 05:10.140
+I'm going to have a light coming down through the hole in the ceiling here and we'll also have a light
+
+05:10.140 --> 05:12.970
+shining out of his spotlight.
+
+05:13.810 --> 05:18.670
+So at the very least I think what I want to do right now is set up a light that's coming down to the
+
+05:18.670 --> 05:22.590
+hole in the ceiling and have that be our main source of light.
+
+05:23.050 --> 05:28.260
+So to do that I'm going to delete the light plane in this scene here we don't need that anymore.
+
+05:28.420 --> 05:32.150
+So just selected and press X and delete.
+
+05:32.350 --> 05:40.900
+And what I think I'll do is place a spotlight up here outside the whole shining in.
+
+05:40.900 --> 05:49.630
+So I'm going to come down here to the lamp area in the create tab and click spot and then move this
+
+05:49.630 --> 05:50.120
+up.
+
+05:50.120 --> 05:55.060
+Now we're going to move this up like this.
+
+05:55.540 --> 06:04.360
+And I think I'll shine it down in kind of like this kind of angled and shining down into this scene
+
+06:04.420 --> 06:05.680
+on to him.
+
+06:05.680 --> 06:07.570
+Let me split the screens here.
+
+06:07.570 --> 06:08.770
+I'll take this tab.
+
+06:08.770 --> 06:10.760
+This corner tab and pull it down.
+
+06:12.380 --> 06:20.070
+And I'll press the zero key appear to frame up the actual render camera.
+
+06:20.410 --> 06:27.740
+And while this is here I can adjust the light as needed so I'm going to switch the viewport shading
+
+06:27.740 --> 06:29.910
+to rendered.
+
+06:30.200 --> 06:32.870
+And so you can see our scene here.
+
+06:32.870 --> 06:38.960
+We're going to need a little more light on the scene with my spotlight select it I'm going to come over
+
+06:38.960 --> 06:43.760
+here to the spotlight panel and under-strength.
+
+06:43.850 --> 06:44.850
+I'll try.
+
+06:44.900 --> 06:48.840
+I'll switch from a hundred to maybe 1000.
+
+06:48.870 --> 06:50.430
+That's a little bit better.
+
+06:50.440 --> 06:51.690
+How about 10000.
+
+06:52.770 --> 06:55.710
+Let's try that getting there.
+
+06:56.190 --> 06:57.090
+Let me try.
+
+06:57.090 --> 06:59.850
+Twenty thousand.
+
+06:59.850 --> 07:02.310
+See how that works.
+
+07:02.310 --> 07:08.760
+Another thing I can do here is move this down and zoom this in a bit.
+
+07:08.760 --> 07:12.650
+Another thing I can do is adjust the size of the cone.
+
+07:12.650 --> 07:13.890
+Angle here.
+
+07:14.040 --> 07:22.380
+So I right down here under the spot shape I can increase or decrease the size of the lamp.
+
+07:22.470 --> 07:30.000
+So I just want to kind of spotlight the Mac as it comes down into this scene as the light comes through
+
+07:30.000 --> 07:31.520
+the hole here.
+
+07:31.650 --> 07:37.950
+So the light is looking pretty good there but I feel like we need a little bit more light in the scene
+
+07:38.310 --> 07:40.800
+if I come over here to the world panel.
+
+07:40.920 --> 07:51.470
+I can turn on ambient inclusion and that's a bit too much so let's try point one for the ambient occlusion.
+
+07:51.570 --> 07:52.420
+OK.
+
+07:52.420 --> 07:58.100
+How about point 0 5 something like that.
+
+07:58.150 --> 08:05.480
+Something very low just to give us a little bit of extra light in the scene.
+
+08:05.530 --> 08:14.890
+I'm going to join these two windows by right clicking between them and clicking join and then click
+
+08:14.890 --> 08:17.050
+down here.
+
+08:17.050 --> 08:23.030
+All right so that's I think a rough approximation of what I would like the scene to look like.

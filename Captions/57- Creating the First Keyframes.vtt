@@ -1,0 +1,484 @@
+WEBVTT
+
+00:00.740 --> 00:07.010
+Let's begin creating our first keyframes to move the Mac down into place for something like this I'd
+
+00:07.010 --> 00:08.570
+like to begin with the end.
+
+00:08.570 --> 00:18.400
+In other words I want to keyframe the MEK back here somewhere on the timeline and then also keyframe
+
+00:18.410 --> 00:21.080
+the mech at its beginning point.
+
+00:21.170 --> 00:24.200
+So I know I want to end here.
+
+00:24.740 --> 00:31.240
+That's not a question and I'm thinking that and this is just a guess at this time.
+
+00:31.520 --> 00:36.980
+I'm thinking that the Meck will take about eight seconds to come down through the hole in the ceiling
+
+00:37.430 --> 00:39.260
+and land on the ground.
+
+00:39.350 --> 00:45.840
+It will then kind of take a look around maybe take a step or two and then the scene will end.
+
+00:46.130 --> 00:51.090
+So I'm thinking maybe eight or nine seconds to get down into the room.
+
+00:51.560 --> 01:00.350
+So I'll come maybe to frame 200 here once again this is just a guess and we can adjust the timing at
+
+01:00.350 --> 01:01.550
+any point.
+
+01:01.880 --> 01:06.500
+I'll select that Master Control which is somewhere around it.
+
+01:06.520 --> 01:09.520
+You're going to have to press the Z key to get to that.
+
+01:09.530 --> 01:15.530
+So I'll select that and I'll hit the Z key again to come back out of wireframe.
+
+01:15.530 --> 01:20.690
+So now that that's selected I want to insert a key frame at that point so to do that I'm going to press
+
+01:20.690 --> 01:31.700
+the key and I'm going to insert a key frame for the location of the Mac the X Y and Z of its location.
+
+01:31.850 --> 01:35.690
+So I click that and notice what it does.
+
+01:35.690 --> 01:45.170
+It creates a key frame over here and it also puts a key frame here on the graph editor at frame 200.
+
+01:45.170 --> 01:45.800
+All right.
+
+01:45.800 --> 01:54.380
+So let's go back to frame zero now and I'm going to zoom out and I want to move the mech now up to where
+
+01:54.380 --> 02:01.400
+I think he should be at the beginning of the animation so I'm using that master control to move him
+
+02:01.400 --> 02:06.530
+around move all of the control objects around at once.
+
+02:06.860 --> 02:12.790
+So knowing full well that we can adjust this at any point in time I'm going to go ahead and set it keyframe
+
+02:12.800 --> 02:13.400
+here now.
+
+02:13.430 --> 02:18.030
+So I'll press the key and location.
+
+02:18.370 --> 02:22.610
+So you can see now that I've got two key frames here.
+
+02:23.400 --> 02:27.120
+One at frame one and one at frame 200.
+
+02:27.150 --> 02:29.180
+I've got two frames in here.
+
+02:30.390 --> 02:33.070
+He open this up just a little bit more here.
+
+02:34.540 --> 02:42.430
+I've got one key frame at frame 1 and one at 200 and you can see it's created this kind of smooth curve
+
+02:42.970 --> 02:44.070
+between the two.
+
+02:44.070 --> 02:50.740
+Keyframes So let me just press control up arrow here and make this full screen.
+
+02:50.740 --> 02:59.860
+And if we roll the master control down here we can see we've got X Y and Z and you can see by the color
+
+02:59.860 --> 03:03.470
+that this curve is the curve of the y axis.
+
+03:03.520 --> 03:11.950
+This is the curve of the Z and The X is in here because I didn't move it at all in the X the X at frame
+
+03:11.950 --> 03:18.250
+1 is zero and the X at frame 200 is 0 as well.
+
+03:19.790 --> 03:25.730
+So I'll go ahead and press control up here again to make that screen smaller again.
+
+03:25.730 --> 03:28.100
+And now if we hit play let's see what happens.
+
+03:32.370 --> 03:40.290
+So you can see it's moving down in the seen down from above the ceiling down to the floor.
+
+03:40.290 --> 03:42.200
+Now it's moving pretty slow.
+
+03:43.290 --> 03:48.990
+You can see here that the frames per second is only around 10 or 12.
+
+03:48.990 --> 03:53.310
+I'd really like to see this more at 24 frames per second.
+
+03:53.430 --> 03:55.410
+So I'll go ahead and hit pause here.
+
+03:56.920 --> 04:04.440
+And if I click and drag on this cursor in the timeline I can click and drag it back and forth and you
+
+04:04.440 --> 04:08.220
+can see the map coming down into place.
+
+04:08.460 --> 04:16.500
+So as I'm playing the scene you can see that the frame rate is hovering around 14 or 15 or actually
+
+04:16.500 --> 04:23.020
+10 or 12 as the comes down into the scene and that's being caused by a couple of things.
+
+04:23.280 --> 04:29.460
+One I think the main reason is that there are just so many polygons in the scene and there are so many
+
+04:29.460 --> 04:36.650
+polygons in the scene because we've got the multi resolution modifier on quite a few of the objects.
+
+04:36.660 --> 04:45.990
+So what I'd like to do is remove the or at least turn off the multi resolution modifier on many of the
+
+04:45.990 --> 04:48.450
+objects while we're animating.
+
+04:48.510 --> 04:50.550
+So a couple of them.
+
+04:50.580 --> 04:52.810
+One is this floor here.
+
+04:52.860 --> 04:56.760
+So if I select the floor I'm going to turn on the Select ability here.
+
+04:56.940 --> 04:58.530
+Select the floor.
+
+04:58.530 --> 05:06.450
+And if I go to my multi resolution modifier I can turn that off with the I button here I can do the
+
+05:06.450 --> 05:08.470
+same thing for the ceiling.
+
+05:08.610 --> 05:15.810
+I'll scroll back up and turn that back on for just a moment click that and turn the multi resolution
+
+05:15.810 --> 05:17.360
+modifier off there.
+
+05:17.880 --> 05:20.340
+Let's go back and see how we're doing on the frames per second.
+
+05:20.340 --> 05:28.880
+Now click the play button and now we're up to like 18 13.
+
+05:28.950 --> 05:32.270
+So let's take a look at the mech.
+
+05:32.280 --> 05:36.740
+Now let me move up here and I'll zoom in to this guy.
+
+05:36.840 --> 05:42.900
+So for the Mac we've got quite a few pieces that have the multi resolution modifier on them.
+
+05:42.900 --> 05:45.560
+The fingers don't so we don't have to worry about that.
+
+05:45.870 --> 05:53.670
+But if I roll out to the armature item in the outliner if I click on the plus there you can see that
+
+05:53.670 --> 06:01.140
+all of the objects are underneath the armature that everything's printed to it.
+
+06:01.170 --> 06:11.710
+So let's scroll down and for the arms we could select the arms and and disable that modifier so I'll
+
+06:12.280 --> 06:13.160
+kick the.
+
+06:13.290 --> 06:17.490
+And we'll do that for these.
+
+06:17.490 --> 06:21.480
+It looks like one of my arms is not named properly.
+
+06:21.480 --> 06:25.650
+It looks like the left lower arm needs to be re named.
+
+06:25.650 --> 06:28.790
+I'll work on that here in a minute.
+
+06:29.460 --> 06:40.790
+If we scroll down below the fingers we can see that maybe the feet we could disable the multi resolution
+
+06:40.790 --> 06:43.280
+modifier for those.
+
+06:43.280 --> 06:44.540
+Maybe the hands
+
+06:48.030 --> 06:53.540
+and I'm going to have to go back and turn these back on before we render the scene.
+
+06:53.700 --> 07:01.380
+But just to clean up the viewport here so are frames per second is a little bit closer to 24 frames.
+
+07:01.380 --> 07:07.790
+I'll do the same for the legs and the mech body.
+
+07:07.820 --> 07:08.180
+All right.
+
+07:08.180 --> 07:16.130
+So let's go back into our scene here and let's hit the play button and see how this works.
+
+07:16.130 --> 07:19.500
+So come down in here and hit play.
+
+07:19.750 --> 07:24.200
+And it looks like we're getting a pretty solid 24 frames per second now.
+
+07:24.520 --> 07:30.970
+So that's just going to help us figure out the timing as we're animating.
+
+07:31.340 --> 07:35.510
+So let's place a keyframe in the middle of these two keyframe.
+
+07:35.510 --> 07:44.960
+So if I hit the play button I'm going to let them come down here and maybe what I'm thinking is that
+
+07:45.050 --> 07:52.640
+instead of coming down in a straight line like that that kind of drops down into the scene hovers for
+
+07:52.640 --> 07:56.710
+a minute moves and then drops in the center of the grid.
+
+07:56.750 --> 08:02.760
+So instead of coming down at an angle like that I'm going to take this and move it over a bit so it's
+
+08:02.770 --> 08:05.780
+straight down below the hole.
+
+08:06.930 --> 08:11.950
+And then insert a key frame here with the key and location.
+
+08:12.420 --> 08:20.230
+And you can see here in the graph editor that it's created a new key frame right there at frame 122.
+
+08:20.310 --> 08:24.390
+So I'll go back to the beginning hit the play and let's see what happens here.
+
+08:24.390 --> 08:30.890
+So now he comes down like this to here and then moves forward like that.
+
+08:31.030 --> 08:32.470
+All right.
+
+08:32.470 --> 08:42.360
+So instead of coming at an angle from here to here I think at this point I'd like him to be hovering
+
+08:42.360 --> 08:44.520
+right over that hole.
+
+08:44.610 --> 08:46.410
+So I'll move him forward.
+
+08:47.940 --> 08:52.080
+And insert a key frame here with the Ickey.
+
+08:52.240 --> 08:56.230
+And now let's go back and play that comes forward.
+
+08:56.240 --> 09:03.280
+Then he comes down into the hall and then he moves forward a bit like that.
+
+09:03.330 --> 09:04.180
+All right.
+
+09:04.930 --> 09:13.730
+So I think I'd like him to instead of coming at an angle from here to here.
+
+09:13.960 --> 09:22.590
+I'd like him to move forward in the y axis between here and here.
+
+09:23.480 --> 09:29.210
+So I think something like let's move him forward.
+
+09:31.540 --> 09:35.050
+And then up a bit.
+
+09:35.110 --> 09:35.460
+All right.
+
+09:35.470 --> 09:41.920
+So now we've got four key frames we can see them here.
+
+09:41.970 --> 09:43.250
+I'll go back to the beginning.
+
+09:43.250 --> 09:48.660
+Hit play and now he moves forward and then drops down through the hole.
+
+09:49.640 --> 09:54.610
+And moves forward again and then drops down.
+
+09:54.690 --> 09:58.140
+So notice now that it didn't create a keyframe here.
+
+09:58.140 --> 10:04.360
+I didn't hit the key to create a key frame so I'll move this forward again.
+
+10:05.400 --> 10:10.720
+And what I'd have to do is then drag this into place again and hit the Ickey.
+
+10:10.980 --> 10:13.340
+But I don't always remember that.
+
+10:13.770 --> 10:20.380
+So Blendr has a nice little feature here and every 3D animation program has this.
+
+10:20.790 --> 10:23.120
+I'm going to turn on auto keyframe.
+
+10:23.280 --> 10:32.970
+So every time I make a change to the animation to the animated objects here it will insert a key frame
+
+10:33.030 --> 10:33.800
+for me.
+
+10:33.900 --> 10:44.530
+So I'm going to turn that on and now if I bring this down to about where I want it to hover like this
+
+10:45.860 --> 10:53.030
+I'll bring it down to 160 say now I'm going to move it forward and back up again and look at what's
+
+10:53.030 --> 10:53.950
+happening.
+
+10:54.020 --> 10:58.930
+It's creating keyframes automatically every time I make a change.
+
+10:58.940 --> 11:01.720
+So now let's go back hit the play.
+
+11:02.030 --> 11:09.570
+So now he drops down to the whole moves forward a bit and then drops down like that.
+
+11:10.920 --> 11:14.900
+Now the timing I think is pretty slow and floaty.
+
+11:15.030 --> 11:19.020
+There's not a lot of speed change or differentiation in the movements here.
+
+11:19.020 --> 11:24.320
+So let's begin adjusting our timing and to do that.
+
+11:24.330 --> 11:31.680
+I'm going to use the dope sheet up here so if I go back to the beginning again and hit play coming down
+
+11:31.680 --> 11:32.930
+to the scene that's not bad.
+
+11:32.930 --> 11:37.580
+I don't mind that although I think it could happen a little bit quicker.
+
+11:37.740 --> 11:44.190
+So maybe I'd like to get to this keyframe to this point a little bit quicker in the animation so I can
+
+11:44.190 --> 11:51.480
+select this keyframe here and then I'm going to press the G key and just move it back on the timeline.
+
+11:51.480 --> 12:01.980
+So maybe he comes down to that point by frame one hundred instead of frame 122.
+
+12:01.980 --> 12:02.370
+All right.
+
+12:02.370 --> 12:04.560
+So I've moved it back there.
+
+12:04.920 --> 12:08.040
+Let's play that and see how it works.
+
+12:08.100 --> 12:08.780
+He comes down.
+
+12:08.790 --> 12:13.980
+He drops down into the room and then he begins moving forward like that.
+
+12:14.190 --> 12:24.300
+And then he drops down right now when he comes down here to this point I'd kind of like him to come
+
+12:24.480 --> 12:27.750
+up a bit before he drops down.
+
+12:27.750 --> 12:36.590
+So at frame 80 I'm going to take him up just a little bit like this and maybe over here.
+
+12:38.220 --> 12:42.150
+At one hundred I'll take him down just a bit.
+
+12:42.150 --> 12:45.460
+See how that works.
+
+12:45.470 --> 12:49.020
+So if I hit play he comes down into the scene
+
+12:52.750 --> 12:55.180
+moves forward and then drops down.
+
+12:55.420 --> 13:03.590
+And I'm thinking maybe he turns off his thrusters to make that drop.
+
+13:03.620 --> 13:09.360
+I think I'm going to bring that down just a little more at frame 100.
+
+13:09.380 --> 13:12.280
+So it comes down like this.
+
+13:12.360 --> 13:13.150
+Let's try that
+
+13:17.990 --> 13:24.480
+and maybe he dips down a bit between frame 100 and frame 180 maybe 140.
+
+13:24.500 --> 13:28.520
+He can dip down just a little bit as he's coming forward.
+
+13:28.550 --> 13:32.260
+Let's try that and I'll hit the play.
+
+13:32.300 --> 13:35.110
+So he comes down into the scene.
+
+13:37.400 --> 13:40.680
+And his back up just a bit and then drops.
+
+13:40.720 --> 13:42.640
+I don't think the timing is quite right on that.
+
+13:42.640 --> 13:44.280
+We'll have to keep working on it.
+
+13:44.380 --> 13:52.870
+But this is a general process I'll be using blocking out the main broad animation first and then going
+
+13:52.870 --> 13:58.430
+in and adjusting for the smaller movements the smaller details.
+
+13:58.600 --> 14:02.650
+So in the next video we'll work on fine tuning the animation some.

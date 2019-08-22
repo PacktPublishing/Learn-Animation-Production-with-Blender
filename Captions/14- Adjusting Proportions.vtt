@@ -1,0 +1,457 @@
+WEBVTT
+
+00:01.040 --> 00:07.940
+Before we begin detailing the Mac Let's take a look at creating this one last major piece which is the
+
+00:08.440 --> 00:11.410
+backpack jet pack thing.
+
+00:11.480 --> 00:17.580
+I think this particular item will affect the look of the Mac enough where we need to do it.
+
+00:17.600 --> 00:24.290
+Now we need to rough it in to see how it's going to look and to see what the proportions of it should
+
+00:24.290 --> 00:25.310
+be.
+
+00:25.310 --> 00:27.890
+I've got the 3-D cursor in the center of the grid here.
+
+00:27.890 --> 00:33.190
+I'm going to go to the Create tab and let's just begin with the cube.
+
+00:34.350 --> 00:39.480
+And let's just begin putting it in place on the back and seeing
+
+00:43.850 --> 00:46.400
+how big it should be how we should scale it.
+
+00:46.400 --> 00:48.530
+Things like that.
+
+00:48.590 --> 00:57.700
+So I think I'm going to scale it in a bit and I'm just looking at the reference image here.
+
+00:59.670 --> 01:07.830
+I think something like that but I think what I'm also going to do is what we did for the main body here.
+
+01:07.840 --> 01:11.770
+I'm going to go ahead and add a subdivision surface modifier to it
+
+01:15.750 --> 01:22.450
+and maybe give it one more subdivision level.
+
+01:22.690 --> 01:25.180
+So we get a few more polygons out of it.
+
+01:26.130 --> 01:34.830
+And then when I go into edit mode I'll be able to see the original cage but I think I'll hit this button
+
+01:34.830 --> 01:39.210
+here to see the subdivided mash instead.
+
+01:39.630 --> 01:45.280
+So now I should be able to come in here and begin moving these around a bit.
+
+01:48.860 --> 01:52.430
+To get the shape I'm looking for.
+
+01:54.130 --> 01:59.980
+All right so now that I've got it to this shape I'm going to go ahead and turn that edit cage button
+
+02:00.040 --> 02:09.910
+off so I can see the low rez version and now I begin adding edge loops with control are here I should
+
+02:09.910 --> 02:15.260
+be able to now see it change shape.
+
+02:15.310 --> 02:22.470
+I think I want an edge loop in here to flatten it toward the back of the Mac here.
+
+02:23.020 --> 02:25.810
+I think I'll select these edges here.
+
+02:27.640 --> 02:38.720
+And scale these in a bit and so I'm just using this low poly cage to try and get a general shape to
+
+02:38.720 --> 02:40.950
+the object.
+
+02:41.020 --> 02:48.340
+So here's the shape I've come up with and it's just kind of a bulbous shape here.
+
+02:48.340 --> 02:55.690
+I've tried to flatten the part that goes up against the back of the Mac just a bit with this edge loop
+
+02:55.690 --> 02:56.570
+here.
+
+02:56.590 --> 03:02.800
+I've also added an edge loop down the middle to allow me to pull these up some to give just a little
+
+03:02.800 --> 03:04.030
+bit of an arch.
+
+03:04.040 --> 03:12.060
+Now of course this is still early in blocking in and getting the proportions and the scale of the character.
+
+03:12.370 --> 03:15.670
+But I think I'll go with this for now.
+
+03:15.670 --> 03:22.000
+So in the same way we applied the subdivision surface modifier before to get some extra geometry on
+
+03:22.000 --> 03:23.040
+the body here.
+
+03:23.170 --> 03:27.460
+I'll do the same thing for the jet pack here.
+
+03:27.460 --> 03:34.690
+Yeah I'll go ahead and apply the subdivision at subdivisional level one instead of two at one it'll
+
+03:34.690 --> 03:39.410
+give me some good geometry without getting too many polygons in it.
+
+03:39.730 --> 03:47.480
+So I'll go to object mode and I'll just come over here to the modifier and just click apply.
+
+03:47.480 --> 03:56.320
+So now if we go into edit mode we can see we've got our base geometry for the jet pack here and we can
+
+03:56.320 --> 03:59.200
+begin working on the details from there.
+
+03:59.200 --> 04:08.110
+So now with the major pieces on the character here I think I would just want to take a look at its general
+
+04:08.110 --> 04:09.130
+proportions.
+
+04:09.300 --> 04:13.630
+I mean there are other pieces we're going to put on I have in the drawing that we're going to put on
+
+04:14.440 --> 04:23.180
+tubes or pipes up here at the top may be jet pack exhaust cylinders down here.
+
+04:23.350 --> 04:28.840
+There are going to be other things we're going to do but at this point in time I think it's a good idea
+
+04:28.840 --> 04:34.070
+to take a step back and look at the overall design of the character.
+
+04:34.360 --> 04:41.470
+And I kind of like what's going on with the body and the size of the legs here.
+
+04:42.890 --> 04:50.040
+But I think I'd like to make the hands a little bit bigger I feel like the arms are kind of tiny compared
+
+04:50.040 --> 04:52.030
+to the rest of the body.
+
+04:52.080 --> 04:59.010
+So let's just work on that for now and try and get that finalized before we move on to the details.
+
+04:59.280 --> 05:01.840
+What I'm going to do is select the arms here.
+
+05:01.890 --> 05:07.040
+And I'd like to split the hands out from the arms.
+
+05:07.080 --> 05:12.070
+So what I'm going to do is just tab into edit mode here and hit a to d select.
+
+05:12.120 --> 05:17.220
+So what I'll do is just hover over these pieces and hit the L key.
+
+05:17.220 --> 05:23.780
+I'll zoom in a bit and I'm going to continue to just hover over these pieces and hit the L key.
+
+05:23.970 --> 05:29.760
+Now that I have these selected let me just make sure I've just got the hand selected.
+
+05:29.760 --> 05:32.730
+I want to split the hand out as its own object.
+
+05:32.910 --> 05:39.090
+So to do that I'm going to press P and then I'm going to choose separate by selection so that all of
+
+05:39.090 --> 05:43.790
+these pieces will be separated out as one individual object.
+
+05:43.830 --> 05:48.730
+So I click that and there we have our new geometry.
+
+05:48.840 --> 05:53.370
+So I'll come back here and I'll de-select everything and then when I select the hand you can see that
+
+05:53.370 --> 05:57.890
+it's its own object and I'll just call this and.
+
+05:57.900 --> 06:03.180
+Now let's use this to kind of get a sense of what we might want to do here.
+
+06:03.510 --> 06:09.540
+So I'm going to set the origin to the geometry and I'm just going to begin scaling it up and moving
+
+06:09.540 --> 06:10.530
+it around.
+
+06:11.010 --> 06:20.380
+So I feel like maybe something like this and I'll take a look at it from other points of view.
+
+06:20.390 --> 06:29.960
+So I'll hit the one key on the numpad and then the five on the numpad and just see how it looks in front
+
+06:29.960 --> 06:30.840
+view.
+
+06:30.920 --> 06:32.030
+Hit the three key.
+
+06:32.030 --> 06:38.510
+How it looks in the side view from the side view if you like I can almost come down like this.
+
+06:42.130 --> 06:49.240
+So I think this is how I want it I think I'd like the hand a little bigger farther down on the body
+
+06:49.240 --> 06:59.050
+so it can reach farther than I think it just looks a little more intimidating with the hands being so
+
+06:59.050 --> 07:01.790
+big so I think this is what I'm going to try.
+
+07:01.990 --> 07:07.690
+Which means now I've got to redo the arm the forearm the elbow and the upper arm but that shouldn't
+
+07:07.720 --> 07:08.540
+take too long.
+
+07:08.530 --> 07:10.380
+We know how to do that.
+
+07:10.390 --> 07:17.560
+So what I want to do is go back to this the arms again and I'll go ahead and apply the mirror bonfire
+
+07:17.620 --> 07:18.880
+this time.
+
+07:18.880 --> 07:24.610
+And now I'm going to tap into edit mode and select these pieces here almost like this and this and I'm
+
+07:24.610 --> 07:26.600
+going to get rid of them for now.
+
+07:27.360 --> 07:31.300
+So I'll hit the x key and delete faces.
+
+07:31.490 --> 07:41.670
+And I wanted to take this piece now and make it its own object so oppressed peaky and selection.
+
+07:41.730 --> 07:47.980
+So now I'd like to place this and try and figure out where the elbow is going to be so I'll set the
+
+07:47.980 --> 07:52.900
+origin to the geometry and begin moving this around as well.
+
+07:54.270 --> 07:59.280
+And all I'm doing is just trying to get a sense of the size of the arm here.
+
+08:01.120 --> 08:07.650
+And once I've got that down then I can recreate the forearm and the upper arm.
+
+08:07.660 --> 08:08.160
+All right.
+
+08:08.200 --> 08:11.220
+I think I've got it to where I wanted here.
+
+08:12.750 --> 08:16.530
+In addition I think I'm going to go ahead and separate out that shoulder joint
+
+08:19.420 --> 08:27.430
+so I'll select that with the L key hit the key and separate by selection and I'll take the origin to
+
+08:27.430 --> 08:29.400
+geometry.
+
+08:29.620 --> 08:30.070
+All right.
+
+08:30.080 --> 08:34.120
+So now we've got these pieces here.
+
+08:34.280 --> 08:40.990
+I'm going to go ahead and set the origin to the center of the sphere on this one by moving the cursor.
+
+08:43.510 --> 08:47.710
+And then moving the origin to the 3D cursor.
+
+08:47.710 --> 08:53.140
+Now one thing I haven't mentioned yet is you can take the cursor the 3D cursor back to the center of
+
+08:53.140 --> 09:00.160
+the grid and also frame up everything in your scene all in one quick shortcut key and that's shift see
+
+09:01.450 --> 09:05.890
+and that will put the cursor in the center of the grid and frame up your scene.
+
+09:06.870 --> 09:13.620
+All right so now I've got the where the shoulder elbow and wrist is going to be I just need to recreate
+
+09:13.620 --> 09:15.760
+the geometry for the arms.
+
+09:15.840 --> 09:24.720
+So what I'm going to do is I will create a circle and use those to recreate the arms.
+
+09:25.290 --> 09:38.330
+So I select this one and cursor to selected create a circle give it think we use 12 before didn't we.
+
+09:38.330 --> 09:42.560
+And the fill type of nothing we don't want to fill it.
+
+09:42.560 --> 09:47.210
+So I scale it down and place it
+
+09:55.300 --> 09:56.800
+through the same thing here.
+
+09:57.740 --> 10:04.100
+Move the cursor create a circle scale it down
+
+10:08.100 --> 10:10.280
+move it up a bit.
+
+10:10.320 --> 10:18.890
+Now we can use the same trick we use for the leg to bridge these two circles.
+
+10:19.290 --> 10:24.450
+But before I do that I want to arrange them a bit and point them towards each other.
+
+10:24.600 --> 10:30.250
+Change the pivot point on this and rotate it around the sphere just a bit.
+
+10:30.270 --> 10:31.460
+Something like this
+
+10:35.440 --> 10:44.430
+and maybe do the same for this one.
+
+10:44.490 --> 10:46.170
+So they're pointing at each other.
+
+10:46.470 --> 10:51.800
+And now I'll select these to join them together with control J.
+
+10:53.770 --> 10:55.060
+Tab into edit mode
+
+10:58.850 --> 11:07.040
+and bridge these together with control E and bridge edge loops now I can go ahead and add some more
+
+11:07.040 --> 11:08.870
+geometry here as well.
+
+11:08.870 --> 11:14.420
+So I'll increase the number of cuts to go with three.
+
+11:14.950 --> 11:17.420
+So we have some edges to work with there.
+
+11:18.010 --> 11:21.560
+And if I go to edge mode I can begin selecting these.
+
+11:22.000 --> 11:31.210
+Let's put the pivot point back to the median and I can begin scaling these so they look a little the
+
+11:31.210 --> 11:38.340
+upper arms look a little beefier.
+
+11:38.440 --> 11:41.660
+Now let's do the same thing for the forearm.
+
+11:41.740 --> 11:46.870
+I'll select this object snap the cursor to it.
+
+11:47.810 --> 11:57.480
+And I'll create a circle scale it down a bit move it up and while I'm here I'll go ahead and point it
+
+11:57.510 --> 12:05.910
+toward that elbow joint by changing the pivot point to the 3D cursor and going to rotate and swinging
+
+12:05.910 --> 12:08.790
+it around so it points up at the elbow.
+
+12:08.850 --> 12:10.940
+I'll do that at the front as well.
+
+12:13.840 --> 12:14.810
+Here we go.
+
+12:15.350 --> 12:23.620
+Now like that elbow joint move the cursor create a circle scale it
+
+12:27.460 --> 12:29.480
+and move that into place as well.
+
+12:31.030 --> 12:38.680
+And once again we select the two circles join them together into one object and then bridge the two
+
+12:38.680 --> 12:41.530
+with control and bridge.
+
+12:41.530 --> 12:44.990
+And once again I'll add a few cuts to it.
+
+12:46.350 --> 12:51.940
+Now I can use these edges to beef it up a bit.
+
+12:52.040 --> 12:59.180
+Change the median point or the pivot point back to medium and begin scaling these out a bit.
+
+13:03.070 --> 13:04.990
+Yeah I like that a little bit better.
+
+13:05.170 --> 13:07.230
+And to check that.
+
+13:07.510 --> 13:10.830
+Let's go ahead and select all these pieces now.
+
+13:12.980 --> 13:15.600
+The shoulder the elbow the arms the hand.
+
+13:15.620 --> 13:16.620
+All of these.
+
+13:16.790 --> 13:19.630
+Let's join them together with control J.
+
+13:20.570 --> 13:26.060
+Let's take the pivot point back to the center of the grid.
+
+13:29.720 --> 13:31.460
+And then let's mirror this over.
+
+13:31.460 --> 13:34.290
+Let me get rid of this old arm here.
+
+13:37.860 --> 13:44.500
+And now it's like this one and mirror it over with the mirror modifier just to see how it looks.
+
+13:46.120 --> 13:53.910
+Yeah I think he looks a little beefier a little more intimidating with the larger hands.
+
+13:54.370 --> 14:00.970
+So feel free to adjust yours however you like to get kind of the personality or the character that you're
+
+14:00.970 --> 14:01.940
+looking for.
+
+14:02.140 --> 14:06.670
+But now that I have the proportions down the way I want him I think it's time for us to begin detailing
+
+14:06.670 --> 14:11.800
+the character and finishing it off so we can move on with the rest of the scene.

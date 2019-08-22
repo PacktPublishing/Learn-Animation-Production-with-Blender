@@ -1,0 +1,322 @@
+WEBVTT
+
+00:00.920 --> 00:06.800
+So what I'd like to do is begin the process of U-V mapping with something fairly simple in the scene.
+
+00:06.980 --> 00:14.450
+And what we've got over here we could use one of these blocks at the top of the pillars.
+
+00:14.510 --> 00:23.840
+So this is in my outliner I've got this called Pillar cab number five not an exciting piece in our scene
+
+00:24.200 --> 00:29.930
+but I think it would be a good one to begin the mapping process.
+
+00:29.960 --> 00:38.600
+So what I like to do when you mapping is change my interface here from the default interface which you
+
+00:38.600 --> 00:42.850
+can see appear to U-V editing.
+
+00:42.860 --> 00:50.360
+Now we've got several different screen layouts here that we can work with we've got animation and compositing
+
+00:51.110 --> 00:52.720
+motion tracking.
+
+00:53.000 --> 00:57.330
+But let's work with U-V editing for now and see what we can do.
+
+00:57.620 --> 01:01.630
+So again a switch to that screen layout.
+
+01:01.940 --> 01:04.820
+I've got to use the image editor over here.
+
+01:04.970 --> 01:09.910
+This is where we'll be able to see the U.V. map as we create it.
+
+01:09.980 --> 01:17.690
+I'm going to hover over here and press the period key on the numpad to zoom in to this particular block
+
+01:18.380 --> 01:25.820
+and I'll go ahead and press the division key on the number pad to isolate this object for now.
+
+01:25.820 --> 01:33.860
+So the trick to U-V mapping is that we want to take all of the polygons of this object and create a
+
+01:33.860 --> 01:39.340
+two dimensional representation of that object over here in the U-V image editor.
+
+01:39.650 --> 01:42.250
+And we've got several ways that we can do that.
+
+01:42.440 --> 01:50.810
+If I come over here and I'm in edit mode now and if I select everything by hitting the A key and I just
+
+01:50.810 --> 01:55.920
+press the you key I get this U-V unwrapping menu.
+
+01:56.060 --> 01:59.220
+So there are several ways that we can do this.
+
+01:59.240 --> 02:06.690
+We've got these basic projections of cube cylinder and sphere projection and these can be good.
+
+02:06.710 --> 02:10.310
+But honestly I don't think we'll be using a whole lot.
+
+02:10.310 --> 02:17.390
+We've got the unwrap tool which is the kind of the fundamental one that we'll be using.
+
+02:17.390 --> 02:26.990
+We've got smart U-V project and light map pack and follow active Quad's we'll be using these for I think
+
+02:27.500 --> 02:29.360
+pretty much exclusively.
+
+02:29.450 --> 02:32.200
+But let me begin with the one on the bottom here.
+
+02:32.210 --> 02:40.930
+I want to begin with a follow act of Quad's and work my way up if I just select this and click OK.
+
+02:41.220 --> 02:42.600
+Look at what happens.
+
+02:43.190 --> 02:47.100
+What I've got is just a big blocky square here.
+
+02:47.120 --> 02:54.380
+So what this has done is just taken every single polygon that's in this object and laid it one on top
+
+02:54.380 --> 02:55.720
+of the other.
+
+02:55.730 --> 03:02.270
+So if I take one point and hit the key and move it around you can see there's another one underneath
+
+03:02.270 --> 03:02.640
+here.
+
+03:02.660 --> 03:06.880
+And if I take this one and move it there's another one underneath here.
+
+03:06.950 --> 03:15.380
+It's just taken each one of these planes and laid them out in the U-V editor one on top of the other.
+
+03:15.380 --> 03:22.910
+Now I could also move things based on edges if I select edges here I could select an edge and hit G
+
+03:22.910 --> 03:26.080
+and move it around.
+
+03:26.150 --> 03:34.580
+I could select faces and I could select U-V islands and pretty much a U-V Island is a collection of
+
+03:34.580 --> 03:36.410
+connected faces.
+
+03:36.680 --> 03:41.510
+We pretty much have only one face at a time.
+
+03:41.660 --> 03:49.010
+So each one of these is a two dimensional representation of each polygon and you see how they're kind
+
+03:49.010 --> 03:50.590
+of connected here.
+
+03:51.880 --> 03:52.520
+All right.
+
+03:52.780 --> 03:57.490
+So that is follow active Quad's.
+
+03:57.580 --> 04:01.380
+Let's take a look at what happens if we use light map pack.
+
+04:01.510 --> 04:04.570
+So I click that and say OK.
+
+04:05.150 --> 04:07.530
+And now what it's done is it's packed.
+
+04:07.570 --> 04:13.630
+Each polygon all into what I'm going to call the zero to one space.
+
+04:13.630 --> 04:21.370
+The reason why I call this the zero to one space is let me I'm going to click normalized here and what
+
+04:21.370 --> 04:29.720
+that will do is represented this space as 0 0 in the x and the Y right down here.
+
+04:29.830 --> 04:37.350
+And if we move this up here we can see that it gets closer and closer to 1 and 1.
+
+04:37.380 --> 04:45.240
+So this is actually a coordinate graph from 0 0 to 1 1.
+
+04:45.240 --> 04:58.860
+So over here if I type zero in here this is 0 1 and if I type 1 and zero in here this is 1 0.
+
+04:58.900 --> 05:02.770
+So this is called the zero to 1 space.
+
+05:03.010 --> 05:10.590
+Now another thing that people usually ask when dealing with U-V mapping is why is it called U-V.
+
+05:10.780 --> 05:20.170
+If this is a coordinate grid and this is X and this is why why call it U-V Why not call it X and Y Well
+
+05:20.680 --> 05:26.810
+x y and z were already taken to describe the axes in the 3-D world.
+
+05:27.040 --> 05:34.560
+So they needed some other name to describe the axes in the two d world over here.
+
+05:34.630 --> 05:36.090
+So they chose you envy.
+
+05:36.190 --> 05:38.810
+It could have been a and b or DNA.
+
+05:38.830 --> 05:44.330
+It could have been any other two letters in the alphabet but they chose you and me.
+
+05:44.500 --> 05:49.460
+So this is what happens when we use light map pack.
+
+05:49.570 --> 05:55.450
+It actually packs each of those polygons into the zero to one space.
+
+05:55.450 --> 05:58.350
+Let's try smart U-V project.
+
+05:58.510 --> 06:06.280
+If we click on that and click ok we get pretty much the same thing depending on the shape of your object.
+
+06:06.580 --> 06:14.470
+You may get a slight difference between the two between light map pack and smart U-V but for this particular
+
+06:14.470 --> 06:16.670
+object there isn't much of a difference.
+
+06:16.690 --> 06:23.240
+Now the unwrap one is the one that I think is the most powerful and the one I'll be using the most often.
+
+06:23.380 --> 06:30.730
+So if we click this way and let's see what happens not much but the real power comes from the ability
+
+06:31.000 --> 06:33.970
+to cut the object apart at the edges.
+
+06:34.060 --> 06:40.300
+Kind of like I mentioned with the cereal box being able to cut the edges and then lay it out flat.
+
+06:40.300 --> 06:45.670
+You can choose which edges you want to cut using the unwrap feature.
+
+06:45.760 --> 06:55.120
+So I'm going to go to edge mode and I'm going to select an edge here and maybe one here and here and
+
+06:55.120 --> 06:59.270
+I'm going to go ahead and choose this one and this one.
+
+06:59.380 --> 07:05.610
+So I've got five edges selected what I want to do is say to Blender.
+
+07:05.770 --> 07:09.790
+I want you to cut this U-V map at these edges.
+
+07:09.790 --> 07:19.180
+I want you to make these my seams so what you can do is you can press control E and choose Mark seam
+
+07:19.990 --> 07:20.860
+and what that will do.
+
+07:20.860 --> 07:28.090
+It will make these edges kind of this reddish orange color which signifies that these are your seams.
+
+07:28.360 --> 07:33.950
+So now if I select everything and press the key and now I click unwrap.
+
+07:34.150 --> 07:36.230
+Notice what happens now.
+
+07:36.340 --> 07:40.940
+This is kind of stretching and a mess here.
+
+07:41.200 --> 07:46.110
+Let's see if we can fix that by re doing our seams.
+
+07:46.570 --> 07:49.780
+Let's add two more seams here and here.
+
+07:51.190 --> 08:00.910
+And press control E and Mark seam and let's see if this helps us select all of the faces press you and
+
+08:00.910 --> 08:02.940
+click unwrap.
+
+08:03.060 --> 08:04.780
+And that helps quite a bit.
+
+08:04.890 --> 08:13.920
+So you can see how the placement of your seams on the objects can really help dictate how the U-V unwrap
+
+08:13.920 --> 08:15.300
+happens.
+
+08:15.300 --> 08:19.600
+This is a much cleaner unwrap than the one we had before.
+
+08:19.620 --> 08:25.590
+In fact the one we had before would have given us stretching in our texture.
+
+08:25.590 --> 08:27.860
+Let me go back a bit here.
+
+08:27.860 --> 08:36.750
+I'm just going to press Manzie to do so now this particular UVM map looks like we've got some stretching
+
+08:36.750 --> 08:37.860
+here.
+
+08:37.860 --> 08:47.730
+We can click on this stretch checkbox and see our stretching so when polygons are all blue there is
+
+08:47.730 --> 08:48.540
+no stretching.
+
+08:48.720 --> 08:55.740
+But the more they move towards Orange or red the more stretching there is you can see there's quite
+
+08:55.740 --> 08:58.370
+a bit of stretching going on here.
+
+08:58.830 --> 09:08.940
+But if we U-V map this again with our new seams clicking and wrap you can see now that all of the polygons
+
+09:08.940 --> 09:15.820
+are solid blue and that means that there is little to no stretching.
+
+09:15.870 --> 09:23.460
+So that brings up really the two concerns we have when U-V mapping one is to try and avoid stretching
+
+09:24.060 --> 09:31.990
+because if there is any stretching in our Uvas the textures that we apply will then also be stretched.
+
+09:32.700 --> 09:37.890
+And the other problem is that we have to watch out for our seams.
+
+09:38.280 --> 09:48.450
+So this seems that we've created can sometimes be visible in our renderers So we need to try and hide
+
+09:48.480 --> 09:53.510
+or minimize the number of seems that the camera will see.
+
+09:53.520 --> 09:55.680
+So you've got to think about two things here.
+
+09:55.680 --> 10:02.610
+One is stretching and one is placing seams and we'll be talking about that as we move forward.

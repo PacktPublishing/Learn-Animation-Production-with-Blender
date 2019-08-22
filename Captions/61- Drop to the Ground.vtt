@@ -1,0 +1,346 @@
+WEBVTT
+
+00:00.810 --> 00:09.480
+Now for the drop to the ground I think what we should do is set up a pose right when he touches the
+
+00:09.480 --> 00:11.960
+ground right at that moment.
+
+00:12.420 --> 00:15.570
+And that looks like that's around 189 here.
+
+00:15.570 --> 00:22.930
+So at that moment when this is touching the ground I mean make sure that is zeroed out.
+
+00:24.560 --> 00:26.530
+So the why is zeroed out there.
+
+00:28.480 --> 00:35.410
+At that moment we should have a pose where the limbs are kind of dragging or lagging behind.
+
+00:35.710 --> 00:42.340
+What I think I want to do is first of all for the legs I'm going to rotate this forward.
+
+00:42.340 --> 00:44.810
+Now I don't know if they are going to rotate it here.
+
+00:45.680 --> 00:54.540
+Like so and get these you go 3:5 and get these so it's just barely on the ground here.
+
+00:54.540 --> 00:56.470
+Like so.
+
+00:57.090 --> 00:58.120
+And the arm here.
+
+00:58.130 --> 01:03.630
+I'm going to have come up and rotate that hand up like that.
+
+01:03.770 --> 01:09.110
+So as if the arms are dragging and following the weight of the body
+
+01:12.800 --> 01:17.550
+something like that may be too much but we'll give it a try.
+
+01:21.330 --> 01:25.200
+They're looking a little too similar to bring one down.
+
+01:28.960 --> 01:29.320
+All right.
+
+01:29.320 --> 01:35.070
+So let's see if we drag this back up.
+
+01:37.300 --> 01:39.900
+Let me play this and see how this works.
+
+01:45.530 --> 01:47.330
+We can almost push it a little more
+
+01:50.390 --> 01:52.620
+and have these come up a little higher I think.
+
+01:57.870 --> 01:59.480
+All right let's try that.
+
+02:05.200 --> 02:08.720
+I feel like these arms need to happen a little quicker.
+
+02:12.300 --> 02:18.620
+Maybe these arms need to hold until the absolute point when he drops so I'm going to duplicate these
+
+02:18.630 --> 02:19.970
+until that point.
+
+02:25.370 --> 02:27.260
+See how that works.
+
+02:36.520 --> 02:39.230
+Now the elbows are kind of floating in.
+
+02:39.250 --> 02:44.040
+I move the elbows without establishing a stopping point.
+
+02:45.000 --> 02:47.980
+So let's see if I can figure that out.
+
+02:51.250 --> 03:00.490
+So you see the elbows are back here and they keep on moving because I didn't plant an anchor key frame
+
+03:00.490 --> 03:07.420
+here so I'll select these two and duplicate them and move them forward to that point.
+
+03:07.750 --> 03:10.740
+So that should anchor those until he drops
+
+03:18.580 --> 03:23.920
+the feet I think need an anchor until he drops as well.
+
+03:23.920 --> 03:25.930
+So I've got here.
+
+03:25.960 --> 03:34.210
+And here I need to duplicate these and move them to the point when he drops this and that's
+
+03:37.030 --> 03:38.020
+like so
+
+03:40.930 --> 03:49.840
+let's try this.
+
+03:50.160 --> 03:50.520
+All right.
+
+03:50.520 --> 03:55.650
+I'm going to try this I'm going to go with this for now and move on to the point where he drops down
+
+03:55.650 --> 04:04.630
+onto the ground and the weight of the body has to carry through and bend his knees down to the ground.
+
+04:04.800 --> 04:14.210
+So now that were to the point where the master control is zeroed out on the on the ground we're going
+
+04:14.210 --> 04:23.830
+to leave that there and we're going to continue the motion through this control through the root control.
+
+04:23.840 --> 04:32.550
+So I need to go back up and find that it doesn't look like I've cut it yet so I'm going to go ahead
+
+04:32.550 --> 04:33.830
+and keep it here.
+
+04:35.310 --> 04:44.820
+With location rotation and scale so that root bone is going to be keyed at that point.
+
+04:44.850 --> 04:46.830
+Now I should probably
+
+04:49.490 --> 04:51.630
+I'm going to go ahead and duplicate it.
+
+04:52.650 --> 04:58.280
+You know I'm going to go back to frame one and I'm going to duplicate this key frame and take it all
+
+04:58.280 --> 05:03.200
+the way back to frame one just so I have it there.
+
+05:04.510 --> 05:04.910
+OK.
+
+05:04.910 --> 05:11.170
+So I wanted to just anchor that all the way through.
+
+05:12.020 --> 05:22.980
+So now at that point when he hits the ground I need to continue with this movement.
+
+05:23.740 --> 05:25.960
+So a couple of things need to happen now.
+
+05:26.050 --> 05:29.850
+His feet need to plant on the ground.
+
+05:30.940 --> 05:32.700
+Do I have keyframes here yet.
+
+05:32.710 --> 05:35.490
+It looks like I've got keyframes here for the feet.
+
+05:36.690 --> 05:37.760
+Good.
+
+05:37.930 --> 05:40.930
+Looks like I don't have one for this.
+
+05:40.930 --> 05:42.980
+Need control.
+
+05:43.020 --> 05:44.850
+Let me just get this over here.
+
+05:46.310 --> 05:48.110
+And this knee control as well.
+
+05:50.810 --> 05:51.080
+All right.
+
+05:51.080 --> 05:53.840
+From this point now he needs to drop.
+
+05:53.840 --> 05:58.460
+So where is the point that at the lowest point of his drop.
+
+05:58.460 --> 06:07.190
+So if I play it and he drops froom it's kind of hard to tell but I'm going to begin at frame 200 here
+
+06:07.760 --> 06:08.660
+for the drop.
+
+06:08.660 --> 06:17.540
+Now I'm going to extend this out to 50 let's say and I'm going to call 200 the point where he's at its
+
+06:17.540 --> 06:18.500
+lowest point.
+
+06:18.500 --> 06:23.900
+So his hands will drop the body will drop down the feet will be planted.
+
+06:23.900 --> 06:28.160
+Let's go ahead and see if we can get a good pose down for that.
+
+06:28.640 --> 06:32.410
+So I'm going to bring this down like this.
+
+06:33.230 --> 06:35.970
+And now I want to plant these on the ground.
+
+06:35.990 --> 06:50.060
+So what I can do is I could actually press alt G and alt R and that will put that on the ground and
+
+06:50.060 --> 06:55.390
+I'll do the same for this at least.
+
+06:55.560 --> 06:58.080
+I'll go ahead and do g and all our
+
+07:00.850 --> 07:02.970
+So those will plant on the ground.
+
+07:02.980 --> 07:07.800
+I think I want to rotate those out a bit
+
+07:17.460 --> 07:18.720
+let's just see about that
+
+07:23.360 --> 07:25.320
+little bit too slow there.
+
+07:25.320 --> 07:28.140
+How about let's see.
+
+07:28.220 --> 07:31.440
+So we don't want that to stop.
+
+07:31.500 --> 07:37.280
+So if we can move those Any closer and have it work any better.
+
+07:37.280 --> 07:41.960
+I'm going to bring this up to 150 here.
+
+07:41.960 --> 07:42.670
+Try that
+
+07:46.710 --> 07:47.900
+all right a couple of things.
+
+07:47.900 --> 07:55.370
+It looks like this foot should really plant back farther.
+
+07:55.460 --> 07:58.280
+This foot should be back.
+
+07:58.330 --> 07:58.980
+Ron one
+
+08:08.050 --> 08:11.230
+I'm going to take a look at that root curve.
+
+08:11.230 --> 08:13.420
+Here's the why that's happening.
+
+08:13.480 --> 08:24.280
+And if you see hear me expand this out a bit with control middle mouse button and you can see that that
+
+08:25.840 --> 08:28.750
+it's going to slow down here and then speed up again.
+
+08:28.750 --> 08:35.320
+So when it's flat like this it's it's going to be moving down slowly and when it's angled it's going
+
+08:35.320 --> 08:37.510
+to be moving down quickly.
+
+08:37.540 --> 08:47.010
+So I think the problem is that we've got this curve easing in.
+
+08:47.140 --> 08:57.020
+So I need to take this and free the handles and maybe grab that handle and take it down like this.
+
+08:57.020 --> 08:57.980
+Let's try this
+
+09:04.050 --> 09:05.080
+a little better.
+
+09:08.610 --> 09:11.410
+That foot's not planting real quickly.
+
+09:17.170 --> 09:18.700
+Let's move that back like that
+
+09:24.150 --> 09:30.210
+so I'm going to take these two now and move them forward here like that.
+
+09:30.210 --> 09:31.590
+See how that works.
+
+09:35.360 --> 09:36.500
+Getting there.
+
+09:39.430 --> 09:43.210
+I kind of want this to move down a little quicker.
+
+09:43.630 --> 09:52.420
+So I'm going to split this with the V key and free and choose that handle and I want this to go a little
+
+09:52.420 --> 09:53.430
+bit faster.
+
+09:58.060 --> 10:06.280
+All right let's take a look at it in perspective view from the camera point of view here just to see
+
+10:06.310 --> 10:12.670
+where we are so far to go back to the beginning and let's just see how it looks.
+
+10:12.670 --> 10:16.260
+I'll even go ahead and turn on the environment.
+
+10:17.290 --> 10:22.480
+And we go so he comes down.
+
+10:22.810 --> 10:25.090
+He moves forward.
+
+10:25.090 --> 10:27.790
+It's that place and then drops.
+
+10:27.790 --> 10:29.650
+All right.
+
+10:29.650 --> 10:35.190
+It's not perfect by any means in fact I'm going to do some tweaking here before the next video.
+
+10:35.230 --> 10:45.400
+But what I want to do is in the next video get his final pose set up once he's in place on the ground
+
+10:45.700 --> 10:51.590
+and then we can work on his final movements as he turns and looks around the room.

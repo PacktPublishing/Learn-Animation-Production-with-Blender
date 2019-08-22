@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.820 --> 00:03.840
+Let's take a look at the jet pack here.
+
+00:03.850 --> 00:13.090
+Now I've got it basically roughed out at least the basic shape of it but I think I want to smooth it
+
+00:13.090 --> 00:24.340
+like we've done the other pieces maybe add a couple of jet thrusters down here on the bottom and also
+
+00:24.340 --> 00:34.400
+in my reference image I have a pipe or two like tubes coming from the pack to the body.
+
+00:34.410 --> 00:37.690
+We can take a look at creating those as well.
+
+00:37.840 --> 00:41.290
+So not much needs to happen for the jet pack.
+
+00:41.290 --> 00:49.160
+Right now I don't think all we need to do is go ahead and add a subdivision surface modifier and I'll
+
+00:49.180 --> 00:52.270
+increase the view subdivisions to two.
+
+00:52.690 --> 00:56.850
+And in addition you can see the polygon still here.
+
+00:56.860 --> 01:02.620
+I'm going to come over to the Tools tab and click the smooth shading button.
+
+01:02.800 --> 01:04.380
+So we've got that.
+
+01:04.690 --> 01:12.230
+But the question is Is it too smooth now or do the edges need to be tightened up a bit.
+
+01:12.310 --> 01:15.340
+And for me I think they do.
+
+01:16.720 --> 01:22.750
+So I think what I'm going to do is go back to object mode press the forward slash key on the numpad
+
+01:23.830 --> 01:32.660
+so I can see it isolated and perhaps what I need to do is select these faces here.
+
+01:35.690 --> 01:44.740
+And I think I will scale them up and that will help tighten up that edge here up at the top and let
+
+01:44.740 --> 01:47.880
+me see if I can tighten it up even more.
+
+01:48.010 --> 01:51.100
+I'm not sure I would need to but let's try it.
+
+01:52.640 --> 02:01.130
+I'm just going to select that engine now and bring this edge a little closer to the side of the pack
+
+02:01.130 --> 02:02.110
+here.
+
+02:03.860 --> 02:04.810
+Something like that.
+
+02:04.820 --> 02:10.290
+So that's tighten that up a bit.
+
+02:10.320 --> 02:13.380
+I could always take these edges and move them.
+
+02:13.380 --> 02:16.110
+I'm just trying to fit the
+
+02:18.950 --> 02:24.070
+form of the pack to the rest of the body here.
+
+02:26.090 --> 02:32.460
+And maybe I'll bring these in just a little bit like this and see what happens if I bring them forward
+
+02:32.460 --> 02:34.110
+just a hair like this.
+
+02:37.680 --> 02:45.250
+Yeah so I've just pulled those edges up and shaped them to the body just a little bit more.
+
+02:45.460 --> 02:46.700
+So they conform to it.
+
+02:46.700 --> 02:49.290
+It kind of looks like it fits on there.
+
+02:51.010 --> 02:52.870
+That's about all I want to do for right now.
+
+02:52.870 --> 03:00.850
+There may be more things we put on the back here but right now let's take a look at creating a tube
+
+03:00.850 --> 03:04.970
+or two that connects from the pack to the body.
+
+03:06.880 --> 03:15.580
+I think the best way to do this would be to create bezique curve and then use the curved tools to extrude
+
+03:15.610 --> 03:18.760
+a pipe or a tube along that path.
+
+03:19.360 --> 03:26.070
+So to do that I'd go over here to the Create tab and right up here under curve we've got busy.
+
+03:26.290 --> 03:35.120
+And if I click that it creates this curve here and let me zoom in to take a look at it.
+
+03:35.280 --> 03:45.210
+If I hit tab you can see that it's just two points here and here and on either side of those two points
+
+03:45.300 --> 03:46.380
+are these handles.
+
+03:46.380 --> 03:55.290
+And we could select one of these handles and hit the key for move and rotate that handle around that
+
+03:55.290 --> 03:58.490
+center point as well as shrink it and grow it.
+
+03:58.710 --> 04:05.400
+So you can see how as you move the handle it affects the curve of the path.
+
+04:05.850 --> 04:11.540
+So you can also then select the center point and move it around like that.
+
+04:11.550 --> 04:22.320
+So if I tab back into object mode I can then bring this curve up to the top of the Mac and I'm going
+
+04:22.320 --> 04:31.950
+to rotate this like so kind of get it in place to where I want it to be.
+
+04:32.010 --> 04:35.870
+I think I want it to be kind of in this area.
+
+04:36.230 --> 04:42.380
+And now if I go to Edit mode actually I'm going to go to the side view but with the three key and then
+
+04:42.380 --> 04:49.040
+press the five key to go into orthographic view and I may hit the tab key and now I can select the center
+
+04:49.040 --> 04:56.990
+of these handles and move them down into place say maybe one is going to be right in here and I can
+
+04:57.140 --> 05:04.760
+twisted and turn that handle up to curve it up some and I'll select the center of this handle and move
+
+05:04.760 --> 05:07.160
+it down to the pack.
+
+05:08.340 --> 05:11.640
+And turn its handle so it curves up like that
+
+05:17.940 --> 05:24.530
+so maybe it's going to be a tube that kind of goes from the pack.
+
+05:25.660 --> 05:27.300
+Back here.
+
+05:27.320 --> 05:32.040
+Like I put it to the side maybe to the front.
+
+05:33.210 --> 05:36.940
+Up here maybe a little high but let's try it.
+
+05:36.940 --> 05:42.190
+I'm going to go ahead move this down a bit this dance or something like that.
+
+05:43.280 --> 05:43.670
+All right.
+
+05:43.700 --> 05:55.610
+So now that I've got the rough path in place I'm going to tap back into object mode and there's my path.
+
+05:55.610 --> 06:02.750
+I'm going to come over here to the path panel which shows up when you have a path selected.
+
+06:02.750 --> 06:09.080
+So I click that and now we've got some settings in here that we can work with.
+
+06:09.350 --> 06:17.210
+First of all come down here to the Bevell area under geometry and I'm going to increase the depth so
+
+06:17.210 --> 06:21.990
+if I begin increasing this I can click in here and drag as well.
+
+06:22.070 --> 06:25.070
+You can see how begins to take on shape.
+
+06:25.100 --> 06:29.470
+The problem is it's only half that's only half of a tube.
+
+06:29.660 --> 06:35.500
+We need to come up here to the fill pull down and go from a half to full.
+
+06:35.850 --> 06:41.200
+And now we've got a full pipe but it's kind of blocky.
+
+06:41.360 --> 06:50.210
+We can come back down here to resolution and increase the resolution a bit and begin to get a more rounded
+
+06:50.570 --> 06:51.560
+shape.
+
+06:51.560 --> 06:56.830
+Now if I hit that Z key we can see the geometry within that pipe.
+
+06:56.930 --> 07:00.780
+It isn't a polygon yet it's still a curve.
+
+07:00.800 --> 07:07.350
+So ultimately we may want to convert it from a curve to a polygon but not at this point.
+
+07:07.820 --> 07:09.750
+And I'll show you why.
+
+07:09.920 --> 07:18.020
+The cool thing about this is that if I hit the tab key these handles are still available to me so I
+
+07:18.020 --> 07:23.620
+can move these around now and the pipe comes along which is cool.
+
+07:24.170 --> 07:30.110
+I think I'd like another one as well and I'm going to so I'm going to select this one press shift D
+
+07:30.710 --> 07:37.430
+and click and I'm going to drag it over right next to this one but I don't want it to be exactly the
+
+07:37.430 --> 07:40.140
+same so I'll hit tab.
+
+07:40.160 --> 07:47.590
+And now I can adjust these handles to get a different kind of curve.
+
+07:49.360 --> 07:53.470
+Now if you wanted to add an extra point to this curve you could do that.
+
+07:53.470 --> 07:57.290
+You could come in here and select these points here.
+
+07:58.520 --> 08:05.960
+And then come down here to curve and under segment's you could choose subdivide and that would add a
+
+08:05.960 --> 08:06.860
+point.
+
+08:07.280 --> 08:17.670
+So now you have an extra point here an extra handle to move around and change the shape of the curve.
+
+08:18.910 --> 08:24.540
+Now in addition you could also extrude this so let me choose the other one here.
+
+08:24.550 --> 08:34.090
+Go back to tap tap into edit mode and let's say I've got this one and I want to let me adjust the handles
+
+08:34.090 --> 08:35.210
+here.
+
+08:35.530 --> 08:40.210
+So let's say I've got this curve this path here.
+
+08:40.210 --> 08:45.390
+And what I'd want to do is extend it on down into the body.
+
+08:45.400 --> 08:51.880
+Another thing I could do is actually extrude this if I select this handle here I get hit the e key and
+
+08:51.880 --> 09:02.100
+click and drag and it will continue to extrude that pipe out so I could create a whole path of pipes
+
+09:02.110 --> 09:07.420
+by extruding and pulling out to the desired length.
+
+09:07.660 --> 09:10.640
+So let me move this down into the body here.
+
+09:12.760 --> 09:21.160
+And I'm going to rotate these handles again so they point down like that and I'll move this down into
+
+09:21.160 --> 09:25.920
+the body like that.
+
+09:26.450 --> 09:33.920
+So now that I've got these two tubes set up what I'm going to do is create little connection pieces
+
+09:34.490 --> 09:41.750
+that they can fit into here at the top of the of the body and on the pack so to do that I'm going to
+
+09:41.750 --> 09:48.680
+select one of these points here and I'm going to bring the cursor to that point shift s and cursor to
+
+09:48.680 --> 09:49.840
+selected.
+
+09:50.150 --> 10:02.480
+And now if I go to object mode I can create a cylinder at that point I'm going to adjust settings here
+
+10:02.570 --> 10:08.460
+immediately and take this maybe down to 12.
+
+10:08.830 --> 10:15.460
+I can take the radius down to maybe point three and that will reduce the size here.
+
+10:15.610 --> 10:18.990
+Take for depth down to maybe point five.
+
+10:19.060 --> 10:22.490
+So it's a little more reasonable in the size.
+
+10:22.510 --> 10:25.030
+And I'm going to remove the cap.
+
+10:25.030 --> 10:29.440
+I don't need any cap on it for this like that.
+
+10:29.770 --> 10:32.540
+So now I'm going to begin to scale this down.
+
+10:33.190 --> 10:43.070
+And for this all I think I need to do is just create some sort of shape that encompasses the tube here.
+
+10:43.110 --> 10:49.320
+And to do that I think I'll just hit extrude and click and then hit s and scale in and I'm going to
+
+10:49.320 --> 11:00.480
+extrude again and pull up extrude again and push an maybe extrude again hold down.
+
+11:00.580 --> 11:11.040
+And then again and scale and so I've got this kind of shape that can fit around the tube here like that
+
+11:12.480 --> 11:14.030
+I'll go ahead and smooth it.
+
+11:14.050 --> 11:17.230
+Let's add a subdivision surface modifier to it.
+
+11:18.060 --> 11:21.470
+Maybe subdivision of views of two.
+
+11:21.670 --> 11:27.580
+I will also smooth it over here in the tools panel or the tools tab.
+
+11:29.540 --> 11:33.530
+It's kind of a mess.
+
+11:33.540 --> 11:40.890
+So I'm going to insert image image loops here control are and I'll insert an edge loop here.
+
+11:43.660 --> 11:57.210
+Maybe two here maybe to hear and maybe to hear and that kind of tightens it up a bit.
+
+11:57.240 --> 12:04.170
+So now I'm going to select that pipe and adjust this curve so it actually comes out of the pipe so it
+
+12:04.170 --> 12:07.170
+looks like it's coming directly out of that.
+
+12:07.800 --> 12:09.740
+Out of that housing there.
+
+12:09.780 --> 12:18.820
+All right let's just take this now and move it over to the others shift the duplicate and move it over.
+
+12:19.050 --> 12:24.400
+And then to these back here duplicate and move this back here.
+
+12:26.690 --> 12:30.820
+Now I need to do a bit of adjusting of the tubes here.
+
+12:32.570 --> 12:37.240
+Just to make sure they fit into the housing's.
+
+12:37.630 --> 12:43.710
+All right so there we have our tubes connecting the jetpack to the body.
+
+12:43.990 --> 12:46.960
+I'll leave them as curves for now.
+
+12:47.230 --> 12:55.120
+We may in the end want to convert those to Polygon geometry but for now just in case we need to make
+
+12:55.120 --> 12:58.490
+any adjustments I think it's best to leave them as curves.

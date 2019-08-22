@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00.720 --> 00:05.140
+Well so far we've been dealing with objects here in Object mode.
+
+00:05.250 --> 00:11.530
+But the real power comes when you begin modeling things in edit mode.
+
+00:11.550 --> 00:19.650
+So if I go to Edit Mode down here I can see now the different components of the object.
+
+00:19.650 --> 00:22.530
+You can see these buttons down here.
+
+00:22.530 --> 00:31.170
+One is for selecting vertices one is for selecting edges and one is for selecting faces.
+
+00:31.170 --> 00:37.780
+Now if I come up here with vertex selection on I can click on one of these points and select a vertex.
+
+00:37.890 --> 00:46.860
+If I click on edges I can select an edge and if I click on faces I can select a face an easier way to
+
+00:46.860 --> 00:52.290
+select between these I think is with the control tab key combination.
+
+00:52.290 --> 01:00.050
+And when you hit control tab you get this mesh select mode menu so I can choose Virtex.
+
+01:00.210 --> 01:03.100
+And now I can select vertices.
+
+01:03.210 --> 01:10.910
+Now that I've got this selected I could press the G key and move it around like so I can use the manipulators
+
+01:10.910 --> 01:12.120
+to move it around.
+
+01:13.140 --> 01:18.570
+I could press control tab to go to the edge mode and move this around.
+
+01:18.960 --> 01:21.410
+And you can begin modifying your object
+
+01:24.570 --> 01:27.580
+now to get out of edit mode and back to object mode.
+
+01:27.580 --> 01:36.310
+You could of course go from edit here to object but you can also use the tab key tab from edit mode
+
+01:36.910 --> 01:38.200
+to object mode.
+
+01:38.410 --> 01:46.630
+And then once again to switch from Edge mode to face mode you can hit control tab and then select face
+
+01:47.740 --> 01:57.680
+and for each one of these components you can use the Move tool or the rotate tool or scale
+
+02:01.740 --> 02:05.540
+and transforming the components of the object is very important.
+
+02:05.670 --> 02:11.370
+But we're also going to need to be able to add new geometry to the objects to create whatever it is
+
+02:11.370 --> 02:14.580
+we're going to create to add new geometry.
+
+02:14.580 --> 02:17.560
+There are two tools I just want to mention here.
+
+02:17.580 --> 02:23.460
+At this point and these two tools will get you up and running with modeling almost anything you can
+
+02:23.460 --> 02:24.540
+imagine.
+
+02:24.600 --> 02:31.030
+One is the extrude tool and the other is the insert edge loop tool for extrude.
+
+02:31.410 --> 02:37.260
+Let's say I selected this face here and you can see over here in the Tools tab.
+
+02:37.260 --> 02:45.660
+When I'm in edit mode I've got this extrude extrude region extrude individual and I can choose any of
+
+02:45.660 --> 02:50.170
+those here but I can also hit the e key on the keyboard I think that's just easier.
+
+02:50.260 --> 02:51.150
+E for extrude.
+
+02:51.150 --> 02:59.010
+I'm going to hit that and that will allow you to then move the mouse and create new geometry off of
+
+02:59.010 --> 03:00.830
+that selected face.
+
+03:00.850 --> 03:06.230
+So when I click the left mouse button to confirm that operation.
+
+03:06.470 --> 03:16.070
+And now I can use any one of my transform tools like hit the s key for scale or change to my rotate
+
+03:16.070 --> 03:21.550
+manipulator and rotate it like this.
+
+03:21.550 --> 03:26.610
+So with the key it's very easy to just add new geometry to your objects.
+
+03:30.620 --> 03:37.310
+The other tool that's really important to get used to up front here is this loop cut and slide and the
+
+03:37.490 --> 03:40.480
+shortcut key for that is control are.
+
+03:40.490 --> 03:47.270
+So if I just wanted to extrude a small part of this face out I would need to actually insert an edge
+
+03:47.270 --> 03:51.950
+here to create a new smaller face to be able to do that.
+
+03:51.980 --> 03:59.990
+So if I press control are I can then hover over the object and see this kind of preview of where the
+
+03:59.990 --> 04:02.160
+new edge is going to go.
+
+04:02.460 --> 04:09.680
+If I hover over here and click once I can now insert that edge there and I can move the mouse around
+
+04:09.710 --> 04:15.740
+and drag it where I want it to go so say I want that edge to be right about here and I can click again.
+
+04:16.190 --> 04:20.970
+Now I've inserted a new edge here to create a new face.
+
+04:21.080 --> 04:25.610
+I'm going to press control tab to go to face mode and select that face.
+
+04:25.610 --> 04:30.020
+Now then I can hit the e key and extrude that out.
+
+04:30.940 --> 04:37.870
+So the insert edge loop tool allows you to create new edges which allows you to create new faces that
+
+04:37.870 --> 04:40.570
+you can then can extrude out of the object.
+
+04:40.960 --> 04:47.800
+So now I can hit the scale key and scale that end so I can go to the move manipulator tool and move
+
+04:47.800 --> 04:48.490
+that a bit
+
+04:52.090 --> 04:53.260
+so right up front.
+
+04:53.320 --> 04:58.620
+Those are the tools that we're going to be using to begin modeling Arsene.
+
+04:58.640 --> 05:01.830
+So in the next video that's exactly what we'll do.
+
+05:02.180 --> 05:05.270
+I think I'd like to begin modeling the Mac.

@@ -1,0 +1,307 @@
+WEBVTT
+
+00:00.950 --> 00:04.020
+We now have our first object you've mapped.
+
+00:04.040 --> 00:08.760
+Let's take a look at it in the scene and see which way our seems are pointing here.
+
+00:08.760 --> 00:16.610
+I'll go back to object mode press the division key on the number pad and well actually let me go back
+
+00:16.610 --> 00:17.590
+to edit mode here.
+
+00:17.600 --> 00:22.700
+And this is the direction of our Uvas and that's not bad.
+
+00:22.700 --> 00:29.910
+I almost think we should face this part of the object out toward our scene.
+
+00:30.260 --> 00:33.570
+So I'm going to go back to object mode.
+
+00:33.620 --> 00:41.900
+I'll press the End key and go to my rotate to begin rotating around the z axis and it looks like I can
+
+00:41.900 --> 00:45.780
+just type in 90 in the z axis here.
+
+00:46.700 --> 00:50.150
+And then I'll press the End key again and that should.
+
+00:50.300 --> 00:56.410
+Yeah that gives us the least amount of seams pointing out into our scene.
+
+00:56.420 --> 00:58.970
+All right so that one's been U-V mapped.
+
+00:58.970 --> 01:04.280
+What I'd like to do real quick is go ahead and replace these with this one.
+
+01:04.430 --> 01:11.360
+I'll switch back to my default view and I'll zoom in to this one here.
+
+01:12.990 --> 01:20.490
+And what I'd like to do is just take this one and copy it and replace these others instead of me going
+
+01:20.490 --> 01:24.640
+through and U-V mapping each and every one of these.
+
+01:24.930 --> 01:34.940
+What I can do is just snap the cursor to the selected object then I can delete the object then I can
+
+01:34.940 --> 01:44.270
+take this one that's already been U.V. mapped duplicated click and then with shift Das moved the selection
+
+01:44.510 --> 01:48.300
+to the cursor and there we go.
+
+01:48.300 --> 01:50.600
+So now I'll take this one.
+
+01:50.640 --> 01:53.700
+Move the cursor delete it.
+
+01:55.360 --> 02:03.130
+Take this one duplicate click and move this to the cursor.
+
+02:03.330 --> 02:05.790
+So I'll just do that for the rest of these here.
+
+02:08.900 --> 02:14.590
+All right so now I have five U-V mapped pillar caps.
+
+02:15.170 --> 02:21.380
+Well now that we're here why don't we take a look at one of these pillars the pillars are of course
+
+02:21.380 --> 02:23.240
+more cylindrical.
+
+02:23.240 --> 02:30.980
+There are two pieces and also we need to make sure that our seams are back here in the back of the cylinder
+
+02:31.370 --> 02:33.440
+rather than appear in the front.
+
+02:33.530 --> 02:41.750
+So I'll go back to my U-V editing lay out and press the period key and then the division key on the
+
+02:41.750 --> 02:43.340
+number pad.
+
+02:43.590 --> 02:47.940
+And let's go ahead and go into it mode.
+
+02:47.940 --> 02:55.650
+We can see through this because there's this ghost image turned on here this sort of guy limit selection
+
+02:55.650 --> 02:56.690
+to visible.
+
+02:56.700 --> 03:02.650
+If I click that that will turn off that kind of transparent thing going on there.
+
+03:03.180 --> 03:05.640
+I kind of like it so I don't see through it.
+
+03:06.490 --> 03:06.990
+All right.
+
+03:07.000 --> 03:15.970
+So let's think about this how should we go about this if we just selected everything and hit the Yuuki
+
+03:16.450 --> 03:17.930
+and hit on RAP.
+
+03:18.010 --> 03:19.680
+That's what we get.
+
+03:19.720 --> 03:25.540
+So that's just pretty much all the polygons laid one on top of the other and that's not going to be
+
+03:25.540 --> 03:27.060
+very helpful.
+
+03:27.190 --> 03:28.740
+So we don't want to do that.
+
+03:28.960 --> 03:39.730
+Probably our best bet would be to mark seems first of all maybe along here someone a press option and
+
+03:39.730 --> 03:46.840
+select this edge and that will mark an edge all the way up to the top here so we can see what happens
+
+03:46.840 --> 03:57.130
+when we do this we can press control e Mark seam select just this top piece with the LTE and then press
+
+03:57.130 --> 04:00.880
+you and unwrap a little better.
+
+04:01.000 --> 04:07.120
+But there's still stretching up here and I think the reason why there is stretching is because we've
+
+04:07.120 --> 04:10.220
+got this cap on it.
+
+04:10.510 --> 04:16.810
+If I de-select this I'm going to select these two edges here here and here and on press control E and
+
+04:16.810 --> 04:22.990
+I'm going to choose clear seems so that will clear the seam from those two edges.
+
+04:23.860 --> 04:29.460
+What I think I'd like to do is split this top piece out from the rest of the column.
+
+04:29.640 --> 04:38.080
+So I'm going to select this top edge here and press control E and Mark seem.
+
+04:38.170 --> 04:42.790
+Now let's try this Amona once again hover over an edge press the key.
+
+04:42.790 --> 04:50.710
+So I just select the top part of the column I'll press you and unwrap Malik what is done it's split
+
+04:50.710 --> 05:01.450
+out that top piece here into it's own U.V. island which allowed this part of the pillar to be laid out
+
+05:01.510 --> 05:05.530
+in a much cleaner more flat kind of way.
+
+05:05.530 --> 05:09.190
+So it looks like we may need to do that with the bottom here too.
+
+05:09.430 --> 05:15.530
+Let's take a look to get access to that piece down there.
+
+05:15.580 --> 05:17.450
+What I'm gonna do is press shift.
+
+05:17.470 --> 05:17.850
+H.
+
+05:17.860 --> 05:24.920
+And that will hide all of the unselected pieces and now have access to this down here.
+
+05:25.300 --> 05:28.640
+And let's just split it out into its own U.V. shell.
+
+05:28.690 --> 05:38.230
+So I want to go to edge mode and select these two edges and press control E and clear seam and then
+
+05:38.320 --> 05:49.440
+I'm going to select this edge around the bottom here and I'll make that a seam with control E and Marxian.
+
+05:49.440 --> 05:51.460
+Now let's try this again.
+
+05:51.510 --> 05:56.830
+I'm going to select everything press you and unwrap.
+
+05:56.960 --> 05:58.480
+Now that looks better.
+
+05:58.820 --> 06:09.020
+Now we've split out the top and the bottom caps and now the pillar lays out in a more flat uniform way.
+
+06:09.020 --> 06:14.740
+Let's press alt h to bring back that other piece and let's take a look at this.
+
+06:14.780 --> 06:20.030
+So I'm going to hover over an edge press l press shift H.
+
+06:20.140 --> 06:23.980
+And then I'll press the period key on the numpad to zoom in.
+
+06:24.080 --> 06:31.480
+So I go to edge mode and select this edge with alt and select control.
+
+06:31.530 --> 06:39.980
+Easy Mark seem press alt and select that edge control the mark seam.
+
+06:40.320 --> 06:47.550
+And now since I've got a seam back here it's going to break up the sides and split it out and lay it
+
+06:47.550 --> 06:48.530
+out flat.
+
+06:48.720 --> 06:56.870
+Based on that scene so I'll select everything hit you and unwrap and that looks a whole lot better.
+
+06:57.300 --> 07:01.620
+So I'll press old H to bring back the other part of the pillar.
+
+07:01.650 --> 07:04.160
+Now here's the key to select everything.
+
+07:04.440 --> 07:11.790
+And here is a problem we now see that the U-V maps are the U-V islands of the two different parts of
+
+07:11.790 --> 07:14.280
+the object are overlapping.
+
+07:14.400 --> 07:22.800
+So we need to somehow figure out how to get these U-V Islands out so they aren't on top of each other.
+
+07:22.800 --> 07:30.270
+Now one thing I could do is come down here to the U-V islands select and I can click on one that I could
+
+07:30.270 --> 07:37.960
+hit the G key and move it around so I could select these hit she move it around and try and get them.
+
+07:38.250 --> 07:42.720
+So they aren't overlapping on a more complex object.
+
+07:42.720 --> 07:45.950
+This would be really tedious in Blender.
+
+07:46.080 --> 07:48.970
+We have a nice couple of features here.
+
+07:49.020 --> 07:54.750
+The average Island scale tool and the pack islands.
+
+07:54.880 --> 08:00.450
+So what them do is press the key to select all the U.V. islands of the object.
+
+08:00.970 --> 08:08.020
+And then I get to come down here to Uvas and you can see in here we've got tools one is called Average
+
+08:08.020 --> 08:10.130
+Island scale or control a.
+
+08:10.310 --> 08:13.140
+And the other is pack islands control.
+
+08:13.390 --> 08:21.670
+So not only do we have to avoid overlapping but we also need to pack everything within the zero to one
+
+08:21.670 --> 08:22.920
+space.
+
+08:22.960 --> 08:27.760
+So what we can do is press control a to average Island scale.
+
+08:27.790 --> 08:35.380
+In other words it's going to make everything proportionally the same size as the objects are in the
+
+08:35.380 --> 08:36.940
+3D model.
+
+08:37.240 --> 08:42.420
+And then I want a press control P and that packs everything into the 0 2 space.
+
+08:42.430 --> 08:48.940
+Now I can also click this rotate and that will change the alignment of it.
+
+08:48.940 --> 08:54.390
+So now we've got our U-V map of our pillar and that looks pretty good.
+
+08:54.400 --> 09:01.060
+Now the one last thing we should do here is test if there is any stretching and how the texture is going
+
+09:01.060 --> 09:04.830
+to look on our object before we begin applying our texture.
+
+09:04.840 --> 09:06.700
+We really need to test that.

@@ -1,0 +1,355 @@
+WEBVTT
+
+00:00.710 --> 00:06.090
+Now let's start working on applying some textures to the Mech..
+
+00:06.090 --> 00:13.140
+I think what I'm going to do is use the same technique that we did for the sand and the stairs just
+
+00:13.140 --> 00:15.480
+apply a repeating texture.
+
+00:15.480 --> 00:25.630
+So if I open up get up here open up a file I have in the images folder here I've got this metal j peg.
+
+00:25.710 --> 00:27.360
+Let's open that up.
+
+00:27.390 --> 00:37.300
+So what I'll do is just make this image seamless I'll just go to filter's map and make seamless and
+
+00:37.300 --> 00:44.990
+now I can apply this directly to the Meck material and then increase the scale to repeat it.
+
+00:45.250 --> 00:55.630
+So I'll export this out file export as and I'll put this in our textures folder and I'll call it metal
+
+00:56.320 --> 00:57.070
+seamless
+
+01:00.830 --> 01:01.360
+All right.
+
+01:01.360 --> 01:04.200
+So back to Blendr now in Blender.
+
+01:04.200 --> 01:11.860
+I'll go ahead and switch over to the U-V editing layout and with Mxs selected I'll go ahead and choose
+
+01:11.860 --> 01:22.050
+the metal mech body and I don't really want to input the texture into the glossy material.
+
+01:22.050 --> 01:31.070
+What I think I'll do is add a new shader here a press shift a and Shater and diffuse and this is what
+
+01:31.070 --> 01:34.110
+will bring the texture into.
+
+01:34.430 --> 01:37.380
+But I'd like to combine it with this glossy.
+
+01:37.420 --> 01:41.570
+I still want it to have that kind of metal sheen to it.
+
+01:41.720 --> 01:50.960
+So press shift A and under Shater I'll bring in mix Shater and I'll add that here in between and I'll
+
+01:50.960 --> 01:57.400
+connect this up here so it's mixing between the glossy and the diffuse.
+
+01:57.440 --> 02:00.140
+Now for the texture.
+
+02:00.350 --> 02:06.400
+Let me first press control up arrow and I'm just going to make this screen a little bigger for now.
+
+02:06.860 --> 02:15.530
+I'm going to press shift A and I'll bring in an image texture node and shift again and I'll bring in
+
+02:15.850 --> 02:20.100
+and texture coordinate node under the input menu.
+
+02:21.330 --> 02:29.400
+And I'll connect up the U-V to the image texture and I'll connect the image texture to the diffuse.
+
+02:29.400 --> 02:38.510
+Now I'd like to grab that seamless texture we were just using under my textures folder here.
+
+02:38.790 --> 02:42.850
+There's that metal seamless and I'll bring that in.
+
+02:43.200 --> 02:47.080
+So press control up arrow to minimize that screen again.
+
+02:47.340 --> 02:49.250
+And so there is texture.
+
+02:49.260 --> 02:57.480
+Now it's kind of big I don't think we want to the scratches of the metal to be that big on the neck.
+
+02:57.750 --> 03:05.510
+So let's go over here to the textures panel and let's play with the scale a bit.
+
+03:05.510 --> 03:12.570
+So I'll increase the scale I'll try three little better than I'd like it to be a little bit smaller
+
+03:12.570 --> 03:15.510
+still so I'll increase it to five.
+
+03:15.510 --> 03:16.820
+Let's try that.
+
+03:17.280 --> 03:19.440
+Yeah that may be a little bit better.
+
+03:19.620 --> 03:22.240
+Just the size of the scratches.
+
+03:23.260 --> 03:26.580
+There's a little bit more reasonable.
+
+03:26.650 --> 03:29.130
+So now that we know the scale is going to be five.
+
+03:29.140 --> 03:35.320
+Let's go ahead and add a bump node in here as well so I'll press control up arrow to make this a little
+
+03:35.320 --> 03:36.570
+bit bigger.
+
+03:36.940 --> 03:49.530
+And I'll take this texture note and press D and copy it and then I will press shift a and bring in a
+
+03:49.530 --> 03:59.000
+bump node and I'll take their color here into the normal socket and the normal into the displacement
+
+03:59.620 --> 04:05.710
+and I'll also bring this U-V right over here into that texture note as well.
+
+04:06.080 --> 04:08.140
+So I had control Aperol again.
+
+04:08.420 --> 04:15.260
+And now let's take a look at it in our render view.
+
+04:15.260 --> 04:20.750
+I'm going to look at it from the back because that's really where the light is coming from and I'm going
+
+04:20.750 --> 04:25.950
+to switch from textured to render the viewport shading.
+
+04:26.600 --> 04:27.860
+Well that's looking pretty good.
+
+04:27.860 --> 04:36.290
+We've still got the shine of the metal along with some nicks and scratches and even some bump.
+
+04:36.290 --> 04:40.890
+Let me zoom in here and look at this mix Shater.
+
+04:40.970 --> 04:48.890
+So if I take this mix Shater all the way to one side you can see that now it's only bringing in the
+
+04:48.890 --> 04:50.150
+diffuse.
+
+04:50.170 --> 04:55.760
+Now if I take the mix Shater all the way to the other side it's bringing in only the glossy.
+
+04:55.760 --> 05:00.950
+So we had at it point five I want to try point six or seven.
+
+05:00.950 --> 05:03.060
+See how that works.
+
+05:03.140 --> 05:05.330
+Reduce the shine just a little bit.
+
+05:06.280 --> 05:07.830
+Yeah that looks pretty good.
+
+05:07.840 --> 05:09.700
+I'll go with that.
+
+05:09.760 --> 05:14.500
+Now the other piece is the joints and the tubes.
+
+05:14.500 --> 05:15.970
+They're looking kind of flat.
+
+05:15.970 --> 05:22.300
+I think they need a little bit of glossy ness or shine to them a little bit of Specularia.
+
+05:22.690 --> 05:31.370
+I'm going to select the rubber joints here the material and for this.
+
+05:31.390 --> 05:33.820
+We've already got a diffuse coming in and that's good.
+
+05:33.820 --> 05:42.930
+But I think we also need a glossy so I'll press shift a and bring in a glossy Shater and I'll press
+
+05:42.980 --> 05:47.260
+shift day and bring in mix Shater.
+
+05:47.410 --> 05:52.660
+So now we can mix between the diffuse and the glossy.
+
+05:52.660 --> 05:59.950
+Now that's a little too much because we want it to still be a rubber type of material.
+
+05:59.950 --> 06:05.720
+Maybe I'll bring that a little bit higher.
+
+06:06.040 --> 06:11.560
+I think also the color of the glass needs to be more gray.
+
+06:13.490 --> 06:14.640
+Like so.
+
+06:14.720 --> 06:24.700
+So now we're getting more of a rubber type material however I think I want to make it even less shining
+
+06:24.700 --> 06:30.170
+you on a really just have just a little bit in there.
+
+06:30.170 --> 06:36.150
+I'm going to bring up the roughness in the glossy.
+
+06:36.280 --> 06:45.040
+So there we have kind of what I'm looking for more of a spread out and distributed specular highlight
+
+06:45.070 --> 06:50.820
+there something that kind of says this is not a real shiny material.
+
+06:50.890 --> 06:54.400
+Maybe I'll even increase the roughness on the diffuse a bit.
+
+06:54.430 --> 06:56.020
+See what happens there.
+
+06:57.810 --> 06:59.580
+Yeah something like that.
+
+07:00.020 --> 07:00.710
+OK.
+
+07:01.020 --> 07:01.920
+How about the tubes.
+
+07:01.920 --> 07:08.280
+Let's take a look at the tubes you're going to have to select them directly because there are currently
+
+07:08.670 --> 07:10.170
+separate objects.
+
+07:12.670 --> 07:28.040
+So for the tubes let's also add a glossy Shater and we'll do a little mixing here as well something
+
+07:28.040 --> 07:29.600
+like that.
+
+07:29.630 --> 07:32.410
+Once again I'll bring the color of the glossy down
+
+07:35.390 --> 07:44.460
+and maybe increase the factor just a little fat maybe I'll increase the roughness of the diffuse quite
+
+07:44.460 --> 07:45.020
+a bit.
+
+07:45.030 --> 07:46.580
+See what happens there.
+
+07:47.100 --> 07:49.210
+And maybe of the glossy as well.
+
+07:51.370 --> 07:52.540
+All right.
+
+07:52.760 --> 07:55.250
+So now we have the tubes.
+
+07:55.250 --> 07:55.940
+What about this.
+
+07:55.940 --> 08:03.240
+Trim the trim on the Mac is looking awfully shiny now in comparison to everything else.
+
+08:03.470 --> 08:09.600
+So I'll select the Mac trim and let's work on this.
+
+08:09.610 --> 08:16.590
+I see it's just a glossy So let's add a diffuse.
+
+08:16.820 --> 08:24.760
+And also let's add a mix and try this.
+
+08:24.810 --> 08:27.740
+Let's bring the color down a bit.
+
+08:29.880 --> 08:32.650
+For now I think that looks pretty good.
+
+08:32.940 --> 08:35.040
+Let me look at this back panel now.
+
+08:35.040 --> 08:39.310
+We created a few materials for this too.
+
+08:39.390 --> 08:48.990
+Now for these pieces we could add a bit of a mission to make the lights glow a little bit maybe.
+
+08:49.050 --> 09:02.430
+And instead of a glossy for this add emission and all add a mix Shater and we'll try and mix between
+
+09:02.460 --> 09:05.990
+the diffuse and the emission.
+
+09:06.390 --> 09:08.380
+That's a little much.
+
+09:08.550 --> 09:09.570
+Something like this.
+
+09:09.570 --> 09:16.900
+However what we should do is make the color of the emission the same as the diffuse so all selected
+
+09:16.920 --> 09:24.840
+this little eyedropper and then click that right in that color of the diffuse and that will make it
+
+09:25.050 --> 09:27.410
+a similar color.
+
+09:27.420 --> 09:35.470
+So now as it emits light it'll emit that purple.
+
+09:35.480 --> 09:40.040
+We could try a glossy Shater here and see if that works any better.
+
+09:46.030 --> 09:54.040
+To cut one of these connections you can press control and drag across and it'll cut the connection.
+
+09:54.930 --> 10:02.280
+So now I'll try a glossy here and that gives it a little bit of shine as we go.
+
+10:02.300 --> 10:03.690
+See how that works.
+
+10:06.100 --> 10:08.240
+Maybe something like that.
+
+10:09.530 --> 10:18.440
+The only part of the mech that we haven't dealt with yet is this light lens and we'll deal with that
+
+10:18.440 --> 10:25.190
+when we set up the lights in the scene because we're going to have a spotlight shining out of this and
+
+10:25.190 --> 10:30.760
+what we're going to want to do is one make this an emission shader.
+
+10:31.010 --> 10:38.570
+And secondly we're going to want to allow a spotlight to shine through that object as if it's a lens.
+
+10:38.570 --> 10:42.420
+So we'll look at those couple of things when we set up the lights and the scene.

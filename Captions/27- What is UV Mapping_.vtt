@@ -1,0 +1,85 @@
+WEBVTT
+
+00:00.830 --> 00:06.180
+Well we are to the point where we can actually begin thinking about materials and textures.
+
+00:06.410 --> 00:12.050
+I've noticed that when people talk about materials and textures they oftentimes kind of interchange
+
+00:12.050 --> 00:16.500
+the two and they really are two separate things.
+
+00:16.520 --> 00:22.790
+Materials are what we use to create the basic visual properties of our 3-D objects.
+
+00:22.790 --> 00:25.910
+In other words is the object red or blue.
+
+00:25.940 --> 00:27.490
+How shiny is it.
+
+00:27.500 --> 00:37.070
+Does it have transparency a reflection those basic visual properties are created through our materials.
+
+00:37.070 --> 00:46.550
+But if we want to get more detailed and if our 3D objects need something like scratches or rust or lettering
+
+00:46.580 --> 00:55.130
+on a sign those kinds of more detailed visual elements that are placed in particular parts of the model
+
+00:55.430 --> 01:03.610
+those can be really only done through textures and a texture is a two dimensional image that is applied
+
+01:03.610 --> 01:05.850
+to a three dimensional object.
+
+01:06.220 --> 01:14.200
+And in addition I guess you can think of it like this we assign textures to materials and then we apply
+
+01:14.200 --> 01:17.300
+the material to the 3D objects.
+
+01:17.350 --> 01:20.140
+So we'll be working with each of those in turn.
+
+01:20.200 --> 01:27.330
+But I think right now what we should be concentrating on is U-V mapping.
+
+01:27.370 --> 01:37.190
+So what is U-V mapping UVM mapping is the process of creating a two dimensional representation of our
+
+01:37.190 --> 01:39.620
+three dimensional object.
+
+01:39.620 --> 01:48.200
+In other words if you can imagine taking an empty cereal box and cutting along the edges and then opening
+
+01:48.200 --> 01:56.090
+the cereal box up and spreading it out flat on the kitchen counter that's kind of what U-V mapping is.
+
+01:56.090 --> 02:02.660
+It allows us to take the polygons of our three dimensional object and lay them out flat so that we can
+
+02:02.660 --> 02:06.440
+paint or apply two dimensional images.
+
+02:06.440 --> 02:16.190
+So as I said if you wanted to paint or apply images of scratches or rust or actual lettering on a sign
+
+02:16.700 --> 02:23.780
+you would need to use the map your object first so that you can apply those two dimensional images directly
+
+02:23.780 --> 02:29.340
+to the two dimensional representation of your 3D object.
+
+02:29.810 --> 02:36.560
+And I'm hoping this makes a little more sense as we move through the process but we kind of need to
+
+02:36.590 --> 02:43.670
+focus on U-V mapping Now before we begin dealing with materials and textures.
+
+02:43.680 --> 02:50.100
+The reason why is because you don't always know where you're going to need a texture and where you can
+
+02:50.100 --> 02:52.740
+get away with just using a material.

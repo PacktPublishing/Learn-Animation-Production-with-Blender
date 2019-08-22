@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.810 --> 00:09.600
+What I'd also like in addition to the cone of light coming out of the spotlight is also the lens of
+
+00:09.600 --> 00:12.070
+the light needs to kind of glow.
+
+00:12.720 --> 00:18.180
+So I'm going to come in here and take a look at that object
+
+00:21.030 --> 00:28.830
+where we are and in the material of this object I've got the glass spot lens here and it's only got
+
+00:28.830 --> 00:30.240
+a glossy on it.
+
+00:30.450 --> 00:37.060
+But what let's do is let's add an emission shader as well we'll kind of mix between the two.
+
+00:37.530 --> 00:43.020
+So let's see if the editing lay out that we have will help with this.
+
+00:43.140 --> 00:46.210
+I'll zoom into that object here.
+
+00:46.290 --> 00:50.300
+So here is the glossy Shater.
+
+00:50.340 --> 00:56.510
+And why don't I press shift A and add a mix shader.
+
+00:57.870 --> 01:03.070
+And shift day and add an emission.
+
+01:03.640 --> 01:07.330
+Well let's go ahead and mix between these two.
+
+01:07.500 --> 01:11.850
+I'll go ahead and change the viewport shading to rendered.
+
+01:11.890 --> 01:14.070
+And let's take a look at this.
+
+01:14.190 --> 01:21.060
+So there we can see our lens and the cone of light coming out of it.
+
+01:21.120 --> 01:27.400
+Let's mix between these two and see if we can get that's a little too bright.
+
+01:27.400 --> 01:30.030
+Let me bring it down just a little bit.
+
+01:30.820 --> 01:31.800
+Something like that.
+
+01:31.810 --> 01:39.430
+And we ought to also change the color of this maybe to a more blue to match the cone.
+
+01:40.400 --> 01:49.640
+So I can change the glossy as well as the emission so I'll hit the little eyedropper here and sample
+
+01:49.640 --> 01:53.690
+that blue and that may be a little bit too blue.
+
+01:55.170 --> 01:56.860
+Bring that back a bit.
+
+01:58.800 --> 01:59.180
+All right.
+
+01:59.190 --> 02:00.400
+Let's go with that.
+
+02:00.570 --> 02:02.420
+I think that looks pretty good.
+
+02:02.430 --> 02:06.240
+I'll switch back to the default view here.
+
+02:06.240 --> 02:12.500
+The next thing I'd like to look at is what we're going to see outside of this hole here.
+
+02:12.510 --> 02:14.870
+So what's going on out there.
+
+02:14.880 --> 02:22.860
+My original idea is that it's a blue sky that it's a bright day outside and that's what's casting that
+
+02:22.860 --> 02:26.270
+shaft of light into the room.
+
+02:26.280 --> 02:30.660
+Now there are quite a few ways that you can make a sky.
+
+02:30.660 --> 02:40.380
+You can come into the world settings and you can bring in and create a sky texture but that kind of
+
+02:40.380 --> 02:43.380
+thing contributes to the light of the scene.
+
+02:43.380 --> 02:47.100
+And I kind of have the lighting the way I want it.
+
+02:47.370 --> 02:55.290
+And also you can take a big hit on render time you can really increase the time it takes to render each
+
+02:55.290 --> 03:00.270
+frame and center going to be rendering 300 and some odd frames.
+
+03:00.270 --> 03:03.630
+We don't want it to take a half an hour per frame.
+
+03:03.630 --> 03:13.080
+So what I'm going to do is kind of a cheat kind of a Down and dirty way to do this to put something
+
+03:13.080 --> 03:18.170
+outside that hole there without increasing the render time a whole lot.
+
+03:18.690 --> 03:27.930
+So what I want to do is actually just create a polygon plane and put it outside of that hole and then
+
+03:28.020 --> 03:33.320
+map an image of a sky onto it and that's it.
+
+03:33.330 --> 03:36.870
+So I have the 3-D cursor up here all ready.
+
+03:36.870 --> 03:44.700
+I'll go ahead and just create a polygon plane and let's scale it up quite a bit and I'm going to move
+
+03:44.700 --> 03:52.910
+it back and tilt it so that it kind of points down into that plane.
+
+03:52.910 --> 03:56.570
+Now let's take a look at it from the camera point of view.
+
+03:56.660 --> 04:04.570
+I'm going to hit the zero key here and let's move the camera back to its first frame.
+
+04:05.750 --> 04:08.180
+And I'll hit the Z key to take a look at this.
+
+04:08.180 --> 04:17.260
+So here is my object up here and that's looking pretty good it looks like it will cover that hole.
+
+04:17.500 --> 04:26.200
+I'm going to switch to local mode for my transform orientation and I'm going to scale this down like
+
+04:26.200 --> 04:28.150
+this.
+
+04:28.580 --> 04:30.130
+Maybe move it.
+
+04:30.200 --> 04:34.060
+So I'm just making sure that it's going to cover that hole.
+
+04:34.550 --> 04:36.340
+I'm going to tumble back up here.
+
+04:36.350 --> 04:42.230
+And also I want to make sure that it isn't intersecting with any geometry and it is here I just want
+
+04:42.230 --> 04:48.980
+it to not touch anything not cut through any of the existing objects.
+
+04:49.510 --> 04:51.740
+So make sure it's there once again.
+
+04:51.740 --> 04:52.120
+OK.
+
+04:52.130 --> 04:55.160
+So that looks like it's pretty good.
+
+04:55.160 --> 05:03.590
+So now that I have that one thing I'm going to need to do is U-V map it because I'm going to apply a
+
+05:03.590 --> 05:04.780
+texture to it.
+
+05:04.970 --> 05:08.560
+And of course you need a map to do that.
+
+05:08.600 --> 05:19.580
+So I'll go to my U-V editing lay out and let's just go to Edit mode and press you and unwrap and I'll
+
+05:19.580 --> 05:21.310
+bring in an image.
+
+05:21.320 --> 05:33.270
+I found and I'll bring in an image I found so many a press shift a and bring in an image texture.
+
+05:33.600 --> 05:37.860
+I should probably also bring in a texture coordinate
+
+05:42.640 --> 05:53.550
+and map the U.V. to the vector and the color to the color and I'll browse for that texture.
+
+05:54.830 --> 06:00.830
+Here it is sky too I think.
+
+06:00.960 --> 06:01.360
+All right.
+
+06:01.380 --> 06:02.550
+Let's take a look at that.
+
+06:02.550 --> 06:04.160
+I'm going to save.
+
+06:04.350 --> 06:08.630
+And then let's go back to our default view and let's take a look.
+
+06:09.330 --> 06:15.240
+Yeah that's looking pretty good it's just got some wisps of clouds there and that's really all I want.
+
+06:15.240 --> 06:17.970
+I don't want it to be distracting.
+
+06:18.000 --> 06:23.220
+Just want it to look like that there's a world out there that there's something happening.
+
+06:23.220 --> 06:29.500
+And frankly with the camera moving in so quickly we're only going to see that for a very short time.
+
+06:31.250 --> 06:37.610
+Now the last thing I should deal with in terms of lighting is when the spotlight actually comes on because
+
+06:37.910 --> 06:40.650
+I don't want to be on for the entire scene.
+
+06:40.910 --> 06:44.060
+I just wanted to come on after he lands.
+
+06:44.180 --> 06:47.170
+So let's take a look at how we would do this.
+
+06:47.180 --> 06:55.190
+I'm going to go to my animation screen layout and I want to select that light.
+
+06:55.550 --> 07:00.290
+So it's down here I believe.
+
+07:01.790 --> 07:03.790
+Right here.
+
+07:03.830 --> 07:12.700
+So what I need to do is key the light at this point and I want to keep it so it's off.
+
+07:12.710 --> 07:23.240
+So with that light selected I'll come over here to the strength and right now it's at 15000.
+
+07:23.270 --> 07:30.330
+So what I can do is I can right click on the strength field and choose insert keyframe.
+
+07:30.740 --> 07:38.530
+But what I want to do is I want to zero this out first like so and insert a keyframe here.
+
+07:40.980 --> 07:47.840
+Now I'd like to bring the mic down here and let me go to the camera view and I'll hit play.
+
+07:48.150 --> 07:49.500
+So he comes down
+
+07:52.760 --> 08:02.240
+moves forward drops and then I'd like the light to come on.
+
+08:02.250 --> 08:13.990
+So just before I'd like the light to come on after he lands and before that light turns so somewhere.
+
+08:14.240 --> 08:21.590
+Let's see he drops up light comes on let's say the light comes on to 20.
+
+08:21.870 --> 08:28.690
+So I'm going to back up one frame and keep it at zero here to anchor that.
+
+08:28.690 --> 08:38.230
+So insert a key frame there and then I'll move forward one frame change it to 15000 again was that right.
+
+08:39.330 --> 08:43.170
+And then insert a key frame here.
+
+08:43.170 --> 08:51.900
+So now it should stay at 0 strength all the way through here and then turn on that frame 20.
+
+08:51.900 --> 08:59.330
+So if I go to frame 19 I'll go ahead and take a look at it in the rendered view.
+
+09:00.150 --> 09:10.750
+We can see here that the light is off but that emission shader on the lens is on as well.
+
+09:10.770 --> 09:16.740
+So we need to do the same thing for this we need to key that emission off to this point.
+
+09:16.770 --> 09:19.280
+And then on on the next frame.
+
+09:19.280 --> 09:28.880
+So if I go to the next frame we should see as it renders that that spotlight is on and then we go.
+
+09:29.220 --> 09:29.480
+All right.
+
+09:29.480 --> 09:35.300
+So let's go back and do the same thing with the emission shader on the lens.
+
+09:35.300 --> 09:45.370
+I'll go back to my solid view and go back to frame 2:19 and I'll select the lens.
+
+09:45.410 --> 09:47.360
+Let's go to the material
+
+09:50.010 --> 09:56.370
+and in the emission Shater let's change this strength.
+
+09:56.500 --> 10:01.980
+So it's at one now at frame 2:19 where we are now it should be zero.
+
+10:02.290 --> 10:11.330
+So I'll insert a key frame here and then at 220 I'll move forward one frame with the arrow key.
+
+10:11.680 --> 10:19.430
+We should be able to change this to one and insert a key frame here.
+
+10:19.660 --> 10:27.080
+Now I'll also go back to frame one here and make sure that we've got it keyed at zero there as well.
+
+10:28.400 --> 10:39.830
+So now we should be able to see that on frame 219 both the spotlight and the lens are off.
+
+10:40.070 --> 10:41.150
+Let's take a look.
+
+10:41.780 --> 10:42.240
+Yes.
+
+10:42.290 --> 10:43.560
+That looks good.
+
+10:43.670 --> 10:53.050
+And then we go forward one frame and now we see the lenses on and the cone should come on as well.
+
+10:54.600 --> 10:54.990
+All right.
+
+10:54.990 --> 11:02.070
+So there we go we have the lightings set up in the next video we'll move on to seeing what we can do
+
+11:02.070 --> 11:08.370
+about creating some sort of jet thruster effect for the next jet pack.

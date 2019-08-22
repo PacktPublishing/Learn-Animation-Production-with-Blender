@@ -1,0 +1,439 @@
+WEBVTT
+
+00:00.810 --> 00:07.260
+Well now that I've got that camera in the scene that will help me keep an eye on the frame as I work
+
+00:07.260 --> 00:07.490
+here.
+
+00:07.500 --> 00:12.800
+But I kind of need more screen real estate to continue working.
+
+00:12.990 --> 00:19.790
+So I'm going to join this window back up like that.
+
+00:20.190 --> 00:28.410
+And I think for now what I'm going to do is change my outliner to a 3-D view maybe hit the zero key
+
+00:28.410 --> 00:33.200
+on the numpad to change it to that camera view.
+
+00:33.660 --> 00:43.140
+If I look at the reference image of course this particular shot or this particular environment is a
+
+00:43.140 --> 00:51.130
+lot smaller than the one I'm working on but I like the idea of this kind of tomb sarcophagus.
+
+00:51.150 --> 00:55.790
+I don't exactly know what it is but I like the idea of this thing in the room.
+
+00:55.980 --> 00:59.880
+And I also like the idea of stairs as well.
+
+00:59.940 --> 01:02.060
+So they going to work on those two things.
+
+01:02.070 --> 01:07.140
+But within the context of our larger room here.
+
+01:07.350 --> 01:16.920
+So for the stairs I think I'm going to put them back here on the right side of the room so I'll begin
+
+01:16.920 --> 01:24.760
+that with a cube and I'll move that back over here some.
+
+01:25.000 --> 01:37.690
+It certainly needs to be a lot bigger so I'll go ahead and scale it up and scale it in the X and as
+
+01:37.690 --> 01:46.390
+you can see I get the sense that these are pretty wide stairs a large staircase coming down into the
+
+01:46.990 --> 01:49.070
+environment here.
+
+01:49.330 --> 01:54.160
+Let me see I think I'm going to need quite a few edge loops so I'm going to go ahead and insert an edge
+
+01:54.160 --> 02:01.490
+loop here and I'm going to scroll the mouse wheel until I get to kind of the number of steps I think
+
+02:01.490 --> 02:02.540
+I need.
+
+02:05.630 --> 02:11.040
+I've got seven cuts on that now maybe make that 8.
+
+02:11.520 --> 02:14.860
+Let's see how this works.
+
+02:14.860 --> 02:23.460
+So now if I go to face mode and I'm going with my circle select I'm going to click and drag these for
+
+02:23.490 --> 02:26.970
+each step I'm going to drag an extrusion out.
+
+02:26.970 --> 02:36.740
+So if I hit it easy and drag out there's a one step maybe and then I'm going to de-select the top one
+
+02:36.830 --> 02:43.530
+the drag out de-select the top et cetera et cetera.
+
+02:48.410 --> 02:48.760
+All right.
+
+02:48.760 --> 02:50.570
+So there's my stairs.
+
+02:50.600 --> 02:54.880
+Move them back something like this.
+
+02:55.840 --> 03:01.260
+So if I hit the zero key over here you can see kind of how it's looking.
+
+03:02.370 --> 03:06.580
+And then I'll just tumble back out of that camera view.
+
+03:06.920 --> 03:09.020
+I think I want to shrink it down just a bit.
+
+03:09.210 --> 03:10.900
+I think they're a little too big.
+
+03:15.650 --> 03:22.470
+Maybe even flatten them a bit.
+
+03:22.500 --> 03:26.680
+So once again I can hit the zero key and frame that up.
+
+03:28.700 --> 03:29.580
+Something like that.
+
+03:29.690 --> 03:34.260
+So you just get a sense that there's more going on outside the frame.
+
+03:35.820 --> 03:45.460
+To work on the two more crypt thing there I'm going to go to a new layer and work on it here.
+
+03:45.540 --> 03:50.370
+I think I'm going to go ahead and turn this back into the outliner for now.
+
+03:51.970 --> 04:01.360
+So for this crypt here it looks like it's just made of a lot of individual blocks and it's kind of angled
+
+04:01.360 --> 04:04.030
+in kind of like a pyramid.
+
+04:04.090 --> 04:07.380
+So I'll just try and keep those things in mind as I go.
+
+04:07.630 --> 04:15.190
+I will go ahead and begin with the cube and the first thing I'm going to do here is delete the bottom
+
+04:15.850 --> 04:16.480
+face.
+
+04:16.480 --> 04:24.190
+Now I know that may seem weird right now but as we get to things like U-V mapping this is going to be
+
+04:24.220 --> 04:26.510
+pretty useful when we can.
+
+04:26.560 --> 04:34.570
+In instances like this it's going to be a lot easier if we can delete one face of an object like this
+
+04:35.260 --> 04:38.110
+to make our lives easier when we use the map.
+
+04:38.110 --> 04:41.230
+So keep that in mind for the future.
+
+04:41.230 --> 04:47.810
+All right I'm going to zoom in here and try and get the block about the way it should be.
+
+04:48.620 --> 04:57.310
+I'm thinking something like this and I'm going to press the seven key press the 5 key on the numpad
+
+04:57.940 --> 05:00.260
+and maybe go to wireframe here.
+
+05:01.000 --> 05:07.990
+I'm going to go ahead and open the properties panel with the End key just so I can begin to set this
+
+05:07.990 --> 05:08.220
+up.
+
+05:08.230 --> 05:17.020
+I'm thinking let's try this let's go with negative 2.5 in the y here and then I'm going to press shift
+
+05:17.020 --> 05:27.010
+D and duplicate it and bring it up here to positive 2.5 just to get a uniform with for our crypt and
+
+05:27.010 --> 05:34.490
+then select both of these and press shift D and then click and then drag these new duplicates to one
+
+05:34.490 --> 05:42.670
+side here shifty again move these over shifty again.
+
+05:42.870 --> 05:44.650
+And I think I want five.
+
+05:44.650 --> 05:48.440
+Here I'll put these here.
+
+05:48.460 --> 05:49.130
+OK.
+
+05:49.330 --> 05:58.550
+Now I'm not looking to make this perfectly aligned because this is a tomb it's been decaying over time.
+
+05:58.600 --> 06:04.120
+I'm not too concerned that it looks perfectly aligned and uniform.
+
+06:04.150 --> 06:05.380
+All right so now that I've got that.
+
+06:05.410 --> 06:17.330
+I'll take one of these and duplicate it and all rotate it 90 degrees around the Z and I'll hit the G
+
+06:17.360 --> 06:19.290
+key and place that here.
+
+06:21.140 --> 06:24.980
+And I'll duplicate it and move it right over here too.
+
+06:25.010 --> 06:30.620
+So I've got those duplicate these and move them straight over here.
+
+06:30.650 --> 06:30.950
+All right.
+
+06:30.950 --> 06:37.210
+So now we have the base of this crypt or tomb.
+
+06:37.430 --> 06:44.250
+So I'm going to duplicate these four and move them up.
+
+06:44.410 --> 06:54.030
+Let me go back to my one key here and orthographic with five key and I'll just place that there.
+
+06:54.410 --> 07:00.860
+And then the reason why I only grabbed these is because I want to select this one and I want to move
+
+07:00.860 --> 07:08.660
+this face and some like this and then I want to duplicate this and move it over here.
+
+07:09.040 --> 07:16.630
+So I'm beginning to get that angle in and then I want to take all of these and slide them into it like
+
+07:16.630 --> 07:19.480
+that and I'll do it again.
+
+07:19.480 --> 07:32.720
+So I'm a take these three or four I should say duplicate move up slide intimate and maybe grab this
+
+07:32.720 --> 07:34.060
+one and move it in
+
+07:37.290 --> 07:39.980
+and then put that over on the other side as well.
+
+07:41.100 --> 07:51.570
+So I'll take these three duplicate moves them up and then slide them over and for this actually maybe
+
+07:51.570 --> 07:57.350
+I'll do something a little different I'll just take these and move them out.
+
+07:57.390 --> 08:04.890
+Now I'm going to go to my top view with my seven key orthographic view with my five key on the numpad
+
+08:05.310 --> 08:11.540
+press the Z key and I'm going to duplicate this and move it over here.
+
+08:12.660 --> 08:18.700
+So and then do the same for the next row etc..
+
+08:20.000 --> 08:22.130
+And so I'll take one of these.
+
+08:22.500 --> 08:33.710
+Duplicate it looks like we could move it up here and scale it in a bit and that should fit there.
+
+08:33.780 --> 08:38.030
+And as I said this is not meant to be perfectly aligned.
+
+08:38.030 --> 08:43.990
+This is something that has been decaying and is old and worn out.
+
+08:45.940 --> 08:50.160
+And looks like we need one more right up here.
+
+08:52.680 --> 08:57.620
+Just slide that in there and then we just need to duplicate these for the other side as well.
+
+08:59.010 --> 08:59.430
+All right.
+
+08:59.430 --> 09:03.030
+So there is our tomb slash crypt type thing.
+
+09:03.360 --> 09:09.150
+Let's go ahead and select everything and press control Jay to make it all one object and then let's
+
+09:09.150 --> 09:17.460
+go to a side view here maybe the one key the five and the Z key and let's move this up.
+
+09:17.460 --> 09:20.190
+So it's sitting on the grid here.
+
+09:20.220 --> 09:28.110
+I'm just going to move this up to this point right about here and then I'll move the origin of the object
+
+09:28.110 --> 09:33.190
+to the 3D cursor which is sitting at the center of the grid.
+
+09:33.270 --> 09:42.530
+And so now now we can move that around slide it around on the floor with pivot point there at the grid.
+
+09:42.540 --> 09:46.940
+So let's bring everything back and see what we need to do here.
+
+09:48.160 --> 09:53.060
+So there's our crypt thing thinking it's a little big.
+
+09:54.740 --> 09:59.700
+So I'm going to go and scale it down some maybe like that.
+
+10:00.970 --> 10:03.180
+And let's take a look at it through the camera.
+
+10:03.180 --> 10:11.880
+I'm going to press the zero on the pad and I'm going to move this back over here somewhere like this.
+
+10:11.880 --> 10:18.120
+So it's in the scene and as I said the camera may be moving forward but it's over here as part of the
+
+10:18.120 --> 10:19.740
+scene.
+
+10:19.740 --> 10:25.440
+Well let's now see if we can't create some sort of a hole in the ceiling for this guy to come down into
+
+10:25.440 --> 10:26.720
+the scene.
+
+10:26.820 --> 10:31.320
+I'm going to switch this back to my 3-D view here.
+
+10:32.830 --> 10:39.440
+And right up in here I think this piece right up in here needs to be broken.
+
+10:39.790 --> 10:42.160
+And when he had a hole in the ceiling.
+
+10:42.250 --> 10:44.310
+So let's see if we can make that happen here.
+
+10:44.320 --> 10:54.540
+I'm going to select this beam here and just take this face and I'm going to move it in to about where
+
+10:54.540 --> 10:56.360
+I would think the hole should be.
+
+10:57.880 --> 10:59.470
+Maybe something like that.
+
+10:59.500 --> 11:08.000
+I'm going to zoom in with the period key so maybe I'm thinking right and there's the hole.
+
+11:08.000 --> 11:11.190
+So if that's where the hole in the ceiling is going to go.
+
+11:11.330 --> 11:16.130
+Let's take a look at this polygon playing up here that is the ceiling.
+
+11:16.190 --> 11:22.550
+If I hit the tab key and look at it there's not much here.
+
+11:22.700 --> 11:29.570
+It's just all one polygon we're going to need more geometry more resolution to this to be able to cut
+
+11:29.570 --> 11:31.220
+a hole into it.
+
+11:31.220 --> 11:36.740
+So what I'll do is while it's still in edit mode I'll press the W key.
+
+11:36.830 --> 11:44.210
+And that brings up the specials menu and what we can do here is we can choose subdivide and that will
+
+11:44.210 --> 11:48.590
+subdivide the mesh into multiple polygons So click that.
+
+11:49.010 --> 11:58.160
+And down here in the subdivide panel we've got number of cuts and right now we're just dealing with
+
+11:58.160 --> 12:02.060
+one right down the center of the polygon.
+
+12:02.060 --> 12:09.980
+But if I begin increasing the number of cuts here you can see it increases the number of polygons so
+
+12:10.010 --> 12:14.240
+I'm going to start increasing this.
+
+12:14.250 --> 12:21.300
+So now if we look at this area we can begin thinking about how we want to block this out so let's just
+
+12:21.300 --> 12:27.330
+say I'm going to remove these faces.
+
+12:29.090 --> 12:32.370
+And now we can see up through there.
+
+12:32.760 --> 12:36.560
+Now I'd like to be kind of a jagged hole in the ceiling here.
+
+12:36.600 --> 12:44.470
+So I think I'll go back to edit mode and press the W key and subdivide again and see what I get.
+
+12:44.850 --> 12:51.450
+All right that gives me a little bit more to work with when I go to Virtex mode and I'm just going to
+
+12:51.450 --> 12:58.850
+begin moving these around to get kind of the beginnings of a hole here.
+
+12:59.860 --> 13:01.690
+Let's just see what I can come up with.
+
+13:01.690 --> 13:08.090
+First before I add any more geometry Maybe I'll make this a little bit wider here.
+
+13:11.650 --> 13:13.000
+And we go something like that.
+
+13:13.000 --> 13:17.810
+So now I've got kind of this ragged hole in the ceiling.
+
+13:17.860 --> 13:27.910
+I also wanted to have some thickness to it so I'll go back to edit mode and go to face mode and select
+
+13:27.940 --> 13:34.610
+everything and I'll go ahead and hit me and click and then I'm going to drag up in the z axis and then
+
+13:34.660 --> 13:39.260
+give me some thickness here to that whole.
+
+13:39.380 --> 13:40.750
+And that's what I need.
+
+13:40.750 --> 13:47.370
+Maybe I could get it a little more ragged by differentiating the tops and the bottoms here.
+
+13:48.290 --> 13:51.970
+I like this all right.
+
+13:51.980 --> 13:55.840
+Let's take a look at that see what that does for us.
+
+13:57.070 --> 14:03.460
+Yeah that's beginning to give us a nice sense of a hole in the ceiling kind of thing.

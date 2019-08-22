@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.660 --> 00:08.970
+Well it's time to move on to another part of the process and that is rigging the mech for rigging we're
+
+00:08.970 --> 00:11.740
+only going to need to see this guy here.
+
+00:12.150 --> 00:17.510
+So I'll just select his layer and make sure everything else is on another layer.
+
+00:17.790 --> 00:26.250
+And while it looks like we need to move this maybe I'll select this light and I'll press him and choose
+
+00:26.260 --> 00:29.030
+layer one to move that over there.
+
+00:29.040 --> 00:38.540
+So now we have him isolated and ready to work on all come out of textured mode and go back to solid
+
+00:38.550 --> 00:42.430
+because we don't need to see any of the textures or materials.
+
+00:42.960 --> 00:48.510
+Before we begin rigging we need to do some cleanup here we need to do some housekeeping chores.
+
+00:48.630 --> 00:53.550
+I had mentioned before that it looked like the feet weren't on the ground plan and I went ahead and
+
+00:53.550 --> 00:54.750
+fixed that.
+
+00:54.780 --> 00:59.230
+Let me go to the three key and the five key and just mention this.
+
+00:59.250 --> 01:09.000
+I pulled everything up so the feet kind of sit on the ground plane here and I should mention that it
+
+01:09.000 --> 01:14.230
+is really best to have your character in the center of the grid the way I have him here.
+
+01:14.250 --> 01:21.060
+Before you begin rigging so you may have noticed that I've kind of built the whole environment around
+
+01:21.060 --> 01:25.130
+him and where he's going to land at the end of the scene.
+
+01:25.200 --> 01:27.890
+I think this is a good practice to get into.
+
+01:27.930 --> 01:35.730
+You'll see here as we go that there are a lot of tools and functions that you can use that are based
+
+01:35.730 --> 01:42.790
+around the center of the grid like mirroring the joints from one side of the character to the other.
+
+01:43.140 --> 01:48.750
+There's just a lot of benefits to making sure when you're dealing with a character that is in the center
+
+01:48.750 --> 01:56.250
+of the grid and for this character he's going to have a lot of different pieces that are going to be
+
+01:56.250 --> 02:04.740
+moving around and we're going to need to be able to parent those pieces to the individual bones that
+
+02:04.740 --> 02:06.630
+are going to drive them that are going to move them.
+
+02:06.630 --> 02:12.480
+So we're going to have a skeleton underneath this character that we're going to animate.
+
+02:12.480 --> 02:19.680
+We are not going to animate the character directly we'll be animating the skeleton within the character.
+
+02:19.680 --> 02:26.370
+So we need to go back and break up this Mac into its moving parts.
+
+02:26.370 --> 02:31.430
+Currently I have the whole thing pretty much the whole thing.
+
+02:31.950 --> 02:32.860
+As one object.
+
+02:32.880 --> 02:35.300
+But that's not going to work.
+
+02:35.340 --> 02:43.740
+So let's start thinking about how we can break up and combine this to make rigging a little easier.
+
+02:43.770 --> 02:47.120
+I'm going to press the tab key to go into edit mode here.
+
+02:47.220 --> 02:56.610
+So what I want to do is first of all break out the pieces of the body into its own object so I'm just
+
+02:56.610 --> 03:06.460
+going to press the L key hovering over each piece pressing L for the pack and all of these.
+
+03:06.460 --> 03:13.000
+Now because I have seams on here I'm having to do that multiple times maybe I should get rid of the
+
+03:13.000 --> 03:13.570
+seams.
+
+03:13.570 --> 03:15.220
+Let me do that.
+
+03:15.400 --> 03:24.550
+I will select everything and press control and I'll clear seams so we don't have to worry about selecting
+
+03:24.820 --> 03:27.610
+multiple parts of the same object.
+
+03:27.940 --> 03:35.810
+So I'll select these with the L key and get all these together.
+
+03:36.840 --> 03:39.660
+There we go so we have all those pieces.
+
+03:39.810 --> 03:45.860
+Now I'll split them out with the P key and I'll separate them by selection.
+
+03:47.080 --> 03:58.420
+So now that is its own piece and I'll find that here and it looks like it's called Jet 00.
+
+03:58.630 --> 04:01.720
+So I'll call this mech body.
+
+04:03.970 --> 04:06.280
+And I need to add a couple of things to this.
+
+04:06.280 --> 04:16.330
+I need to add this little gril here so I'll take that and shift select the body press control J and
+
+04:16.330 --> 04:22.120
+that will bring that gril into the mech body object.
+
+04:22.120 --> 04:31.030
+Now I want to bring in the base of the spotlight into the body component so I'll hit tab and select
+
+04:33.820 --> 04:41.640
+these parts of the spotlight press P split those out into their own piece.
+
+04:41.710 --> 04:51.090
+So all tab out of there de-select everything else like that piece and then shift select body and then
+
+04:51.090 --> 04:52.350
+press control.
+
+04:54.090 --> 05:02.180
+And that bring them into that object I'm going to keep the spotlight its own piece because that's going
+
+05:02.180 --> 05:04.170
+to need to move.
+
+05:04.250 --> 05:11.600
+I'll take a look at these pieces here these pieces also need to be part of the main body so I'll select
+
+05:11.600 --> 05:15.960
+those Schiff's select the Meck body and control J.
+
+05:17.060 --> 05:19.330
+We'll bring those in.
+
+05:19.630 --> 05:21.600
+Let's look at the panel back here.
+
+05:21.610 --> 05:23.220
+Do I have this is its own piece.
+
+05:23.220 --> 05:24.450
+Sure enough.
+
+05:24.450 --> 05:33.270
+I'll select that shifts like the mech body control J and brings it in OK.
+
+05:33.790 --> 05:37.360
+Now these tubes we finally need to deal with these.
+
+05:37.480 --> 05:42.450
+I'm going to select this and remember that this is still a curve.
+
+05:43.270 --> 05:46.830
+If we hit TAB we can see the curves here.
+
+05:46.900 --> 05:51.040
+We're going to need to make this I think it will be easier.
+
+05:51.040 --> 05:52.270
+Let me put it that way.
+
+05:52.510 --> 05:58.000
+I think it'll be easier if these are part of the Meck body object.
+
+05:58.120 --> 06:04.450
+So to do that I need to convert these two polygons so I can combine them to the polygon objects of the
+
+06:04.450 --> 06:05.780
+Mech..
+
+06:05.800 --> 06:14.160
+So I'm going to select one of the tubes go to object scroll on up here to convert to.
+
+06:14.520 --> 06:20.210
+And I want to convert to a mesh polygon mesh from a curve.
+
+06:20.280 --> 06:21.990
+So I click that.
+
+06:22.110 --> 06:27.260
+And now that converts it from a curve to a polygon.
+
+06:27.350 --> 06:34.050
+So if I hit tab you see that we can see the polygons of the two.
+
+06:34.070 --> 06:35.280
+I'll do that with the other one.
+
+06:35.360 --> 06:43.180
+You can also press alt C and then choose Masch from curve and there we go.
+
+06:43.180 --> 06:51.600
+So now these two pieces we need to select Schiff's select the Meck body press control J.
+
+06:52.860 --> 06:57.620
+And now those are brought into the fold of the mech body.
+
+06:57.630 --> 07:04.590
+And notice what it did to it went ahead and applied that subdivision surface modifier to the tubes as
+
+07:04.590 --> 07:05.820
+well.
+
+07:05.820 --> 07:11.090
+So the next piece we need to look at is these arms.
+
+07:11.400 --> 07:18.090
+Each of these arm pieces segments are going to rotate around a joint.
+
+07:18.090 --> 07:22.710
+So this upper arm piece will rotate around this joint.
+
+07:22.710 --> 07:26.310
+So those two pieces need to be one object.
+
+07:26.310 --> 07:36.600
+So I'm going to tab into edit mode and select the upper arm with the L key as well as that sphere and
+
+07:36.600 --> 07:41.070
+I'll press the P key and I'll separate those out by selection.
+
+07:41.100 --> 07:45.900
+So now I go back to object mode de-select everything like that.
+
+07:46.080 --> 07:55.470
+And I'll call this arm up and I'll add dot L for the left side.
+
+07:55.590 --> 07:57.360
+So that's the upper arm.
+
+07:57.660 --> 08:01.000
+So I'll do the same thing down here.
+
+08:01.170 --> 08:12.640
+I will tab into edit mode select this with the L key as well as that elbow press the key selection.
+
+08:13.490 --> 08:14.300
+And now
+
+08:17.390 --> 08:20.780
+I can select it and give it a name.
+
+08:20.870 --> 08:28.490
+You know what I can do is I can open the properties panel here and scroll down and under item I can
+
+08:28.490 --> 08:30.120
+rename it here.
+
+08:30.230 --> 08:37.140
+So I'll call this arm low for the lower arm dot L for the left side.
+
+08:38.370 --> 08:41.970
+Now for the hand I'm going to go ahead and make this its own object.
+
+08:42.150 --> 08:51.330
+So I'll tap into edit mode select the hand sphere here with the L key press P and separate by selection
+
+08:52.020 --> 09:02.560
+and alt tab out of edit mode de-select everything selected just that hand and call it hand L and I'm
+
+09:02.560 --> 09:07.550
+going to go ahead and go through the entire process with each of these fingers as well.
+
+09:07.720 --> 09:12.080
+And what I'm going to do is have them rotate at the joint.
+
+09:12.310 --> 09:13.620
+So let me just show you what I mean.
+
+09:13.620 --> 09:26.130
+So for like this one if I select this object this this and this frame up that that it's going to all
+
+09:26.130 --> 09:28.410
+be one object.
+
+09:28.670 --> 09:32.870
+So let me just separate that by selection.
+
+09:33.830 --> 09:38.800
+Tab back into object mode dislike everything and like just that piece.
+
+09:38.810 --> 09:44.930
+So this is going to be one individual object and this I can call.
+
+09:45.140 --> 09:47.700
+Let's call this.
+
+09:47.950 --> 09:56.870
+Call it finger made three dot L and this one here will then be at me.
+
+09:56.890 --> 10:03.650
+Select this all of these are separate this out.
+
+10:03.700 --> 10:05.050
+Select it.
+
+10:05.070 --> 10:11.970
+This one will be finger mid to dot L and on back.
+
+10:11.970 --> 10:20.550
+So then I'll just I'll select this one piece and this will be finger made one dot L and I'll do that
+
+10:20.550 --> 10:25.260
+for the index for the pinky for the thumb.
+
+10:25.350 --> 10:30.480
+So each one of the joints of the fingers will be its own object.
+
+10:30.540 --> 10:34.290
+So I'll go ahead and begin working on that.
+
+10:34.290 --> 10:37.720
+All right so what I've done is I've gone ahead and split these up.
+
+10:37.770 --> 10:44.850
+You can see that this one is finger thumb three and your thumb two finger thumb one and the reason why
+
+10:44.850 --> 10:53.820
+I've just had them all begin with finger is so they'll all line up alphabetically and in the outliner
+
+10:54.330 --> 10:54.710
+but.
+
+10:54.720 --> 10:59.630
+So these are a finger index one two and three finger mid.
+
+10:59.670 --> 11:10.440
+One two and three and fingered pinky one two and three and they coincide to these three pieces for two
+
+11:10.440 --> 11:11.320
+of the digits.
+
+11:11.460 --> 11:21.550
+And then just that single cube for the third digit they're so I'll need to do that to the other side
+
+11:21.550 --> 11:22.100
+as well.
+
+11:22.120 --> 11:30.130
+But for now I'm going to come in here and work on the legs and I'll select the upper leg piece and that
+
+11:30.220 --> 11:36.520
+upper leg joint press P separate by selection.
+
+11:36.890 --> 11:39.810
+Go back out to object mode de-select everything.
+
+11:39.920 --> 11:43.530
+So like that and we'll call this leg up.
+
+11:43.610 --> 11:53.780
+Well down here same thing it's like this piece and that joint and then piece selection
+
+11:56.210 --> 11:56.920
+selected.
+
+11:56.940 --> 12:01.150
+And call that leg low that El.

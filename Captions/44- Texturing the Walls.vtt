@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.660 --> 00:09.480
+For the pillar camps here we can also bring in an image texture right within the properties window here.
+
+00:09.540 --> 00:11.780
+So let's try that.
+
+00:11.780 --> 00:20.220
+So I've selected one of the Pillar caps and I've got the material here and in the surface section below
+
+00:20.220 --> 00:28.170
+the diffuse here I'm going to select this button in the color channel and that'll give me this menu
+
+00:28.640 --> 00:32.340
+and I can choose image texture from the menu here.
+
+00:33.610 --> 00:40.930
+Now I've got the Open button here or the pull down menu and I can just pull the menu down and go ahead
+
+00:40.930 --> 00:44.100
+and choose that sandstone seamless.
+
+00:44.230 --> 00:44.970
+And there we go.
+
+00:44.980 --> 00:47.710
+That adds that to that material.
+
+00:47.710 --> 00:55.130
+Now I can come over here to the textures panel and down here under mapping I can change the scale to
+
+00:55.160 --> 00:57.920
+I don't know three maybe let's try that.
+
+00:58.240 --> 00:59.700
+That looks OK.
+
+00:59.950 --> 01:07.690
+Now one of the things I'm seeing here is repeating textures you can see that the textures here are exactly
+
+01:07.690 --> 01:09.390
+the same.
+
+01:09.490 --> 01:11.770
+There are a couple of ways to deal with this.
+
+01:11.770 --> 01:14.830
+I mean we could make these the raw material.
+
+01:14.890 --> 01:22.390
+Each one of these and then map it in individually and change up the scale and the rotation.
+
+01:22.390 --> 01:30.130
+We could try changing up the rotation here by rotating around the Z but that just does that all at the
+
+01:30.130 --> 01:31.140
+same time.
+
+01:31.950 --> 01:34.920
+So that's not quite what we want.
+
+01:34.950 --> 01:42.120
+One very quick option here is just to actually select kind of every other one of these and and rotate
+
+01:42.120 --> 01:42.570
+them.
+
+01:42.780 --> 01:49.730
+So here in the property panel I can maybe take this one the rotation and the Z zero.
+
+01:51.610 --> 01:57.640
+And that will spin that around a bit and maybe this one over here or maybe this one.
+
+01:57.650 --> 02:02.230
+I could take to 180 like that.
+
+02:03.060 --> 02:08.000
+And then maybe this one over here I could take back to zero.
+
+02:08.490 --> 02:11.450
+And this one over here maybe to zero.
+
+02:11.520 --> 02:18.790
+So that's just a quick way to provide a little bit of differentiation between each of those objects.
+
+02:18.980 --> 02:20.980
+Let's take a look at this back wall.
+
+02:20.990 --> 02:23.180
+What are we going to do with this.
+
+02:23.180 --> 02:28.130
+I thought it might be kind of fun to try and put some hieroglyphics on it.
+
+02:28.160 --> 02:33.240
+I did find an image out on the Internet with hieroglyphics.
+
+02:33.410 --> 02:41.260
+Let's go to the U-V editing view here and I'll go ahead and isolate that back wall.
+
+02:41.590 --> 02:46.600
+And if I go to Edit mode you can see that it's just one big plane.
+
+02:46.720 --> 02:56.020
+I'm going to go ahead and export this out go to Uvas an export U.V. layout and I'll export it as 2048
+
+02:56.050 --> 03:01.110
+because that's going to be fairly prominent in our scene and in the images folder.
+
+03:01.150 --> 03:05.970
+Go ahead and call this back wall.
+
+03:06.230 --> 03:08.750
+UVA's.
+
+03:09.130 --> 03:12.740
+And then in Ganpat go ahead and open that up.
+
+03:12.820 --> 03:15.920
+There they are back wall Uvas.
+
+03:16.000 --> 03:24.010
+So the first thing I'll do is open up that sandstone seamless that we have in our textures folder here
+
+03:27.050 --> 03:32.440
+and that's going to need to go right on top of here.
+
+03:34.250 --> 03:49.120
+Click new lair to anchor that and let's go ahead and scale it down.
+
+03:49.270 --> 03:52.490
+I'll drag that layer down to.
+
+03:52.590 --> 03:55.200
+So it's beneath the Uvas
+
+04:05.600 --> 04:10.890
+and I'll duplicate the layer and move that over
+
+04:22.420 --> 04:26.750
+now I'll open up those hieroglyphics and let's see how those work
+
+04:32.510 --> 04:37.670
+I'll copy those and paste those into here as well.
+
+04:37.710 --> 04:38.050
+Click.
+
+04:38.050 --> 04:39.690
+New Layer.
+
+04:39.710 --> 04:45.440
+Bring this down beneath the movies scale it down.
+
+04:50.180 --> 04:51.050
+All right.
+
+04:51.050 --> 04:52.690
+So I've got those in place.
+
+04:52.700 --> 04:59.200
+I think I need to take the opacity down on both of these quite a bit.
+
+05:00.630 --> 05:09.710
+And let's see if we can play with the blend mode here maybe let's try an overlay again.
+
+05:10.950 --> 05:12.600
+No I don't like that.
+
+05:13.730 --> 05:15.100
+Oh how about the dissolve.
+
+05:15.100 --> 05:16.180
+That's not bad.
+
+05:17.300 --> 05:25.850
+Let's try dissolve on both of these and then I'll bring the opacity down a little more and then what
+
+05:25.850 --> 05:35.260
+I'll do is I'll use the erase tool at a fairly low opacity come in here and just erase some of this
+
+05:36.360 --> 05:39.940
+for these.
+
+05:39.940 --> 05:40.230
+All right.
+
+05:40.240 --> 05:43.300
+Let's go and save this out and see how it works.
+
+05:43.330 --> 05:45.490
+I'll go to a file export.
+
+05:45.910 --> 05:48.330
+Put it in the textures folder.
+
+05:48.340 --> 05:51.120
+We'll call this back wall color
+
+05:54.210 --> 05:55.650
+and back in Blender.
+
+05:55.650 --> 05:58.420
+Let's go ahead and hook it up to our material.
+
+05:58.620 --> 06:12.600
+So shift a input texture coordinate shift a texture image texture and let's hook these up and go to
+
+06:12.610 --> 06:25.710
+Open to find that texture choose the back wall and then we go so let's see how it looks in the scene
+
+06:25.710 --> 06:26.200
+here.
+
+06:28.740 --> 06:30.250
+Well that's not too bad.
+
+06:30.480 --> 06:35.240
+Good or rendered viewport shading.
+
+06:35.420 --> 06:38.250
+And now everything is very dark.
+
+06:39.080 --> 06:44.780
+I think we're going to need to go through and adjust the color for each one of these maybe make them
+
+06:44.780 --> 06:47.630
+a little bit brighter.
+
+06:47.650 --> 06:59.340
+So what we can do is let's go over here to the compositing screen layout and I will for this viewport
+
+06:59.350 --> 07:09.770
+right here I'll press the 08 key to go to the camera view and go to the materials nodes over here.
+
+07:10.730 --> 07:14.810
+I'll swing this out and go over to the materials panel here as well.
+
+07:16.450 --> 07:27.400
+And I'll take this to rendered viewport shading here so we can kind of see the rendered view as well
+
+07:27.430 --> 07:29.480
+as the node editor.
+
+07:29.740 --> 07:36.130
+First of all for this wall I'm going to spread these nodes out a bit and what I want to do is add a
+
+07:36.130 --> 07:43.040
+node just after the image texture that allows me to adjust the color a bit.
+
+07:43.390 --> 07:48.990
+So to do that I'm going to press shift a and go to color and I'll choose this.
+
+07:49.110 --> 07:51.230
+RGV curves node.
+
+07:51.580 --> 07:59.710
+And that's this no I can drop it right in between those two and it'll hook it up automatically.
+
+07:59.800 --> 08:08.260
+And what this node will do is it allows you to adjust the curves for the red green and blue or all of
+
+08:08.260 --> 08:09.250
+them combined.
+
+08:09.250 --> 08:16.630
+And for me I think it's easiest to just work with them all combined and you can click in this view and
+
+08:16.660 --> 08:24.780
+add a point on the curve and that point on the curve will allow you to drag it up or down.
+
+08:24.880 --> 08:30.780
+And if you drag it up on this side it'll lighten up the color for that particular object.
+
+08:30.850 --> 08:35.880
+And if you drag it down over on this side it'll make it darker.
+
+08:35.890 --> 08:43.980
+So this is just an easy way to kind of adjust the brightness or the color of a texture song.
+
+08:43.990 --> 08:45.540
+Bring this up here.
+
+08:46.390 --> 08:48.200
+Lighten that up a bit.
+
+08:48.640 --> 08:54.030
+Once again you can hear the fan in my computer kick in as it tries to render this out.
+
+08:54.490 --> 08:56.260
+Let's try one of the pillars here.
+
+08:58.320 --> 09:04.360
+So for this one it looks like the color texture is here.
+
+09:04.440 --> 09:09.980
+So I think I could add a R.G. B curves node right in here.
+
+09:10.020 --> 09:13.210
+Press shift a color.
+
+09:13.440 --> 09:16.570
+RGV curves and drop that right in here.
+
+09:18.140 --> 09:24.690
+And now I can add a point and pull it up here.
+
+09:26.090 --> 09:29.210
+That should brighten those up just a bit.
+
+09:29.780 --> 09:31.440
+Let's do that for the floor.
+
+09:34.460 --> 09:44.110
+Here's our color Noad press shift day color R.G. B curves and drop it in and I'll try and brighten that
+
+09:44.110 --> 09:44.850
+up a bit.
+
+09:47.440 --> 09:49.320
+Maybe the ceiling as well.
+
+09:57.000 --> 10:11.720
+And the beams.
+
+10:11.870 --> 10:18.190
+So now for any one of these objects I have a lot more control over the color through this R.G. B curves
+
+10:18.290 --> 10:22.320
+node Well we're coming along.
+
+10:22.560 --> 10:24.020
+The textures are looking pretty good.
+
+10:24.020 --> 10:31.330
+There are some things I think I wouldn't mind working a little more on like the cliff rock part of the
+
+10:31.350 --> 10:33.330
+hole in the ceiling.
+
+10:33.330 --> 10:37.580
+I think I need to do a little bit more with the back wall.
+
+10:37.590 --> 10:43.650
+I don't really see the hieroglyphics too much and I may want to work on differentiating the colors of
+
+10:43.650 --> 10:49.050
+the beams and the ceiling a bit but overall I think it's coming together.

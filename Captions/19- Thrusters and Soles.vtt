@@ -1,0 +1,430 @@
+WEBVTT
+
+00:00.810 --> 00:03.510
+Well we're getting close to finishing the MEK here.
+
+00:03.530 --> 00:06.080
+But there are a couple of things that we should do.
+
+00:06.600 --> 00:14.820
+I think first of all I'm going to create a couple of rocket boosters on the bottom of the jet pack here.
+
+00:15.060 --> 00:19.650
+But as I'm looking at this I'm beginning to see a problem here.
+
+00:19.650 --> 00:21.320
+Let me show you what I mean.
+
+00:21.390 --> 00:29.480
+See these pinching little areas that are kind of pinching that tells me that there's a problem there.
+
+00:29.850 --> 00:35.400
+If we tap into edit mode you can see yeah look at these edges.
+
+00:35.400 --> 00:39.460
+How they're being pulled down to these points.
+
+00:39.810 --> 00:50.100
+And if I go into the modifiers tab and just turn off the display modifier here you can see that we can't
+
+00:50.100 --> 00:52.910
+really see any problem here per se.
+
+00:53.400 --> 00:59.210
+Only when you turn on the subdivision surface modifier do we see a problem.
+
+00:59.400 --> 01:07.890
+And that's actually a pretty good way to test a mesh especially if you've mirrored it and then sealed
+
+01:07.890 --> 01:14.490
+it back up the subdivision surface modifier is just a good way to test and make sure that all the points
+
+01:14.490 --> 01:17.010
+have been merged together.
+
+01:17.010 --> 01:19.410
+So for this we can see that they have it.
+
+01:19.460 --> 01:20.670
+There's a problem.
+
+01:20.670 --> 01:27.960
+And when you see something like this your first instinct may be to go straight to these points and try
+
+01:27.960 --> 01:30.060
+and figure out what's wrong with these.
+
+01:30.300 --> 01:34.680
+But in reality it's this one between these two.
+
+01:34.860 --> 01:36.770
+That is the problem.
+
+01:36.900 --> 01:39.510
+And if we come in here let's take a look.
+
+01:39.540 --> 01:48.360
+My guess is is that this is a point that we've got two points here that aren't merged together.
+
+01:48.450 --> 01:49.960
+So what to do about that.
+
+01:50.190 --> 01:54.130
+Well I'm going to undo here to put these back the way they were.
+
+01:54.270 --> 01:58.510
+What we need to do is just merge them together so I'm going to select one.
+
+01:58.500 --> 02:05.110
+I've got one slug here and then I'm going to shift select the other one and then I'm going to press
+
+02:05.230 --> 02:15.710
+Allt m to bring up the merge menu and choose center and that will merge those two together and take
+
+02:15.710 --> 02:21.700
+away that tolling that was happening from the points on either side of that.
+
+02:21.720 --> 02:22.080
+All right.
+
+02:22.080 --> 02:28.700
+So we've cleaned that up a bit and we're going to need to split the body out again.
+
+02:28.770 --> 02:34.860
+You can see here that the shoulder hasn't been keeping up with what we've been doing on the shoulder
+
+02:34.950 --> 02:37.030
+on this side here.
+
+02:37.230 --> 02:45.060
+So we're going to have to ultimately split the body down the middle and re mirror it to get that information
+
+02:45.090 --> 02:46.230
+over here again.
+
+02:47.410 --> 02:53.700
+And when we do we'll make sure to look for problem points like that again.
+
+02:54.940 --> 02:55.310
+All right.
+
+02:55.330 --> 03:03.070
+So let's take a look at creating the rocket boosters here for this I think I just need a cylinder and
+
+03:03.070 --> 03:05.700
+I'm going to place it up in here.
+
+03:05.710 --> 03:14.220
+My idea is that he's got this jet pack that allows him to fly down into the environment.
+
+03:14.590 --> 03:17.890
+So the 3D cursor is in the center of the grid.
+
+03:17.890 --> 03:23.320
+Let's go ahead and go to the Create tab create a cylinder.
+
+03:23.500 --> 03:26.190
+Let's take a look at the settings here.
+
+03:26.410 --> 03:27.730
+I don't need 32.
+
+03:27.730 --> 03:30.300
+I'll take that down to 12 sides.
+
+03:30.310 --> 03:34.160
+And for the cap fill I don't need anything on it right now at all.
+
+03:35.160 --> 03:38.780
+So now I'll bring it up and place it.
+
+03:38.820 --> 03:46.360
+One good way to place an object like this is to actually see it in four different views.
+
+03:46.380 --> 03:53.610
+We bring this back down and I'm going to press control alt cue and that will bring up the quad view
+
+03:53.610 --> 03:54.400
+here.
+
+03:54.630 --> 04:01.380
+And also I'm going to press the T key to get rid of the Tools panel over here and now we can kind of
+
+04:01.380 --> 04:04.300
+get a better view of this.
+
+04:04.320 --> 04:12.130
+Now if I press the Z key I can really get a good sense of where this object is within my scene.
+
+04:12.330 --> 04:18.980
+So I'm going to move this up and hit the G key and move it up scale it down with the key.
+
+04:19.040 --> 04:21.440
+And I'm just going to move it into place here.
+
+04:21.690 --> 04:28.980
+Kind of looking at all of my views and sometimes this can really help speed things up.
+
+04:30.040 --> 04:30.400
+Right.
+
+04:30.400 --> 04:33.000
+I'm going to press the period key to zoom in here.
+
+04:33.880 --> 04:39.540
+And maybe zoom in here as well and I'll tumble around and see how I'm doing.
+
+04:40.450 --> 04:43.810
+So I think I want it kind of like this.
+
+04:44.860 --> 04:49.210
+But I'd like it scaled in a bit.
+
+04:49.210 --> 04:54.420
+I want it kind of oval like this.
+
+04:54.450 --> 05:01.870
+So now I'll press control alt cue again and that'll take me back to the perspective view and I'll tab
+
+05:01.890 --> 05:04.520
+into Edit Mode go to edges.
+
+05:05.670 --> 05:09.020
+Also like this edge and I'm going to scale this down just a little bit.
+
+05:09.030 --> 05:18.910
+So it's kind of funneled down and I think that's what I'm looking for something kind of like this.
+
+05:18.950 --> 05:26.360
+Now for the insides I'll just grab this edge now and I'm going to hit the key and click and then hit
+
+05:26.360 --> 05:36.370
+the s key and scale in the key again and click and go to my move tool and move it up a bit scaled down
+
+05:36.410 --> 05:41.760
+a tad and then the e again scale in.
+
+05:42.130 --> 05:49.180
+And now I want to connect these I'll hit the key one more time and click and then I'll press alt M and
+
+05:49.180 --> 05:54.780
+merge at the center and that will collapse all of those down into a single point.
+
+05:54.970 --> 05:57.320
+So now you can't see up into it.
+
+05:57.340 --> 06:03.250
+I don't think we're ever going to be looking up into this like this but that'll just ensure that if
+
+06:03.250 --> 06:06.470
+we do we won't see anything up in there.
+
+06:06.580 --> 06:10.680
+Now I think I'll go ahead and add a subdivision surface modifier to it.
+
+06:13.790 --> 06:22.430
+And I'll turn on the page here increased the subdivisions to two in the viewport I'll come back to the
+
+06:22.430 --> 06:31.260
+tool shelf here and click smooth shading and we go all turn off this cage here.
+
+06:31.990 --> 06:35.160
+So we can see it a little better in edit mode.
+
+06:35.170 --> 06:36.220
+What's happening.
+
+06:37.640 --> 06:46.360
+And here's where I'll go ahead and begin adding a few edge loops I'll add one here and bring it down.
+
+06:48.690 --> 06:56.320
+And maybe I'll add two along the rim here with the scroll wheel.
+
+06:56.390 --> 07:00.560
+So now add a couple in here as well.
+
+07:02.940 --> 07:07.890
+And maybe one in here that I can scale out
+
+07:13.000 --> 07:14.180
+something like that.
+
+07:15.790 --> 07:18.640
+And now I'm just going to duplicate it and move it over.
+
+07:18.640 --> 07:25.040
+Let me go to the properties panel with the key and I'm going to scroll up here.
+
+07:25.420 --> 07:30.400
+So what I'm going to do is actually copy this I'm going to select it and I'm going to press commander
+
+07:30.430 --> 07:41.840
+control to copy and then I'll come back out here and duplicate this with Shiff D and click and I'm going
+
+07:41.840 --> 07:43.300
+to move it over.
+
+07:43.460 --> 07:54.470
+And now I can type in negative and command or control V to paste and that'll place it the same distance
+
+07:54.470 --> 07:58.230
+from the center that the other one was.
+
+07:58.490 --> 08:00.170
+So let's see how that looks.
+
+08:01.620 --> 08:02.570
+I feel like I need it.
+
+08:02.580 --> 08:04.530
+I feel like they need to be a little bit bigger.
+
+08:04.560 --> 08:06.550
+I'm going to try this again.
+
+08:06.600 --> 08:14.640
+I'm going to scale this this way now like they need a little bit bigger to support the weight of this
+
+08:14.640 --> 08:16.080
+big thing here.
+
+08:16.460 --> 08:17.240
+Something like that
+
+08:20.290 --> 08:24.980
+negative commander control V and enter.
+
+08:25.300 --> 08:28.880
+And that will paste that information into that field.
+
+08:29.110 --> 08:32.690
+So now we have our jet pack for the Mac.
+
+08:32.710 --> 08:36.350
+Let's see how that works as we move forward.
+
+08:36.370 --> 08:47.310
+I think I'll go ahead and name these maybe Jet 1 and jet to.
+
+08:47.380 --> 08:53.950
+I also had the thought of putting little rubber strips on the bottom of his shoes here.
+
+08:53.980 --> 08:56.520
+I don't know why I just think and be kind and cool.
+
+08:56.860 --> 09:05.070
+So I'm going to select one of these and maybe select a point that I can snap the cursor to here.
+
+09:06.520 --> 09:17.460
+Shift Yes cursor to selected then I'll just go to the Create tab and create cube and that will pop into
+
+09:17.480 --> 09:18.480
+there.
+
+09:18.500 --> 09:19.820
+I'll scale it down.
+
+09:20.950 --> 09:30.160
+And I just want to scale this so it's kind of a flat thin piece kind of like this.
+
+09:30.550 --> 09:37.870
+I'm going to press the seven key to go to the top view but I can't see it there so I can actually press
+
+09:37.870 --> 09:44.050
+control 7 to look at it from the bottom view.
+
+09:44.080 --> 09:44.800
+So there we go.
+
+09:44.800 --> 09:48.040
+That's control 7.
+
+09:48.070 --> 09:48.330
+All right.
+
+09:48.340 --> 09:55.370
+So I'm going to place these I'm going to scale this and move this down here like this.
+
+09:56.620 --> 10:02.930
+And I'm going to press the five key to go to orthographic view.
+
+10:03.540 --> 10:11.500
+And so now I can see exactly how big this is in comparison to the foot and kind of want it to be like
+
+10:11.500 --> 10:12.000
+that
+
+10:15.150 --> 10:17.530
+something like this.
+
+10:17.600 --> 10:22.900
+And now I think I'd like to delete the face on top.
+
+10:22.900 --> 10:26.050
+I won't need that.
+
+10:26.090 --> 10:32.660
+I'm going to go ahead and add a subdivision surface modifier to see how it looks and it looks pretty
+
+10:32.660 --> 10:33.390
+terrible.
+
+10:33.510 --> 10:41.360
+If I tab into edit mode and increase the views to two I'll smooth it in object mode.
+
+10:41.360 --> 10:46.340
+I've got to go to object mode to smooth the shading here.
+
+10:46.340 --> 10:54.530
+Now back in edit mode let's see how this works let me close this properties panel and I will insert
+
+10:54.590 --> 11:02.290
+an edge loop here and I'm going to scroll the mouse wheel to create two and then click twice and I'm
+
+11:02.290 --> 11:10.820
+going to go to this scale tool and scale these out like that and I'll do that again the other way like
+
+11:10.910 --> 11:13.590
+this and scale those out.
+
+11:15.810 --> 11:19.020
+So I should have something like that.
+
+11:19.170 --> 11:23.530
+Now I can insert this back up into the foot.
+
+11:23.580 --> 11:28.510
+I'm thinking this is going to be like a gray or black rubber substance.
+
+11:28.950 --> 11:37.080
+And from here I'll press control seven again and the five key and now I can press shift D and duplicate
+
+11:37.080 --> 11:39.290
+these as I need
+
+11:43.810 --> 11:50.990
+and maybe I'll do one down here that's kind of smaller so I'll take this down here and scale it down
+
+11:51.990 --> 11:55.440
+to take one of these and duplicated up here.
+
+11:58.010 --> 12:02.700
+So I'm just trying to add a little detail and interest to the bottom of the feet.
+
+12:02.720 --> 12:07.640
+I think we may see the bottom of the feet as he comes down into the environment.
+
+12:11.700 --> 12:12.270
+There we go.
+
+12:12.270 --> 12:15.550
+So now we've got those pieces on the bottom of the foot.
+
+12:15.720 --> 12:21.440
+Ultimately we'll need to join these together into a single object for the wheel here.
+
+12:21.660 --> 12:23.650
+And for the toe.
+
+12:23.880 --> 12:25.930
+But for right now that's pretty good.

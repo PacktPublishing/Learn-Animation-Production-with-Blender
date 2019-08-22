@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.660 --> 00:07.500
+For the lighting in our scene I would like to use volumetric lighting and what that means is that we'll
+
+00:07.500 --> 00:12.930
+be able to see the cones of light in the scene as they're shining through.
+
+00:12.930 --> 00:17.670
+So I've got this light up here shining down to the ceiling.
+
+00:17.670 --> 00:24.870
+If I go over to the rendered viewport shading and let that render for a minute we can see that we've
+
+00:24.870 --> 00:27.130
+got the light coming down through the ceiling.
+
+00:27.270 --> 00:33.900
+We can see the light down here on the floor and we've got a bit of bounce light happening in the room
+
+00:33.900 --> 00:41.970
+too but we can't see that cone of light and I'd really like to have that here in the scene so to do
+
+00:41.970 --> 00:44.890
+that we need to turn on volumetric lighting.
+
+00:44.980 --> 00:53.460
+I'm going to come over here to the world panel and under here I want to go to surface now yours may
+
+00:53.460 --> 00:58.110
+say use nodes and if it does go ahead and click on that.
+
+00:58.170 --> 01:03.360
+Now if you click on used nodes you'll get a surface of background here.
+
+01:03.360 --> 01:05.110
+I'll go ahead and choose that.
+
+01:05.220 --> 01:09.110
+Now when I do it it brings in a white color.
+
+01:09.180 --> 01:13.080
+Yours may be kind of middle gray and that's fine.
+
+01:13.080 --> 01:17.930
+In fact I think I'm going to bring mine down to kind of a middle gray as well.
+
+01:18.330 --> 01:26.400
+And then down here in the volume section you need to click on this and select volume scatter and that
+
+01:26.400 --> 01:30.790
+will give us our volumetric lighting and you may be asking.
+
+01:30.810 --> 01:32.070
+It doesn't look very good.
+
+01:32.100 --> 01:33.550
+Well no it doesn't.
+
+01:33.550 --> 01:37.560
+We need to take the density down quite a bit.
+
+01:37.650 --> 01:46.680
+So instead of 1.0 Let's take it down to point 0 1 and let's see how that looks a little bit better.
+
+01:47.010 --> 01:51.570
+Let's also take the ambient occlusion factor to point 0 2.
+
+01:51.570 --> 01:55.710
+Let's try that and you may be able to hear the fan in my computer.
+
+01:55.710 --> 01:59.370
+Click on now that it's trying to render out the scene.
+
+01:59.430 --> 02:08.070
+So now I'm just beginning to see the faintest outline of a light cone here that's the volume of light
+
+02:08.100 --> 02:10.110
+that we're trying to go for.
+
+02:10.200 --> 02:18.690
+So now it's a matter of adjusting your settings to the way you want it so you can maybe adjust the color
+
+02:18.690 --> 02:21.490
+of the background up a bit.
+
+02:21.600 --> 02:27.890
+You could take the density of this from point 0 1 maybe to point to.
+
+02:27.960 --> 02:32.500
+You could then bring up the ambient occlusion from point 0 to two.
+
+02:32.520 --> 02:32.820
+I don't know.
+
+02:32.820 --> 02:36.060
+Point five something like that.
+
+02:36.180 --> 02:39.370
+And it's kind of a balancing act.
+
+02:39.390 --> 02:45.400
+In addition you could go in and increase the intensity of the light itself.
+
+02:45.750 --> 02:52.280
+So there's a lot of ways you can do this but ultimately we want some balance of these settings.
+
+02:52.380 --> 02:57.840
+That gives us that volume of light coming down through the ceiling.
+
+02:57.870 --> 03:03.510
+I'll go ahead and try and increase the strength of the light here I'm going to go ahead and turn this
+
+03:03.600 --> 03:05.280
+up just a bit.
+
+03:05.280 --> 03:06.560
+See what happens.
+
+03:07.620 --> 03:10.460
+So as I said it's a balancing act.
+
+03:10.500 --> 03:15.660
+Use these various settings to come up with the effect that you're looking for.

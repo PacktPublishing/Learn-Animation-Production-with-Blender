@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.610 --> 00:06.970
+All right we've got the body and the cockpit and the jet pack U-V mapped so far.
+
+00:07.420 --> 00:09.790
+Let's work on the arms and the legs.
+
+00:09.790 --> 00:17.770
+If I select an arm here you can see that it's mirrored over what I think we should do is go ahead and
+
+00:17.770 --> 00:23.830
+delete this a mere modifier and let's just work on one side for now.
+
+00:23.830 --> 00:29.320
+So with that selected I will go to the U-V editing lay out.
+
+00:29.500 --> 00:35.300
+I will isolate it frame it up and I'll go into edit mode.
+
+00:35.350 --> 00:42.080
+And what I'm going to do is hover over this piece and press the key and then I'll press shift.
+
+00:42.100 --> 00:46.860
+H to hide everything else and then I can frame this up right here.
+
+00:46.930 --> 00:55.120
+So I think I just need to select this one edge and create a seam for this and then select everything
+
+00:55.120 --> 01:00.580
+here and press you and unwrap and that's not too bad.
+
+01:00.650 --> 01:03.290
+Let me add checker pattern to it.
+
+01:04.110 --> 01:05.530
+Yeah that's pretty good.
+
+01:05.700 --> 01:09.330
+So I'll press alt h to bring everything back.
+
+01:09.420 --> 01:18.570
+Let's select this one here with the key press shift h to hide it all the unselected and then I'll come
+
+01:18.570 --> 01:32.480
+back in here and maybe I'll take this edge here and create a seam and then unwrap this.
+
+01:32.580 --> 01:35.120
+All right let's try conformal.
+
+01:35.130 --> 01:36.590
+Let's see what happens here.
+
+01:37.770 --> 01:40.600
+Yeah that's a little better I think.
+
+01:40.600 --> 01:43.030
+And I'll work on the legs here.
+
+01:43.030 --> 01:48.780
+Now the legs I think as well have a mere modifier on them still.
+
+01:48.890 --> 01:53.920
+Well go ahead and turn that off and just work on one side for now.
+
+01:54.160 --> 02:06.060
+So I will go into the U-V editing screen lay out isolate it like this edge and Mark ISim and then I
+
+02:06.060 --> 02:11.850
+can press the L key to selected you and unwrap.
+
+02:11.850 --> 02:19.630
+Now this one looks a little odd so maybe I'll switch it to conformal Let's see how that works.
+
+02:19.700 --> 02:23.150
+No it looks a little strange.
+
+02:23.150 --> 02:25.100
+Let's add a checker pattern to it.
+
+02:26.400 --> 02:28.210
+Yeah that looks very strange.
+
+02:28.440 --> 02:31.050
+Let's check if we need to apply the scale.
+
+02:31.230 --> 02:34.590
+So press in and it looks like we could.
+
+02:34.620 --> 02:41.680
+Let's try it with a press control a and apply the scale and then I'm going to come back into here.
+
+02:41.970 --> 02:46.460
+Select that one press you and unwrap.
+
+02:46.680 --> 02:49.770
+That looks quite a bit better.
+
+02:49.770 --> 02:52.090
+All right let's try the one down here.
+
+02:52.530 --> 03:00.050
+I will create a seam on the inside of the leg and then select this with the L key.
+
+03:00.120 --> 03:05.630
+You and unwrap and that looks pretty good.
+
+03:07.200 --> 03:10.000
+And then the feet down here.
+
+03:10.050 --> 03:12.740
+Let's select this edge.
+
+03:12.990 --> 03:15.710
+Or maybe there's another edge in here I can select
+
+03:18.850 --> 03:28.360
+there's one there so I'll go ahead and Marcus seem in there and maybe I'll split out the bottom of the
+
+03:28.720 --> 03:29.960
+heel here.
+
+03:30.670 --> 03:36.100
+I like this control easy and Mark seam and let's see how that works.
+
+03:36.110 --> 03:36.690
+I don't know.
+
+03:36.710 --> 03:39.060
+That might just work.
+
+03:39.170 --> 03:40.700
+Select it with the L key.
+
+03:41.790 --> 03:51.300
+You and unwrap not too bad kind of like the angle based.
+
+03:51.350 --> 03:52.440
+That works pretty well.
+
+03:52.700 --> 03:54.170
+I'll take it.
+
+03:54.290 --> 03:55.010
+All right.
+
+03:55.580 --> 03:57.870
+Let's work on this one here.
+
+03:58.460 --> 04:02.310
+Let's try selecting this edge.
+
+04:02.480 --> 04:09.080
+And also this edge around the bottom and I'll de-selected these
+
+04:12.020 --> 04:17.820
+like that let's mark those edges as seams.
+
+04:17.820 --> 04:24.090
+Select this with the L key and you and unwrap that too looks pretty good.
+
+04:24.090 --> 04:31.470
+I'll try conformal or angle based not much of a difference there.
+
+04:32.940 --> 04:42.000
+So we have the arms and the legs you ve mapped or go ahead and just add a mirror modifier back to each
+
+04:42.000 --> 04:45.440
+of these that.
+
+04:45.680 --> 04:53.690
+And there's this I think I may want to U-V map these because maybe they'll have some sort of dirt or
+
+04:53.690 --> 04:58.250
+burn stains on them from being jet thrusters.
+
+04:58.250 --> 04:58.880
+I don't know.
+
+04:58.910 --> 05:02.490
+I'm not sure but I'll go ahead and do it.
+
+05:02.600 --> 05:05.770
+So I'm going to go back to the U-V editing lay out.
+
+05:06.030 --> 05:15.210
+I will bring everything back here and I'll say like this one jetpack isolate it go to Edit mode.
+
+05:15.220 --> 05:30.580
+And I think I can put an edge down here in the back maybe one here and in here and de-select these along
+
+05:30.580 --> 05:32.050
+the bottom.
+
+05:32.050 --> 05:43.440
+So I will mark the seam select everything you and unwrap let's add the checker material and see.
+
+05:43.870 --> 05:46.370
+I'll delete this one again.
+
+05:46.810 --> 05:59.220
+Take this one duplicate it click and just put a negative in front of the value here and then we go.
+
+05:59.490 --> 06:05.190
+So what I'd like to do is kind of a strange thing I'm going to combine this whole thing together once
+
+06:05.190 --> 06:10.980
+or at least the parts that I've U-V mapped and I'm going to combine it all into one object.
+
+06:11.040 --> 06:20.640
+And then what I'll do is use average Island scales and pack islands to arrange the movies and then I'm
+
+06:20.640 --> 06:25.040
+going to break the pieces apart again into their individual components.
+
+06:25.050 --> 06:30.840
+And that so that I can have all of the pieces of the mech on one U-V map.
+
+06:30.840 --> 06:39.640
+So what I'll do first is go ahead and apply the mirror modifiers I'll just apply this and I'll apply
+
+06:39.640 --> 06:40.780
+this here.
+
+06:42.320 --> 06:45.950
+So I'll select everything that's been U-V mapped
+
+06:48.600 --> 06:54.410
+the jet pack the thrusters and here we go.
+
+06:54.410 --> 07:00.050
+So I've got them all selected I'm going to go back to the U-V editors so we can see this and what I'm
+
+07:00.050 --> 07:02.260
+going to do is press control J.
+
+07:02.950 --> 07:05.430
+And that combines everything into one object.
+
+07:05.450 --> 07:16.190
+And now when I go into edit mode you can see all of the movies overlapping each other and that's ugly.
+
+07:16.190 --> 07:17.470
+We don't want that.
+
+07:17.840 --> 07:24.380
+So what I can do now with all of these selected over here I can press control a and that will average
+
+07:24.470 --> 07:31.940
+Island scale that will scale all the islands to be in proportion with the 3D model.
+
+07:31.940 --> 07:37.610
+And then I can press control P and pack them all in to this zero to one space.
+
+07:37.880 --> 07:39.260
+So that looks pretty good.
+
+07:40.310 --> 07:46.910
+All right so now that they're all there like that what I can do is I can break them apart now as I need
+
+07:46.910 --> 07:50.100
+to when we begin rigging the Mac.
+
+07:50.150 --> 07:51.300
+And that kind of thing.
+
+07:51.560 --> 07:55.070
+But for now our Mac has been U-V Matt.

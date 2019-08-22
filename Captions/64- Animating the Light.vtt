@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00.910 --> 00:05.680
+All right so I'm thinking the light should come on right about here.
+
+00:05.850 --> 00:14.610
+And so yeah if it came on right here and then he turned now the light could swing over.
+
+00:14.610 --> 00:18.110
+Beginning at this point so many keyframe here.
+
+00:18.330 --> 00:22.650
+I'm going to press the key and select location because that's all we need.
+
+00:22.650 --> 00:27.840
+We're just adjusting the location of this control object.
+
+00:28.140 --> 00:36.030
+And then it's going to swing over like that may be right about here.
+
+00:36.050 --> 00:44.780
+So let me go to the top view now and wireframe the orthographic view.
+
+00:45.290 --> 00:52.730
+And so at this point in time it's got to swing over to where he's looking so like that
+
+00:56.520 --> 00:59.950
+OK let me go back.
+
+01:00.050 --> 01:06.660
+So it swings over like that and maybe down a bit let's have it go down.
+
+01:06.680 --> 01:07.790
+All right let's try that
+
+01:12.180 --> 01:13.340
+drops.
+
+01:13.500 --> 01:18.290
+Looks swings over and then swing back
+
+01:21.140 --> 01:29.600
+OK let's try that and it looks swings so I bet I could make this a little bit earlier here
+
+01:32.650 --> 01:38.350
+let me move this up a bit like this.
+
+01:39.960 --> 01:40.330
+All right.
+
+01:40.330 --> 01:44.710
+So he drops it comes on.
+
+01:44.710 --> 01:47.810
+Looks over there looks over here and then swings back.
+
+01:47.830 --> 01:48.870
+OK.
+
+01:48.880 --> 01:50.170
+So I think
+
+01:53.120 --> 01:57.660
+he looks over and he's going to have to start swinging that thing around.
+
+01:57.800 --> 01:59.010
+At this point.
+
+01:59.510 --> 02:01.890
+So the location should go there.
+
+02:02.980 --> 02:10.530
+So now I'm going to go back to the top you and wireframe and swing that back around over to the camera.
+
+02:10.730 --> 02:14.540
+At this point after he looks
+
+02:17.220 --> 02:23.230
+let's see anchor at and I want him to.
+
+02:23.260 --> 02:35.350
+So I think I want this keyframe to move to here and then we want to swing that around there.
+
+02:35.620 --> 02:37.130
+Let's try that.
+
+02:37.180 --> 02:41.440
+I want to put it right in front of the camera here.
+
+02:41.530 --> 02:44.890
+See row Z.
+
+02:45.310 --> 02:50.480
+Bring that down right in front of the camera so it's pointing right in your eyes.
+
+02:53.060 --> 02:53.770
+I like that
+
+02:58.420 --> 02:58.690
+all right.
+
+02:58.690 --> 02:59.410
+Let's try that
+
+03:08.280 --> 03:08.800
+all right.
+
+03:08.820 --> 03:10.320
+So that's not bad.
+
+03:10.320 --> 03:12.590
+I think it needs to be quicker though.
+
+03:12.810 --> 03:15.210
+Used to really whip around
+
+03:25.760 --> 03:28.310
+so something like this.
+
+03:28.310 --> 03:30.950
+Right around 300 I'm going to put it.
+
+03:31.080 --> 03:42.580
+Move that keyframe over and let's try this at play so he drops like comes on swish over there and move
+
+03:42.580 --> 03:43.500
+it over here.
+
+03:44.640 --> 03:45.880
+It's not bad.
+
+03:45.890 --> 03:48.880
+Drop light comes on.
+
+03:48.910 --> 03:50.110
+Look over there.
+
+03:50.380 --> 03:51.420
+Look over here.
+
+03:52.570 --> 03:53.950
+Yeah I think we're getting there.
+
+03:53.950 --> 03:58.200
+Let's take a look at it one more time from the very beginning.
+
+03:58.630 --> 04:05.270
+So I'll take this down to one and this is at 360 that's fine.
+
+04:08.920 --> 04:18.230
+And our press control up arrow to make this full screen and now it's hit Control A and play it.
+
+04:18.270 --> 04:23.460
+So he drops their and they're
+
+04:26.250 --> 04:35.250
+all right so here's the whole thing he drops down moves forward turns off his thrusters.
+
+04:35.250 --> 04:40.600
+Looks over there and then looks over here and then that's the end.
+
+04:41.130 --> 04:50.410
+So I think what I will do is take a little bit and make a pass for the fingers and final touches.
+
+04:50.820 --> 04:56.700
+But I think after that we'll be ready to begin the final setup of the lights in the scene.

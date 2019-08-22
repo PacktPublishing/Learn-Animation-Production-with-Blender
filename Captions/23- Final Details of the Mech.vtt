@@ -1,0 +1,370 @@
+WEBVTT
+
+00:00.810 --> 00:06.570
+To finish up the mess let's just go ahead and Mir over the arms and the leg.
+
+00:07.110 --> 00:12.450
+I think I'll go ahead and combine this whole leg together again to measure it over.
+
+00:12.450 --> 00:17.760
+We're going to be combining And breaking this whole thing up several times as we go through the process
+
+00:17.760 --> 00:21.480
+of U-V mapping rigging things like that.
+
+00:21.480 --> 00:24.400
+So I'm not going to worry too much about it at this point.
+
+00:24.480 --> 00:28.050
+I'm just going to go ahead and combine these with control J.
+
+00:28.230 --> 00:36.690
+And then I will set the origin to the 3D cursor and hopefully that will allow me to add a mirror modifier
+
+00:36.690 --> 00:39.620
+here and mirror that over.
+
+00:40.080 --> 00:42.080
+So I'll do the same thing for the arm.
+
+00:42.090 --> 00:47.280
+I'll do the upper arm lower arm and the hand sphere here.
+
+00:47.530 --> 00:54.810
+All combine all those with control J and set the origin to the 3D cursor and add a mirror modifier for
+
+00:54.810 --> 00:56.320
+that as well.
+
+00:56.790 --> 01:02.640
+And now the reason why I didn't combine the fingers with the rest of the arm is that these are the only
+
+01:02.640 --> 01:04.780
+pieces that aren't smooth.
+
+01:04.980 --> 01:11.170
+I could go in and smooth each one of these but I kind of like them being unsmooth.
+
+01:11.430 --> 01:20.010
+So I don't want to combine this combine these with objects that are smooth because they'll then pick
+
+01:20.010 --> 01:24.240
+up the subdivisions surface modifier as well.
+
+01:24.240 --> 01:30.510
+So if I'm to keep them I'm smoothed I'm going to have to keep them as their own objects.
+
+01:30.960 --> 01:37.160
+But for now I'll select all of them I'll press control J to combine them into one object.
+
+01:37.230 --> 01:44.760
+I'll take the origin and put it to the 3D cursor and then add the mirror modifier and that will not
+
+01:44.760 --> 01:47.630
+do as we'd hoped.
+
+01:48.060 --> 01:49.420
+So take a look at that.
+
+01:49.440 --> 01:58.290
+I think what we need to do is get rid of the mere modifier here and take a look at our rotation in the
+
+01:58.290 --> 02:06.630
+properties panel and sure enough we need to apply rotation to this so I want to press control a and
+
+02:06.630 --> 02:09.480
+apply rotation and scale.
+
+02:09.810 --> 02:17.340
+And now if we apply a mirror modifier to this they should pop over properly now.
+
+02:18.780 --> 02:24.720
+Another thing I just thought of is I might like to put some sort of a spotlight or something on the
+
+02:24.720 --> 02:34.530
+top of the body here simply because I think I might want to have a light shine off of him when he comes
+
+02:34.530 --> 02:36.310
+down into the environment.
+
+02:36.360 --> 02:37.040
+I'm not sure.
+
+02:37.050 --> 02:43.460
+But just in case that's the case I thought I'd give it a try.
+
+02:43.500 --> 02:46.090
+So I'm going to go to a brand new layer here.
+
+02:46.110 --> 02:55.920
+And I think I'll begin with a cylinder and I'll just give it 12 Sides this time
+
+02:58.570 --> 03:02.040
+and I'll use a triangle fan for the cap.
+
+03:02.040 --> 03:11.920
+Phil I'll go ahead and rotate it and bring up the properties panel with the key and type in 90 degrees
+
+03:11.920 --> 03:12.760
+here.
+
+03:13.180 --> 03:17.850
+So this is going to be the back part of the light.
+
+03:17.860 --> 03:27.840
+So if I move this up and I think I want it to be about like this I don't think I need these faces here
+
+03:28.430 --> 03:33.290
+so I'll select those and delete those.
+
+03:33.760 --> 03:40.610
+I think back here I'd like to select these faces and extrude them in so many hit the e key and then
+
+03:40.610 --> 03:53.320
+the S key and the E and push it in and again click n s and e and pull this part out about like that.
+
+03:53.480 --> 04:02.780
+I think I'm like every two faces here around the side something like this and I'll go ahead over to
+
+04:02.780 --> 04:13.320
+the tools tab and use this extrude region and I'll pull these out and I'll go ahead and add a subdivision
+
+04:13.320 --> 04:20.760
+surface modifier and see how it looks and I'll smooth it when I hit the tab key.
+
+04:20.760 --> 04:22.990
+We can kind of see what needs to be done here.
+
+04:23.150 --> 04:27.320
+I think all that really needs to be done is a couple of edge loops here.
+
+04:29.460 --> 04:34.490
+So maybe a couple along here.
+
+04:37.580 --> 04:40.800
+And maybe a couple in side here.
+
+04:43.070 --> 04:54.980
+That looks like we probably need a couple in here and we may also need a couple for each one of these
+
+04:54.980 --> 05:01.090
+here.
+
+05:01.330 --> 05:04.480
+All right so I have that piece.
+
+05:04.820 --> 05:15.320
+I'm going to select an edge along here and put the cursor to that selection and then I'll create another
+
+05:15.380 --> 05:16.970
+cylinder.
+
+05:17.130 --> 05:20.890
+And this time once again I'll rotate it 90 degrees.
+
+05:24.180 --> 05:28.350
+For this one I'll make it a little bigger.
+
+05:30.670 --> 05:32.310
+Kind of like this.
+
+05:33.350 --> 05:34.690
+Yeah something like that.
+
+05:35.820 --> 05:40.630
+I probably don't need these faces back here
+
+05:47.430 --> 05:51.160
+and I can delete those.
+
+05:51.670 --> 06:02.770
+And I think up here I just need to do some extruding again so easy to extrude click ass the pullback
+
+06:02.880 --> 06:07.100
+in and that should be good for now.
+
+06:08.540 --> 06:17.240
+For this one I think I'll take every other face and do the same kind of thing as I did on the previous
+
+06:17.240 --> 06:18.000
+piece.
+
+06:19.500 --> 06:29.380
+Just extrude out a bit and I'll also take these faces and maybe extrude those forward just to give it
+
+06:29.380 --> 06:30.720
+a little bit of interest.
+
+06:32.760 --> 06:34.280
+Something like that.
+
+06:36.340 --> 06:41.350
+This piece back here this edge should probably extrude in
+
+06:45.630 --> 06:49.890
+like so let's smooth it and see how it how it looks.
+
+06:49.890 --> 06:58.510
+I'm going to add a subdivision surface modifier smooth here and then begin adding a few more edge loops.
+
+06:58.510 --> 07:09.380
+So maybe for each one of these I'll add two and then each one of these I'll add two.
+
+07:09.390 --> 07:17.280
+Now I could have created the cylinder with more sides at the beginning but I didn't know really where
+
+07:17.280 --> 07:23.000
+I was going with it so that's ok.
+
+07:23.630 --> 07:38.310
+I should probably create a couple of edge loops here and scale these out so maybe one in here like that
+
+07:40.890 --> 07:45.130
+and then up here I could probably insert a couple this way.
+
+07:46.860 --> 07:49.360
+And maybe also a couple in here
+
+07:54.410 --> 07:57.360
+looks like I need to do a few in here
+
+08:00.820 --> 08:01.540
+like so
+
+08:05.830 --> 08:09.590
+and lastly I think what I'll do is select this vertex.
+
+08:09.600 --> 08:27.050
+Here Snap the cursor to it and I'll create a U-V sphere and I'll rotate it once again in the x 90 degrees.
+
+08:27.170 --> 08:33.680
+Scale it up a bit and I think what I want to do is delete half of this and then kind of flatten it.
+
+08:34.130 --> 08:36.320
+So I'll zoom in here.
+
+08:36.440 --> 08:45.860
+Pressed the three key the five key Z and then tab into edit mode and go to face mode and with the borders
+
+08:45.860 --> 08:52.270
+select tool I'll drag these and delete those with the x key.
+
+08:52.280 --> 09:00.750
+Now I can come back to object mode and scale this so it's a little bit flatter like that.
+
+09:00.770 --> 09:06.020
+Take a look at that and maybe move that back in here.
+
+09:07.590 --> 09:13.270
+And that'll be just the lens of the light.
+
+09:13.350 --> 09:18.290
+Looks like I need to push this back some like that.
+
+09:18.300 --> 09:18.990
+All right.
+
+09:18.990 --> 09:25.650
+So now I'm going to take all of these objects and press control J to combine them and I'll move them
+
+09:25.740 --> 09:34.720
+up and over just a bit I'm going to create a post or a stem for this to rest on.
+
+09:35.370 --> 09:49.350
+So to do that I will once again create a cylinder and scale this to shape.
+
+09:49.760 --> 09:53.270
+So I believe I'll delete the faces on the top and the bottom here
+
+09:57.060 --> 09:58.200
+so I don't need that.
+
+09:58.200 --> 10:05.400
+So when I smooth this it moves without me needing to insert edge loops.
+
+10:05.400 --> 10:13.390
+One last piece the little housing that'll hold the light on to the body of the Mac.
+
+10:13.610 --> 10:15.440
+I'll create a cylinder.
+
+10:16.110 --> 10:23.180
+And this time I'll choose nothing for the cap fill and I'll bring this up.
+
+10:24.490 --> 10:31.870
+Scale it in the z a bit and place it where it needs to go.
+
+10:32.320 --> 10:35.990
+And for this once again I'll just do some extruding and scaling.
+
+10:36.220 --> 10:48.160
+So I'll hit the key and click and scale in the key and click and move up and the scale in and this time
+
+10:48.160 --> 10:52.270
+I think I'm going to hit me and move down and then scale.
+
+10:52.290 --> 10:58.700
+And so it kind of collapses into that post all subdivided
+
+11:02.490 --> 11:13.120
+I'll smooth it and I'll add some edge loops to hold the edges.
+
+11:13.130 --> 11:20.910
+The only thing I think I need is a little socket or a ball for it to rotate at.
+
+11:20.930 --> 11:33.260
+I don't really have a place for it to rotate so I think what I'll do is move these points down here.
+
+11:38.240 --> 11:44.560
+Move the cursor to the selected points and create just a U-V sphere.
+
+11:46.050 --> 11:46.950
+All smooth that
+
+11:52.590 --> 11:55.600
+scale it down and move it into place.
+
+11:57.520 --> 12:01.330
+Just going to like that edge and kind of move it right up to that sphere.
+
+12:02.050 --> 12:08.520
+And then we go let's come combine everything with control J.
+
+12:09.400 --> 12:19.290
+Let's move the origin to the cursor and then let's see how it's going to fit on the Mac here.
+
+12:19.570 --> 12:21.220
+It's kind of big.
+
+12:21.370 --> 12:23.960
+We kind of expected that.
+
+12:24.180 --> 12:32.130
+But if I move it up and into place let's see how it looks and scale it down a bit.
+
+12:32.160 --> 12:32.520
+All right.
+
+12:32.520 --> 12:41.790
+So now what I'm going to do is grab these edges down here and just move them straight down into the
+
+12:42.120 --> 12:44.660
+body like that.
+
+12:44.670 --> 12:45.030
+All right.
+
+12:45.030 --> 12:46.470
+So let's see if that works.
+
+12:46.470 --> 12:55.430
+I'm not sure that that's going to work but it's something I had an idea and I thought I'd try it all
+
+12:55.430 --> 12:59.540
+rename it real quick and there we go.
+
+12:59.540 --> 13:02.660
+Looks like we have our Meck.
+
+13:03.410 --> 13:08.990
+So for now I think we can set this aside and begin working on our environment.

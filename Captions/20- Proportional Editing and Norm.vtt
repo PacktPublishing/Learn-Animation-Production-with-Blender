@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00.930 --> 00:10.890
+To create a rim or seal around this cockpit I think what I'll do is use a circle and then try the proportional
+
+00:10.890 --> 00:17.110
+editing tool to get it to mold to the shape of the body.
+
+00:17.130 --> 00:18.020
+So let's try that.
+
+00:18.030 --> 00:26.990
+I'm going to first select the cockpit and move the pivot point or the 3D cursor to that point.
+
+00:28.260 --> 00:35.250
+And then I'll create a circle over here on the Create tab and
+
+00:38.350 --> 00:47.170
+I'm going to go ahead and leave it at 32 sides here because we may need that amount of resolution to
+
+00:47.170 --> 00:50.590
+get it to bend in the way that we want.
+
+00:50.600 --> 00:59.810
+So let's try to at least go to the rotate tool and the side view and orthographic view with the five
+
+00:59.810 --> 01:07.400
+key I'm going to hit the period key on the numpad to zoom in and Z for wireframe.
+
+01:07.400 --> 01:14.870
+Now I want to just hit the Archey and rotate this until I get it about angled the way the cockpit is
+
+01:14.870 --> 01:19.440
+just approximately like that.
+
+01:19.440 --> 01:22.480
+Now I'm going to go to the front view and take a look at it here.
+
+01:22.770 --> 01:24.470
+I could scale it a bit.
+
+01:24.510 --> 01:25.590
+Let me do that.
+
+01:27.610 --> 01:35.260
+So now that I have the circle in place and roughly the right size I'm going to tab into Edit Mode go
+
+01:35.260 --> 01:47.160
+to vertex mode de-select them and if I took Say this point up here and began moving it back I'd have
+
+01:47.240 --> 01:54.990
+I'd be spending a lot of time moving all these back to fit the shape of the body.
+
+01:55.150 --> 01:57.640
+If I were doing it one by one here.
+
+01:57.910 --> 02:06.400
+So what I want to do is use this proportional editing tool down here and I can pull out this menu and
+
+02:06.400 --> 02:16.030
+I can choose enabled the shortcut key for this is the key on the keyboard so you can toggle proportional
+
+02:16.030 --> 02:18.610
+editing tool on and off with the key.
+
+02:19.120 --> 02:28.330
+And now if I I'm going to move up here if I hit the G key you can see that there's this circle around
+
+02:28.330 --> 02:28.910
+the point.
+
+02:28.930 --> 02:36.520
+And if I scroll the scroll wheel on the mouse it will increase and decrease the size.
+
+02:36.520 --> 02:43.990
+Now what this is is the circle of influence so in the center of the circle is the most influence for
+
+02:44.050 --> 02:46.410
+the move tool that I have selected here.
+
+02:46.510 --> 02:53.800
+Moving out toward the edge of the influence of this circle decreases so you can see if I move this it's
+
+02:54.130 --> 02:59.500
+moving it proportionally it's moving it at the point that's selected the most.
+
+02:59.500 --> 03:05.020
+And then as it moves out to the edge of the circle it's less and less influence.
+
+03:05.920 --> 03:14.660
+So with this I can begin to move these points back toward the body of the neck.
+
+03:14.850 --> 03:20.790
+Now I feel like I need to change the influence of this year so I'm going to hit the G key again and
+
+03:20.790 --> 03:24.270
+scroll the mouse wheel to make it a little bit bigger.
+
+03:24.420 --> 03:31.830
+And then click and now I can use my move manipulator to move this point with the proportional editing
+
+03:31.830 --> 03:41.020
+tool here so I can move it like that and go and I'll come down here and do the same for this point down
+
+03:41.020 --> 03:41.740
+here.
+
+03:42.700 --> 03:45.050
+And move it kind of like this.
+
+03:45.050 --> 03:53.230
+So I'm just kind of trying to get this so it lines up with the shape of the mech.
+
+03:53.240 --> 03:57.620
+Now I want to move my cursor back to the center it's kind of in the way here.
+
+03:57.740 --> 04:02.570
+I'm also going to use my border select to drag select some points here.
+
+04:02.570 --> 04:09.410
+Now the reason why I used the border select is to select both of these you can see there's two here
+
+04:10.940 --> 04:12.950
+I can de-select this one down here.
+
+04:12.950 --> 04:19.910
+Now go back to the side view I can move it in just a little bit.
+
+04:21.060 --> 04:24.140
+Hit the big key and drag a pare down here.
+
+04:27.210 --> 04:35.530
+And I'm trying to do is get the circle to line up with the basic shape of the body here that's all.
+
+04:35.530 --> 04:47.250
+So now what I'll do is just with it selected in Edge mode and you go to Edit Mode edge select all hit
+
+04:47.810 --> 04:56.670
+the key and click and then go back to the move tool and I'm just going to pull this back.
+
+04:57.160 --> 05:01.770
+Notice that I pulled back with the proportional editing tool.
+
+05:01.780 --> 05:03.820
+That's not going to help me.
+
+05:03.820 --> 05:11.250
+I need to disable the proportional editing tool to do that I can just hit the okey.
+
+05:11.510 --> 05:20.800
+So now if I pull down that should extrude out the circle and then if I select this edge again I'm going
+
+05:20.800 --> 05:23.220
+to hit the for extrude Aamna click.
+
+05:23.260 --> 05:25.960
+I'll press the s key and scale in some
+
+05:29.280 --> 05:36.830
+and then once again I'll hit the click and pull in.
+
+05:36.990 --> 05:44.480
+And one last time I'll hit the click and the ESC key and scale in.
+
+05:44.490 --> 05:51.450
+So now you may notice that this object is a little bit different color than all the rest.
+
+05:51.510 --> 05:54.110
+It's more of a bluish here I guess.
+
+05:54.360 --> 06:00.560
+But the reason why that is I believe is that the normals are facing the wrong way.
+
+06:00.810 --> 06:09.210
+And what I mean by that is that the polygons are flipped polygons have a front and a back and there
+
+06:09.210 --> 06:16.420
+is a line an imaginary line coming out of the front of every polygon that people call the normal.
+
+06:16.590 --> 06:22.150
+And it just dictates which is the front of a polygon and which is the back.
+
+06:22.170 --> 06:29.310
+Now to flip this what we need to do is tab into edit mode and I'm don't like all the faces then I'm
+
+06:29.310 --> 06:39.280
+going to go to control f and that's the faces menu and you can see up here at the top is flip normal's.
+
+06:39.300 --> 06:46.680
+And if we click that that will flip the polygon so that they are facing out so that the front of the
+
+06:46.680 --> 06:49.080
+polygons are facing toward us.
+
+06:49.260 --> 06:55.230
+And now you can see that the color of the object is a little bit more similar to the rest and that's
+
+06:55.230 --> 07:02.070
+just Blender's way of letting you know that a polygon is flipped and needs to be reversed so now that
+
+07:02.070 --> 07:08.240
+we have that I'm going to go in and change the name here or call this cockpit trim and.
+
+07:08.430 --> 07:17.590
+Let's go ahead and add a subdivision surface modifier and I will go ahead and add the views about 2
+
+07:18.250 --> 07:26.440
+and I can also under the Tools tab smooth the shading.
+
+07:26.440 --> 07:33.530
+So I think what I will do is maybe insert just one edge loop along here and see how that looks.
+
+07:36.270 --> 07:44.910
+And also I believe what I could do is take this edge that I pulled back into here and scale this up
+
+07:44.910 --> 07:51.480
+so it flares out a bit and we go.
+
+07:52.140 --> 07:59.120
+So that just helps clean off and finish the cockpit there just to give it some trim around there.
+
+07:59.190 --> 08:01.400
+So I think that helps.
+
+08:01.410 --> 08:07.440
+Another thing I'd like to do with the body here is to go ahead and delete half and measure it over again
+
+08:07.470 --> 08:16.380
+because the information on the shoulder over here the modeling information hasn't yet been duplicated
+
+08:16.380 --> 08:19.320
+over or mirrored over to the other side.
+
+08:19.350 --> 08:27.120
+So I think I just need to mirror that over so select the body press the division key on the keyboard
+
+08:27.120 --> 08:29.020
+here to isolate it.
+
+08:29.550 --> 08:38.960
+And I'm going to turn off the subdivision surface modifier for the time being and tab into edit mode.
+
+08:39.540 --> 08:46.750
+Go to face's wireframe front view and perspective.
+
+08:47.090 --> 08:53.570
+And I do all that just so I can see the polygons a little easier because what I want to do is go to
+
+08:53.570 --> 08:58.700
+the border select tool with the Beaky and click and drag and delete half.
+
+08:58.730 --> 09:02.650
+So I'll just take this and delete it.
+
+09:04.200 --> 09:06.070
+Delete faces.
+
+09:06.300 --> 09:12.180
+And now if I tab back into object mode let's see where the pivot point is.
+
+09:12.180 --> 09:12.720
+That's good.
+
+09:12.720 --> 09:21.080
+It's still down here at the center of the grid I'll now go ahead and add another modifier the mirror
+
+09:21.320 --> 09:23.800
+modifier.
+
+09:23.830 --> 09:35.970
+Turn on clipping and I'll go ahead and hit apply so that now should have sealed up the main body and
+
+09:37.000 --> 09:43.660
+if I go back here into perspective mode you can see that that information on the shoulder has been mirrored
+
+09:43.660 --> 09:45.300
+over.
+
+09:45.340 --> 09:45.700
+All right.
+
+09:45.700 --> 09:50.710
+So I'll hit the division key on the numpad again.
+
+09:51.130 --> 09:54.340
+Let's make sure it's all sealed up here.
+
+09:54.780 --> 09:57.160
+Yeah looks good.
+
+09:57.160 --> 09:57.570
+All right.
+
+09:57.580 --> 09:59.010
+So we're coming along.
+
+09:59.110 --> 10:05.550
+I think I may add a couple of little details on the body and the jet pack.
+
+10:05.950 --> 10:11.200
+But then after that we'll just need to mirror the leg and the arm over and I think we'll be done.

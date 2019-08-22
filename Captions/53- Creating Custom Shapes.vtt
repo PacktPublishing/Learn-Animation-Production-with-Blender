@@ -1,0 +1,454 @@
+WEBVTT
+
+00:00.840 --> 00:04.770
+Well it looks like we're pretty much done with the rig here.
+
+00:04.770 --> 00:12.600
+The next thing we need to do is clean up the rig so that we only see the bones that we're going to animate
+
+00:13.680 --> 00:18.400
+and also clean it up so it isn't so cluttered in the scene.
+
+00:18.460 --> 00:25.310
+There are several bones here that we're just not going to use when animating now like the bones in the
+
+00:25.310 --> 00:31.190
+legs and the bones in the arms we're just going to use the I.K. bones to move these around.
+
+00:31.190 --> 00:38.030
+Likewise we're not going to need to see the bone for the spotlight because we're going to create another
+
+00:38.030 --> 00:45.380
+bone out here that that is going to point to so we can control the aim of light a good way to clean
+
+00:45.380 --> 00:55.060
+up a rig is to create custom shapes for the bones that we're going to need and want to select for animating.
+
+00:55.220 --> 01:03.500
+So to create a custom shape let's first begin down here with this foot and what we want for the feet
+
+01:03.620 --> 01:11.870
+is we want a custom shape for the foot control here that will allow us to select it move it around but
+
+01:11.870 --> 01:16.470
+also will give us a sense of when the foot is planted on the ground.
+
+01:16.490 --> 01:20.950
+I'm going to come out of pose mode and go to object mode and de-select everything.
+
+01:20.960 --> 01:29.830
+So I want to move my pivot point or my cursor into the center of the grid here so I'll press shift s
+
+01:29.900 --> 01:41.640
+and cursor to center and then I'm going to create a circle and I will call this shape foot
+
+01:44.640 --> 01:53.890
+and if I select this foot bone now I'm going to select the rig and go into pose mode and select that
+
+01:54.580 --> 01:57.730
+foot control bone right there.
+
+01:57.730 --> 02:06.960
+If I come over here into the bone panel and if I scroll down here I can see under display a field called
+
+02:06.990 --> 02:08.470
+custom shape.
+
+02:08.820 --> 02:15.210
+And what I can do is I can replace this shape for that.
+
+02:15.220 --> 02:18.930
+So the bone is still there but it doesn't look like a bone.
+
+02:18.930 --> 02:23.240
+It looks like whatever custom shape we assign to it.
+
+02:23.650 --> 02:33.250
+So in here like this type shape and I'll select the shape foot but we still can't see it.
+
+02:33.250 --> 02:38.110
+The one thing you have to do is check this wireframe box.
+
+02:38.110 --> 02:42.830
+If you check this you can now see the custom shape.
+
+02:42.880 --> 02:44.130
+So there it is.
+
+02:44.380 --> 02:47.740
+But it's not exactly how I would want it aligned.
+
+02:47.740 --> 02:50.080
+What I want is I'd like this a frame.
+
+02:50.100 --> 03:00.010
+So it's going around the foot and it's grounded down here on the grid so to move this around.
+
+03:00.220 --> 03:04.140
+If I select this and move this around an object mode it isn't going to do anything.
+
+03:04.750 --> 03:14.010
+But if I tab into edit mode and I'll even go into vertex mode so we can see it and I select everything.
+
+03:14.140 --> 03:18.980
+Now as I rotate it let me turn those manipulators back on.
+
+03:19.090 --> 03:25.220
+Now as I rotate it you can see it rotate with the custom shape.
+
+03:25.220 --> 03:29.760
+Now it's not exactly user friendly.
+
+03:30.610 --> 03:37.850
+This is one thing that I'm not real happy with Blendr about but it does work.
+
+03:37.960 --> 03:42.170
+I'm going to go ahead and do this like this.
+
+03:42.790 --> 03:46.240
+Then I'm going to come over here.
+
+03:46.420 --> 03:51.810
+Let me go to the side view and now I need to move it.
+
+03:51.970 --> 03:54.970
+So it rests down on the ground plane.
+
+03:55.180 --> 04:02.980
+So I'm going to press g and see which way it looks like that's the way so I'm going to move it in the
+
+04:02.980 --> 04:13.460
+Y and that should bring it down like so and I want it just right on the ground playing there.
+
+04:13.820 --> 04:17.980
+And then if I drag up that doesn't do any good.
+
+04:17.980 --> 04:18.980
+All right.
+
+04:19.220 --> 04:23.860
+So now if I drag in the X that takes it forward and back
+
+04:27.030 --> 04:31.450
+that goes like that so now it's kind of around the foot there.
+
+04:31.770 --> 04:37.420
+And the last thing I want to do is scale it so that see if I can go.
+
+04:37.420 --> 04:38.250
+I'm going to scale it.
+
+04:38.260 --> 04:41.650
+So it's kind of oval around the foot there.
+
+04:42.830 --> 04:43.700
+It's kind of a pain.
+
+04:43.700 --> 04:44.500
+It really is.
+
+04:44.510 --> 04:52.510
+But if you keep things in the center here it isn't too bad.
+
+04:53.240 --> 04:56.090
+So now this is actually the bone.
+
+04:56.120 --> 05:04.400
+So if I select this and press the G key and move it around that will actually be how we control the
+
+05:04.400 --> 05:05.360
+foot.
+
+05:05.720 --> 05:12.890
+And it's just a little cleaner than having to select a bone and we're going to hide away all of these
+
+05:12.950 --> 05:18.360
+bones in the leg and foot into another bone layer.
+
+05:18.380 --> 05:20.620
+So they'll be invisible.
+
+05:20.630 --> 05:22.930
+All right let's do this for the other foot.
+
+05:22.930 --> 05:34.810
+So if I select that other foot come over here to custom shape select the shape foot and click wireframe
+
+05:36.450 --> 05:39.760
+there we have our control for the other foot as well.
+
+05:42.960 --> 05:43.420
+All right.
+
+05:43.440 --> 05:48.860
+There's one so I'm going to take this custom shape and I'm going to move it to a layer.
+
+05:48.870 --> 05:53.350
+I want to press em and I'll move it to the layer just below here.
+
+05:54.300 --> 05:58.980
+So all right so the next one we want to do.
+
+05:58.980 --> 06:03.110
+How about this heel control let's work with that.
+
+06:03.540 --> 06:13.350
+So once again with the cursor in the center of the grid press circle and this one will call shape he'll
+
+06:14.790 --> 06:18.470
+and I'll select the heel bone here.
+
+06:20.240 --> 06:30.820
+I'll come into custom shape type in shape and select the heel and click wireframe So now we can see
+
+06:30.820 --> 06:31.790
+it there.
+
+06:32.350 --> 06:39.660
+So I'll go into edit mode for this and let's try and rotate it see what we get.
+
+06:39.890 --> 06:41.350
+That looks pretty good.
+
+06:41.960 --> 06:48.530
+So I'll go to the side view and continue rotating this until it's 90 degrees like that.
+
+06:50.540 --> 06:52.680
+I'll move it back.
+
+06:53.010 --> 06:58.800
+And now I want to bin this a bit around the heel to do that I think I'll probably first have to go back
+
+06:58.800 --> 07:01.830
+to Global transform orientation.
+
+07:02.040 --> 07:10.410
+And I also want to change to proportional editing so I'll turn on the proportional editing tool and
+
+07:10.590 --> 07:20.190
+what I want to do is just select maybe these two points and let me press the G key and with the brush
+
+07:20.220 --> 07:21.580
+fairly big here.
+
+07:22.620 --> 07:24.760
+I'm going to drag this back.
+
+07:25.140 --> 07:28.540
+So we get kind of this curve like this.
+
+07:28.790 --> 07:37.460
+And then maybe I'll select all of this and scale it in the next to kind to make it conform around the
+
+07:37.470 --> 07:40.860
+heel there and then I'll move it.
+
+07:41.060 --> 07:41.580
+Whoops.
+
+07:41.600 --> 07:45.340
+Let me turn off proportional editing real quick.
+
+07:45.410 --> 07:54.440
+We go and then move this forward around that heel so it just kind of fits around the heel a bit.
+
+07:54.980 --> 07:57.920
+OK so now we got that one done.
+
+07:58.230 --> 08:00.950
+Let's also select this one over here.
+
+08:01.220 --> 08:07.640
+Custom shape type in shape heel and wireframe.
+
+08:08.120 --> 08:11.980
+And now we have them for the foot and the heel.
+
+08:12.350 --> 08:17.440
+Once again I'll press em and move this to a new layer down here.
+
+08:17.820 --> 08:26.600
+Well let's work on the body here for this I think I want just a circle around the waist so let's go
+
+08:26.600 --> 08:28.410
+back to object mode.
+
+08:29.940 --> 08:35.260
+Go to the Create tab de-select everything and for this it's also create a circle.
+
+08:35.260 --> 08:39.030
+We'll call it shape body.
+
+08:39.300 --> 08:50.740
+I'll select that main body pose mode and for custom shape shape body wireframe.
+
+08:50.860 --> 08:56.820
+And there it is a little big and oriented wrong.
+
+08:57.030 --> 09:04.570
+But we can go to the side view and see if we can rotate this into place.
+
+09:04.610 --> 09:08.300
+So if I rotate it this way Sure enough it goes like that.
+
+09:08.360 --> 09:09.220
+That's good.
+
+09:12.330 --> 09:17.560
+And then I'll go ahead and scale it down a bit.
+
+09:19.310 --> 09:27.620
+And I'd like to move it to let's see which way moves it up and then we go and let's move that to a new
+
+09:27.640 --> 09:32.780
+layer to the letter with all the others on it.
+
+09:32.780 --> 09:38.220
+Next let's work on the I.K. hands and let's see if I can choose this.
+
+09:38.360 --> 09:39.550
+That's the hand-on.
+
+09:39.590 --> 09:41.660
+Well let me click it again.
+
+09:41.750 --> 09:44.140
+There it is there's the arm I.K..
+
+09:44.510 --> 09:54.750
+So that's the one we're going to use but I'll switch to object mode and create a circle call it shape
+
+09:55.050 --> 09:59.210
+arm.
+
+09:59.590 --> 10:04.880
+Go into pose mode and select that arm.
+
+10:05.320 --> 10:15.250
+I k now come over here to the custom shape type and shape arm wireframe.
+
+10:15.530 --> 10:18.030
+And there it is.
+
+10:18.110 --> 10:22.220
+So I'll select the custom shape go to Edit mode.
+
+10:22.240 --> 10:27.590
+And let's begin rotating this and seeing what we can get rotated in the x.
+
+10:27.620 --> 10:32.700
+Yeah that looks like it might be good.
+
+10:36.210 --> 10:36.710
+All right.
+
+10:36.710 --> 10:37.990
+So that's in place now.
+
+10:38.000 --> 10:40.500
+Scale it up some so we can select it.
+
+10:41.460 --> 10:42.270
+How we go
+
+10:46.540 --> 10:50.760
+and there's our hand or arm shape.
+
+10:50.840 --> 10:54.530
+I'll go ahead and select this other one over here.
+
+10:54.610 --> 11:00.260
+Arm I.K. are kind of the custom shape.
+
+11:00.520 --> 11:07.850
+Select the arm click wireframe and there's that one so we should be able to select this.
+
+11:07.850 --> 11:13.250
+Hit the G key and move that arm around.
+
+11:13.450 --> 11:17.010
+I'll select this now and move it to a new lair again.
+
+11:18.460 --> 11:20.140
+And here we go.
+
+11:20.850 --> 11:27.570
+So for these pieces out here the knee and elbow joints What should we do about these.
+
+11:27.570 --> 11:31.860
+I think I'd like something a little more substantial than just a circle.
+
+11:32.310 --> 11:39.220
+Let's use a couple of circles to create a custom shape for these.
+
+11:39.270 --> 11:47.840
+So I'll go ahead and create a circle again and I'll also duplicate it.
+
+11:47.840 --> 11:55.790
+So press shift D and hit enter and then I'm going to rotate this around the X like this.
+
+11:55.830 --> 12:01.470
+I mean you hit the end key to bring up the properties panel and I can see that I've got negative 60
+
+12:01.470 --> 12:02.940
+or whatever in here.
+
+12:03.180 --> 12:13.690
+I'll just type in 90 sort of got that and then I'll take this again and duplicate it with shift D and
+
+12:13.690 --> 12:14.470
+enter.
+
+12:14.830 --> 12:21.970
+And this time I'll rotate it this way around the Y 90 degrees we go.
+
+12:22.160 --> 12:26.600
+So we've got something that looks kind of like that.
+
+12:26.810 --> 12:33.060
+And then I'll take them all and join them together with control J.
+
+12:34.860 --> 12:35.540
+And we go.
+
+12:35.540 --> 12:49.050
+So now I'll call this shape joints for knees and elbows.
+
+12:49.590 --> 12:50.040
+All right.
+
+12:50.050 --> 12:52.990
+So that's that.
+
+12:53.010 --> 12:58.530
+So let's try this let's select the knee joint over here in PPO's mode of course.
+
+13:00.590 --> 13:09.860
+Come over here to custom shape type in shape and we'll use shape joints and click wireframe and there
+
+13:09.860 --> 13:10.870
+we go.
+
+13:11.420 --> 13:13.470
+So now I'll just scale this down a bit.
+
+13:13.490 --> 13:18.530
+I'll go to Edit Mode make sure everything's selected and scale it down.
+
+13:18.920 --> 13:22.210
+So it looks kind of like this.
+
+13:22.280 --> 13:24.100
+I think that's a pretty good sign.
+
+13:24.100 --> 13:25.780
+Should it be a little smaller.
+
+13:27.590 --> 13:29.450
+Yeah something like that.
+
+13:30.020 --> 13:34.430
+So now we can just select each one of these here and
+
+13:37.970 --> 13:42.810
+give it that shape joints custom shape.

@@ -1,0 +1,358 @@
+WEBVTT
+
+00:00.770 --> 00:01.100
+All right.
+
+00:01.100 --> 00:03.530
+So that's our finger joint here.
+
+00:03.830 --> 00:09.950
+What I'll do with this now is I think I should be able to take all of this if I select all of these
+
+00:09.950 --> 00:15.880
+pieces go to my move tool press shift D and then click.
+
+00:15.920 --> 00:20.470
+And now I can move these over and there's our next joint.
+
+00:20.600 --> 00:21.860
+And one last joint.
+
+00:21.860 --> 00:29.450
+I'm just going to select this one cube and press shift D and click and move it to the end.
+
+00:29.450 --> 00:31.780
+I think I'm going to adjust this a bit.
+
+00:31.790 --> 00:39.140
+I'd like to go into edge mode by hitting tab and going to control tab and then pressing the two key
+
+00:39.140 --> 00:40.830
+to select edge mode.
+
+00:41.060 --> 00:42.860
+I'm going to pull this in just a bit.
+
+00:42.860 --> 00:45.930
+So this is the tip of the finger.
+
+00:46.580 --> 00:56.120
+What am I to do is combine this part of the finger first some a select all of these pieces and to join
+
+00:56.120 --> 01:00.530
+these objects together into one I'm going to press control J.
+
+01:00.920 --> 01:04.270
+And now that joins this whole piece into one object.
+
+01:06.520 --> 01:11.700
+So I'm going to call this I'll call this finger three.
+
+01:11.830 --> 01:18.520
+And then I want to do the same thing for this I'm going it's like this and shift's select these and
+
+01:18.520 --> 01:20.470
+press control J.
+
+01:20.470 --> 01:23.550
+And for this I'll call this finger two.
+
+01:24.310 --> 01:30.950
+And this piece up here I'll call finger one.
+
+01:31.420 --> 01:32.500
+All right.
+
+01:32.920 --> 01:36.070
+So now each of these pieces is its own object.
+
+01:36.070 --> 01:42.080
+And now what we want to do is be able to rotate around this joint right here.
+
+01:42.130 --> 01:49.720
+So if I selected this object to zoom in here and tab into edit mode and hit a to d select everything
+
+01:49.970 --> 01:56.150
+what I need to do is select this piece just this piece and I'm going to snap the cursor to it.
+
+01:56.290 --> 02:02.200
+So I'm going to hover over one of these edges and if you're in face mode you only need to hover over
+
+02:02.200 --> 02:04.930
+one of the little dots on the object.
+
+02:05.080 --> 02:10.810
+So I'll hover over one of those and I'm going to press the L key to select the linked components of
+
+02:10.810 --> 02:11.710
+that object.
+
+02:11.710 --> 02:13.110
+So it's only going to select.
+
+02:13.120 --> 02:22.990
+Now that cylinder press shift s and I'll move the cursor to selected and that will snap the cursor to
+
+02:22.990 --> 02:24.840
+the center of that object.
+
+02:25.360 --> 02:33.630
+So now if I take this object and move its pivot point to the cursor that's where it will rotate from.
+
+02:33.640 --> 02:44.200
+So I'm going with this selected in Object mode select Tools and go to set origin and origin to 3D cursor.
+
+02:44.200 --> 02:49.890
+Now if I go to the rotate tool and rotate this it rotates at that joint.
+
+02:49.930 --> 02:52.370
+So let's do the same thing to this one now.
+
+02:52.630 --> 02:55.640
+So I will go into edit mode.
+
+02:55.720 --> 02:57.150
+De-select everything.
+
+02:57.160 --> 03:05.440
+I will hover over that cylinder and press the L key and then I'll press shift s and cursor to selected.
+
+03:05.440 --> 03:14.380
+Now if I go back to object mode and click Set origin and origin to the cursor now it too will rotate
+
+03:14.380 --> 03:15.490
+around that point.
+
+03:16.870 --> 03:23.770
+Lastly let's do the same thing over here to this one except this time I'm going to select one face here
+
+03:23.770 --> 03:33.880
+at the back and then press shift s cursor to selected and then set origin to 3D cursor.
+
+03:34.240 --> 03:37.600
+So now this one rotates back here.
+
+03:37.600 --> 03:42.310
+This one rotates back here and this one rotates back here.
+
+03:42.310 --> 03:48.670
+Now ultimately we'll rig these so that won't be quite as important as to where the pivot point is.
+
+03:48.690 --> 03:55.090
+But for now I just wanted to show you the logic behind rigging these fingers.
+
+03:55.090 --> 04:02.890
+So now what we can do is parent this to this and this to this.
+
+04:03.160 --> 04:11.860
+So what let's do is select the tip shift select the middle of the finger and press control P to bring
+
+04:11.860 --> 04:16.210
+up the parent menu and we're going to parent to object.
+
+04:16.690 --> 04:23.410
+So now if we just select that middle finger and rotate it it'll bring the tip of the finger along.
+
+04:23.530 --> 04:28.670
+And in addition if we select the tip we can rotate it from there as well.
+
+04:29.980 --> 04:39.400
+And I'm going to select the middle finger chefs select the finger one press control P and select object.
+
+04:39.400 --> 04:48.710
+So now if we rotate around here we can rotate around here and rotate around here right.
+
+04:48.780 --> 04:55.620
+All right so now let's bring that other layer back by pressing the shift key.
+
+04:55.620 --> 04:57.870
+And that first layer.
+
+04:58.230 --> 05:05.850
+And you noticed that the fingers kind of big and that's ok I can hit the s key and scale it down and
+
+05:05.850 --> 05:10.110
+the move to move tool and begin moving this into place.
+
+05:13.680 --> 05:20.740
+So as I said I'm going to move this right up into the sphere kind of like this and for now I'll go ahead
+
+05:20.770 --> 05:23.450
+and rotate these just to see how they look.
+
+05:27.840 --> 05:29.050
+Something like that.
+
+05:30.650 --> 05:40.950
+So now that I have this one in place I'm just going to select these and duplicate it with shift D.
+
+05:41.180 --> 05:43.760
+And now I'm going to move these into place
+
+05:46.790 --> 05:52.550
+here's the new one here and I'll move this one into place so this one's a little going to be a little
+
+05:52.550 --> 05:55.350
+smaller as the index finger.
+
+05:55.460 --> 06:05.560
+I think I'd like to rotate it so and once I rotate it now it's probably going to be easier to put it
+
+06:05.560 --> 06:14.650
+into place in local transform mode here so going to go down here to the global pull down menu and switch
+
+06:14.680 --> 06:17.820
+the transform orientation to local.
+
+06:17.920 --> 06:22.940
+And now I can rotate these a little easier and place them a little easier I think
+
+06:28.340 --> 06:38.000
+now I think I'll switch back to global mode and select this one again and duplicate it with shift D
+
+06:39.020 --> 06:44.220
+and move it over for the Pinki.
+
+06:44.330 --> 06:50.690
+I'm going to just select that top part of the finger and then hit s and scale it down a bit and maybe
+
+06:50.690 --> 06:54.270
+I'll switch back to a local mode to put it into place.
+
+06:58.320 --> 07:05.890
+And lastly I'll grab this middle finger again and go back to global mode.
+
+07:06.000 --> 07:13.310
+And one way to do that is to press the alt spacebar and that'll bring up the orientation menu.
+
+07:13.440 --> 07:22.160
+So I'll switch to global again and I'm going to go ahead and duplicate click and then move this finger
+
+07:22.220 --> 07:25.050
+around here so that it's the thumb
+
+07:28.700 --> 07:32.770
+and I'll hit the alt space again to go to local orientation.
+
+07:33.590 --> 07:42.510
+And work on this a bit and as I'm twisting this I've got some weirdness happening with the rotation.
+
+07:42.640 --> 07:50.470
+What I need to do is just select that top bass part of the finger and then rotate from there and I should
+
+07:50.470 --> 07:53.640
+get a better orientation.
+
+07:55.320 --> 07:58.870
+And I think for the thumb I'm actually going to thicken it out.
+
+07:58.990 --> 08:03.870
+So it's a little bit thicker than the rest.
+
+08:03.930 --> 08:10.690
+The last thing I'll do here in this video is maybe work on this upper arm I'm not real happy with this.
+
+08:10.830 --> 08:16.920
+And also Idda it appears that the forearm to me may be a little bit too short.
+
+08:16.920 --> 08:26.390
+So a couple of things here let's work on first of all I think what I want to do is select these fingers
+
+08:27.560 --> 08:35.160
+and the hand so I'm going to select finger one and these as well as this fear.
+
+08:35.170 --> 08:39.670
+I believe the spheres the hands that change that to have and in the outline are here.
+
+08:39.820 --> 08:47.230
+So I know what things are and this is why you begin labeling things up front because as your scene gets
+
+08:47.230 --> 08:54.730
+more and more complex it gets harder and harder to keep track of what things are so select these fingers
+
+08:55.480 --> 09:02.110
+and the hand and I'm just pressing the shift key and clicking on the individual elements here.
+
+09:03.240 --> 09:08.050
+And what I'd like to do is bring this hand down some.
+
+09:08.170 --> 09:12.500
+I feel like I feel like it needs to be a little bit farther down.
+
+09:12.700 --> 09:20.250
+Oh and look as I moved this how they move in a very strange way that's because they're moving in their
+
+09:20.550 --> 09:21.890
+local axes.
+
+09:22.050 --> 09:28.280
+So I'll hit control or command Z to undo and I'll switch over to global.
+
+09:28.320 --> 09:30.950
+Now I should be able to move these straight down.
+
+09:31.260 --> 09:35.670
+So I feel like maybe the arm needs to be about that long.
+
+09:36.600 --> 09:39.090
+I need to stretch this arm down.
+
+09:39.090 --> 09:44.600
+But what I want to do is scale it from the top here so I'll hit tab to go into edit mode.
+
+09:45.060 --> 09:47.740
+And now I'm going to press on it and so like this edge.
+
+09:47.970 --> 09:55.710
+And once again what I'm going to do is place the cursor cursor to selected and now when I go back to
+
+09:55.710 --> 10:04.380
+object mode what I can do is change my pivot point now from median to 3D cursor and if I choose that
+
+10:04.380 --> 10:12.810
+3D cursor now I can scale from the point of the 3D cursor keeping the elbow in place and moving this
+
+10:12.810 --> 10:15.720
+down to encompass the hand.
+
+10:16.170 --> 10:22.720
+So for this I think I'll go into edit mode and press control r and I want to insert a couple of edge
+
+10:22.740 --> 10:29.160
+loops here and I could just click once here to insert this edge loop and then do that do the whole process
+
+10:29.160 --> 10:29.730
+again.
+
+10:29.790 --> 10:34.380
+But you can also scroll the mouse wheel here to add edge loops.
+
+10:34.560 --> 10:40.780
+So I'm going to scroll the mouse wheel until I get to three edges and then click and then click again.
+
+10:40.950 --> 10:49.200
+And now I'm just going to use these edges press alt and click this edge begins nailing these out.
+
+10:49.200 --> 10:50.550
+But look at what I'm doing.
+
+10:50.550 --> 10:55.650
+I'm actually scaling from the cursor so I don't want to do that.
+
+10:55.800 --> 11:02.370
+I'm going to come back here to the pivot point and change that pivot point to the median point again.
+
+11:02.430 --> 11:08.670
+And now when I select that edge and hit the esky I can scale that out a bit so I'm going to just scale
+
+11:08.670 --> 11:20.140
+these out a bit to make that a little bit more beefy.
+
+11:20.150 --> 11:20.880
+There we go.
+
+11:21.730 --> 11:23.440
+Something like that.
+
+11:23.470 --> 11:27.730
+All right in the next portion of the course we'll begin working on the legs.

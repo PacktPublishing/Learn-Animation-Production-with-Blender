@@ -1,0 +1,442 @@
+WEBVTT
+
+00:00.480 --> 00:06.850
+To create the textures for the pillars I think we need to go through just a slightly different process.
+
+00:06.870 --> 00:14.160
+I'm going to go back to that U-V editing lay out now and and isolate the floor and select one of the
+
+00:14.160 --> 00:19.420
+pillars here I'll just select this one and I'll isolate it.
+
+00:19.440 --> 00:25.650
+Now if I go into edit mode and select everything we can see the U.V. map here.
+
+00:26.660 --> 00:33.130
+What am I to do is I'm going to take this U-V map in and use it as a template to lay the texture on
+
+00:33.150 --> 00:41.450
+to the islands in GIMP and then I'll save that image out and bring it back to here because whatever
+
+00:41.450 --> 00:46.660
+we place over these U-V islands will be seen on our object.
+
+00:46.910 --> 00:52.550
+Whereas whatever is outside of these U-V islands won't be seen at all.
+
+00:52.550 --> 00:59.740
+So to export a U.V. map out of Blendr I'm going to in the U-V editor here I'm going to press the key
+
+00:59.740 --> 01:04.910
+and select everything and then I'm going to go to use these and then peer at the top of the menu I'm
+
+01:04.910 --> 01:08.570
+going to choose export U-V lay out.
+
+01:08.570 --> 01:12.380
+Now I'm going to export this out into my images folder.
+
+01:12.830 --> 01:14.060
+I'll give it a name here.
+
+01:14.060 --> 01:18.930
+I'll call this pillars Uvas.
+
+01:19.280 --> 01:25.700
+And for the size of the image I'm going to go ahead and change this from 10:24 to 2048
+
+01:28.370 --> 01:32.720
+and are image textures usually need to be in powers of two.
+
+01:32.720 --> 01:39.270
+So 256 512 10:24 2048.
+
+01:39.500 --> 01:46.940
+And since the rendered image I'm planning on rendering this out at 12 80 by 720 which is the lower end
+
+01:46.940 --> 01:54.680
+of the HD resolutions it's a good resolution for Internet video streaming.
+
+01:54.680 --> 01:55.620
+Things like that.
+
+01:55.910 --> 02:04.100
+But since it's going to be 12 80 by 720 and those pillars may at one point in time at the end to be
+
+02:04.130 --> 02:13.650
+as high as the frame I'm going to go ahead and go with 2048 just to be safe so I'll click export.
+
+02:13.830 --> 02:14.790
+And there we go.
+
+02:15.150 --> 02:19.560
+So let's go into Gimp and take a look at that here in Gimp.
+
+02:19.560 --> 02:25.230
+I'll go to File Open and I'll choose my Pillar's Uvas
+
+02:27.820 --> 02:36.450
+and you can see here it's got this kind of translucent image of the UVA's here so that anything we put
+
+02:36.600 --> 02:42.780
+in a layer under neath here is going to show through and we can see whether or not it's going to be
+
+02:42.840 --> 02:45.650
+within the U-V islands or not.
+
+02:45.650 --> 02:51.440
+I'm going to use that same sandstone texture that we used for the other objects.
+
+02:51.630 --> 02:59.510
+So I'll go find that and what I want is the sandstones seamless Riego.
+
+02:59.570 --> 03:07.580
+So here are press control or command a to select everything press control or command C to copy and then
+
+03:07.580 --> 03:14.620
+I'll come back to my Uvas document and press control or command V to paste.
+
+03:14.630 --> 03:16.420
+Now it's going to be kind of big.
+
+03:16.730 --> 03:22.800
+So I'm going to zoom out a bit with the minus key.
+
+03:23.050 --> 03:28.420
+Now that this has been pasted in I've got this floating selection layer over here and I can't really
+
+03:28.420 --> 03:35.660
+do anything until I make this an actual new layer so I'll just come over here and click new layer and
+
+03:35.660 --> 03:39.760
+that will create a new layer with that pasted in.
+
+03:40.190 --> 03:47.370
+So now if I zoom out with the minus key you can see the frame of the new pasted layer.
+
+03:47.540 --> 03:48.650
+But it's a little big.
+
+03:48.710 --> 03:51.670
+So I'm going to come over here to the scale tool right here.
+
+03:53.210 --> 04:02.630
+And then click and now I have access to this scale tool that will allow me to click and drag and reduce
+
+04:02.630 --> 04:08.230
+the size of this namak click scale.
+
+04:08.230 --> 04:17.980
+Now you can see it in front of the click the move tool here and move it around so you can see it there.
+
+04:18.010 --> 04:21.220
+Now I really want to see the movies in front of this.
+
+04:21.210 --> 04:26.680
+I'm just going to take this layer and drag it down below the Uvas.
+
+04:26.920 --> 04:28.080
+Now I can see it.
+
+04:28.090 --> 04:31.430
+I'm going to press shift plus to zoom in a bit.
+
+04:31.630 --> 04:39.900
+I'm going to drag this and place it right over the pillar and I'll scale it a bit more.
+
+04:40.910 --> 04:48.590
+And click and drag this out so it fits over the whole pillar.
+
+04:50.330 --> 04:51.310
+And hit enter.
+
+04:52.920 --> 04:53.710
+There we go.
+
+04:53.850 --> 04:57.210
+So that will overlay our pillar.
+
+04:57.330 --> 05:00.660
+Now for these pieces up here I think I want it to be a little smaller.
+
+05:00.750 --> 05:05.130
+I'm going to duplicate this layer here with this button here.
+
+05:06.340 --> 05:12.170
+And then I'm going to select that and I'm going to pull this up go to the move tool and pull this up
+
+05:13.290 --> 05:15.380
+there a bit.
+
+05:15.550 --> 05:20.680
+I'm going to press the spacebar to move up a bit so I can see this.
+
+05:20.830 --> 05:32.890
+So select that layer go to this scale tool and click drag this so it's a little bit smaller like so
+
+05:34.450 --> 05:41.830
+and then move it down over these like that.
+
+05:42.060 --> 05:49.570
+All right now what I'd like to do is put some sort of imagery some sort of Egyptian hieroglyphics and
+
+05:49.570 --> 05:58.970
+I have some of that but I found out on the internet I'll go to File Open and I've got an Egyptian painting
+
+05:59.150 --> 06:00.580
+file here.
+
+06:00.580 --> 06:08.750
+I'll open that up or press command a and then command C to copy and then come back over here to the
+
+06:09.200 --> 06:15.350
+pillar press command V to paste and there it is.
+
+06:15.350 --> 06:23.450
+Now it's up here at the top so I'm going to press a new layer to create a new layer from that.
+
+06:23.450 --> 06:29.100
+Now I can go to my move tool here and move it around and move this down.
+
+06:29.120 --> 06:36.060
+So it is kind of over the main part of the pillar here and I'll scale it
+
+06:40.530 --> 06:41.960
+down like this.
+
+06:43.940 --> 06:48.150
+Hit enter to apply.
+
+06:48.210 --> 06:56.210
+Now I need to pull it down below the pillar you use just to make sure I can see where it is and we go
+
+06:58.440 --> 06:59.010
+now.
+
+06:59.090 --> 07:04.930
+It's got quite a different color than the pillar it doesn't look like it's part of the rock.
+
+07:05.240 --> 07:08.070
+So I think what I'll do is I'll change the blending mode a bit.
+
+07:08.090 --> 07:13.310
+I'll come up here to normal and maybe try let's try overlay
+
+07:16.530 --> 07:17.970
+and that's not bad.
+
+07:18.910 --> 07:21.100
+Now multiply Let's try and multiply
+
+07:24.040 --> 07:25.440
+that's a little too dark.
+
+07:26.600 --> 07:28.330
+I'll go back to overlay.
+
+07:30.500 --> 07:32.610
+And let's bring down the opacity.
+
+07:32.620 --> 07:37.730
+Here I'm going to click and drag the opacity.
+
+07:37.910 --> 07:42.150
+That's looking a little bit more like it's actually part of the stone now.
+
+07:43.400 --> 07:45.400
+Something like that.
+
+07:45.410 --> 07:51.680
+Now what I'd like to do is kind of fade the edges into the rest of the pillar here.
+
+07:51.980 --> 08:00.760
+So what I can do is come over here to the erase brush and maybe turn the opacity down some and let's
+
+08:01.150 --> 08:03.480
+increase the size of the brush.
+
+08:05.140 --> 08:14.350
+And I'll just come through here and just click and drag and try and blend that into the rest of the
+
+08:14.350 --> 08:15.390
+pillar here.
+
+08:15.470 --> 08:17.580
+I'll do this here on the bottom as well.
+
+08:18.480 --> 08:20.880
+We'll see if that blends in.
+
+08:21.180 --> 08:21.720
+All right.
+
+08:21.750 --> 08:27.220
+I think we're ready to export this out and at least see how it's going to look.
+
+08:27.430 --> 08:38.890
+We save this first and then I'll go to a file export as and I'll put this in my textures folder and
+
+08:38.890 --> 08:45.850
+I'll call it Pillar's color I think is good and I'll export.
+
+08:45.890 --> 08:54.530
+All right let's go back to blender now here in Blender what we need to do as we've done before is bring
+
+08:55.530 --> 09:00.470
+that image texture here into our note.
+
+09:01.050 --> 09:10.030
+So I'm going to press shift a and I'll bring in a texture coordinate node First of all and then I'll
+
+09:10.030 --> 09:14.710
+press shift day and go to texture and bring in an image texture.
+
+09:17.080 --> 09:22.910
+And I'll open that file in the textures folder here.
+
+09:23.110 --> 09:30.210
+Go to Pillar's color and click open and there we have our image.
+
+09:30.210 --> 09:33.030
+Now there is a problem.
+
+09:33.330 --> 09:38.300
+You can see the Uvas on the image.
+
+09:38.320 --> 09:39.040
+Why is that.
+
+09:39.040 --> 09:42.070
+Well it's because I forgot to turn them off.
+
+09:42.250 --> 09:45.460
+So let's go back to Gamp and do that.
+
+09:45.490 --> 09:51.900
+So here in GIMP this layer here is the U-V wires you can see them here.
+
+09:51.910 --> 09:57.190
+If I turn this layer off turn the visibility of the layer off.
+
+09:57.440 --> 10:03.000
+Then we just get this and that is what we want.
+
+10:03.030 --> 10:11.700
+I'm going to click on zoom in here when I click on the open icon here the open image reast select that
+
+10:11.700 --> 10:14.440
+pillars and open that again.
+
+10:14.610 --> 10:16.260
+And there we go.
+
+10:16.260 --> 10:24.450
+I'll go ahead and hook up the U-V coordinates and the color to the diffuse Shater.
+
+10:24.450 --> 10:26.640
+And there we go there's our column.
+
+10:26.670 --> 10:29.170
+And you can see the seams back here.
+
+10:29.280 --> 10:29.640
+Right.
+
+10:29.640 --> 10:37.310
+Remember we made sure that the seams were pointing away from the camera and that's why we did that but
+
+10:37.400 --> 10:39.870
+other than that it looks pretty good.
+
+10:40.130 --> 10:42.640
+So we could also bring in a bump map.
+
+10:42.640 --> 10:46.540
+But another way to do that instead of going back to Gimp.
+
+10:46.730 --> 10:54.470
+Well we can do is we can duplicate this image texture node with shift D and move it aside here.
+
+10:54.980 --> 11:02.370
+And then of course we can create that same bump map node right here.
+
+11:02.550 --> 11:10.890
+But what we can also do I'm going to change the color to non-color data but in addition we could use
+
+11:10.890 --> 11:18.600
+a converter node the R.G. be too black and white put that right in here.
+
+11:19.540 --> 11:27.820
+That will convert it to black and white then take that to the bump node and then from that to the material
+
+11:27.820 --> 11:28.820
+output.
+
+11:29.320 --> 11:34.380
+So just another way to create a black and white image that we can use.
+
+11:34.470 --> 11:37.980
+All right let's go back to our main default view here.
+
+11:40.330 --> 11:42.430
+And there we have our pillars.
+
+11:42.430 --> 11:44.600
+But notice what happened.
+
+11:44.860 --> 11:50.610
+We also have that same texture on our beams and that's not exactly what we want.
+
+11:50.770 --> 11:58.060
+That's because when I created the material I created a material for the pillars and the beams and that
+
+11:58.060 --> 12:02.830
+was just to temporarily get some color on the objects.
+
+12:03.370 --> 12:12.930
+So what I can do is choose one of these beams create a new material slot create a new material call
+
+12:12.930 --> 12:24.170
+it beams I'll change the old one to just pillars and I'll get rid of the pillars material for the beam
+
+12:24.220 --> 12:25.060
+objects.
+
+12:26.750 --> 12:27.240
+Here we go.
+
+12:27.240 --> 12:31.280
+So now I can select the various beams here.
+
+12:34.910 --> 12:45.350
+And then finally select the beam with the new material and then press control L and materials and that
+
+12:45.350 --> 12:48.800
+will assign that material to all those other beams.
+
+12:48.800 --> 12:53.110
+So now we've got our pillars with the proper material.
+
+12:53.180 --> 12:56.610
+However take a look at the pillars the pillar caps here.
+
+12:57.530 --> 13:00.870
+They too still have that same material.
+
+13:00.980 --> 13:02.210
+So I select one of those.
+
+13:02.210 --> 13:08.860
+And once again add a new material call this polar caps.
+
+13:08.860 --> 13:20.500
+Remove the pillar material select all of these Schiff's select that one last and then control L. and
+
+13:20.500 --> 13:26.290
+materials and that assigns that to all those other polar caps.
+
+13:26.450 --> 13:33.020
+All right we've got our pillars set up in the next video we'll keep going on the textures for the rest
+
+13:33.020 --> 13:33.890
+of our objects.

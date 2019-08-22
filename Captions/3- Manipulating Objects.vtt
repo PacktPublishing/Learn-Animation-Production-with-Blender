@@ -1,0 +1,226 @@
+WEBVTT
+
+00:00.630 --> 00:07.890
+You may have noticed that if the default selection is set to the right mouse button that when you click
+
+00:07.890 --> 00:14.190
+the left mouse button it moves this little round red thingy around.
+
+00:14.190 --> 00:16.060
+And honestly that can be pretty annoying.
+
+00:16.760 --> 00:18.740
+But actually this is a pretty useful thing.
+
+00:18.740 --> 00:29.300
+This is called the 3D cursor and you can use it to scale and rotate and move things in very detailed
+
+00:29.300 --> 00:29.960
+ways.
+
+00:30.170 --> 00:32.830
+And we'll be talking about this more as we go on.
+
+00:32.830 --> 00:43.160
+But to get the cursor back to the center of the grid you can press shift s and choose cursor to center
+
+00:44.530 --> 00:48.970
+and that will bring the cursor back to the center of the grid and that's usually where I like to have
+
+00:48.970 --> 00:54.100
+it but keep in mind you can't get rid of the 3-D cursor you can only move it around.
+
+00:54.100 --> 00:59.470
+So for me it is less distracting to have it in the center of the grid.
+
+00:59.470 --> 01:05.220
+Let's talk a bit about manipulating and editing objects like this cube here.
+
+01:05.320 --> 01:09.160
+I'm going to use the middle mouse button scroll wheel to scroll in.
+
+01:09.550 --> 01:16.090
+And as you can see since it's selected I've got this move manipulator tool already visible.
+
+01:16.090 --> 01:20.930
+You can turn the manipulator tool on and off by this little button down here.
+
+01:22.620 --> 01:28.390
+You've also got other manipulators down here the rotate manipulator and the scale.
+
+01:28.470 --> 01:35.640
+And of course if you choose the move you can click on one of these arrows and drag it up and down or
+
+01:35.640 --> 01:37.330
+left and right.
+
+01:37.620 --> 01:47.940
+The red green and blue coincide to the three axes of the 3D view here the x axis is the red the Y is
+
+01:47.940 --> 01:50.100
+the green and the blue is the Z.
+
+01:50.100 --> 01:52.090
+You can see it down here.
+
+01:52.500 --> 02:00.380
+You can see the same three colors for the axes if you click on the rotate tool or the scale tool.
+
+02:00.600 --> 02:09.930
+So in the with the scale tool I can scale it in the Y or in the Z.
+
+02:09.940 --> 02:17.500
+Same with the rotate tool I could rotate this around the y axis like that.
+
+02:17.500 --> 02:24.880
+Now it can be kind of a pain to have to come down here each time and click the manipulator tool if you
+
+02:24.880 --> 02:33.070
+want to use one of these manipulators Blendr also has some shortcut keys to transform the objects without
+
+02:33.100 --> 02:34.810
+using the manipulators.
+
+02:34.810 --> 02:41.590
+So if I press the G key for grab and just move the mouse I can move the object around.
+
+02:41.590 --> 02:49.510
+And then once I get it where I want it to be I can then confirm the transformation by clicking the left
+
+02:49.510 --> 02:51.230
+mouse button.
+
+02:51.370 --> 03:02.130
+I can also do that with the R key and rotate or the key and scale.
+
+03:02.310 --> 03:08.500
+Now if I wanted to cancel the scale operation I could right click the mouse and that would cancel that
+
+03:08.500 --> 03:15.650
+transformation if I wanted to move this object in a particular access say in the z axis.
+
+03:15.940 --> 03:23.680
+I could just hit the G key and then the Z key and notice it gives me this blue line down the z axis.
+
+03:23.680 --> 03:28.840
+Now when I move the mouse it will only move in the z axis.
+
+03:28.840 --> 03:35.710
+Same with the rotate tool and the scale tool you can type in an axis in which you want to transform
+
+03:35.710 --> 03:36.610
+the object.
+
+03:36.760 --> 03:41.980
+In addition for the rotate tool you can also type in the degrees in which you would like to turn the
+
+03:41.980 --> 03:48.610
+objects so let's say I wanted to rotate this object 90 degrees around the x axis.
+
+03:48.640 --> 03:59.170
+I could press R and then the x key and then 9 0 and it would rotate 90 degrees around the x axis.
+
+03:59.170 --> 04:05.620
+Now I've got this object all kind of twisted and turned and scaled.
+
+04:05.620 --> 04:13.720
+Now if I press the end key to come over here to the properties panel must scroll up here you can see
+
+04:13.810 --> 04:20.770
+all of the values here in the location fields the rotation and the scale.
+
+04:20.860 --> 04:25.090
+These reflect all the movements we've done with the object here.
+
+04:25.300 --> 04:33.430
+But what I can do is I can change the scale say back to 1 it's default and all I've done there is just
+
+04:33.430 --> 04:38.650
+drag click and drag all the fields and then typed in one and hit enter.
+
+04:38.830 --> 04:45.910
+And then I can take the rotation back to its default by clicking and dragging all of these and typing
+
+04:45.910 --> 04:48.290
+in zero and hit enter.
+
+04:48.550 --> 04:57.160
+And then I can also move it back to its center position by typing in zero in these fields as well.
+
+04:57.220 --> 05:03.010
+So of course instead of moving it directly within the 3D view we can come over here to the properties
+
+05:03.010 --> 05:14.740
+panel and say rotate this around the Y 45 degrees and type it directly into these transform fields.
+
+05:14.770 --> 05:15.130
+All right.
+
+05:15.130 --> 05:22.830
+Let's take that back to zero and I'm going to press the N key again to close the properties panel there.
+
+05:23.110 --> 05:29.950
+Now just as an aside I personally like to use the transform manipulators a lot.
+
+05:30.070 --> 05:35.150
+And currently the main way to get to these is to come down here and click on them.
+
+05:35.170 --> 05:37.780
+I like using keyboard shortcuts.
+
+05:37.780 --> 05:45.580
+So what I've done is I've created keyboard shortcuts to allow me to change between the move tool the
+
+05:45.580 --> 05:54.430
+rotate and the scale and my particular shortcut keys that I've created here are control alt and the
+
+05:54.520 --> 05:58.480
+arrow keys left down and right.
+
+05:58.480 --> 06:03.730
+So the way to do that let me just show you how to do that if you want to create your own shortcut keys
+
+06:03.730 --> 06:06.160
+for the manipulator tool.
+
+06:06.220 --> 06:10.670
+I've got to do is go to File user preferences.
+
+06:11.440 --> 06:22.700
+And under the input section you can go to 3D view 3D view global in a way down here at the bottom you
+
+06:22.700 --> 06:28.390
+can see I've got these enable 3D manipulator entries.
+
+06:28.390 --> 06:31.700
+I mean just roll them up here with the arrows.
+
+06:31.710 --> 06:34.050
+So these are three that I've created.
+
+06:34.050 --> 06:41.030
+So what you can do is you can click on Add new and it will create a new empty entry here for you.
+
+06:41.100 --> 06:49.800
+I'm going to just roll this one down and once you do that you can enter this view 3D dot enable underscore
+
+06:49.860 --> 06:57.190
+manipulator and then you can select the keys that you want to use for this particular entry.
+
+06:57.390 --> 07:07.400
+Notice I've got translate selected here and for this other one I've got I've got rotate selected and
+
+07:07.400 --> 07:10.170
+for this one down here I've got scale.
+
+07:10.190 --> 07:20.300
+So for me I've used control alt left arrow for the translate control alt down arrow for the rotate and
+
+07:20.300 --> 07:24.350
+control alt right arrow for the scale.
+
+07:24.350 --> 07:32.300
+So that allows me to jump from one to the other very quickly without having to come down here and click
+
+07:32.300 --> 07:33.990
+on the buttons every single time.
